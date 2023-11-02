@@ -1,0 +1,55 @@
+.widgetContainer {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  .callButton {
+    background-color: #00bbb4;
+    color: #003a70;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    
+    /* Animación de latido */
+    animation: heartbeat 1.5s infinite;
+  }
+  
+  /* Efecto de latido */
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Invertir colores al hacer hover */
+  .callButton:hover {
+    background-color: #003a70;
+    color: #00bbb4;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) { /* Dispositivos con pantalla hasta 768px de ancho */
+    .callButton {
+      padding: 8px 16px; /* Reducimos el padding para pantallas pequeñas */
+      font-size: 0.9rem; /* Reducimos el tamaño de fuente */
+    }
+  }
+  
+  @media (max-width: 480px) { /* Dispositivos con pantalla hasta 480px de ancho */
+    .callButton {
+      padding: 6px 12px; /* Reducimos aún más el padding para pantallas muy pequeñas */
+      font-size: 0.8rem; /* Reducimos aún más el tamaño de fuente */
+    }
+  }

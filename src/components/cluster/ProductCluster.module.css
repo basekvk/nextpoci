@@ -1,0 +1,73 @@
+.container {
+    padding: 40px 40px; /* Esto añadirá bordes a los lados de la web */
+  }
+  .cluster {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cajas se envuelvan al siguiente renglón si no hay espacio */
+    gap: 20px; /* Espacio entre cajas */
+    justify-content: center; /* Centra las cajas horizontalmente */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px;
+  }
+  
+  .box {
+    width: calc(33.33% - 20px); /* Toma un tercio del espacio disponible descontando el gap */
+    height: 200px;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Esconde cualquier contenido que exceda el tamaño de la caja */
+  }
+  .box:hover .productImage{
+    opacity: 0.5; /* Reduce la opacidad al 70% al hacer hover*/
+  transition: opacity 0.3s ease-in-out; /* Transición suave al cambiar la opacidad*/
+   }
+  
+  .productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .box h2 {
+    z-index: 1;
+    position: relative;
+    background-color: rgba(44, 62, 80, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ECF0F1;
+    text-align: center;
+    margin: 0;
+  
+  }
+  .title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Estilos responsivos para pantallas medianas (tablets) */
+  @media (max-width: 768px) {
+    .box {
+      width: 100%; /* Las cajas toman todo el ancho disponible */
+    }
+  }
+  
+  /* Estilos responsivos para pantallas pequeñas (móviles) */
+  @media (max-width: 480px) {
+    .box {
+      width: 100%; /* Las cajas toman todo el ancho disponible */
+    }
+  }
+  
+  
+
+  
+  
+   
