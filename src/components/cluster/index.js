@@ -70,7 +70,7 @@ const services = [
 const ProductCluster = () => {
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>Servicios de Poceros</h2>
+            <h2 className={styles.title}>Servicios Pociten</h2>
             <div className={styles.cluster}>
                 { services.map((service, index) => (
                         <div key={index} className={styles.box}>

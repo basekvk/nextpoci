@@ -36,11 +36,12 @@ function HomePage({
                 />
 
             </Head>
-
+            
             <Hero heroItems={heroItems} />
+            <ProductCluster />
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
-            <ProductCluster />
+            
             <CallToAction />
             <ReviewsSection />
            

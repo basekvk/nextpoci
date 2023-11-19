@@ -11,10 +11,10 @@ detailBreadcrumbDesc: 'Desatascos Baratos: Experiencia y profesionalismo desde D
 
 title2: 'Empresa de Desatrancos'
 #PARRAFO color negro de fondo y letras en verde
-detailSubTitle: 'Desatrancos: Soluciones eficientes para problemas de obstrucción de tuberías en tu hogar o negocio'
+detailSubTitle: 'Desatrancos: Soluciones eficientes para problemas de tuberías en tu hogar o negocio'
 
 #PARRAFO slider
-parrafo: "Resuelve tus problemas de obstrucción de tuberías con Desatascos Pociten"
+parrafo: "Resuelve tus problemas de tuberías con Desatascos Pociten"
 
 
 #Set inner Html con contenido variable
@@ -23,11 +23,11 @@ contenido: "
 <p>Como empresa líder en soluciones de pocería en Madrid, en Desatascos Pociten nos especializamos en servicios de desatrancos. Nuestro equipo de profesionales altamente capacitados y experimentados está equipado con herramientas de última generación para abordar cualquier problema de obstrucción de tuberías, desde pequeñas obstrucciones hasta grandes bloqueos que pueden causar daños graves en tu hogar o negocio.</p>
 <br>
 <h2>¿Qué son los desatrancos?</h2>
-<p>Los desatrancos son servicios de pocería que se encargan de solucionar problemas de obstrucción de tuberías. Las obstrucciones son comunes en hogares y negocios, y pueden ser causadas por una variedad de factores, como el uso excesivo de papel higiénico, cabello, grasa y otros materiales que no deberían ser desechados en las tuberías.</p>
+<p>Los desatrancos son servicios de pocería que se encargan de solucionar problemas de atascos en las tuberías. Los atascos son comunes en hogares y negocios, y pueden ser causadas por una variedad de factores, como el uso excesivo de papel higiénico, cabello,toallitas, grasa y otros materiales que no deberían ser desechados en las tuberías.</p>
 <br>
 <br>
 
-<h2>¿Por qué debería contratar a Desatascos Pociten para desatrancos?</h2>
+<h2>¿Por qué debería contactarnos?</h2>
 <p>En Desatascos Pociten, nos aseguramos de que nuestros clientes reciban los servicios de desatrancos más eficientes y profesionales. Al elegirnos, puedes esperar lo siguiente:</p>
 
 <h3>1. Equipo altamente capacitado</h3>
@@ -66,7 +66,7 @@ contenido: "
 <h2>¿Qué otros servicios ofrece Desatascos Pociten?</h2>
 <p>Además de nuestros servicios de desatrancos, en Desatascos Pociten también ofrecemos una amplia gama de servicios de pocería, como instalación de tuberías, reparación de fugas y mantenimiento fosas sépticas, construccioón de pozos negros, limpieza y mantenimiento de alcantarillado, limpieza de arquetas. Nos enorgullece ofrecer servicios de alta calidad a precios competitivos y con un enfoque personalizado para satisfacer las necesidades de cada uno de nuestros clientes.</p>
 <br>
-<h2>¿Dónde ofrece sus servicios Desatascos Pociten?</h2>
+<h2>¿Dónde ofrecemos nuestros servicios?</h2>
 <p>✅ Pisos y viviendas en general con problemas de atascos en bañeras, fregaderos o inodoros</p>
 <br>
 <p>✅ Chalets individuales, adosados o pareados de clientes particulares en general con problemas de atascos en arquetas de hojas o tierra.</p>
