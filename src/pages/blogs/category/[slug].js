@@ -12,6 +12,7 @@ function BlogCategoryPage({ categories, tags, blogs, blogsSidebar }) {
                 <title>Desatascos y Poceros en Madrid | Blog - Desatascos Pociten</title>
                 <meta name="description" content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías" />
             </Head>
+            <h1 className='container' style={{padding:"20px", textAlign: 'center', fontSize: '42px', marginTop: '20px'}} >Consulta Nuestros Últimos Artículos sobre Pocería y Desatascos</h1>
             <BlogLeftSidebar
                 blogs={blogs}
                 blogsSidebar={blogsSidebar}

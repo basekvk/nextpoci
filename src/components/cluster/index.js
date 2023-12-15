@@ -78,8 +78,7 @@ const ProductCluster = () => {
                           <Link href={service.url}>
                             <a>
                               <Image
-                                width={845}
-                                height={564}
+                                layout="fill"
                                 src={service.image}
                                 alt={service.alt}
                                 className={styles.productImage}
