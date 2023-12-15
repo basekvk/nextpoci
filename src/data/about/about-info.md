@@ -13,15 +13,15 @@ experienceYear: '+'
 ourProgress: '<span>Calidad</span>'
 experienceImage: '/images/about/avatar.webp'
 experienceAlt: 'Avatar'
-aboutSubtitle: 'Desatascos Pociten: Tu Solución de Confianza en Desatascos y Pocería en Madrid
- '
+aboutSubtitle: 'Desatascos, desatrancos, obras de pocería y limpieza de tuberías en Madrid'
+ 
 aboutDesc: '
 '
 listItem:
     [
         {
             id: 'listItem-01',
-            listText: 'Desatascos Pociten: Líderes en Desatascos y Pocería en Madrid. Comprometidos con la excelencia, ofrecemos soluciones de desatascos y pocería de alta calidad, adaptadas a las necesidades específicas de cada cliente en Madrid.
+            listText: 'Desatascos Pociten: Líderes en Desatascos y Pocería en Madrid. Comprometidos con la excelencia, ofrecemos soluciones de desatascos de alta calidad y económicos, nuestros poceros realizan los servicios adaptados a las necesidades específicas de cada cliente en Madrid.
 ',
         },
         {
