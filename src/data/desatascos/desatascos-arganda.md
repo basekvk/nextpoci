@@ -13,10 +13,10 @@ detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper st
 
 title2: 'Desatascos en Arganda'
 #PARRAFO color negro de fondo y letras en verde
-detailSubTitle: 'Desatascos y Desatrancos en Arganda - Soluciones eficaces para problemas de pocería'
+detailSubTitle: 'Desatascos y Desatrancos en Arganda del Rey - Soluciones eficaces para problemas de pocería'
 
 #PARRAFO slider
-parrafo: "Soluciones de desatascos en Aranjuez con Desatascos Pociten: Tecnología avanzada y servicio al cliente de calidad"
+parrafo: "Soluciones de desatascos en Arganda con Desatascos Pociten: Tecnología avanzada y servicio al cliente de calidad"
 
 #PARRAFO Primera pregunta
 
