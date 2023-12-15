@@ -95,7 +95,7 @@ contenido: '
 <br/>
 
 <p>Contamos con ofertas especiales en todos nuestros servicios destinados a Empresas y Administradores de Fincas. <br/>
-<a class="link" href="https://desatascoSPociten.es/contacto">Contacta con nosotros </a>y pídenos toda la información que necesites.</p>
+<a class="link" href="https://desatascos-madrid.com/contacto">Contacta con nosotros </a>y pídenos toda la información que necesites.</p>
 '
 
 isFeatured: true

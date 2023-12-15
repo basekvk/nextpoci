@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta
                     property="og:url"
-                    content="https://DesatascosPociten.es/"
+                    content="https://desatascos-madrid.com/"
                 />
                 <meta
                     property="og:title"
@@ -64,12 +64,12 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta
                     property="og:image"
-                    content="https://DesatascosPociten.es/images/contact/contacto.jpg"
+                    content="https://desatascos-madrid.es/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta
                     property="twitter:url"
-                    content="https://desatascosPociten.es/"
+                    content="https://desatascos-madrid.com/"
                 />
                 <meta
                     property="twitter:title"
@@ -81,7 +81,7 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta
                     property="twitter:image"
-                    content="https://DesatascosPociten.es/images/contacto/contacto.jpg"
+                    content="https://desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
                 <meta
                     name="viewport"
