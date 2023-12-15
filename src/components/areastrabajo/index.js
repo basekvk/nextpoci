@@ -6,7 +6,7 @@ function Areastrabajo() {
         <>
             
                 <div className="banner">
-                    <img className="img-full" priority />
+                   
                     <h3 className={classes.title}>Otras Áreas de Trabajo</h3>
                     <div className={classes.containerlocalidades}>
                         <div className={classes.localidad}><Link href="/desatascos/desatascos-boadilla"><h3>Boadilla</h3></Link> </div>
