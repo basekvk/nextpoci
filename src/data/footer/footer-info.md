@@ -21,35 +21,30 @@ informationList:
         { id: 'informationList-04', title: 'Aviso Legal', path: 'aviso-legal' },
         { id: 'informationList-05', title: 'Contacta', path: 'contacto' },
     ]
-quickLinkTitle: 'Trabajamos en'
+quickLinkTitle: 'Links de Interés'
 quickLinkList:
     [
-        { id: 'quickLinkList-01', title: 'Desatascos Valdemoro', path: 'desatascos/desatascos-valdemoro' },
-        { id: 'quickLinkList-02', title: 'Desatascos Madrid
-', path: 'desatascos/desatascos-madrid' },
+        { id: 'quickLinkList-01', title: 'Servicios Urgentes', path: 'services/desatascos-24horas' },
+        { id: 'quickLinkList-02', title: 'Vaciado Fosas Sépticas
+', path: 'services/limpieza-fosas-septicas' },
         {
             id: 'quickLinkList-03',
-            title: 'Desatascos Leganés
+            title: 'Desatascos
 ',
-            path: 'desatascos/desatascos-leganes',
+            path: 'services/desatrancos',
         },
-        { id: 'quickLinkList-04', title: 'Desatascos Getafe
-', path: 'desatascos/desatascos-getafe' },
-        { id: 'quickLinkList-05', title: 'Desatascos Móstoles
-', path: 'desatascos/desatascos-mostoles' },
-       { id: 'quickLinkList-06', title: 'Desatascos Seseña
-', path: 'desatascos/desatascos-sesena' },
-       { id: 'quickLinkList-07', title: 'Desatascos Navalcarnero
-', path: 'desatascos/desatascos-navalcarnero' },
-       { id: 'quickLinkList-08', title: 'Desatascos Alcalá de Henares
-', path: 'desatascos/desatascos-alcala' },
-       { id: 'quickLinkList-09', title: 'Desatascos Pozuelo
-', path: 'desatascos/desatascos-pozuelo' },
-       { id: 'quickLinkList-10', title: 'Desatascos Aranjuez
-', path: 'desatascos/desatascos-aranjuez' },
-     
-     { id: 'quickLinkList-12', title: 'Desatascos Arganda
-', path: 'desatascos/desatascos-arganda' },
+         {
+            id: 'quickLinkList-04',
+            title: 'Obras de Pocería
+',
+            path: 'services/obras-de-poceria',
+        },
+           {
+            id: 'quickLinkList-04',
+            title: 'Inspección con Cámara
+',
+            path: 'services/inspeccion-tuberia-con-camara',
+        },
     ]
 contactInfoTitle: 'Info Contacto'
 widgetAddress: 'Calle Lezo 8, 4D<br> <span class="text-primary">28041, Madrid</span>'
