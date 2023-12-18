@@ -37,7 +37,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             desatascos-madrid.com, (en adelante, Sitio Web) la
                             ostenta: Pocería Pociten, y cuyos datos de
                             contacto son:
-                            <br>NIF: B56236755</br>
+                            <br />NIF: B56236755
                             <br /> Dirección: Calle Lezo 8, 4D. 28041 , Madrid –
                             España.
                             <br /> Email de contacto: info@pocitenPocería.es
@@ -340,7 +340,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                 </Container>
             </div>
 
-            <Newsletter newsletterItems={newsletterItems} />
+            
             <Footer footerItems={footerItems} />
         </>
     );
