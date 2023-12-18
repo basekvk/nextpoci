@@ -174,7 +174,7 @@ function MyApp({ Component, pageProps }) {
                             addressLocality: 'Madrid',
                             addressRegion: 'Madrid',
                             postalCode: '28041',
-                            addressCountry: 'España',
+                            addressCountry: 'ES',
                         },
                         telephone: '+34 647 376 782',
                         email: 'info@pocitendesatascos.com',
