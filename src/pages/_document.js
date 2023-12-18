@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const MyDocument = () => {
     return (
@@ -24,6 +25,8 @@ const MyDocument = () => {
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
                 />
+
+                <SpeedInsights />
 
                 {/* Tu componente LocalBusinessSchema aquí */}
             </Head>
