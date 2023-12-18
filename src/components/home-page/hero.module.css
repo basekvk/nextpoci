@@ -1,0 +1,75 @@
+/* hero.css */
+
+.hero-background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero-background {
+        height: 700px;
+    }
+}
+
+.subtitle {
+    font-family: Rajdhani, sans-serif; /* Reemplaza por la fuente correcta si es necesario */
+    font-size: 24px;
+    line-height: 30px;
+    display: block;
+    color: #007bff; /* Reemplaza por el color correcto si es necesario */
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 5px;
+}
+
+.subtitle:before {
+    background-color: #007bff; /* Reemplaza por el color correcto si es necesario */
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 88px;
+    line-height: 85px;
+    font-weight: 700;
+    max-width: 57%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .title h1 {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title h1 {
+        font-size: 50px;
+        line-height: 1;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .title h1 {
+        max-width: 100%;
+    }
+}
+
+.desc {
+    margin-bottom: 35px;
+    max-width: 520px;
+    font-size: 20px;
+}
+
+.btn_wrap {
+    display: flex;
+}
