@@ -180,6 +180,11 @@ export const OffcanvasData = [
                 link: "/blogs/arqueta-sifonica-atascada",
                 text: '¿ARQUETA SIFÓNICA ATASCADA?',
             },
+            {
+                id: 'submenu-06',
+                link: "/blogs/como-desatascar-un-fregadero",
+                text: 'COMO DESATASCAR FREGADERO',
+            },
           
         ],
     }, 

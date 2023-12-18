@@ -38,6 +38,14 @@ listSlider:
             title: 'Como mantener tus Fosas Sépticas',
             meta: 'Mayo 4, 2023',
         },
+         {
+            id: 'listSlider-05',
+            slideImage: '/images/blogs/como-desatascar-un-fregadero/70.webp',
+            slideImageAlt: 'Desatasca tu fregadero',
+            path: 'blogs/como-desatascarun-fregadero',
+            title: 'Como desatascar un Fregadero tu mismo',
+            meta: 'Diciembre 18, 2023',
+        },
        
     ]
 ---
