@@ -42,9 +42,9 @@ function HomePage({
             </br>
 
             <div className="container">
-                <h2 className="text-center">Desatascos de Tuberías en Madrid</h2>
+                <h2 className="text-center" style={{fontSize:"42px"}} >Desatascos de Tuberías en Madrid</h2>
             <p>¿Problemas con tus tuberías? ¿La ducha o el fregadero no traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres mantener tu red de saneamiento en buen estado con una simple inspección? ¡No te preocupes! Ofrecemos servicios de desatascos de tuberías (fregaderos, duchas, wc, lavavajillas, cocinas, etc..), desatrancos, limpieza y mantenimiento de alcantarillado, limpieza y construcción de arquetas y pozos negros, achiques de agua, reparación de bajantes, inspección con cámara de tuberías, vaciado y mantenimiento de fosas sépticas, reparación de tuberías sin obra, etc...</p>
-            <p>Ofrecemos nuestros servicios en toda la comunidad de Madrid y zonas limítrofes de Toledo y Guadalajara. Si estás buscando poceros cualificados y al mejor precio, no busques más, los acabas de encontrar. Compruébalo</p>
+            <p>Ofrecemos nuestros servicios en toda la comunidad de Madrid y zonas limítrofes de Toledo y Guadalajara. Contamos con camiones cuba preparados para cualquier urgencia las 24 horas del día. Si estás buscando poceros cualificados y al mejor precio, no busques más, los acabas de encontrar. Compruébalo</p>
             </div>
             <br></br>
             <ProductCluster />
@@ -52,7 +52,7 @@ function HomePage({
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <div className="container">
-                <h2 className="text-center">Desatascos Urgentes</h2>
+                <h2 className="text-center" style={{fontSize:"42px"}}>Desatascos Urgentes</h2>
             <p>¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no importa ni el cuándo ni dónde, llámanos y acudiremos a tu llamada en el menor tiempo posible con nuestro servicio de desatascos urgentes 24 horas. </p>
             <p>No esperes más, antes de agravar la avería llámanos y te lo solucionamos en tiempo record para que puedas seguir con tu día a día ya sea en tu negocio, empresa, comunidad de vecinos o domicilio particular</p>
             </div>
