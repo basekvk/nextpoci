@@ -32,7 +32,7 @@ function HomePage({
                 <meta name="robots" content="index, follow" />
                 <link
                     rel="canonical"
-                    href="https://www.desatascos-madrid.com"
+                    href="https://desatascos-madrid.com"
                 />
 
             </Head>
