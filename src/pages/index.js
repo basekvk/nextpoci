@@ -44,7 +44,7 @@ function HomePage({
                     ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
-                    inspección? ¡No te preocupes! Ofrecemos servicios de
+                    inspección? <br /><br />¡No te preocupes! Ofrecemos servicios de
                     desatascos de tuberías (fregaderos, duchas, wc,
                     lavavajillas, cocinas, etc..), desatrancos, limpieza y
                     mantenimiento de alcantarillado, limpieza y construcción de
@@ -53,11 +53,12 @@ function HomePage({
                     mantenimiento de fosas sépticas, reparación de tuberías sin
                     obra, etc...
                 </p>
+               <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
                     y zonas limítrofes de Toledo y Guadalajara. Contamos con
                     camiones cuba preparados para cualquier urgencia las 24
-                    horas del día. Si estás buscando poceros cualificados y al
+                    horas del día. <br /> <br />Si estás buscando poceros cualificados y al
                     mejor precio, no busques más, los acabas de encontrar.
                     Compruébalo
                 </p>
@@ -77,6 +78,7 @@ function HomePage({
                     llamada en el menor tiempo posible con nuestro servicio de
                     desatascos urgentes 24 horas.{' '}
                 </p>
+                <br />
                 <p>
                     No esperes más, antes de agravar la avería llámanos y te lo
                     solucionamos en tiempo record para que puedas seguir con tu
