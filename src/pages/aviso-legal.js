@@ -10,14 +10,14 @@ function avisoLegal({ newsletterItems, footerItems }) {
     return (
         <>
             <Head>
-                <title>Aviso Legal - Desatascos y Poceros Desatascos Pociten</title>
+                <title>Aviso Legal - Pocería y Desatascos - Pociten</title>
                 <meta
                     name="description"
-                    content="Aquí podras encontrar todo lo referente a los aspectos legales de la web de Desatascos Pociten"
+                    content="Aquí podras encontrar todo lo referente a los aspectos legales de la web de Pocería Pociten"
                 />
-                <link rel="canonical" href="https://www.desatascos-madrid.com/aviso-legal"/>
+                <link rel="canonical" href="https://desatascos-madrid.com/aviso-legal"/>
             </Head>
-            <Breadcrumb subTitle="Desatascos Pociten" title="Aviso Legal" desc="" />
+            <Breadcrumb subTitle="Pocería Pociten" title="Aviso Legal" desc="" />
 
             <div>
                 <Container>
@@ -34,12 +34,13 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             continuación los siguientes datos de información
                             general de este sitio web:
                             <br /> La titularidad de este sitio web,
-                            www.desatascos-madrid.com, (en adelante, Sitio Web) la
-                            ostenta: Don Efrén Tenis Pereira., y cuyos datos de
+                            desatascos-madrid.com, (en adelante, Sitio Web) la
+                            ostenta: Pocería Pociten, y cuyos datos de
                             contacto son:
+                            <br>NIF: B56236755</br>
                             <br /> Dirección: Calle Lezo 8, 4D. 28041 , Madrid –
                             España.
-                            <br /> Email de contacto: info@pocitendesatascos.es
+                            <br /> Email de contacto: info@pocitenPocería.es
                         </p>
                         <h2>II. TÉRMINOS Y CONDICIONES GENERALES DE USO</h2>
                         <h3>El objeto de las condiciones: El Sitio Web</h3>
@@ -58,12 +59,12 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             Servicios).
                         </p>
                         <p>
-                            Desatascos Pociten SL se reserva la facultad de
+                            Pocería Pociten SL se reserva la facultad de
                             modificar, en cualquier momento, y sin aviso previo,
                             la presentación y configuración del Sitio Web y de
                             los Contenidos y Servicios que en él pudieran estar
                             incorporados. El Usuario reconoce y acepta que en
-                            cualquier momento Desatascos Pociten SL pueda
+                            cualquier momento Pocería Pociten SL pueda
                             interrumpir, desactivar y/o cancelar cualquiera de
                             estos elementos que se integran en el Sitio Web o el
                             acceso a los mismos.
@@ -86,7 +87,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             El acceso, la navegación y uso del Sitio Web, así
                             como por los espacios habilitados para interactuar
                             entre los Usuarios, y el Usuario y
-                            Desatascos Pociten, como los comentarios y/o espacios de
+                            Pocería Pociten, como los comentarios y/o espacios de
                             blogging, confiere la condición de Usuario, por lo
                             que se aceptan, desde que se inicia la navegación
                             por el Sitio Web, todas las Condiciones aquí
@@ -97,32 +98,32 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             anterior, se recomienda al Usuario leerlas cada vez
                             que visite el Sitio Web.
                             <br />
-                            El Sitio Web de Desatascos Madrid
+                            El Sitio Web de Pocería Madrid
                             proporciona gran diversidad de información,
                             servicios y datos. El Usuario asume su
                             responsabilidad para realizar un uso correcto del
                             Sitio Web. Esta responsabilidad se extenderá a:
                             <br />• Un uso de la información, Contenidos y/o
                             Servicios y datos ofrecidos por 
-                            Desatascos Pociten sin que sea contrario a lo dispuesto por
+                            Pocería Pociten sin que sea contrario a lo dispuesto por
                             las presentes Condiciones, la Ley, la moral o el
                             orden público, o que de cualquier otro modo puedan
                             suponer lesión de los derechos de terceros o del
                             mismo funcionamiento del Sitio Web.
                             <br /> • La veracidad y licitud de las informaciones
                             aportadas por el Usuario en los formularios
-                            extendidos por Desatascos Pociten SL para el
+                            extendidos por Pocería Pociten SL para el
                             acceso a ciertos Contenidos o Servicios ofrecidos
                             por el Sitio Web. En todo caso, el Usuario
                             notificará de forma inmediata a 
-                            Desatascos Pociten acerca de cualquier hecho que permita el
+                            Pocería Pociten acerca de cualquier hecho que permita el
                             uso indebido de la información registrada en dichos
                             formularios, tales como, pero no solo, el robo,
                             extravío, o el acceso no autorizado a
                             identificadores y/o contraseñas, con el fin de
                             proceder a su inmediata cancelación.
                             <br />
-                            Desatascos Pociten SL se reserva el derecho de
+                            Pocería Pociten SL se reserva el derecho de
                             retirar todos aquellos comentarios y aportaciones
                             que vulneren la ley, el respeto a la dignidad de la
                             persona, que sean discriminatorios, xenófobos,
@@ -131,30 +132,30 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             seguridad pública o que, a su juicio, no resultaran
                             adecuados para su publicación.
                             <br />
-                            En cualquier caso, Desatascos Pociten SL no será
+                            En cualquier caso, Pocería Pociten SL no será
                             responsable de las opiniones vertidas por los
                             Usuarios a través de comentarios u otras
                             herramientas de blogging o de participación que
                             pueda haber.En cualquier caso, 
-                            Desatascos Pociten no será responsable de las opiniones
+                            Pocería Pociten no será responsable de las opiniones
                             vertidas por los Usuarios a través de comentarios u
                             otras herramientas de blogging o de participación
                             que pueda haber.
                             <br />
                             El mero acceso a este Sitio Web no supone entablar
                             ningún tipo de relación de carácter comercial entre
-                            Desatascos Pociten SL y el Usuario.
+                            Pocería Pociten SL y el Usuario.
                             <br />
                             El Usuario declara ser mayor de edad y disponer de
                             la capacidad jurídica suficiente para vincularse por
                             las presentes Condiciones. Por lo tanto, este Sitio
-                            Web de Desatascos Pociten SL no se dirige a
-                            menores de edad. Desatascos Pociten SL declina
+                            Web de Pocería Pociten SL no se dirige a
+                            menores de edad. Pocería Pociten SL declina
                             cualquier responsabilidad por el incumplimiento de
                             este requisito.
                             <br />
                             El Sitio Web está dirigido principalmente a Usuarios
-                            residentes en España. Desatascos Pociten SL no
+                            residentes en España. Pocería Pociten SL no
                             asegura que el Sitio Web cumpla con legislaciones de
                             otros países, ya sea total o parcialmente. Si el
                             Usuario reside o tiene su domiciliado en otro lugar
@@ -162,7 +163,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             bajo su propia responsabilidad, deberá asegurarse de
                             que tal acceso y navegación cumple con la
                             legislación local que le es aplicable, no asumiendo
-                            Desatascos Pociten SL responsabilidad alguna que
+                            Pocería Pociten SL responsabilidad alguna que
                             se pueda derivar de dicho acceso.
                             <br />
                         </p>
@@ -171,10 +172,10 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             DE GARANTÍAS Y RESPONSABILIDAD
                         </h2>
                         <p>
-                            Desatascos Pociten SL no garantiza la
+                            Pocería Pociten SL no garantiza la
                             continuidad, disponibilidad y utilidad del Sitio
                             Web, ni de los Contenidos o Servicios.
-                            Desatascos Pociten SL hará todo lo posible por
+                            Pocería Pociten SL hará todo lo posible por
                             el buen funcionamiento del Sitio Web, sin embargo,
                             no se responsabiliza ni garantiza que el acceso a
                             este Sitio Web no vaya a ser ininterrumpido o que
@@ -184,7 +185,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             contenido o software al que pueda accederse a través
                             de este Sitio Web, esté libre de error o cause un
                             daño al sistema informático (software y hardware)
-                            del Usuario. En ningún caso Desatascos Pociten
+                            del Usuario. En ningún caso Pocería Pociten
                             SL será responsable por las pérdidas, daños o
                             perjuicios de cualquier tipo que surjan por el
                             acceso, navegación y el uso del Sitio Web,
@@ -192,7 +193,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             a los sistemas informáticos o los provocados por la
                             introducción de virus.
                             <br />
-                            Desatascos Pociten SL tampoco se hace
+                            Pocería Pociten SL tampoco se hace
                             responsable de los daños que pudiesen ocasionarse a
                             los usuarios por un uso inadecuado de este Sitio
                             Web. En particular, no se hace responsable en modo
@@ -203,7 +204,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                         <h2>IV. POLÍTICA DE ENLACES</h2>
                         <p>
                             Se informa que el Sitio Web de 
-                            Desatascos Pociten pone o puede poner a disposición de los
+                            Pocería Pociten pone o puede poner a disposición de los
                             Usuarios medios de enlace (como, entre otros, links,
                             banners, botones), directorios y motores de búsqueda
                             que permiten a los Usuarios acceder a sitios web
@@ -215,7 +216,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             que pueda considerarse una sugerencia, recomendación
                             o invitación para la visita de los mismos.
                             <br />
-                            Desatascos Pociten SL no ofrece ni comercializa
+                            Pocería Pociten SL no ofrece ni comercializa
                             por sí ni por medio de terceros los productos y/o
                             servicios disponibles en dichos sitios enlazados.
                             <br />
@@ -223,48 +224,48 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             técnica, exactitud, veracidad, validez o legalidad
                             de sitios ajenos a su propiedad a los que se pueda
                             acceder por medio de los enlaces.
-                            <br /> Desatascos Pociten SL en ningún caso
+                            <br /> Pocería Pociten SL en ningún caso
                             revisará o controlará el contenido de otros sitios
                             web, así como tampoco aprueba, examina ni hace
                             propios los productos y servicios, contenidos,
                             archivos y cualquier otro material existente en los
                             referidos sitios enlazados.
-                            <br /> Desatascos Pociten SL no asume ninguna
+                            <br /> Pocería Pociten SL no asume ninguna
                             responsabilidad por los daños y perjuicios que
                             pudieran producirse por el acceso, uso, calidad o
                             licitud de los contenidos, comunicaciones,
                             opiniones, productos y servicios de los sitios web
-                            no gestionados por Desatascos Pociten SL y que
+                            no gestionados por Pocería Pociten SL y que
                             sean enlazados en este Sitio Web.
                             <br /> El Usuario o tercero que realice un
                             hipervínculo desde una página web de otro, distinto,
-                            sitio web al Sitio Web de Desatascos Pociten SL
+                            sitio web al Sitio Web de Pocería Pociten SL
                             deberá saber que:
                             <br /> No se permite la reproducción —total o
                             parcialmente— de ninguno de los Contenidos y/o
                             Servicios del Sitio Web sin autorización expresa de
-                            Desatascos Pociten SL.
+                            Pocería Pociten SL.
                             <br /> No se permite tampoco ninguna manifestación
                             falsa, inexacta o incorrecta sobre el Sitio Web de
-                            Desatascos Pociten SL, ni sobre los Contenidos
+                            Pocería Pociten SL, ni sobre los Contenidos
                             y/o Servicios del mismo.
                             <br /> A excepción del hipervínculo, el sitio web en
                             el que se establezca dicho hiperenlace no contendrá
                             ningún elemento, de este Sitio Web, protegido como
                             propiedad intelectual por el ordenamiento jurídico
                             español, salvo autorización expresa de
-                            Desatascos Pociten SL.
+                            Pocería Pociten SL.
                             <br /> El establecimiento del hipervínculo no
                             implicará la existencia de relaciones entre
-                            Desatascos Pociten SL y el titular del sitio web
+                            Pocería Pociten SL y el titular del sitio web
                             desde el cual se realice, ni el conocimiento y
-                            aceptación de Desatascos Pociten SL de los
+                            aceptación de Pocería Pociten SL de los
                             contenidos, servicios y/o actividades ofrecidas en
                             dicho sitio web, y viceversa.
                         </p>
                         <h2>V. PROPIEDAD INTELECTUAL E INDUSTRIAL</h2>
                         <p>
-                            Desatascos Pociten SL por sí o como parte
+                            Pocería Pociten SL por sí o como parte
                             cesionaria, es titular de todos los derechos de
                             propiedad intelectual e industrial del Sitio Web,
                             así como de los elementos contenidos en el mismo (a
@@ -288,11 +289,11 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             parte de los contenidos de esta página web, con
                             fines comerciales, en cualquier soporte y por
                             cualquier medio técnico, sin la autorización de
-                            Desatascos Pociten SL.
+                            Pocería Pociten SL.
                             <br />
                             El Usuario se compromete a respetar los derechos de
                             propiedad intelectual e industrial de
-                            Desatascos Pociten SL. Podrá visualizar los
+                            Pocería Pociten SL. Podrá visualizar los
                             elementos del Sitio Web o incluso imprimirlos,
                             copiarlos y almacenarlos en el disco duro de su
                             ordenador o en cualquier otro soporte físico siempre
@@ -306,7 +307,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             cualquiera de los Contenidos del Sitio Web suponga
                             una violación de los derechos de protección de la
                             propiedad intelectual, deberá comunicarlo
-                            inmediatamente a Desatascos Pociten SL a través
+                            inmediatamente a Pocería Pociten SL a través
                             de los datos de contacto del apartado de INFORMACIÓN
                             GENERAL de este Aviso Legal y Condiciones Generales
                             de Uso.
@@ -316,14 +317,14 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             JURISDICCIÓN
                         </h2>
                         <p>
-                            Desatascos Pociten SL se reserva la facultad de
+                            Pocería Pociten SL se reserva la facultad de
                             presentar las acciones civiles o penales que
                             considere necesarias por la utilización indebida del
                             Sitio Web y Contenidos, o por el incumplimiento de
                             las presentes Condiciones.
                             <br />
                             La relación entre el Usuario y 
-                            Desatascos Pociten se regirá por la normativa vigente y de
+                            Pocería Pociten se regirá por la normativa vigente y de
                             aplicación en el territorio español. De surgir
                             cualquier controversia en relación con la
                             interpretación y/o a la aplicación de estas

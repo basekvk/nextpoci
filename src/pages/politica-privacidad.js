@@ -29,16 +29,16 @@ function politicaPrivacidad({ newsletterItems, footerItems }) {
                         <h2 style={{ marginTop: 110 }}>POLÍTICA PRIVACIDAD</h2>
                         <h3>1. INFORMACIÓN AL USUARIO</h3>
                         <p>
-                            Don Efrén Tenis Pereira (el prestador) como
+                            Pocería Pociten (el prestador) como
                             responsable de la administración de datos informa a
-                            los usuarios del sitio web (www.desatascos-madrid.com) sobre su
+                            los usuarios del sitio web (desatascos-madrid.com) sobre su
                             política respecto del tratamiento y protección de
                             los datos de carácter personal de los usuarios y
                             clientes que puedan ser recabados por la navegación
                             a través de su sitio web.
                         </p>
                         <p>
-                            Don Efrén Tenis Pereira es el Responsable
+                            Pocería Pociten es el Responsable
                             del tratamiento de los datos personales del Usuario
                             y le informa que estos datos serán tratados de
                             conformidad con lo dispuesto en las normativas
@@ -66,8 +66,7 @@ function politicaPrivacidad({ newsletterItems, footerItems }) {
                         </p>
                         <p>
                             Estas comunicaciones serán realizadas por la empresa
-                            Desatascos Pociten S.L cuyo responsable es Don
-                            Efrén Tenis Pereira y relacionadas con sus productos
+                            Pocería Pociten cuyo responsable es la misma y relacionadas con sus productos
                             y servicios, o con los de sus colaboradores o
                             proveedores con los que éste haya alcanzado algún
                             acuerdo de promoción. En este caso, los terceros
@@ -112,7 +111,7 @@ function politicaPrivacidad({ newsletterItems, footerItems }) {
                         </p>
                         <h3>Datos de contacto para ejercer sus derechos:</h3>
                         <p>
-                            Dirección postal: POCERÍA POCITEN S.L – Efrén Tenis Pereira, Calle Lezo 8, 4D, 28041 Madrid
+                            Dirección postal: POCERÍA POCITEN S.L - Calle Lezo 8, 4D, 28041 Madrid
                             <br /> Dirección electrónica: info@pocitendesatascos.es
                         </p>
                         <h2>
