@@ -1,7 +1,7 @@
 ---
 id: 'service-30'
 
-title: 'Poceros en Alcobendas'
+title: 'Desatascos en Alcobendas'
 
 titleMeta: "Desatascos y Poceros en Alcobendas 【647 376 782】"
 
@@ -16,7 +16,7 @@ largeImage: 'desatascos-alcobendas-md.jpg'
 
 detailBreadcrumbSubTitle: 'Single Service'
 
-metaContent: "✅Poceros en Alcobendas. 🔝 Empresa de pocería en Alcobendas. 📢 Los mejores precios de la provincia. Desatascos y Desatrancos. ☎️​ 647 376 782"
+metaContent: "✅Desatascos en Alcobendas. 🔝 Empresa de pocería en Alcobendas. 📢 Los mejores precios de la provincia. Desatascos y Desatrancos. ☎️​ 647 376 782"
 
 detailBreadcrumbDesc: 'Empresa de poceros en Alcobendas con los mejores precios'
 

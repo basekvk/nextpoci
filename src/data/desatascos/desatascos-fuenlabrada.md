@@ -1,6 +1,6 @@
 ---
 id: 'service-06'
-title: 'Poceros en Fuenlabrada'
+title: 'Desatascos en Fuenlabrada'
 titleMeta: "Desatascos y Poceros en Fuenlabrada - 24 Horas"
 lugar: 'Fuenlabrada'
 canonical: https://www.desatascos-madrid.com/desatascos/desatascos-fuenlabrada

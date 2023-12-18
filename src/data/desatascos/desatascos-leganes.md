@@ -1,6 +1,6 @@
 ---
 id: 'service-08'
-title: 'Poceros en Leganés'
+title: 'Desatascos en Leganés'
 titleMeta: "Desatascos y Desatrancos en Leganés - Servicio de Pocería "
 lugar: 'Leganés'
 canonical: https://www.desatascos-madrid.com/desatascos/desatascos-leganes

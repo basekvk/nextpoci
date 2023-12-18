@@ -30,40 +30,111 @@ function HomePage({
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
                 <meta name="robots" content="index, follow" />
-                <link
-                    rel="canonical"
-                    href="https://desatascos-madrid.com"
-                />
-
+                <link rel="canonical" href="https://desatascos-madrid.com" />
             </Head>
-            
+
             <Hero heroItems={heroItems} />
-            <br>
-            </br>
+            <br></br>
 
             <div className="container">
-                <h2 className="text-center" style={{fontSize:"42px"}} >Desatascos de Tuberías en Madrid</h2>
-            <p>¿Problemas con tus tuberías? ¿La ducha o el fregadero no traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres mantener tu red de saneamiento en buen estado con una simple inspección? ¡No te preocupes! Ofrecemos servicios de desatascos de tuberías (fregaderos, duchas, wc, lavavajillas, cocinas, etc..), desatrancos, limpieza y mantenimiento de alcantarillado, limpieza y construcción de arquetas y pozos negros, achiques de agua, reparación de bajantes, inspección con cámara de tuberías, vaciado y mantenimiento de fosas sépticas, reparación de tuberías sin obra, etc...</p>
-            <p>Ofrecemos nuestros servicios en toda la comunidad de Madrid y zonas limítrofes de Toledo y Guadalajara. Contamos con camiones cuba preparados para cualquier urgencia las 24 horas del día. Si estás buscando poceros cualificados y al mejor precio, no busques más, los acabas de encontrar. Compruébalo</p>
+                <h2 className="text-center" style={{ fontSize: '42px' }}>
+                    Desatascos de Tuberías en Madrid
+                </h2>
+                <p>
+                    ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
+                    traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
+                    mantener tu red de saneamiento en buen estado con una simple
+                    inspección? ¡No te preocupes! Ofrecemos servicios de
+                    desatascos de tuberías (fregaderos, duchas, wc,
+                    lavavajillas, cocinas, etc..), desatrancos, limpieza y
+                    mantenimiento de alcantarillado, limpieza y construcción de
+                    arquetas y pozos negros, achiques de agua, reparación de
+                    bajantes, inspección con cámara de tuberías, vaciado y
+                    mantenimiento de fosas sépticas, reparación de tuberías sin
+                    obra, etc...
+                </p>
+                <p>
+                    Ofrecemos nuestros servicios en toda la comunidad de Madrid
+                    y zonas limítrofes de Toledo y Guadalajara. Contamos con
+                    camiones cuba preparados para cualquier urgencia las 24
+                    horas del día. Si estás buscando poceros cualificados y al
+                    mejor precio, no busques más, los acabas de encontrar.
+                    Compruébalo
+                </p>
             </div>
             <br></br>
             <ProductCluster />
-           
+
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <div className="container">
-                <h2 className="text-center" style={{fontSize:"42px"}}>Desatascos Urgentes</h2>
-            <p>¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no importa ni el cuándo ni dónde, llámanos y acudiremos a tu llamada en el menor tiempo posible con nuestro servicio de desatascos urgentes 24 horas. </p>
-            <p>No esperes más, antes de agravar la avería llámanos y te lo solucionamos en tiempo record para que puedas seguir con tu día a día ya sea en tu negocio, empresa, comunidad de vecinos o domicilio particular</p>
+                <h2 className="text-center" style={{ fontSize: '42px' }}>
+                    Desatascos Urgentes
+                </h2>
+                <p>
+                    ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
+                    importa ni el cuándo ni dónde, llámanos y acudiremos a tu
+                    llamada en el menor tiempo posible con nuestro servicio de
+                    desatascos urgentes 24 horas.{' '}
+                </p>
+                <p>
+                    No esperes más, antes de agravar la avería llámanos y te lo
+                    solucionamos en tiempo record para que puedas seguir con tu
+                    día a día ya sea en tu negocio, empresa, comunidad de
+                    vecinos o domicilio particular
+                </p>
+            </div>
+            <div className="container">
+                <h4 className="text-center" style={{ fontSize: '28px' }}>
+                    Llámanos si tienes alguno de estos problemas:
+                </h4>
+                <p>
+                    <ul>
+                        <li>
+                        ✅ Escuchar ruidos extraños en desagües o inodoros{' '}
+                        </li>
+                        <li>
+                        ✅ Atascos en el WC: sale agua por el inodoro o no
+                            desagua{' '}
+                        </li>
+                        <li>
+                        ✅ Atasco en la bañera: sale agua por la bañera, sale
+                            agua por el plato de ducha o no tragan los desagües
+                            correctamente.
+                        </li>
+                        <li>
+                        ✅ Atasco de arquetas, no recogen el agua o sale agua
+                            por ellas.
+                        </li>
+                        <li>
+                        ✅ Las arquetas de las parcelas no se vacían y
+                            desbordan el agua.
+                        </li>
+                        <li>
+                        ✅ Aparecen manchas de humedad en las paredes y no
+                            detectan el problema.{' '}
+                        </li>
+                        <li>
+                        ✅ Atasco en bajantes de la comunidad Fregadero
+                            atascado , no traga, sale agua y huele mal.{' '}
+                        </li>
+                        <li>
+                        ✅ Detectar malos olores en el hogar salientes de los
+                            desagües.{' '}
+                        </li>
+                        <li>
+                        ✅ Canalones que rebosan y no se vacían con la lluvia.
+                        </li>
+                    </ul>
+                </p>
             </div>
             <br></br>
             <CallToAction />
             <ReviewsSection />
-           
-            
+
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
-            
+
             <Areastrabajo />
 
             <Footer footerItems={footerItems} />
