@@ -5,6 +5,7 @@ import Footer from '../../components/layout/footer';
 import { getBlogCategories } from '../../lib/blog-categories';
 import { getBlogTags } from '../../lib/blog-tags';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
+import Head from 'next/head';
 
 function BlogDetailPage({
     blog,
@@ -14,9 +15,27 @@ function BlogDetailPage({
     tags,
     footerItems,
 }) {
+    const structuredData = {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": blog.title,
+        "description": blog.desc,
+        "author": {
+            "@type": "Person",
+            "name": "Desatascos Pociten"
+            // Otros detalles del autor si están disponibles
+        },
+        // Añadir más propiedades según sea necesario
+    };
     return (
         <>
-            
+            <Head>
+                <title>{blog.title}</title>
+                <meta name="description" content={blog.desc} />
+                <script type="application/ld+json">
+                    {JSON.stringify(structuredData)}
+                </script>
+            </Head>
             <Breadcrumb
                 subTitle={blog?.subTitle}
                 title={blog?.title}
