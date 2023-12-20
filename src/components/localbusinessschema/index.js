@@ -17,31 +17,10 @@ const LocalBusinessSchema = () => {
                 "addressCountry": 'ES',
             },
             "telephone": '647 376 782',
-            "geo": {
-                '@type': 'GeoCoordinates',
-                "latitude": '40.35',
-                "longitude": '-3.69',
-            },
-        },
-        "openingHoursSpecification": {
-            '@type': 'OpeningHoursSpecification',
-            "validFrom": '2023-01-01',
-            "validThrough": '2025-12-31',
-            "dayOfWeek": [
-                'Monday',
-                'Tuesday',
-                'Wednesday',
-                'Thursday',
-                'Friday',
-                'Saturday',
-                'Sunday',
-            ],
-            "opens": '00:00',
-            "closes": '23:59',
         },
         "areaServed": {
             '@type': 'Place',
-            "name": 'Comunidad de Madrid y zonas limítrofes',
+            "name": 'Comunidad de Madrid y zonas limítrofes'
         },
         "hasOfferCatalog": {
             '@type': 'OfferCatalog',
@@ -52,101 +31,100 @@ const LocalBusinessSchema = () => {
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Desatascos Urgentes 24 Horas',
-                        "url": 'https://www.desatascos-madrid.com/services/desatascos-24horas',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/desatascos-24horas'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Limpieza y Mantenimiento de Alcantarillado',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Inspección con Cámara de Tuberías',
-                        "url": 'https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Desatascos de Tuberías',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Desatascos de Fregaderos',
-                        "url": 'https://www.desatascos-madrid.com/',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Desatascos de WC',
-                        "url": 'https://www.desatascos-madrid.com/',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Vaciado de Fosas Sépticas',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-fosas-septicas',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/limpieza-fosas-septicas'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Desatascos y Reparación de Arquetas',
-                        "url": 'https://www.desatascos-madrid.com/',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Achiques de Agua en Inundaciones',
-                        "url": 'https://www.desatascos-madrid.com/',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Limpieza de Alcantarillado',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Obras de pocería en Madrid',
-                        "url": 'https://www.desatascos-madrid.com/services/obras-de-poceria',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/obras-de-poceria'
+                    }
                 },
                 {
                     '@type': 'Offer',
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Acometidas de agua y desagües',
-                        "url": 'https://www.desatascos-madrid.com/services/poceros-madrid',
-                    },
+                        "url": 'https://www.desatascos-madrid.com/services/poceros-madrid'
+                    }
                 }
             ]
         },
-        "description":
-            'Empresa líder de desatascos en la comunidad de Madrid. Ofrecemos servicios de desatascos de tuberías, desatrancos, limpieza y mantenimiento de alcantarillado, y más.'
+        "description":'Empresa líder de desatascos en la comunidad de Madrid. Ofrecemos servicios de desatascos de tuberías, desatrancos, limpieza y mantenimiento de alcantarillado, y más.'
     };
     return (
         
