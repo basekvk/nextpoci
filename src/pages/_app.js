@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect } from 'react';
 import { useRouter, Router } from 'next/router';
 import LazyLoad from 'react-lazyload';
+import LocalBusinessSchema from '../components/localbusinessschema';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
@@ -163,76 +164,7 @@ function MyApp({ Component, pageProps }) {
                     content="/ms-icon-144x144.png"
                 />
                 <meta name="theme-color" content="#ffffff" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        '@context': 'http://schema.org',
-                        '@type': 'LocalBusiness',
-                        name: 'Desatascos Madrid',
-                        address: {
-                            '@type': 'PostalAddress',
-                            streetAddress: 'Calle Lezo, 8',
-                            addressLocality: 'Madrid',
-                            addressRegion: 'Madrid',
-                            postalCode: '28041',
-                            addressCountry: 'ES',
-                        },
-                        telephone: '+34 647 376 782',
-                        email: 'info@pocitendesatascos.com',
-                        url: 'https://desatascos-madrid.com',
-                        openingHours: [
-                            {
-                                '@type': 'OpeningHoursSpecification',
-                                dayOfWeek: ['Mo-Sun'],
-                                opens: '00:00',
-                                closes: '00:00',
-                            },
-                        ],
-                        priceRange: '€€',
-                        image: 'https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=1080&q=75',
-                        services: [
-                            {
-                                '@type': 'Service',
-                                name: 'Desatascos de tuberías',
-                                description:'Desatascamos tuberías de cualquier tipo, tanto en viviendas como en empresas.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Desatascos de fregaderos',
-                                description:'Desatascamos fregaderos de cualquier tipo, tanto en viviendas como en empresas.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Desatascos de WC',
-                                description:'Desatascamos baños de cualquier tipo, tanto en viviendas como en empresas.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Vaciado de fosas sépticas',
-                                description:'Realizamos el mantenimiento y limpieza de fosas sépticas.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Limpieza y Mantenimiento de alcantarillado',
-                                description:'Reparamos y limpiamos el alcantarillado.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Inspección de Tuberías con Cámara',
-                                description:'Inspeccionamos tus tuberías con cámaras de última tecnología y emitimos tu informe.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Desatascos y reparación de Arquetas',
-                                description:'Desatascamos y reparamos arquetas de cualquier tipo.',
-                            },
-                            {
-                                '@type': 'Service',
-                                name: 'Achiques de agua en inundaciones',
-                                description:'Realizamos achiques de agua en inundaciones.',
-                            },
-                        ],
-                    })}
-                </script>
+                <LocalBusinessSchema />
             </Head>
             <LazyLoad>
                 <Analytics />
