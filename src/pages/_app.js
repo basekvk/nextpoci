@@ -193,50 +193,42 @@ function MyApp({ Component, pageProps }) {
                             {
                                 '@type': 'Service',
                                 name: 'Desatascos de tuberías',
-                                description:
-                                    'Desatascamos tuberías de cualquier tipo, tanto en viviendas como en empresas.',
+                                description:'Desatascamos tuberías de cualquier tipo, tanto en viviendas como en empresas.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Desatascos de fregaderos',
-                                description:
-                                    'Desatascamos fregaderos de cualquier tipo, tanto en viviendas como en empresas.',
+                                description:'Desatascamos fregaderos de cualquier tipo, tanto en viviendas como en empresas.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Desatascos de WC',
-                                description:
-                                    'Desatascamos baños de cualquier tipo, tanto en viviendas como en empresas.',
+                                description:'Desatascamos baños de cualquier tipo, tanto en viviendas como en empresas.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Vaciado de fosas sépticas',
-                                description:
-                                    'Realizamos el mantenimiento y limpieza de fosas sépticas.',
+                                description:'Realizamos el mantenimiento y limpieza de fosas sépticas.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Limpieza y Mantenimiento de alcantarillado',
-                                description:
-                                    'Reparamos y limpiamos el alcantarillado.',
+                                description:'Reparamos y limpiamos el alcantarillado.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Inspección de Tuberías con Cámara',
-                                description:
-                                    'Inspeccionamos tus tuberías con cámaras de última tecnología y emitimos tu informe.',
+                                description:'Inspeccionamos tus tuberías con cámaras de última tecnología y emitimos tu informe.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Desatascos y reparación de Arquetas',
-                                description:
-                                    'Desatascamos y reparamos arquetas de cualquier tipo.',
+                                description:'Desatascamos y reparamos arquetas de cualquier tipo.',
                             },
                             {
                                 '@type': 'Service',
                                 name: 'Achiques de agua en inundaciones',
-                                description:
-                                    'Realizamos achiques de agua en inundaciones.',
+                                description:'Realizamos achiques de agua en inundaciones.',
                             },
                         ],
                     })}
