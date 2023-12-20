@@ -153,7 +153,7 @@ const LocalBusinessSchema = () => {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify(schemaData),
+                    __html: JSON.stringify(schemaData)
                 }}
             />
         
