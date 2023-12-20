@@ -6,7 +6,7 @@ import { getBlogCategories } from '../../lib/blog-categories';
 import { getBlogTags } from '../../lib/blog-tags';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
+
 
 function BlogDetailPage({
     blog,
@@ -16,22 +16,11 @@ function BlogDetailPage({
     tags,
     footerItems,
 }) {
-    const router = useRouter();
-
-    // Asumiendo que tienes una variable para el hostname de tu sitio
-    const hostname = 'https://www.desatascos-madrid.com/';
-
-    // Construir la URL completa del blog
-    const blogUrl = `${hostname}${router.asPath}`;
-
-
-
-    const structuredData = {
+         const structuredData = {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": blog.title,
         "description": blog.desc,
-        "url": blogUrl, // Agregar la URL aquí
         "author": {
             "@type": "Person",
             "name": "Desatascos Pociten"
