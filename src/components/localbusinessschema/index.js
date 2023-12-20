@@ -2,7 +2,7 @@ import React from 'react';
 
 const LocalBusinessSchema = () => {
     const schemaData = {
-        '@context': 'http://schema.org',
+        '@context': 'https://schema.org',
         '@type': 'Service',
         "serviceType": 'Desatascos y Pocería',
         "provider": {
