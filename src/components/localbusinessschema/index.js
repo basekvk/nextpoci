@@ -128,14 +128,14 @@ const LocalBusinessSchema = () => {
         "description":'Empresa líder de desatascos en la comunidad de Madrid. Ofrecemos servicios de desatascos de tuberías, desatrancos, limpieza y mantenimiento de alcantarillado, y más.'
     };
     return (
-        <Head>
+        
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify(schemaData)
                 }}
             />
-        </Head>
+        
         
     );
 };
