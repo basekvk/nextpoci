@@ -142,8 +142,8 @@ const LocalBusinessSchema = () => {
                         name: 'Acometidas de agua y desagües',
                         url: 'https://www.desatascos-madrid.com/services/poceros-madrid',
                     },
-                },
-            ],
+                }
+            ]
         },
         description:
             'Empresa líder de desatascos en la comunidad de Madrid. Ofrecemos servicios de desatascos de tuberías, desatrancos, limpieza y mantenimiento de alcantarillado, y más.'
