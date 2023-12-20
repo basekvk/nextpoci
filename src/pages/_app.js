@@ -182,11 +182,10 @@ function MyApp({ Component, pageProps }) {
                         openingHours: [
                             {
                                 '@type': 'OpeningHoursSpecification',
-                                dayOfWeek: 'Mo-Sun',
+                                dayOfWeek: ['Mo-Sun'],
                                 opens: '00:00',
                                 closes: '00:00',
                             },
-                           
                         ],
                         priceRange: '€€',
                         image: 'https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=1080&q=75',
