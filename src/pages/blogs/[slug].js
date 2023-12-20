@@ -19,7 +19,7 @@ function BlogDetailPage({
     const router = useRouter();
 
     // Asumiendo que tienes una variable para el hostname de tu sitio
-    const hostname = 'https://www.desatascos-madrid.com';
+    const hostname = 'https://www.desatascos-madrid.com/';
 
     // Construir la URL completa del blog
     const blogUrl = `${hostname}${router.asPath}`;
