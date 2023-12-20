@@ -132,7 +132,7 @@ const LocalBusinessSchema = () => {
                     "itemOffered": {
                         '@type': 'Service',
                         "name": 'Obras de pocería en Madrid',
-                        url: 'https://www.desatascos-madrid.com/services/obras-de-poceria',
+                        "url": 'https://www.desatascos-madrid.com/services/obras-de-poceria',
                     },
                 },
                 {
