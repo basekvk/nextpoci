@@ -74,7 +74,7 @@ function HomePage({
                 </h2>
                 <p>
                     ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
-                    importa ni el cuándo ni dónde, llámanos y acudiremos a tu
+                    importa ni el cuándo ni el dónde, llámanos y acudiremos a tu
                     llamada en el menor tiempo posible con nuestro servicio de
                     desatascos urgentes 24 horas.{' '}
                 </p>
