@@ -40,7 +40,7 @@ const services = [
     },
     {
         id: 6,
-        title: 'Inspección CCTV',
+        title: 'Inspección Tuberías con Cámara',
         image: '/images/cluster/inspeccion-tuberia-con-camara-lg.webp',
         alt: 'Servicios Inspección CCTV',
         url: '/services/inspeccion-tuberia-con-camara',
@@ -54,7 +54,7 @@ const services = [
   },
   {
     id: 8,
-    title: 'Fosas Sépticas',
+    title: 'Vaciado Fosas Sépticas',
     image: '/images/cluster/fosassepticas-lg.webp',
     alt: 'Servicios Fosas Sépticas',
     url: '/services/limpieza-fosas-septicas',
