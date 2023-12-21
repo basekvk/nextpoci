@@ -123,6 +123,9 @@ function HomePage({
                             desagües.{' '}
                         </li>
                         <li>
+                        ✅ Lavavajillas pierde agua o no desagua.{' '}
+                        </li>
+                        <li>
                         ✅ Canalones que rebosan y no se vacían con la lluvia.
                         </li>
                     </ul>
