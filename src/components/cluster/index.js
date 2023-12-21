@@ -5,14 +5,14 @@ import Image from 'next/image';
 const services = [
     {
         id: 1,
-        title: 'Desatascos 24 Horas',
+        title: 'Desatascos Urgentes',
         image: '/images/cluster/desatascos24horas-lg.webp',
         alt: 'Servicios Desatascos',
         url: '/services/desatascos-24horas',
     },
     {
         id: 2,
-        title: 'Limpieza de Tuberías',
+        title: 'Desatascos Tuberías',
         image: '/images/cluster/limpiezadetuberias-lg.webp',
         alt: 'Servicios Limpieza de Tuberías',
         url: '/services/limpieza-de-tuberias',
