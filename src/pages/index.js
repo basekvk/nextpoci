@@ -109,16 +109,14 @@ function HomePage({
                             por ellas.
                         </li>
                         <li>
-                        ✅ Las arquetas de las parcelas no se vacían y
-                            desbordan el agua.
+                        ✅ Fregadero atascado , no traga, sale agua y huele mal.
                         </li>
                         <li>
                         ✅ Aparecen manchas de humedad en las paredes y no
                             detectan el problema.{' '}
                         </li>
                         <li>
-                        ✅ Atasco en bajantes de la comunidad Fregadero
-                            atascado , no traga, sale agua y huele mal.{' '}
+                        ✅ Atasco en bajantes de la comunidad.{' '}
                         </li>
                         <li>
                         ✅ Detectar malos olores en el hogar salientes de los
