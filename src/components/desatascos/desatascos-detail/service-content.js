@@ -146,7 +146,8 @@ function ServiceContent({ service, ourServices }) {
                         href="tel:647376782"
                         call-button
                     >
-                        📞 Urgencias 24 Horas 647 376 782
+                      <h4>📞 Desatascos 24 Horas 647 376 782</h4>  
+                      <p style={{color: "white"}}>Presiona el botón para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
                     </a>
                 </div>
             </Col>

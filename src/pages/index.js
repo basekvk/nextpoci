@@ -11,6 +11,7 @@ import ContactForm from '../components/form-page';
 import CookiePopup from '../components/cookiebanner';
 import ReviewsSection from '../components/reviews';
 import Areastrabajo from '../components/areastrabajo';
+import CallButton from '../components/CallButton';
 
 function HomePage({
     heroItems,
@@ -53,6 +54,7 @@ function HomePage({
                     mantenimiento de fosas sépticas, reparación de tuberías sin
                     obra, etc...
                 </p>
+                
                <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
@@ -62,9 +64,17 @@ function HomePage({
                     mejor precio, no busques más, los acabas de encontrar.
                     Compruébalo
                 </p>
+                <br />  
+                <CallButton />
             </div>
-            <br></br>
+            <br>
+            
+            </br>
             <ProductCluster />
+           
+            <CallButton />
+            
+            
 
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
