@@ -31,13 +31,13 @@ descripcion1: "Antes de profundizar en la solución de los desatascos, es import
 descripcion2: ""
 
 #PARRAFO Tercera pregunta
-pregunta3: "¿POR QUÉ ELEGIRNOS PARA LOS DESATASCOS EN GETAFE?"
-descripcion3: "Desatascos Pociten es una empresa con amplia experiencia en el sector de los desatascos en Getafe y sus alrededores. Ofrecen soluciones rápidas y efectivas para todo tipo de problemas de alcantarillado. Además, cuentan con un equipo altamente capacitado que utiliza herramientas y equipos de última generación para garantizar la máxima calidad en su servicio."
+pregunta3: "¿POR QUÉ ELEGIRNOS PARA LOS DESATRANCOS EN GETAFE?"
+descripcion3: "Desatascos Pociten es una empresa con amplia experiencia en el sector de los desatrancos en Getafe y sus alrededores. Ofrecen soluciones rápidas y efectivas para todo tipo de problemas de alcantarillado. Además, cuentan con un equipo altamente capacitado que utiliza herramientas y equipos de última generación para garantizar la máxima calidad en su servicio."
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<h2>SERVICIOS OFRECIDOS</h2>
+<h2>SERVICIOS</h2>
 <p>Desatascos Pociten ofrece una amplia gama de servicios relacionados con los desatascos en Getafe. Algunos de sus servicios más destacados incluyen:</p>
 <br>
 
@@ -73,9 +73,9 @@ contenidoDescripcion: "
 <h2>CONSEJOS PARA PREVENIR PROBLEMAS DE DESATASCOS EN GETAFE</h2>
 <p>Si bien Desatascos Pociten ofrece soluciones rápidas y efectivas para problemas de desatascos en Getafe, es importante tomar medidas preventivas para evitar su aparición. Algunos consejos útiles incluyen:</p>
 <br>
-<li>No arrojar residuos sólidos, grasas o aceites por el sistema de alcantarillado.</li>
-<li>Utilizar filtros en los desagües para evitar la acumulación de residuos sólidos.</li>
-<li>Realizar una limpieza periódica de las tuberías y fosas sépticas.</li>
+<p>➡️ No arrojar residuos sólidos, grasas o aceites por el sistema de alcantarillado.</p>
+<p>➡️ Utilizar filtros en los desagües para evitar la acumulación de residuos sólidos.</p>
+<p>➡️ Realizar una limpieza periódica de las tuberías y fosas sépticas.</p>
 "
 
 #PARRAFO Cuarta pregunta

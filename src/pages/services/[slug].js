@@ -8,9 +8,10 @@ import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import CallToAction from '../../components/cta';
 import ProductCluster from '../../components/cluster';
 
+
 function ServiceDetailsPage({
     service,
-   
+
     servicesSidebar,
     footerItems,
 }) {
@@ -21,26 +22,23 @@ function ServiceDetailsPage({
                 <meta name="description" content={service.metaContent} />
                 <meta property="og:title" content={service.titleMeta} />
                 <link rel="canonical" href={service.canonical} />
-
             </Head>
 
-<Breadcrumb
+            <Breadcrumb
                 subTitle="Servicios"
                 title={service.title}
                 desc={service.parrafo}
             />
+            
+            <ServiceDetail service={service} />
 
-            <ServiceDetail
-               
-                service={service}
-              
-            />
+            
+            
+
             <ProductCluster />
-            <CallToAction />
+            
 
             <Footer footerItems={footerItems} />
-
-           
         </>
     );
 }
@@ -49,22 +47,18 @@ export function getStaticProps(context) {
     const { params } = context;
     const { slug } = params;
 
-    
     const service = getItemData(slug, 'services');
-    
-   
+
     const ourServices = getAllItems('our-service');
-   
+
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             service,
-           
-           
-         
+
             ourServices,
-          
+
             footerItems,
         },
     };
@@ -85,10 +79,9 @@ export function getStaticPaths() {
 
 ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
-   
-   
+
     ourServices: PropTypes.instanceOf(Object).isRequired,
- 
+
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 

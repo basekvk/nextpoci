@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
+import CallToAction from '../../cta';
+import CallToAction1 from '../../cta1';
 
 function ServiceContent({ service, ourServices }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -30,12 +32,15 @@ function ServiceContent({ service, ourServices }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.detailDesc}
                     </p>
+                    
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta2}
                     </h2>
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion1}
                     </p>
+                    
+                    <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
                     </p>
@@ -62,6 +67,7 @@ function ServiceContent({ service, ourServices }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion4}
                     </p>
+                    <CallToAction1 />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion41}
                     </p>

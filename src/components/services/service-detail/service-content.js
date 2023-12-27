@@ -3,6 +3,7 @@ import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
 import OurServices from './our-services';
 import Accordion from '../../acordeon';
+import CallToAction from '../../cta';
 
 
 function ServiceContent({ service, ourServices }) {
@@ -30,7 +31,7 @@ function ServiceContent({ service, ourServices }) {
                 />
             </div>
                 
-
+                <CallToAction /> 
                 <Accordion accordionData={service?.accordionData} />
 
                 <OurServices ourServices={ourServices} />

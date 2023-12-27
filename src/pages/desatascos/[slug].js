@@ -5,7 +5,7 @@ import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/desatascos/desatascos-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import LazyLoad from 'react-lazyload';
-import CallToAction from '../../components/cta';
+
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
 
@@ -31,7 +31,7 @@ function ServiceDetailsPage({
             <LazyLoad>
                 <ServiceDetail service={service} />
                 <ProductCluster />
-                <CallToAction />
+                
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
