@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 
+
 const MyDocument = () => {
     return (
         <Html lang="es">
@@ -33,6 +34,7 @@ const MyDocument = () => {
             <body>
                 <Main />
                 <NextScript />
+                
             </body>
         </Html>
     );
