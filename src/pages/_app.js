@@ -227,7 +227,7 @@ function MyApp({ Component, pageProps }) {
                           },
                           {
                             "@type": "Article",
-                            "headline": "Desatascos Madrid | Desatascos Pociten: Soluciones Rápidas y Eficaces 24/7",
+                            "headline": "Desatrancos y Poceros en Madrid | Desatascos Pociten",
                             "keywords": "desatascos madrid",
                             "datePublished": "2020-02-18T16:01:27+01:00",
                             "dateModified": "2023-12-17T11:11:51+01:00",
