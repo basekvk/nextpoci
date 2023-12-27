@@ -5,6 +5,7 @@ import { FaSearch, FaBars } from 'react-icons/fa';
 import { IoCloseOutline } from 'react-icons/io5';
 import classes from './header.module.scss';
 import { OffcanvasData } from './offcanvas-data';
+import Image from 'next/image';
 
 
 function Header() {
@@ -94,8 +95,9 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/">
                                         <a className={classes.logo}>
-                                            <img
-                                                
+                                            <Image
+                                                width={256}
+                                                height={53}                                                
                                                 src="/images/logo/light.webp"
                                                 alt="Logo Desatascos Pociten Blanco"
                                             />
@@ -106,8 +108,9 @@ function Header() {
                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
                                     <div className={classes.contact_number}>
-                                        <img
-                                            
+                                        <Image
+                                            width={32}
+                                            height={32}    
                                             src="/images/header/icon/phone.png"
                                             alt="Llama Ahora a Desatascos Pociten"
                                         />
