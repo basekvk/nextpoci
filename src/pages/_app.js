@@ -7,7 +7,6 @@ import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect } from 'react';
 import { useRouter, Router } from 'next/router';
 import LazyLoad from 'react-lazyload';
-import LocalBusinessSchema from '../components/localbusinessschema';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
