@@ -197,7 +197,7 @@ function MyApp({ Component, pageProps }) {
                             "@type": "WebSite",
                             "@id": "https://desatascos-madrid.com/#website",
                             "url": "https://desatascos-madrid.com",
-                            "name": "Desatascos Taser",
+                            "name": "Desatascos Pociten",
                             "publisher": {
                               "@id": "https://desatascos-madrid.com/#organization"
                             },
