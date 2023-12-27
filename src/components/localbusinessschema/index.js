@@ -3,130 +3,93 @@ import React from 'react';
 
 const LocalBusinessSchema = () => {
     const schemaData = {
-        '@context': 'https://schema.org',
-        '@type': 'Service',
-        "serviceType": 'Desatascos y Pocería',
-        "provider": {
-            '@type': 'Organization',
-            "name": 'Desatascos Pociten',
-            "image": 'https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=1080&q=75',
-            "address": {
-                '@type': 'PostalAddress',
-                "streetAddress": 'Calle Lezo 8, 4D',
-                "postalCode": '28041',
-                "addressLocality": 'Madrid',
-                "addressCountry": 'ES',
-            },
-            "telephone": '647 376 782',
-        },
-        "areaServed": {
-            '@type': 'Place',
-            "name": 'Comunidad de Madrid y zonas limítrofes'
-        },
-        "hasOfferCatalog": {
-            '@type': 'OfferCatalog',
-            "name": 'Servicios de Desatascos',
-            "itemListElement": [
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Desatascos Urgentes 24 Horas',
-                        "url": 'https://www.desatascos-madrid.com/services/desatascos-24horas'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Limpieza y Mantenimiento de Alcantarillado',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Inspección con Cámara de Tuberías',
-                        "url": 'https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Desatascos de Tuberías',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Desatascos de Fregaderos',
-                        "url": 'https://www.desatascos-madrid.com/'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Desatascos de WC',
-                        "url": 'https://www.desatascos-madrid.com/'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Vaciado de Fosas Sépticas',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-fosas-septicas'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Desatascos y Reparación de Arquetas',
-                        "url": 'https://www.desatascos-madrid.com/'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Achiques de Agua en Inundaciones',
-                        "url": 'https://www.desatascos-madrid.com/'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Limpieza de Alcantarillado',
-                        "url": 'https://www.desatascos-madrid.com/services/limpieza-de-tuberias'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Obras de pocería en Madrid',
-                        "url": 'https://www.desatascos-madrid.com/services/obras-de-poceria'
-                    }
-                },
-                {
-                    '@type': 'Offer',
-                    "itemOffered": {
-                        '@type': 'Service',
-                        "name": 'Acometidas de agua y desagües',
-                        "url": 'https://www.desatascos-madrid.com/services/poceros-madrid'
-                    }
+        
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": ["Organization"],
+                "@id": "https://desatascos-madrid.com/#organization",
+                "name": "Desatascos Pociten SL",
+                "sameAs": [
+                  "https://www.facebook.com/desatascospociten",
+                  "https://twitter.com/pociten",
+                  "https://instagram.com/pociten_desatascos",
+              "https://www.youtube.com/@PocitenDesatascos"
+                ],
+                "logo": {
+                  "@type": "ImageObject",
+                  "@id": "https://desatascos-madrid.com/#logo",
+                  "url": "https://www.desatascos-madrid.com/images/logo/light.png",
+                  "contentUrl": "https://www.desatascos-madrid.com/images/logo/light.png",
+                  "caption": "Desatascos Pociten",
+                  "inLanguage": "es",
+                  "width": "256",
+                  "height": "53"
                 }
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://desatascos-madrid.com/#website",
+                "url": "https://desatascos-madrid.com",
+                "name": "Desatascos Taser",
+                "publisher": {
+                  "@id": "https://desatascos-madrid.com/#organization"
+                },
+                "inLanguage": "es",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://desatascos-madrid.com/?s={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://desatascos-madrid.com/#webpage",
+                "url": "https://desatascos-madrid.com/",
+                "name": "Desatrancos y Pocería en Madrid | Desatascos Madrid",
+                "datePublished": "2023-04-26T16:01:27+01:00",
+                "dateModified": "2023-12-26T11:11:51+01:00",
+                "about": {
+                  "@id": "https://desatascos-madrid.com/#organization"
+                },
+                "isPartOf": {
+                  "@id": "https://desatascos-madrid.com/#website"
+                },
+                "primaryImageOfPage": {
+                  "@id": "https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                },
+                "inLanguage": "es"
+              },
+              {
+                "@type": "Article",
+                "headline": "Desatascos Madrid | Desatascos Pociten: Soluciones Rápidas y Eficaces 24/7",
+                "keywords": "desatascos madrid",
+                "datePublished": "2020-02-18T16:01:27+01:00",
+                "dateModified": "2023-12-17T11:11:51+01:00",
+                "author": {
+                  "@id": "https://desatascos-madrid.com/#author",
+                  "name": "admin"
+                },
+                "publisher": {
+                  "@id": "https://desatascos-madrid.com/#organization"
+                },
+                "description": "Desatascos Pociten, con más de 25 años de experiencia, es tu solución de confianza para desatascos en Madrid. Ofrecemos servicios rápidos y eficaces las 24 horas del día. Llámanos al 647 376 782 para solucionar tus problemas de atascos.",
+                "@id": "https://desatascos-madrid.com/#richSnippet",
+                "isPartOf": {
+                  "@id": "https://desatascos-madrid.com/#webpage"
+                },
+                "image": {
+                  "@id": "https://www.desatascos-madrid.com/images/services/inspeccion-tuberia-con-camara/inspeccion-tuberia-con-camara-lg.webp"
+                },
+                "inLanguage": "es",
+                "mainEntityOfPage": {
+                  "@id": "https://desatascos-madrid.com/#webpage"
+                }
+              }
             ]
-        },
-        "description":'Empresa líder de desatascos en la comunidad de Madrid. Ofrecemos servicios de desatascos de tuberías, desatrancos, limpieza y mantenimiento de alcantarillado, y más.'
-    };
+          }
+          
+    
     return (
         
             <script
