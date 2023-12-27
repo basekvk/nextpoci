@@ -1,5 +1,5 @@
 ---
-id: 'service-10'
+id: 'service-7'
 title: 'Inspección Tubería Con Cámara'
 titleMeta: "Desatascos Pociten: Expertos en Inspección de Tuberías con Cámara en Madrid"
 canonical: https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara
