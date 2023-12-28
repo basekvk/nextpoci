@@ -29,14 +29,14 @@ Para evitar este problema, es importante retirar bien los restos de comida antes
 <h3 style='font-size:26px'>Vertido incorrecto de aceite de cocina</h3>
 <p>Otra causa frecuente de los atascos en el fregadero es el vertido incorrecto de aceite de cocina. El aceite caliente puede fluir fácilmente por las tuberías, pero una vez se enfría, tiende a solidificarse y adherirse a las paredes de las cañerías. Con el tiempo, esta acumulación de grasa puede reducir el diámetro de las tuberías, dificultando el paso del agua.</p>
 <p>Para evitar este problema, es importante evitar verter aceite de cocina usado por el desagüe. Es recomendable recogerlo en un recipiente y desecharlo en el contenedor adecuado.</p>
-<ul>
-<li>➡️ Retirar bien los restos de comida antes de fregar los platos.</li>
+
+<p>➡️ Retirar bien los restos de comida antes de fregar los platos.</p>
 <br>
-<li>➡️ Utilizar un colador o filtro en el desagüe para atrapar los restos sólidos.</li>
+<p>➡️ Utilizar un colador o filtro en el desagüe para atrapar los restos sólidos.</p>
 <br>
-<li>➡️ No verter aceite de cocina usado por el desagüe.</li>
+<p>➡️ No verter aceite de cocina usado por el desagüe.</p>
 <br>
-<li>➡️ Recoger el aceite en un recipiente y desecharlo correctamente.</li>
+<p>➡️ Recoger el aceite en un recipiente y desecharlo correctamente.</p>
 <br>
 <p>Teniendo en cuenta estas causas, se puede prevenir la obstrucción del fregadero y garantizar su correcto funcionamiento.</p>
 <br />
@@ -45,16 +45,16 @@ Para evitar este problema, es importante retirar bien los restos de comida antes
 <p>Existen varios métodos caseros y económicos para desatascar un fregadero sin necesidad de utilizar productos químicos corrosivos. A continuación, se presentan dos métodos efectivos: el uso de vinagre y bicarbonato de sodio, y verter agua hirviendo en el desagüe.</p>
 <h3>Uso de vinagre y bicarbonato de sodio</h3>
 <p>Una combinación popular para desatascar un fregadero es el uso de vinagre y bicarbonato de sodio. Sigue estos pasos:</p>
-<ul>
-<li>1. Echa una taza de bicarbonato de sodio por el desagüe.</li>
+
+<p>1. Echa una taza de bicarbonato de sodio por el desagüe.</p>
 <br>
-<li>2. A continuación, vierte una taza de vinagre sobre el bicarbonato.</li>
+<p>2. A continuación, vierte una taza de vinagre sobre el bicarbonato.</p>
 <br>
-<li>3. Coloca el tapón en el fregadero y deja que esta mezcla actúe durante aproximadamente 30 minutos.</li>
+<p>3. Coloca el tapón en el fregadero y deja que esta mezcla actúe durante aproximadamente 30 minutos.</p>
 <br>
-<li>4. Finalmente, vierte abundante agua caliente para enjuagar el desagüe y repite el proceso si es necesario.</li>
+<p>4. Finalmente, vierte abundante agua caliente para enjuagar el desagüe y repite el proceso si es necesario.</p>
 <br>
-</ul>
+
 <p>La combinación de vinagre y bicarbonato de sodio ayuda a descomponer los restos de comida y las obstrucciones presentes en las tuberías, facilitando su eliminación.</p>
 <br>
 
