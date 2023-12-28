@@ -5,7 +5,7 @@ import CallToAction from '../../cta';
 import Presupuesto from '../../presupuesto';
 import CallButton from '../../CallButton';
 
-function ServiceContent({ service, ourServices }) {
+function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
 
     return (

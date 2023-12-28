@@ -147,7 +147,7 @@ function HomePage({
                 <h2 style={{textAlign: "center", fontSize: "40px"}} >OTROS SERVICIOS</h2>
             <GridServicios />
             </div>
-            <CallToAction />
+            <CallToAction text="inicio" />
             <ReviewsSection />
 
             <ContactForm contactItemsForm={contactItemsForm} />
