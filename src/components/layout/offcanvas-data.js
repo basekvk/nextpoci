@@ -68,6 +68,11 @@ export const OffcanvasData = [
                 link: '/services/inundaciones',
                 text: 'Inundaciones',
             },
+            {
+                id: 'submenu-15',
+                link: '/services/camion-cuba',
+                text: 'Camión Cuba',
+            },
         
         
         ],

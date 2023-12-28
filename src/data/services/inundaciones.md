@@ -21,22 +21,17 @@ detailSubTitle: 'Servicio de Achique de Agua profesional y garantizado'
 parrafo: 'Solución a las inundaciones de sótanos, garajes, trasteros, etc.. 24 horas a tu servicio'
 
 
-contenido: "
-<h1>Inundaciones: Respuesta Inmediata y Eficaz</h1>
+contenidoDescripcion: "
+<h2>Inundaciones: Respuesta Inmediata y Eficaz</h2>
 <p>Enfrentar las inundaciones requiere de un servicio de pocería urgente y confiable. En Desatascos Pociten, estamos disponibles las 24 horas para atender rápidamente estas emergencias, asegurando una evacuación efectiva del agua acumulada.</p>
 
 <p>Estos incidentes, a menudo imprevistos, pueden ser provocados por tormentas severas, descuidos como grifos abiertos, o averías en las tuberías. Una causa común es la saturación de los desagües, que, sin el mantenimiento adecuado, no logran desalojar el agua eficientemente.</p>
-
-<p>Nuestro equipo está especializado en manejar cualquier tipo de anegamiento, ya sea en espacios residenciales o comerciales, incluyendo garajes, sótanos o áreas de construcción. Contamos con tecnología avanzada en nuestros camiones de limpieza y succión, así como bombas de agua de última generación, para adaptarnos a cada situación específica.</p>
-
-
-<p>Nos comprometemos a realizar una evacuación de agua total, con el objetivo de minimizar el impacto y devolver la normalidad a su espacio en el menor tiempo posible. Con Desatascos Pociten, puede estar seguro de recibir una solución rápida y efectiva para sus problemas de inundaciones.
-</p>
-
-
-
-<hr>
 "
+contenidoDescripcion1: "<p>Nuestro equipo está especializado en manejar cualquier tipo de anegamiento, ya sea en espacios residenciales o comerciales, incluyendo garajes, sótanos o áreas de construcción. Contamos con tecnología avanzada en nuestros camiones de limpieza y succión, así como bombas de agua de última generación, para adaptarnos a cada situación específica.</p>"
+contenidoDescripcion2: "<p>Nos comprometemos a realizar una evacuación de agua total, con el objetivo de minimizar el impacto y devolver la normalidad a su espacio en el menor tiempo posible. Con Desatascos Pociten, puede estar seguro de recibir una solución rápida y efectiva para sus problemas de inundaciones.
+</p>
+"
+contenidoDescripcion3: ""
 accordionData:
  [
     {

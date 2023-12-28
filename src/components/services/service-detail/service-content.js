@@ -1,15 +1,13 @@
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
-import OurServices from './our-services';
-import Accordion from '../../acordeon';
-import CallToAction from '../../cta-services';
-
+import CallToAction from '../../cta';
+import CallToAction1 from '../../cta1';
+import Presupuesto from '../../presupuesto';
+import CallButton from '../../CallButton';
 
 function ServiceContent({ service, ourServices }) {
-    const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`
-
-
+    const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
 
     return (
         <Col lg={{ span: 12 }} className="pe-lg-45">
@@ -18,26 +16,88 @@ function ServiceContent({ service, ourServices }) {
                     className="img-full"
                     src={imagePath}
                     alt={service?.title}
+                    priority
                 />
             </div>
             <div className={classes.content}>
-                <h2 className={classes.title}>{service?.title}</h2>
-                <h3 className={classes.subtitle}>{service?.detailSubTitle}</h3>
+                <h2 className={classes.title}>{service?.title2}</h2>
+                <h2 className={classes.subtitle}>{service?.detailSubTitle}</h2>
+                <h2 className={classes.desc} style={{ fontSize: 30 }}>
+                    {service?.pregunta}
+                </h2>
+                <p className={classes.desc} style={{ fontSize: 20 }}>
+                    {service?.descripcion}
+                </p>
+                <p className={classes.desc} style={{ fontSize: 20 }}>
+                    {service?.detailDesc}
+                </p>
+
+                <h2 className={classes.desc} style={{ fontSize: 30 }}>
+                    {service?.pregunta2}
+                </h2>
+               
                 <div
                     className={classes.desc}
                     dangerouslySetInnerHTML={{
-                        __html: service.contenido,
+                        __html: service?.contenidoDescripcion,
                     }}
                 />
-            </div>
-                
                 <CallToAction text={service?.title} />
-                <Accordion accordionData={service?.accordionData} />
+              
 
-                <OurServices ourServices={ourServices} />
+                <div
+                    className={classes.desc}
+                    dangerouslySetInnerHTML={{
+                        __html: service?.contenidoDescripcion1,
+                    }}
+                />
+
+                <Presupuesto />
+                <div
+                    className={classes.desc}
+                    dangerouslySetInnerHTML={{
+                        __html: service?.contenidoDescripcion2,
+                    }}
+                />
+                <CallButton text={service?.title} />
+                <div
+                    className={classes.desc}
+                    dangerouslySetInnerHTML={{
+                        __html: service?.contenidoDescripcion3,
+                    }}
+                />
+
+                <h2 className={classes.desc} style={{ fontSize: 30 }}>
+                    {service?.pregunta4}
+                </h2>
                 
-            </Col>
-        
+                
+                <h2 className={classes.desc} style={{ fontSize: 30 }}>
+                    {service?.pregunta5}
+                </h2>
+
+            </div>
+
+            <div
+                className={classes.desc}
+                dangerouslySetInnerHTML={{
+                    __html: service.contenido,
+                }}
+            />
+            {/* 
+        <div className={classes.desc} style={styles}>
+            <Acordeon
+                title="¿CÓMO DESATASCO UNA TUBERÍA?"
+                content={content2}
+            />
+            <Acordeon
+                title="¿QUÉ PRODUCTOS PUEDO UTILIZAR?"
+                content={content2}
+            />
+        </div> */}
+
+            {/*PODEMOS INCLUIR CÓDIGO DESDE MARKDOWN*/}
+        </Col>
     );
 }
 

@@ -19,7 +19,7 @@ parrafo: "Resuelve tus problemas de tuberías con Desatascos Pociten"
 
 #Set inner Html con contenido variable
 
-contenido: "
+contenidoDescripcion: "
 <p>Como empresa líder en soluciones de pocería en Madrid, en Desatascos Pociten nos especializamos en servicios de desatrancos. Nuestro equipo de profesionales altamente capacitados y experimentados está equipado con herramientas de última generación para abordar cualquier problema de obstrucción de tuberías, desde pequeñas obstrucciones hasta grandes bloqueos que pueden causar daños graves en tu hogar o negocio.</p>
 <br>
 <h2>¿Qué son los desatrancos?</h2>
@@ -45,25 +45,28 @@ contenido: "
 <br>
 
 
-<h2>¿Cuándo debería considerar contratar servicios de desatrancos?</h2>
+
+
+"
+contenidoDescripcion1: "<h2>¿Cuándo debería considerar contratar servicios de desatrancos?</h2>
 <p>Si experimentas alguno de los siguientes problemas, deberías considerar contratar servicios de desatrancos:</p>
 <br>
-<li>Agua que no fluye correctamente por las tuberías</li>
-<li>Olores desagradables provenientes de las tuberías</li>
-<li>Sonidos extraños provenientes de las tuberías</li>
-<li>Pequeñas obstrucciones que no se pueden solucionar con productos químicos convencionales</li>
+<p>💧Agua que no fluye correctamente por las tuberías</p>
+<p>💧Olores desagradables provenientes de las tuberías</p>
+<p>💧Sonidos extraños provenientes de las tuberías</p>
+<p>💧Pequeñas obstrucciones que no se pueden solucionar con productos químicos convencionales</p>
 <br>
 
 <h2>¿Cómo puedo prevenir problemas de obstrucción de tuberías?</h2>
-<p>Aquí hay algunas medidas que puedes tomar para prevenir problemas de obstrucción de tuberías en tu hogar o negocio:</p>
-<li>No arrojes materiales inapropiados por el desagüe, como toallitas húmedas, pañales, grasa o aceite.</li>
-<li>Usa rejillas en los desagües para evitar que el cabello y otros residuos entren en las tuberías.</li>
-<li>Limpia regularmente los desagües con agua caliente y bicarbonato de sodio para prevenir la acumulación de residuos.</li>
+<p>➡️Aquí hay algunas medidas que puedes tomar para prevenir problemas de obstrucción de tuberías en tu hogar o negocio:</p>
+<p>➡️No arrojes materiales inapropiados por el desagüe, como toallitas húmedas, pañales, grasa o aceite.</p>
+<p>➡️Usa rejillas en los desagües para evitar que el cabello y otros residuos entren en las tuberías.</p>
+<p>➡️Limpia regularmente los desagües con agua caliente y bicarbonato de sodio para prevenir la acumulación de residuos.</p>
 
 <br>
 <h2>¿Cómo funciona el proceso de desatrancos de Desatascos Pociten?</h2>
-<p>Cuando nos llamas para solicitar nuestros servicios de desatrancos, enviaremos a uno de nuestros profesionales a tu hogar o negocio para realizar una evaluación del problema. Utilizaremos herramientas de última generación, como cámaras de inspección y equipos de alta presión, para identificar la causa del problema. Una vez que se haya identificado la causa, desarrollaremos una solución personalizada y efectiva para resolver el problema de obstrucción de tuberías.</h3>
-<h2>¿Qué otros servicios ofrece Desatascos Pociten?</h2>
+<p>Cuando nos llamas para solicitar nuestros servicios de desatrancos, enviaremos a uno de nuestros profesionales a tu hogar o negocio para realizar una evaluación del problema. Utilizaremos herramientas de última generación, como cámaras de inspección y equipos de alta presión, para identificar la causa del problema. Una vez que se haya identificado la causa, desarrollaremos una solución personalizada y efectiva para resolver el problema de obstrucción de tuberías.</h3>"
+contenidoDescripcion2: "<h2>¿Qué otros servicios ofrece Desatascos Pociten?</h2>
 <p>Además de nuestros servicios de desatrancos, en Desatascos Pociten también ofrecemos una amplia gama de servicios de pocería, como instalación de tuberías, reparación de fugas y mantenimiento fosas sépticas, construccioón de pozos negros, limpieza y mantenimiento de alcantarillado, limpieza de arquetas. Nos enorgullece ofrecer servicios de alta calidad a precios competitivos y con un enfoque personalizado para satisfacer las necesidades de cada uno de nuestros clientes.</p>
 <br>
 <h2>¿Dónde ofrecemos nuestros servicios?</h2>
@@ -85,8 +88,9 @@ contenido: "
 <br>
 <p>✅ Naves industriales, que generan residuos que sin remedio se acumulan en sus arquetas produciendo atrancos.</p>
 <br>
-<p>Si estás experimentando problemas de obstrucción de tuberías en tu hogar o negocio, Desatascos Pociten es la solución perfecta para ti. Con nuestro equipo altamente capacitado, herramientas de última generación, soluciones personalizadas y precios competitivos, puedes estar seguro de que recibirás los mejores servicios de desatrancos en el mercado. Además, ofrecemos una amplia gama de servicios de pocería para satisfacer todas tus necesidades.</p>
-"
+<p>Si estás experimentando problemas de obstrucción de tuberías en tu hogar o negocio, Desatascos Pociten es la solución perfecta para ti. Con nuestro equipo altamente capacitado, herramientas de última generación, soluciones personalizadas y precios competitivos, puedes estar seguro de que recibirás los mejores servicios de desatrancos en el mercado. Además, ofrecemos una amplia gama de servicios de pocería para satisfacer todas tus necesidades.</p>"
+contenidoDescripcion3: ""
+
 
 accordionData:
  [

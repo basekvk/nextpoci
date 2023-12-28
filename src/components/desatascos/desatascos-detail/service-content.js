@@ -6,7 +6,7 @@ import CallToAction1 from '../../cta1';
 import Presupuesto from '../../presupuesto';
 import GridServices from '../../gridservicios';
 
-function ServiceContent({ service, ourServices }) {
+function ServiceContent({ service}) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
 
     return (
