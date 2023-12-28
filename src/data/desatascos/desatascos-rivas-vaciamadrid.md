@@ -17,7 +17,7 @@ title2: 'Desatascos en Rivas Vaciamadrid'
 detailSubTitle: 'Desatascos Pociten ofrece servicios de desatascos y poceria 24/7 en Rivas Vaciamadrid. Con nuestro equipo de expertos y tecnología de inspección con cámara, estamos preparados para cualquier emergencia.'
 
 #PARRAFO slider
-parrafo: "Nuestros Expertos en Desatascos Están Listos para Ayudarte"
+parrafo: "Nuestros Expertos en Desatascos en Rivas están listos para ayudarte"
 
 #PARRAFO Primera pregunta
 
