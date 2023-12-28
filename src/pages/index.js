@@ -12,6 +12,7 @@ import CookiePopup from '../components/cookiebanner';
 import ReviewsSection from '../components/reviews';
 import Areastrabajo from '../components/areastrabajo';
 import CallButton from '../components/CallButton';
+import GridServicios from '../components/GridServicios';
 
 function HomePage({
     heroItems,
@@ -142,6 +143,10 @@ function HomePage({
                 </p>
             </div>
             <br></br>
+            <div className="container" >
+                <h2 style={{textAlign: "center", fontSize: "40px"}} >OTROS SERVICIOS</h2>
+            <GridServicios />
+            </div>
             <CallToAction />
             <ReviewsSection />
 

@@ -1,4 +1,5 @@
-import Review from './reviews';
+import Review from  './reviews';
+import styles from './reviews.module.css';
 
 function ReviewsSection() {
   const reviewsData = [
@@ -41,12 +42,21 @@ function ReviewsSection() {
   ];
 
   return (
-    <div>
-      <h3 style={{ textAlign: "center", margin: "1rem 0",fontSize: "32px"  }}>Lo Que Dicen Nuestros Clientes</h3>
-      {reviewsData.map((review, index) => (
-        <Review key={index} {...review} />
-      ))}
-    </div>
+    <>
+
+    <h4 className={styles.reviewsTitle} style={{fontSize: "32px", textAlign: "center"}}  >Opiniones de nuestros clientes</h4> 
+    <div className={styles.reviewsContainer}>
+    {reviewsData.map((review, index) => (
+      <Review 
+        key={index} 
+        name={review.name} 
+        date={review.date} 
+        content={review.content} 
+        stars={review.stars} 
+      />
+    ))}
+  </div>
+  </>
   );
 }
 
