@@ -12,7 +12,7 @@ import CookiePopup from '../components/cookiebanner';
 import ReviewsSection from '../components/reviews';
 import Areastrabajo from '../components/areastrabajo';
 import CallButton from '../components/CallButton';
-import GridServicios from '../components/GridServicios';
+import GridServicios from '../components/gridservicios';
 
 function HomePage({
     heroItems,

@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
 import CallToAction from '../../cta';
-import CallToAction1 from '../../cta1';
 import Presupuesto from '../../presupuesto';
 import CallButton from '../../CallButton';
 
