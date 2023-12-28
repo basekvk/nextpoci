@@ -50,7 +50,10 @@ contenidoDescripcion: "
 <br>
 
 
-<h2>¿Cómo funcionan nuestros servicios?</h2>
+
+
+"
+contenidoDescripcion1: "<h2>¿Cómo funcionan nuestros servicios?</h2>
 <p>En Desatascos Pociten, ofrecemos una amplia gama de servicios de desatascos y desatrancos en Móstoles. Algunos de nuestros servicios más populares incluyen:</p>
 
 <h3>Desatascos de tuberías</h3>
@@ -64,8 +67,8 @@ contenidoDescripcion: "
 <br>
 <h3>Soluciones personalizadas</h3>
 <p>En Desatascos Pociten, entendemos que cada problema de pocería es único. Por eso, ofrecemos soluciones personalizadas para cada cliente. Trabajamos con usted para entender su situación y encontrar la mejor solución posible para resolver el problema.</p>
-<br>
-<h2>¿Cómo prevenir futuros problemas de pocería?</h2>
+<br>"
+contenidoDescripcion2: "<h2>¿Cómo prevenir futuros problemas de pocería?</h2>
 <p>En Desatascos Pociten, no solo ofrecemos servicios de desatascos y desatrancos, sino que también podemos ayudarlo a prevenir futuros problemas de pocería. Algunas de las medidas preventivas que puede tomar incluyen:</p>
 
 <h3>Mantenimiento regular</h3>
@@ -76,9 +79,8 @@ contenidoDescripcion: "
 <p>No arroje residuos por el inodoro o el fregadero. Esto puede causar obstrucciones y atascos en sus tuberías. En su lugar, deshágase de los residuos de manera responsable y adecuada.</p>
 <br>
 <h3>Revisar las tuberías de forma regular</h3>
-<p>Revise sus tuberías de manera regular para detectar cualquier problema temprano. Si nota algún problema, contáctenos de inmediato para que podamos solucionarlo antes de que empeore.</p>
-"
-
+<p>Revise sus tuberías de manera regular para detectar cualquier problema temprano. Si nota algún problema, contáctenos de inmediato para que podamos solucionarlo antes de que empeore.</p>"
+contenidoDescripcion3: ""
 #PARRAFO Cuarta pregunta
 
 descripcion4: "En Desatascos Pociten, ofrecemos los mejores servicios de desatascos y desatrancos en Móstoles. Contamos con un equipo altamente capacitado y los mejores equipos y técnicas para resolver cualquier problema de pocería que se presente en su hogar o negocio. Además, ofrecemos soluciones personalizadas y podemos ayudarlo a prevenir futuros problemas de pocería. Si tiene algún problema de pocería, no dude en contactarnos."

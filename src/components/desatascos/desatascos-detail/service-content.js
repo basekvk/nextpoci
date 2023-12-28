@@ -3,6 +3,8 @@ import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
 import CallToAction from '../../cta';
 import CallToAction1 from '../../cta1';
+import Presupuesto from '../../presupuesto';
+import GridServices from '../../gridservicios';
 
 function ServiceContent({ service, ourServices }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -39,7 +41,12 @@ function ServiceContent({ service, ourServices }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion1}
                     </p>
-                    
+                    <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion,
+                        }}
+                    />
                     <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
@@ -54,12 +61,28 @@ function ServiceContent({ service, ourServices }) {
                         {service?.descripcion31}
                     </p>
 
+                   
                     <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion,
+                            __html: service?.contenidoDescripcion1,
                         }}
                     />
+                    <GridServices />
+                     <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion2,
+                        }}
+                    />
+                    <Presupuesto />
+                     <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion3,
+                        }}
+                    />
+
 
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta4}
@@ -146,7 +169,7 @@ function ServiceContent({ service, ourServices }) {
                         href="tel:647376782"
                         call-button
                     >
-                      <h4>📞 Desatascos 24 Horas 647 376 782</h4>  
+                      <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>  
                       <p style={{color: "white"}}>Presiona el botón para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
                     </a>
                 </div>

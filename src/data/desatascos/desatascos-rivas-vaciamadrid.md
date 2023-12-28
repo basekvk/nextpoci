@@ -21,28 +21,12 @@ parrafo: "Nuestros Expertos en Desatascos en Rivas están listos para ayudarte"
 
 #PARRAFO Primera pregunta
 
-
-
-descripcion: ""
-detailDesc: ""
-
-
-#PARRAFO Segunda pregunta
-pregunta2: 
-descripcion1: ""
-descripcion2: ""
-
-#PARRAFO Tercera pregunta
-
-pregunta3: 
-descripcion3: 
-
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<h2>Desatascos en Rivas Vaciamadrid: Tu Servicio de Pocería de Confianza</h2>
+<h2>Desatrancos en Rivas Vaciamadrid -Tu Servicio de Pocería de Confianza</h2>
 
-<p>En <strong>Desatascos Pociten</strong>, somos expertos en <em>desatascos en Rivas Vaciamadrid</em>. Con un servicio disponible <strong>24 horas al día</strong>, nuestros profesionales están preparados para responder a todas tus necesidades de desatascos urgentes en Rivas Vaciamadrid, sin importar la hora ni el día.</p>
+<p>En <strong>Desatascos Pociten</strong>, somos expertos en <em>desatrancos en Rivas Vaciamadrid</em>. Con un servicio disponible <strong>24 horas al día</strong>, nuestros profesionales están preparados para responder a todas tus necesidades de desatascos urgentes en Rivas Vaciamadrid, sin importar la hora ni el día.</p>
 
 <h2>Desatascos de Calidad a tu Servicio</h2>
 
@@ -52,7 +36,11 @@ contenidoDescripcion: "
 
 <p>En Desatascos Pociten, llevamos la eficiencia y la precisión a un nuevo nivel con nuestra inspección con cámara en Rivas Vaciamadrid. Usando cámaras de alta resolución, nuestros expertos pueden identificar y resolver problemas de atascos con precisión, evitando excavaciones innecesarias y costosas.</p>
 
-<h2>Obras de Pocería Profesionales</h2>
+
+
+
+"
+contenidoDescripcion1: "<h2>Obras de Pocería Profesionales</h2>
 
 <p>Además de proporcionar servicios de desatrancos, también somos especialistas en <em>obras de pocería en Rivas Vaciamadrid</em>. Ya sea que necesites nuevas instalaciones o reparaciones, nuestro equipo tiene la experiencia y las habilidades necesarias para hacer el trabajo de manera efectiva y eficiente.</p>
 
@@ -62,11 +50,9 @@ contenidoDescripcion: "
 
 <h2>Contacta con Desatascos Pociten Hoy</h2>
 
-<p>En Desatascos Pociten, nos enorgullece ser la primera opción de muchos hogares y empresas en Rivas Vaciamadrid para sus necesidades de desatascos y pocería. Contáctanos hoy mismo y descubre por qué somos los mejores en lo que hacemos.</p>
-
-
-"
-
+<p>En Desatascos Pociten, nos enorgullece ser la primera opción de muchos hogares y empresas en Rivas Vaciamadrid para sus necesidades de desatascos y pocería. Contáctanos hoy mismo y descubre por qué somos los mejores en lo que hacemos.</p>"
+contenidoDescripcion2: ""
+contenidoDescripcion3: ""
 #PARRAFO Cuarta pregunta
 
 descripcion4: ""
