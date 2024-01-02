@@ -9,11 +9,48 @@ import LazyLoad from 'react-lazyload';
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
 
-function ServiceDetailsPage({
-    service,
-
-    footerItems,
-}) {
+function ServiceDetailsPage({ service, footerItems }) {
+    const structuredData = {
+        '@context': 'http://schema.org',
+        '@type': 'Service',
+        name: service.title,
+        description: service.desc,
+        url: service.canonical,
+        image: service.image,
+        brand: {
+            '@type': 'Brand',
+            name: 'Desatascos Pociten',
+            logo: 'https://www.desatascos-madrid.com/images/logo/light.webp',
+        },
+        offers: {
+            '@type': 'Offer',
+            price: '',
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            url: service.canonical,
+            seller: {
+                '@type': 'Organization',
+                name: 'Desatascos Pociten',
+            },
+            areaServed: {
+                '@type': 'Place',
+                name: 'Comunidad de Madrid',
+            },
+            category: 'https://schema.org/Plumber',
+            itemCondition: 'https://schema.org/NewCondition',
+            mpn: 'MPN',
+            itemOffered: {
+                '@type': 'Service',
+                name: 'Desatascos',
+                description: 'Desatascos y Poceros en Madrid',
+                brand: {
+                    '@type': 'Brand',
+                    name: 'Desatascos Pociten',
+                    logo: 'https://www.desatascos-madrid.com/images/logo/light.webp',
+                },
+            },
+        },
+    };
     return (
         <>
             <Head>
@@ -21,6 +58,9 @@ function ServiceDetailsPage({
                 <meta name="description" content={service.metaContent} />
                 <link rel="canonical" href={service.canonical} />
                 <meta property="og:title" content={service.titleMeta} />
+                <script type="application/ld+json">
+                    {JSON.stringify(structuredData)}
+                </script>
             </Head>
 
             <Breadcrumb
@@ -31,7 +71,7 @@ function ServiceDetailsPage({
             <LazyLoad>
                 <ServiceDetail service={service} />
                 <ProductCluster />
-                
+
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
