@@ -13,40 +13,40 @@ function ServiceDetailsPage({ service, footerItems }) {
     const structuredData = {
         '@context': 'http://schema.org',
         '@type': 'Service',
-        name: service.title,
-        description: service.desc,
-        url: service.canonical,
-        image: service.image,
-        brand: {
+        "name": service.title,
+        "description": service.metaContent,
+        "url": service.canonical,
+        "image": service.image,
+        "brand": {
             '@type': 'Brand',
-            name: 'Desatascos Pociten',
-            logo: 'https://www.desatascos-madrid.com/images/logo/light.webp',
+            "name": 'Desatascos Pociten',
+            "logo": 'https://www.desatascos-madrid.com/images/logo/light.webp',
         },
-        offers: {
+        "offers": {
             '@type': 'Offer',
-            price: '',
-            priceCurrency: 'EUR',
-            availability: 'https://schema.org/InStock',
-            url: service.canonical,
-            seller: {
+            "price": '',
+            "priceCurrency": 'EUR',
+            "availability": 'https://schema.org/InStock',
+            "url": service.canonical,
+            "seller": {
                 '@type': 'Organization',
-                name: 'Desatascos Pociten',
+                "name": 'Desatascos Pociten',
             },
-            areaServed: {
+            "areaServed": {
                 '@type': 'Place',
-                name: 'Comunidad de Madrid',
+                "name": 'Comunidad de Madrid',
             },
-            category: 'https://schema.org/Plumber',
-            itemCondition: 'https://schema.org/NewCondition',
-            mpn: 'MPN',
-            itemOffered: {
+            "category": 'https://schema.org/Plumber',
+            "itemCondition": 'https://schema.org/NewCondition',
+            "mpn": 'MPN',
+            "itemOffered": {
                 '@type': 'Service',
-                name: 'Desatascos',
-                description: 'Desatascos y Poceros en Madrid',
-                brand: {
+                "name": service.title,
+                "description": service.metaContent,
+                "brand": {
                     '@type': 'Brand',
-                    name: 'Desatascos Pociten',
-                    logo: 'https://www.desatascos-madrid.com/images/logo/light.webp',
+                    "name": 'Desatascos Pociten',
+                    "logo": 'https://www.desatascos-madrid.com/images/logo/light.webp',
                 },
             },
         },
