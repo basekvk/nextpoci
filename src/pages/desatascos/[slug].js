@@ -12,46 +12,23 @@ import Areastrabajo from '../../components/areastrabajo';
 function ServiceDetailsPage({ service, footerItems }) {
     const structuredData = {
         '@context': 'http://schema.org',
-        '@type': 'Service',
-        "name": service.title,
-        "description": service.metaContent,
-        "url": service.canonical,
-        "image": service.image,
-        "brand": {
-            '@type': 'Brand',
-            "name": 'Desatascos Pociten',
-            "logo": 'https://www.desatascos-madrid.com/images/logo/light.webp',
+        '@type': 'Organization',
+        url: service.canonical,
+        name: service.title,
+        logo: service.image,
+        description: service.metaContent,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Calle Lezo 8',
+            addressLocality: 'Madrid',
+            postalCode: '28041',
+            addressCountry: 'ES',
         },
-        "offers": {
-            '@type': 'Offer',
-            "price": '',
-            "priceCurrency": 'EUR',
-            "availability": 'https://schema.org/InStock',
-            "url": service.canonical,
-            "seller": {
-                '@type': 'Organization',
-                "name": 'Desatascos Pociten',
-            },
-            "areaServed": {
-                '@type': 'Place',
-                "name": 'Comunidad de Madrid',
-            },
-            "category": 'https://schema.org/Plumber',
-            "itemCondition": 'https://schema.org/NewCondition',
-            "mpn": 'MPN',
-            "itemOffered": {
-                '@type': 'Service',
-                "name": service.title,
-                "description": service.metaContent,
-                "brand": {
-                    '@type': 'Brand',
-                    "name": 'Desatascos Pociten',
-                    "logo": 'https://www.desatascos-madrid.com/images/logo/light.webp',
-                },
-            },
-            "email": 'info@pocitendesatascos.es',
-            "telephone": '+346',
-        },
+        contactPoint: {
+            '@type': 'ContactPoint',
+            contactType: 'customer support',
+            telephone: '+34647376782',
+        }
     };
     return (
         <>
