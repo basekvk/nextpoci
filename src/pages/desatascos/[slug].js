@@ -49,6 +49,8 @@ function ServiceDetailsPage({ service, footerItems }) {
                     "logo": 'https://www.desatascos-madrid.com/images/logo/light.webp',
                 },
             },
+            "email": 'info@pocitendesatascos.es',
+            "telephone": '+346',
         },
     };
     return (
