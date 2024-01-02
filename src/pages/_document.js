@@ -34,7 +34,7 @@ const MyDocument = () => {
             <body>
                 <Main />
                 <NextScript />
-                
+                <img src="https://tracker.metricool.com/c3po.jpg?hash=87000e24db10b294b3151b5f362f5f72"/>  
             </body>
         </Html>
     );
