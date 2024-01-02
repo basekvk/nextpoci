@@ -11,8 +11,9 @@ import Areastrabajo from '../../components/areastrabajo';
 
 function ServiceDetailsPage({ service, footerItems }) {
     const structuredData = {
-        '@context': 'http://schema.org',
-        '@type': 'Organization',
+        '@context': 'http://schema.org/plumber',
+        '@id': service.canonical + '#webpage',
+        '@type': 'WebPage',
         url: service.canonical,
         name: service.title,
         logo: service.image,
