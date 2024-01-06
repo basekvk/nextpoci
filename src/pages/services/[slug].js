@@ -4,8 +4,6 @@ import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-
-import CallToAction from '../../components/cta';
 import ProductCluster from '../../components/cluster';
 
 
@@ -30,14 +28,8 @@ function ServiceDetailsPage({
                 desc={service.parrafo}
             />
             
-            <ServiceDetail service={service} />
-
-            
-            
-
-            <ProductCluster />
-            
-
+            <ServiceDetail service={service} />        
+            <ProductCluster localidad={service?.lugar} />
             <Footer footerItems={footerItems} />
         </>
     );

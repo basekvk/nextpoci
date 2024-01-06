@@ -71,7 +71,7 @@ function HomePage({
             <br>
             
             </br>
-            <ProductCluster />
+            <ProductCluster localidad= "Madrid" />
            
             <CallButton />
             

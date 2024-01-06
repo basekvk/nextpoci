@@ -3,7 +3,7 @@ id: 'service-11'
 title: 'Poceros en Madrid'
 titleMeta: 'Poceros en Madrid | Servicios de pocería - Desatascos Madrid'
 canonical: https://www.desatascos-madrid.com/services/poceros-madrid
-
+lugar: 'Madrid'
 mediumImage: 'poceros-madrid-md.webp'
 largeImage: 'poceros-madrid-lg.webp'
 

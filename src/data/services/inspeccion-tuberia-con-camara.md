@@ -9,7 +9,7 @@ mediumImage: 'inspeccion-tuberia-con-camara-md.webp'
 largeImage:  'inspeccion-tuberia-con-camara-lg.webp'
 detailBreadcrumbSubTitle: 'Inspección Tubería Con Cámara'
 detailBreadcrumbDesc: 'Inspecciona tus tuberías con cámara TV, ofrecemos los mejores precios.'
-
+lugar: 'Madrid'
 title2: 'Inspección Tuberías con Cámara'
 #PARRAFO color negro de fondo y letras en verde
 detailSubTitle: 'Inspección de Tuberías con Cámara de Televisión: Todo lo que Necesitas Saber'

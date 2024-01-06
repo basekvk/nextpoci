@@ -3,7 +3,7 @@ id: 'service-04'
 title: 'Desatascos Baratos'
 titleMeta: "Desatascos Baratos - Poceros - ¡Precios increíbles!"
 canonical: https://www.desatascos-madrid.com/services/desatascos-baratos
-
+lugar: 'Madrid'
 metaContent: "¿Buscas desatascos baratos y de calidad? ¡Tenemos la solución! Poceros rápidos y eficaces las 24 horas. ¡Pide tu presupuesto ya! ☎️​ 647 376 782"
 mediumImage: 'desatascosbaratos-md.webp'
 largeImage: 'desatascosbaratos-lg.webp'

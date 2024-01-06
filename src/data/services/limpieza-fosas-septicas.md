@@ -9,7 +9,7 @@ largeImage: 'fosassepticas-lg.webp'
 metaContent: " ¿Buscas servicios de limpieza, vaciado y mantenimiento de fosas sépticas? Desatascos Pociten ofrece soluciones personalizadas y eco-amigables. Tu satisfacción es nuestra prioridad. ¡Contáctanos ahora!☎️​ 647 376 782"
 detailBreadcrumbSubTitle: 'Limpieza y Mantenimiento Fosas Sépticas'
 detailBreadcrumbDesc: 'Reparación de tubería con manga con los mejores precios.'
-
+lugar: 'Madrid'
 
 
 title2: '

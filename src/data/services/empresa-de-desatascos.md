@@ -9,7 +9,7 @@ mediumImage: 'empresadedesatascos-md.jpg'
 largeImage: 'empresadedesatascos-ld.webp'
 detailBreadcrumbSubTitle: 'Empresa de Desatascos'
 detailBreadcrumbDesc: 'Desatascos 24 horas: Experiencia y profesionalismo desde Desatascos Pociten'
-
+lugar: 'Madrid'
 title2: 'Empresa de desatascos'
 #PARRAFO color negro de fondo y letras en verde
 detailSubTitle: 'Empresa de desatascos con la solución a tus problemas de tuberías'

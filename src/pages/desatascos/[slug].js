@@ -50,7 +50,7 @@ function ServiceDetailsPage({ service, footerItems }) {
             />
             <LazyLoad>
                 <ServiceDetail service={service} />
-                <ProductCluster />
+                <ProductCluster localidad={service?.lugar} />
 
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />

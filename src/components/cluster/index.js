@@ -61,17 +61,38 @@ const services = [
 },
 {
   id: 9,
-  title: 'Poceros Madrid',
+  title: 'Poceros',
   image: '/images/cluster/poceros-madrid-lg.webp',
   alt: 'Servicios Poceros Madrid',
   url: '/services/poceros-madrid',
 },
+{
+  id: 10,
+  title: 'Inundaciones',
+  image: '/images/cluster/inundaciones-md.webp',
+  alt: 'Servicios Inundaciones en Madrid',
+  url: '/services/inundaciones',
+},
+{
+  id: 11,
+  title: 'Camión Cuba',
+  image: '/images/cluster/camion-cuba-md.webp',
+  alt: 'Servicios Camión Cuba Desatascos',
+  url: '/services/camion-cuba',
+},
+{
+  id: 12,
+  title: 'Reparación Tuberías Sin Obra',
+  image: '/images/cluster/reparacion-tuberias-sin-obras-md.webp',
+  alt: 'Servicios Reparación Tuberías Sin Obra',
+  url: '/services/reparacion-tuberias-sin-obras',
+},
 ];
 
-const ProductCluster = () => {
+const ProductCluster = ({localidad}) => {
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>Servicios Desatascos Pociten</h2>
+            <h2 className={styles.title}>Servicios Poceros en  {localidad}</h2>
             <div className={styles.cluster}>
                 { services.map((service, index) => (
                         <div key={index} className={styles.box}>

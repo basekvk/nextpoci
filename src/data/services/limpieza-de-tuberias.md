@@ -9,7 +9,7 @@ detailBreadcrumbSubTitle: 'Tuberías'
 titleMeta: "Desatascos de Tuberías - Desatascos Pociten"
 metaContent: "¿Tuberías obstruidas? Nuestros especialistas en desatascos de tuberías brindan un servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782"
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
-
+lugar: 'Madrid'
 
 title2: 'Desatascos de Tuberías'
 #PARRAFO color negro de fondo y letras en verde

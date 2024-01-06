@@ -10,7 +10,7 @@ largeImage: 'inundaciones-md.webp'
 metaContent: 'Inundaciones. Servicio urgente para la evacuación de aguas ✅ Disponemos de camiones preparados para la subción de aguas por bombeos. Rápidos y económicos.'
 detailBreadcrumbSubTitle: 'Inundaciones'
 detailBreadcrumbDesc: 'Inundaciones'
-
+lugar: 'Madrid'
 
 
 title2: 'Inundaciones: Respuesta Inmediata y Eficaz'

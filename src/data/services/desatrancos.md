@@ -8,7 +8,7 @@ mediumImage: 'desatrancos-md.webp'
 largeImage: 'desatrancos-lg.webp'
 detailBreadcrumbSubTitle: 'Desatrancos'
 detailBreadcrumbDesc: 'Desatascos Baratos: Experiencia y profesionalismo desde Desatascos Pociten'
-
+lugar: 'Madrid'
 title2: 'Empresa de Desatrancos'
 #PARRAFO color negro de fondo y letras en verde
 detailSubTitle: 'Desatrancos: Soluciones eficientes para problemas de tuberías en tu hogar o negocio'

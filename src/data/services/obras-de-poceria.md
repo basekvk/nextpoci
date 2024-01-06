@@ -3,7 +3,7 @@ id: 'service-10'
 title: 'Obras de Pocería'
 titleMeta: "Obras de Pocería - Pociten - Saneamiento de Redes"
 canonical: https://www.desatascos-madrid.com/services/obras-de-poceria
-
+lugar: 'Madrid'
 mediumImage: 'obrasdepoceria-md.webp'
 largeImage: 'obrasdepoceria-lg.webp'
 metaContent: "Pociten - Obras de Pocería: expertos en saneamiento de redes 🔧. Garantizamos calidad y eficiencia en nuestros trabajos. ¡Llama ya! ☎️ 647 376 782."
