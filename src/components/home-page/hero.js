@@ -19,6 +19,7 @@ function Hero({ heroItems }) {
                 objectFit="cover"
                 quality={75}
                 priority
+                sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" // Ejemplo de tamaños para dispositivos móviles y de escritorio
             />
             {/* El contenedor y el contenido */}
             <div className={classes.heroContainer}>
