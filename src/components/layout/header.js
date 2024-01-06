@@ -6,6 +6,7 @@ import { IoCloseOutline } from 'react-icons/io5';
 import classes from './header.module.scss';
 import { OffcanvasData } from './offcanvas-data';
 import Image from 'next/image';
+import LogoColor from '../../SVG/logoColor';
 
 function Header() {
     // Header Sticky Activation
@@ -97,11 +98,9 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/">
                                         <a className={classes.logo}>
-                                            <Image
-                                                width={256}
-                                                height={53}
-                                                src="/images/logo/light.webp"
-                                                alt="Logo Desatascos Pociten Blanco"
+                                            <LogoColor
+                                            width={256}
+                                            height={63}
                                             />
                                         </a>
                                     </Link>
