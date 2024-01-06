@@ -23,18 +23,7 @@ const MyDocument = () => {
                 
 
                 {/* cargar de forma diferida Font Awesome  */}
-                <link
-                    rel="preload"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-                    as="style"
-                    onLoad="this.onload=null;this.rel='stylesheet'"
-                />
-                <noscript>
-                    <link
-                        rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-                    />
-                </noscript>
+              
 
                 {/* Tu componente LocalBusinessSchema aquí */}
             </Head>
