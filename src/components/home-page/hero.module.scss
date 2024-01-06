@@ -13,10 +13,7 @@
         align-items: center;
         @include breakpoint(max-xl-device) {
             height: 610px;
-        }
-        &-01 {
-            background-image: url('/images/hero/1.webp');
-        }
+        }      
     }
 }
 .subtitle {
@@ -62,7 +59,7 @@
 }
 .title {
     h1 {
-        color:white;
+        color: white;
         font-size: 88px;
         line-height: 85px;
         font-weight: 700;
@@ -84,10 +81,9 @@
 }
 
 .desc {
-    margin-bottom: 35px;
-    max-width: 520px;
-    font-size: 20px;
+    max-width: 350px; // Asumiendo que deseas usar píxeles
     justify-content: center;
+    align-items: center;
 }
 .btn {
     &_wrap {
@@ -98,9 +94,16 @@
     position: relative;
     width: 100%;
     height: 70vh;
-  
-   
-    @media (max-width: 768px) { 
-      height: 50vh;
+
+    @media (max-width: 768px) {
+        height: 50vh;
     }
-  }
+}
+.heroContainer {
+    position: absolute;
+    top: 100px; // Asumiendo que deseas usar píxeles
+    left: 30px; // Asumiendo que deseas usar píxeles
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
