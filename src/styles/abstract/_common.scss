@@ -529,51 +529,8 @@ iframe {
     }
 }
 
-/* -Breadcrumb- */
-.page {
-    &_banner {
-        &__bg {
-            background-image: url('/images/breadcrumb/bg/1.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 460px;
-            display: flex;
-            align-items: center;
-        }
-    }
-    &_subtitle {
-        font-family: 'Rajdhani', sans-serif;
-        color: #fff;
-        font-size: 24px;
-        line-height: 30px;
-        display: block;
-        position: relative;
-        padding-left: 100px;
-        &:before {
-            background-color: $primary;
-            width: 80px;
-            height: 1px;
-            position: absolute;
-            content: '';
-            top: 50%;
-            left: 0;
-            transform: translateY(-50%);
-        }
-    }
-    &_title {
-        color: #003a70;
-        margin-bottom: 5px;
-        padding-top: 15px;
-        font-size: 88px;
-        line-height: 0.97;
-        @include breakpoint(max-xs-device) {
-            font-size: 50px;
-        }
-    }
-    &_desc {
-        max-width: 380px;
-    }
-}
+
+
 
 /* -Text Color- */
 .text {

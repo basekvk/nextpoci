@@ -10,7 +10,7 @@ function Hero({ heroItems }) {
     // Por ejemplo, .hero-container { position: relative; z-index: 1; }
 
     return (
-        <div className={classes.heroBackground} style={{ position: 'relative', width: '100%', height: '70vh' }}>
+        <div className={classes.heroBackground} >
             {/* La imagen de fondo */}
             <Image
                 src="/images/hero/1.webp"
@@ -21,7 +21,7 @@ function Hero({ heroItems }) {
                 priority
             />
             {/* El contenedor y el contenido */}
-            <div className={classes.heroContainer} style={{ position: 'absolute', top: 100, left: 60, width: '100%', height: '100%', zIndex: 1 }}>
+            <div className={classes.heroContainer} style={{ position: 'absolute', top: 100, left: 30, width: '100%', height: '100%', zIndex: 1 }}>
                 <div className={classes.container}> {/* Asegúrate de que esta clase esté definida para contener y centrar tu contenido */}
                     <div className={classes.content}> {/* Esta clase debería posicionar tu contenido sobre la imagen */}
                         <span className={`subtitle-animation ${classes.subtitle}`}>
@@ -38,6 +38,7 @@ function Hero({ heroItems }) {
                             dangerouslySetInnerHTML={{
                                 __html: heroItem.desc,
                             }}
+                            style={{ maxWidth: 350, justifyContent: 'center', alignItems: 'center' }}
                         />
                         <div className={`btn-animation ${classes.btn_wrap}`}>
                             <Link href="/contacto">
