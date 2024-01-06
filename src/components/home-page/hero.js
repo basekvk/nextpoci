@@ -12,7 +12,7 @@ function Hero({ heroItems }) {
 
     return (
         <div className={classes.heroBackground}>
-            <LazyLoad>
+           
             <Image
                 src="/images/hero/1.webp"
                 alt="Poceria Pociten desatascos en Madrid Camion Cuba"
@@ -22,7 +22,7 @@ function Hero({ heroItems }) {
                 priority
                 sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" // Ejemplo de tamaños para dispositivos móviles y de escritorio
             />
-            </LazyLoad>
+           
             {/* La imagen de fondo */}
            
             {/* El contenedor y el contenido */}
