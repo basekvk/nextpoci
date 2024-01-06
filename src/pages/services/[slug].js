@@ -5,6 +5,7 @@ import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import ProductCluster from '../../components/cluster';
+import Problemas from '../../components/problemas';
 
 
 function ServiceDetailsPage({
@@ -28,7 +29,8 @@ function ServiceDetailsPage({
                 desc={service.parrafo}
             />
             
-            <ServiceDetail service={service} />        
+            <ServiceDetail service={service} />   
+            <Problemas />     
             <ProductCluster localidad={service?.lugar} />
             <Footer footerItems={footerItems} />
         </>

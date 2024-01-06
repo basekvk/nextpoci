@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect } from 'react';
 import { useRouter, Router } from 'next/router';
 import LazyLoad from 'react-lazyload';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
@@ -20,15 +21,18 @@ function MyApp({ Component, pageProps }) {
             });
     };
     useEffect(() => {
-        pageView(router.pathname, document.title);
         const handleRouteChange = (url) => {
-            pageView(url, document.title);
+            window.gtag('config', 'G-G7RR3SK94G', {
+                page_path: url,
+            });
         };
-        Router.events.on('routeChangeComplete', handleRouteChange);
+
+        router.events.on('routeChangeComplete', handleRouteChange);
         return () => {
-            Router.events.off('routeChangeComplete', handleRouteChange);
+            router.events.off('routeChangeComplete', handleRouteChange);
         };
-    }, []);
+    }, [router.events]);
+    
     return (
         <Layout>
             <Head>
@@ -39,7 +43,7 @@ function MyApp({ Component, pageProps }) {
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
-                
+
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="google-site-verification"
@@ -164,9 +168,9 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta name="theme-color" content="#ffffff" />
                 <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html:`
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
                     {
         
                         "@context": "https://schema.org",
@@ -253,10 +257,28 @@ function MyApp({ Component, pageProps }) {
                           }
                         ]
                       }
-                    `
+                    `,
+                    }}
+                />
+            </Head>
+            {/* Google Analytics Script */}
+            <Script
+                strategy="afterInteractive"
+                src={`https://www.googletagmanager.com/gtag/js?id=G-G7RR3SK94G`}
+            />
+            <Script
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+                        gtag('config', 'G-G7RR3SK94G', {
+                          page_path: window.location.pathname,
+                        });
+                      `,
                 }}
             />
-            </Head>
             <LazyLoad>
                 <Analytics />
             </LazyLoad>

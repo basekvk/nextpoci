@@ -5,6 +5,7 @@ import CallToAction from '../../cta';
 import CallToAction1 from '../../cta1';
 import Presupuesto from '../../presupuesto';
 import GridServices from '../../gridservicios';
+import Problemas from '../../problemas';
 
 function ServiceContent({ service}) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -76,6 +77,7 @@ function ServiceContent({ service}) {
                         }}
                     />
                     <Presupuesto />
+                    
                      <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
@@ -97,40 +99,14 @@ function ServiceContent({ service}) {
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta5}
                     </h2>
-
+                    <Problemas />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion5}
                     </p>
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion51}
                     </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option1}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option2}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option3}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option4}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option5}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option6}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option7}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option8}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option9}
-                    </p>
+                   
                 </div>
 
                 <div

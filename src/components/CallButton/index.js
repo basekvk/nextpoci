@@ -8,7 +8,7 @@ const CallButton = () => (
       href="tel:647376782" // Número de teléfono
       className={styles.callButton}
     >
-      Llamar Ahora
+      Llama Ahora
     </a>
   </div>
 );

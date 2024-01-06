@@ -29,7 +29,7 @@ function ServiceDetailsPage({ service, footerItems }) {
             '@type': 'ContactPoint',
             contactType: 'customer support',
             telephone: '+34647376782',
-        }
+        },
     };
     return (
         <>
@@ -51,7 +51,6 @@ function ServiceDetailsPage({ service, footerItems }) {
             <LazyLoad>
                 <ServiceDetail service={service} />
                 <ProductCluster localidad={service?.lugar} />
-
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
@@ -62,16 +61,12 @@ function ServiceDetailsPage({ service, footerItems }) {
 export function getStaticProps(context) {
     const { params } = context;
     const { slug } = params;
-
-    const sidebarList = getAllItems('desatascos');
     const service = getItemData(slug, 'desatascos');
-
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             service,
-
             footerItems,
         },
     };
