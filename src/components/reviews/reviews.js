@@ -27,7 +27,16 @@ const Review = ({ name, date, content, stars }) => {
         <div className={style.reviewStars}>{'★'.repeat(stars)}</div>
         <span className={style.reviewDate}>{date}</span>
       </div>
-      <p className={expanded ? style.reviewContentExpanded : style.reviewContent}>{content}</p>
+      <p className={expanded ? style.reviewContentExpanded : style.reviewContent}>
+          {content}
+        </p>
+        <div 
+          className={style.readMoreLink} 
+          onClick={toggleExpanded}
+        >
+          {expanded ? 'Leer menos' : 'Leer más'}
+        </div>
+      
     </div>
     </div>
   );
