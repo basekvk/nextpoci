@@ -98,10 +98,12 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/">
                                         <a className={classes.logo}>
-                                            <LogoColor
-                                            width={256}
-                                            height={63}
-                                            />
+                                        <Image
+                                    width={256}
+                                    height={63}
+                                    src="/images/logo/light.webp"
+                                    alt="Logo Desatascos Pociten Color"
+                                />
                                         </a>
                                     </Link>
                                 </div>
