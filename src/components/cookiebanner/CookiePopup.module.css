@@ -6,31 +6,29 @@
   background-color: white;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Cambio para apilar verticalmente el texto y el botón */
+  align-items: center; /* Centra los elementos horizontalmente */
   border-top: 2px solid #003a70;
-  z-index: 9999; /* Asegura que esté por encima de otros elementos */
-  opacity: 0.9; /* Ligeramente transparente para reducir su visibilidad */
+  z-index: 9999;
+  opacity: 0.95;
 }
 
 .p {
-  flex: 1;
-  margin-right: 20px;
-  font-size: 12px; /* Tamaño de fuente reducido para minimizar el banner */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; /* Añade elipsis si el texto es demasiado largo */
+  margin-bottom: 10px; /* Añade espacio entre el texto y el botón */
+  font-size: 12px;
+  text-align: center; /* Alinea el texto al centro */
 }
 
 .button {
-  padding: 5px 15px; /* Reducción de padding para minimizar el botón */
+  padding: 5px 15px;
   background-color: #00bbb4;
   color: #003a70;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-size: 12px; /* Reducción del tamaño de la fuente del botón */
+  font-size: 12px;
+  margin: 0 auto; /* Centra el botón horizontalmente */
 }
 
 .button:hover {
@@ -38,19 +36,17 @@
   color: #00bbb4;
 }
 
-/* Ajustes responsivos para dispositivos más pequeños */
 @media (max-width: 768px) {
   .popupContainer {
-    padding: 5px; /* Reducción del padding en dispositivos móviles */
+    flex-direction: column;
   }
 
   .p {
-    font-size: 10px; /* Tamaño de fuente más pequeño para móviles */
-    margin-right: 10px; /* Menos margen para ahorrar espacio */
+    font-size: 10px;
   }
 
   .button {
-    padding: 5px 10px; /* Padding más pequeño para botones en dispositivos móviles */
-    font-size: 10px; /* Tamaño de fuente más pequeño para móviles */
+    padding: 5px 10px;
+    font-size: 10px;
   }
 }
