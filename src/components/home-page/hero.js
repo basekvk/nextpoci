@@ -20,7 +20,7 @@ function Hero({ heroItems }) {
                 objectFit="cover"
                 quality={75}
                 priority
-                sizes="(max-width: 768px) 110vw, (min-width: 769px) 60vw" // Ejemplo de tamaños para dispositivos móviles y de escritorio
+                sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" // Ejemplo de tamaños para dispositivos móviles y de escritorio
             />
            
             {/* La imagen de fondo */}
