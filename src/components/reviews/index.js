@@ -22,7 +22,7 @@ function ReviewsSection() {
       stars: 5
     },
     {
-      name: "Pedro Salgado García",
+      name: "Pedro Salgado",
       date: "14:59 03 Jul 23",
       content: "Recomendable 100%, una empresa seria, con un presupuesto más que coherente y una atención exquisita. El resultado inmejorable, resuelto el problema con suma rapidez y eficacia, dejando todo después limpio y sin dejar rastro de haber estado. Muchas gracias por todo!",
       stars: 5

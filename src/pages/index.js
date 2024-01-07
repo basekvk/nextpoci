@@ -105,7 +105,10 @@ function HomePage({
             <GridServicios />
             </div>
             <CallToAction text="inicio" />
+            <div className='container'>
             <ReviewsSection />
+            </div>
+            
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
