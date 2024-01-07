@@ -60,6 +60,7 @@ const FloatingButton = () => {
                     border: 'none',
                     cursor: 'pointer',
                     border: '1px solid white',
+                   
                     
                 }}
                 onClick={scrollToTop}

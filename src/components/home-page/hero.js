@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Image from 'next/image';
 import classes from './hero.module.scss';
-import LazyLoad from 'react-lazyload';
+
 
 function Hero({ heroItems }) {
     const heroItem = heroItems[0];
@@ -20,7 +20,7 @@ function Hero({ heroItems }) {
                 objectFit="cover"
                 quality={75}
                 priority
-                sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" // Ejemplo de tamaños para dispositivos móviles y de escritorio
+               // Ejemplo de tamaños para dispositivos móviles y de escritorio
             />
            
             {/* La imagen de fondo */}
