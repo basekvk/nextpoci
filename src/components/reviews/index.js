@@ -44,7 +44,7 @@ function ReviewsSection() {
   return (
     <>
 
-    <h3 className={styles.reviewsTitle} style={{fontSize: "36px", textAlign: "center"}}>Opiniones de nuestros clientes</h3> 
+    <h3 className={styles.reviewsTitle} style={{fontSize: "36px", textAlign: "center", textTransform: "uppercase"}}>Opiniones de nuestros clientes</h3> 
     <div className={styles.reviewsContainer}>
     {reviewsData.map((review, index) => (
       <Review 
