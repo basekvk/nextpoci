@@ -21,7 +21,7 @@ htmlCode: "
 <p>Las obras de pocería son aquellas relacionadas con la instalación, reparación, mantenimiento y rehabilitación de redes de saneamiento y alcantarillado. Estas labores son esenciales para garantizar un correcto funcionamiento de los sistemas de evacuación de aguas residuales y pluviales.</p>
 <br>
 <h3 style='font-size:32px'>2.Pasos a seguir antes de comenzar un proyecto de pocería</h3>
-<p>Las <a href="https://www.desatascos-madrid.com/services/obras-de-poceria">obras de pocería</a> son aquellas relacionadas con la instalación, reparación, mantenimiento y rehabilitación de redes de saneamiento y alcantarillado. Estas labores son esenciales para garantizar un correcto funcionamiento de los sistemas de evacuación de aguas residuales y pluviales.</p>
+<p>Las <a href='https://www.desatascos-madrid.com/services/obras-de-poceria'>obras de pocería</a> son aquellas relacionadas con la instalación, reparación, mantenimiento y rehabilitación de redes de saneamiento y alcantarillado. Estas labores son esenciales para garantizar un correcto funcionamiento de los sistemas de evacuación de aguas residuales y pluviales.</p>
 <br>
 <h3 style='font-size:32px'>3.Pasos a seguir antes de comenzar un proyecto de pocería</h3>
 <br>
