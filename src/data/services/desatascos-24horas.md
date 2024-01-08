@@ -15,7 +15,7 @@ title2: 'Desatrancos 24 Horas'
 detailSubTitle: 'Desatascos 24 horas: Experiencia y profesionalismo desde Desatascos Pociten'
 
 #PARRAFO slider
-parrafo: "Desatascos urgentes en toda la Comunidad de Madrid y zonas aledañas"
+parrafo: "Desatascos 24 horas en toda la Comunidad de Madrid y zonas aledañas"
 
 
 #Set inner Html con contenido variable

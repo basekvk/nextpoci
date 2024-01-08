@@ -99,7 +99,7 @@ contenido: "
 <br>
 
 <h3>Conclusión</h3>
-<p>En Desatascos Pociten, somos una empresa de confianza y altamente capacitada para resolver tus problemas de pocería. Ofrecemos servicios de emergencia las 24 horas, personal altamente capacitado, tecnología de última generación y una amplia gama de servicios para satisfacer tus necesidades de pocería.</p>
+<p>Somos una empresa de confianza y altamente capacitada para resolver tus problemas de pocería. Ofrecemos servicios de emergencia las 24 horas, personal altamente capacitado, tecnología de última generación y una amplia gama de servicios para satisfacer tus necesidades de pocería.</p>
 <p>Si necesitas ayuda con un problema de atasco, no dudes en contactarnos. Estaremos encantados de ayudarte a encontrar la solución más adecuada para tu problema. ¡En Desatascos Pociten, estamos aquí para solucionar tus problemas de pocería de manera rápida y eficiente!</p>
 "
 
