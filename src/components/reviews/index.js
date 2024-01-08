@@ -1,4 +1,5 @@
-import Review from './reviews';
+import Review from  './reviews';
+import styles from './reviews.module.css';
 
 function ReviewsSection() {
   const reviewsData = [
@@ -21,7 +22,7 @@ function ReviewsSection() {
       stars: 5
     },
     {
-      name: "Pedro Salgado García",
+      name: "Pedro Salgado",
       date: "14:59 03 Jul 23",
       content: "Recomendable 100%, una empresa seria, con un presupuesto más que coherente y una atención exquisita. El resultado inmejorable, resuelto el problema con suma rapidez y eficacia, dejando todo después limpio y sin dejar rastro de haber estado. Muchas gracias por todo!",
       stars: 5
@@ -41,12 +42,21 @@ function ReviewsSection() {
   ];
 
   return (
-    <div>
-      <h3 style={{ textAlign: "center", margin: "1rem 0",fontSize: "32px"  }}>Lo Que Dicen Nuestros Clientes</h3>
-      {reviewsData.map((review, index) => (
-        <Review key={index} {...review} />
-      ))}
-    </div>
+    <>
+
+    <h3 className={styles.reviewsTitle} style={{fontSize: "36px", textAlign: "center", textTransform: "uppercase"}}>Opiniones de nuestros clientes</h3> 
+    <div className={styles.reviewsContainer}>
+    {reviewsData.map((review, index) => (
+      <Review 
+        key={index} 
+        name={review.name} 
+        date={review.date} 
+        content={review.content} 
+        stars={review.stars} 
+      />
+    ))}
+  </div>
+  </>
   );
 }
 

@@ -4,7 +4,7 @@ title: 'Desatascos en Alcalá de Henares'
 titleMeta: "Desatascos y Poceros en Alcalá de Henares | 24 Horas"
 canonical: https://www.desatascos-madrid.com/desatascos/desatascos-alcala
 
-lugar: 'Alcalá'
+lugar: 'Alcalá de Henares'
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosalcala-md.webp'
 metaContent: "Pociten: Desatascos y Poceros en Alcalá de Henares. Servicio 24h 🕑. Soluciones rápidas y eficaces para atascos. ¡Contáctanos! ☎️ 647 376 782"

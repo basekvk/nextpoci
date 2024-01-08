@@ -1,8 +1,13 @@
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
 import classes from './index.module.scss';
+import CallToAction from '../../cta';
+import CallToAction1 from '../../cta1';
+import Presupuesto from '../../presupuesto';
+import GridServices from '../../gridservicios';
+import Problemas from '../../problemas';
 
-function ServiceContent({ service, ourServices }) {
+function ServiceContent({ service}) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
 
     return (
@@ -30,12 +35,20 @@ function ServiceContent({ service, ourServices }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.detailDesc}
                     </p>
+                    
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta2}
                     </h2>
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion1}
                     </p>
+                    <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion,
+                        }}
+                    />
+                    <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
                     </p>
@@ -49,12 +62,29 @@ function ServiceContent({ service, ourServices }) {
                         {service?.descripcion31}
                     </p>
 
+                   
                     <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion,
+                            __html: service?.contenidoDescripcion1,
                         }}
                     />
+                    <GridServices />
+                     <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion2,
+                        }}
+                    />
+                    <Presupuesto />
+                    
+                     <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion3,
+                        }}
+                    />
+
 
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta4}
@@ -62,46 +92,21 @@ function ServiceContent({ service, ourServices }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion4}
                     </p>
+                    <CallToAction1 />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion41}
                     </p>
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta5}
                     </h2>
-
+                    <Problemas />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion5}
                     </p>
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion51}
                     </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option1}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option2}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option3}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option4}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option5}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option6}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option7}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option8}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.option9}
-                    </p>
+                   
                 </div>
 
                 <div
@@ -140,7 +145,8 @@ function ServiceContent({ service, ourServices }) {
                         href="tel:647376782"
                         call-button
                     >
-                        📞 Urgencias 24 Horas 647 376 782
+                      <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>  
+                      <p style={{color: "white"}}>Presiona el botón para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
                     </a>
                 </div>
             </Col>

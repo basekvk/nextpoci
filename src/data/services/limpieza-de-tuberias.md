@@ -1,34 +1,39 @@
 ---
 id: 'service-02'
-title: 'Limpieza Tuberías'
+title: 'Desatasco Tuberías'
 canonical: https://www.desatascos-madrid.com/services/limpieza-de-tuberias
 
 mediumImage: 'limpiezadetuberias-md.webp'
 largeImage: 'limpiezadetuberias-lg.webp'
 detailBreadcrumbSubTitle: 'Tuberías'
-titleMeta: "Limpieza de Tuberías - Expertos en Desatascos"
-metaContent: "¿Tuberías obstruidas? Nuestros especialistas en limpieza de tuberías brindan un servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782"
+titleMeta: "Desatascos de Tuberías - Desatascos Pociten"
+metaContent: "¿Tuberías obstruidas? Nuestros especialistas en desatascos de tuberías brindan un servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782"
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
+lugar: 'Madrid'
 
-
-title2: 'Limpieza de Tuberías'
+title2: 'Desatascos de Tuberías'
 #PARRAFO color negro de fondo y letras en verde
-detailSubTitle: 'Limpieza de Tubería, expertos en desatascos'
+detailSubTitle: 'Limpieza de Tubería, expertos en desatrancos'
 
 #PARRAFO slider
-parrafo: "Soluciones de limpieza de tuberías personalizadas para su hogar o negocio"
+parrafo: "Soluciones de desatascos de tuberías personalizadas para su hogar o negocio"
 
 
 
 #Set inner Html con contenido variable
 
-contenido: "
-<p>Como expertos en el mantenimiento y limpieza de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
+contenidoDescripcion: "
+<p>Como expertos en el mantenimiento y desatascos de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
 <br>
 <h2>¿Qué es la limpieza de tuberías?</h2>
 <p>Antes de profundizar en los detalles de cómo limpiamos las tuberías, es importante comprender qué es la limpieza de tuberías y por qué es necesaria. En términos simples, la limpieza de tuberías es el proceso de eliminar cualquier obstrucción o residuo que haya acumulado en las tuberías con el tiempo. Esto puede incluir todo, desde cabello y residuos de alimentos hasta sedimentos y otros materiales que se acumulan en las tuberías con el tiempo.</p>
 <br></br>
-<h2>Los desafíos de la limpieza de tuberías</h2>
+
+
+
+
+"
+contenidoDescripcion1: "<h2>Los desafíos de la limpieza de tuberías</h2>
 <p>La limpieza de tuberías puede ser un proceso complicado, especialmente si la obstrucción es particularmente difícil de alcanzar. En Desatascos Pociten, hemos enfrentado muchos desafíos a lo largo de los años, y algunos de los más comunes incluyen:</p>
 
 <h3>Obstrucciones difíciles de alcanzar</h3>
@@ -40,9 +45,8 @@ contenido: "
 
 <h3>Materiales peligrosos</h3>
 <p>En algunos casos, los materiales acumulados en las tuberías pueden ser peligrosos para la salud, lo que significa que debemos tener cuidado de protegernos mientras realizamos la limpieza. En estos casos, utilizamos equipo de protección personal para garantizar nuestra seguridad.</p>
-<br>
-
-<h2>Cómo limpiamos las tuberías</h2>
+<br>"
+contenidoDescripcion2: "<h2>Cómo limpiamos las tuberías</h2>
 <p>En Desatascos Pociten, utilizamos una variedad de técnicas y herramientas para limpiar las tuberías, dependiendo de la situación. Algunos de los métodos más comunes que utilizamos incluyen:</p>
 <h3>Hidrojet</h3>
 <p>Un hidrojet es una herramienta que utiliza agua a alta presión para despejar las obstrucciones en las tuberías. Es especialmente efectivo para eliminar residuos duros o pegajosos que no se pueden quitar con otras herramientas.</p>
@@ -54,8 +58,8 @@ contenido: "
 <h2>Nuestro enfoque en Desatascos Pociten</h2>
 <p>En Desatascos Pociten, creemos en un enfoque personalizado para cada uno de nuestros clientes. Cada situación es única, y trabajamos con nuestros clientes para entender sus necesidades específicas y crear soluciones adaptadas a ellas. Esto significa que tomamos el tiempo para evaluar cada situación y determinar el mejor enfoque para solucionar el problema.</p>
 <p>Además, utilizamos solo las mejores herramientas y tecnologías disponibles en el mercado para garantizar que el trabajo se realice de manera eficiente y efectiva. Esto significa que nuestros clientes pueden estar seguros de que su sistema de pocería estará en buenas manos cuando trabajen con nosotros.</p>
-<br>
-<h2>¿Dónde ofrece sus servicios Desatascos Pociten?</h2>
+<br>"
+contenidoDescripcion3: "<br><br><h2>¿Dónde ofrece sus servicios Desatascos Pociten?</h2>
 <p>✅ Pisos y viviendas en general con problemas de atascos en bañeras, fregaderos o inodoros</p>
 <br>
 <p>✅ Chalets individuales, adosados o pareados de clientes particulares en general con problemas de atascos en arquetas de hojas o tierra.</p>
@@ -74,8 +78,9 @@ contenido: "
 <br>
 <p>✅ Naves industriales, que generan residuos que sin remedio se acumulan en sus arquetas produciendo atrancos.</p>
 <br>
-<p>La limpieza de tuberías es un proceso importante y a menudo desafiante, pero en Desatascos Pociten, estamos comprometidos con proporcionar soluciones personalizadas y efectivas para cada uno de nuestros clientes. Con nuestra experiencia y tecnología de vanguardia, podemos limpiar tuberías de manera eficiente y efectiva, asegurando que su sistema de pocería funcione correctamente.</p>
-"
+<p>La limpieza de tuberías es un proceso importante y a menudo desafiante, pero en Desatascos Pociten, estamos comprometidos con proporcionar soluciones personalizadas y efectivas para cada uno de nuestros clientes. Con nuestra experiencia y tecnología de vanguardia, podemos limpiar tuberías de manera eficiente y efectiva, asegurando que su sistema de pocería funcione correctamente.</p>"
+
+
 accordionData:
  [
     {

@@ -11,6 +11,9 @@ import ContactForm from '../components/form-page';
 import CookiePopup from '../components/cookiebanner';
 import ReviewsSection from '../components/reviews';
 import Areastrabajo from '../components/areastrabajo';
+import CallButton from '../components/CallButton';
+import GridServicios from '../components/gridservicios';
+import Problemas from '../components/problemas';
 
 function HomePage({
     heroItems,
@@ -53,6 +56,7 @@ function HomePage({
                     mantenimiento de fosas sépticas, reparación de tuberías sin
                     obra, etc...
                 </p>
+                
                <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
@@ -62,9 +66,17 @@ function HomePage({
                     mejor precio, no busques más, los acabas de encontrar.
                     Compruébalo
                 </p>
+                <br />  
+                <CallButton />
             </div>
-            <br></br>
-            <ProductCluster />
+            <br>
+            
+            </br>
+            <ProductCluster localidad= "Madrid" />
+           
+            <CallButton />
+            
+            
 
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
@@ -74,7 +86,7 @@ function HomePage({
                 </h2>
                 <p>
                     ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
-                    importa ni el cuándo ni dónde, llámanos y acudiremos a tu
+                    importa ni el cuándo ni el dónde, llámanos y acudiremos a tu
                     llamada en el menor tiempo posible con nuestro servicio de
                     desatascos urgentes 24 horas.{' '}
                 </p>
@@ -86,53 +98,17 @@ function HomePage({
                     vecinos o domicilio particular
                 </p>
             </div>
-            <div className="container">
-                <h4 className="text-center" style={{ fontSize: '28px' }}>
-                    Llámanos si tienes alguno de estos problemas:
-                </h4>
-                <p>
-                    <ul>
-                        <li>
-                        ✅ Escuchar ruidos extraños en desagües o inodoros{' '}
-                        </li>
-                        <li>
-                        ✅ Atascos en el WC: sale agua por el inodoro o no
-                            desagua{' '}
-                        </li>
-                        <li>
-                        ✅ Atasco en la bañera: sale agua por la bañera, sale
-                            agua por el plato de ducha o no tragan los desagües
-                            correctamente.
-                        </li>
-                        <li>
-                        ✅ Atasco de arquetas, no recogen el agua o sale agua
-                            por ellas.
-                        </li>
-                        <li>
-                        ✅ Las arquetas de las parcelas no se vacían y
-                            desbordan el agua.
-                        </li>
-                        <li>
-                        ✅ Aparecen manchas de humedad en las paredes y no
-                            detectan el problema.{' '}
-                        </li>
-                        <li>
-                        ✅ Atasco en bajantes de la comunidad Fregadero
-                            atascado , no traga, sale agua y huele mal.{' '}
-                        </li>
-                        <li>
-                        ✅ Detectar malos olores en el hogar salientes de los
-                            desagües.{' '}
-                        </li>
-                        <li>
-                        ✅ Canalones que rebosan y no se vacían con la lluvia.
-                        </li>
-                    </ul>
-                </p>
-            </div>
+            <Problemas />
             <br></br>
-            <CallToAction />
+            <div className="container" >
+                <h2 style={{textAlign: "center", fontSize: "40px"}} >OTROS SERVICIOS</h2>
+            <GridServicios />
+            </div>
+            <CallToAction text="inicio" />
+            <div className='container'>
             <ReviewsSection />
+            </div>
+            
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>

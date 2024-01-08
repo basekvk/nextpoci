@@ -8,6 +8,8 @@ const nextConfig = {
     images: {
         domains: ['desatascos-madrid.com'],
         formats: ['image/avif', 'image/webp'],
+        deviceSizes: [640, 768, 1024, 1280, 1600], // Tamaños de dispositivo que Next.js usará para las imágenes responsivas
+        imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Tamaños de imagen para iconos y otros elementos gráficos pequeños
     },
     /*async redirects() {
         return [

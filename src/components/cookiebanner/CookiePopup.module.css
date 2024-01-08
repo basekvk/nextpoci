@@ -1,33 +1,52 @@
 .popupContainer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 2px solid #003a70; /* Color azul oscuro basado en desatascos-madrid.com */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Cambio para apilar verticalmente el texto y el botón */
+  align-items: center; /* Centra los elementos horizontalmente */
+  border-top: 2px solid #003a70;
+  z-index: 9999;
+  opacity: 0.95;
+}
+
+.p {
+  margin-bottom: 10px; /* Añade espacio entre el texto y el botón */
+  font-size: 12px;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.button {
+  padding: 5px 15px;
+  background-color: #00bbb4;
+  color: #003a70;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+.button:hover {
+  background-color: #003a70;
+  color: #00bbb4;
+}
+
+@media (max-width: 768px) {
+  .popupContainer {
+    flex-direction: column;
   }
-  
+
   .p {
-    flex: 1;
-    margin-right: 20px;
+    font-size: 10px;
   }
-  
+
   .button {
-    padding: 10px 20px;
-    background-color: #00bbb4; /* Color turquesa basado en desatascos-madrid.com */
-    color: #003a70; /* Color azul oscuro basado en desatascos-madrid.com */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    padding: 5px 10px;
+    font-size: 10px;
   }
-  
-  .button:hover {
-    background-color: #003a70;
-    color: #00bbb4;
-  }
-  
+}

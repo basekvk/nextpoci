@@ -5,11 +5,13 @@ import { getBlogCategories } from '../../../lib/blog-categories';
 import { getAllItems } from '../../../lib/items-util';
 import { getBlogTags } from '../../../lib/blog-tags';
 
-function BlogCategoryPage({ categories, tags, blogs, blogsSidebar }) {
+function BlogCategoryPage({ categories, tags, blogs, blogsSidebar, slug }) {
+    const canonicalUrl = `https://www.desatascos-madrid.com/blog/category/${slug}`;
     return (
         <>
             <Head>
                 <title>Desatascos y Poceros en Madrid | Blog - Desatascos Pociten</title>
+                <link rel="canonical" href={canonicalUrl} />
                 <meta name="description" content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías" />
             </Head>
             <h1 className='container' style={{padding:"20px", textAlign: 'center', fontSize: '42px', marginTop: '20px'}} >Consulta Nuestros Últimos Artículos sobre Pocería y Desatascos</h1>

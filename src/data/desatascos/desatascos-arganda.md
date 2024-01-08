@@ -2,7 +2,7 @@
 id: 'service-04'
 title: 'Desatascos en Arganda'
 titleMeta: "Desatascos y Poceros en Arganda del Rey - Desatrancos "
-lugar: 'Arganda'
+lugar: 'Arganda del Rey'
 canonical: https://www.desatascos-madrid.com/desatascos/desatascos-arganda
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosarganda-md.webp'

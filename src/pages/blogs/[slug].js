@@ -23,10 +23,29 @@ function BlogDetailPage({
         "description": blog.desc,
         "author": {
             "@type": "Person",
-            "name": "Desatascos Pociten"
-            // Otros detalles del autor si están disponibles
+            "name": "Desatascos Pociten",
+            "url": "https://www.desatascos-madrid.com",
+            "sameAs": [
+                "https://www.facebook.com/desatascospociten",
+                "https://twitter.com/pociten",
+                "https://instagram.com/pociten_desatascos",
+                "https://www.youtube.com/@PocitenDesatascos"
+            ],
+            "image": "https://www.desatascos-madrid.com/images/logo/light.webp",
+            "jobTitle": "Desatascos y Poceros en Madrid",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Desatascos Pociten",
+                "url": "https://www.desatascos-madrid.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.desatascos-madrid.com/images/logo/light.webp"
+                }
+            },
+
+            
         },
-        // Añadir más propiedades según sea necesario
+        
     };
     return (
         <>

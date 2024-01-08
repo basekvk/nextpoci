@@ -5,14 +5,14 @@ import Image from 'next/image';
 const services = [
     {
         id: 1,
-        title: 'Desatascos 24 Horas',
+        title: 'Desatascos Urgentes',
         image: '/images/cluster/desatascos24horas-lg.webp',
         alt: 'Servicios Desatascos',
         url: '/services/desatascos-24horas',
     },
     {
         id: 2,
-        title: 'Limpieza de Tuberías',
+        title: 'Desatascos Tuberías',
         image: '/images/cluster/limpiezadetuberias-lg.webp',
         alt: 'Servicios Limpieza de Tuberías',
         url: '/services/limpieza-de-tuberias',
@@ -40,7 +40,7 @@ const services = [
     },
     {
         id: 6,
-        title: 'Inspección CCTV',
+        title: 'Inspección Tuberías con Cámara',
         image: '/images/cluster/inspeccion-tuberia-con-camara-lg.webp',
         alt: 'Servicios Inspección CCTV',
         url: '/services/inspeccion-tuberia-con-camara',
@@ -54,24 +54,45 @@ const services = [
   },
   {
     id: 8,
-    title: 'Fosas Sépticas',
+    title: 'Vaciado Fosas Sépticas',
     image: '/images/cluster/fosassepticas-lg.webp',
     alt: 'Servicios Fosas Sépticas',
     url: '/services/limpieza-fosas-septicas',
 },
 {
   id: 9,
-  title: 'Poceros Madrid',
+  title: 'Poceros',
   image: '/images/cluster/poceros-madrid-lg.webp',
   alt: 'Servicios Poceros Madrid',
   url: '/services/poceros-madrid',
 },
+{
+  id: 10,
+  title: 'Inundaciones',
+  image: '/images/cluster/inundaciones-md.webp',
+  alt: 'Servicios Inundaciones en Madrid',
+  url: '/services/inundaciones',
+},
+{
+  id: 11,
+  title: 'Camión Cuba',
+  image: '/images/cluster/camion-cuba-md.webp',
+  alt: 'Servicios Camión Cuba Desatascos',
+  url: '/services/camion-cuba',
+},
+{
+  id: 12,
+  title: 'Reparación Tuberías Sin Obra',
+  image: '/images/cluster/reparacion-tuberias-sin-obras-md.webp',
+  alt: 'Servicios Reparación Tuberías Sin Obra',
+  url: '/services/reparacion-tuberias-sin-obras',
+},
 ];
 
-const ProductCluster = () => {
+const ProductCluster = ({localidad}) => {
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>Servicios Desatascos Pociten</h2>
+            <h2 className={styles.title}>Servicios Poceros en  {localidad}</h2>
             <div className={styles.cluster}>
                 { services.map((service, index) => (
                         <div key={index} className={styles.box}>

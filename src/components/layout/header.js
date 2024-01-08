@@ -5,7 +5,8 @@ import { FaSearch, FaBars } from 'react-icons/fa';
 import { IoCloseOutline } from 'react-icons/io5';
 import classes from './header.module.scss';
 import { OffcanvasData } from './offcanvas-data';
-
+import Image from 'next/image';
+import LogoColor from '../../SVG/logoColor';
 
 function Header() {
     // Header Sticky Activation
@@ -81,12 +82,15 @@ function Header() {
                                 <div className={classes.info}>
                                     <div className={classes.contact_number} />
                                     <div className={classes.time_schedule}>
-                                        <img
-                                            
+                                        <Image
+                                            width={32}
+                                            height={32}
                                             src="/images/header/icon/clock.png"
                                             alt="Servicio 24 Horas"
                                         />
-                                        <span style={{fontSize: 36}} >24 HORAS</span>
+                                        <span style={{ fontSize: 36 }}>
+                                            24 HORAS
+                                        </span>
                                     </div>
                                 </div>
                             </Col>
@@ -94,28 +98,34 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/">
                                         <a className={classes.logo}>
-                                            <img
-                                                
-                                                src="/images/logo/light.webp"
-                                                alt="Logo Desatascos Pociten Blanco"
-                                            />
+                                        <Image
+                                    width={256}
+                                    height={63}
+                                    src="/images/logo/light.webp"
+                                    alt="Logo Desatascos Pociten Color"
+                                />
                                         </a>
                                     </Link>
                                 </div>
                             </Col>
+                           
                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
                                     <div className={classes.contact_number}>
-                                        <img
-                                            
+                                        
+                                        <Image
+                                            width={32}
+                                            height={32}
                                             src="/images/header/icon/phone.png"
                                             alt="Llama Ahora a Desatascos Pociten"
                                         />
                                         <Link href="tel://+34647376782">
-                                            <a  style={{fontSize: 36}} >647 376 782</a>
+                                            <a style={{ fontSize: 36 }}>
+                                                647 376 782
+                                            </a>
                                         </Link>
                                     </div>
-                                 
+
                                     <div
                                         className={`${
                                             search
@@ -123,7 +133,6 @@ function Header() {
                                                 : 'search-hide'
                                         } d-block d-lg-none search-holder`}
                                     >
-                                        
                                         <form className="search-form">
                                             <input
                                                 className="search-input"
@@ -193,7 +202,7 @@ function Header() {
                                                         </a>
                                                     </Link>
                                                 </li>
-                                               
+
                                                 <li>
                                                     <Link href="/services/limpieza-de-tuberias">
                                                         <a>
@@ -201,9 +210,7 @@ function Header() {
                                                         </a>
                                                     </Link>
                                                 </li>
-                                               
-                                              
-                                              
+
                                                 <li>
                                                     <Link href="/services/desatrancos">
                                                         <a>DESATRANCOS</a>
@@ -216,7 +223,7 @@ function Header() {
                                                         </a>
                                                     </Link>
                                                 </li>
-                                               
+
                                                 <li>
                                                     <Link href="/services/obras-de-poceria">
                                                         <a>OBRAS DE POCERÍA</a>
@@ -224,12 +231,25 @@ function Header() {
                                                 </li>
                                                 <li>
                                                     <Link href="/services/inspeccion-tuberia-con-camara">
-                                                        <a>INSPECCIÓN CON CÁMARA</a>
+                                                        <a>
+                                                            INSPECCIÓN CON
+                                                            CÁMARA
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/services/empresa-de-desatascos">
-                                                        <a>EMPRESA DE DESATASCOS</a>
+                                                        <a>
+                                                            EMPRESA DE
+                                                            DESATASCOS
+                                                        </a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/reparacion-tuberias-sin-obras">
+                                                        <a>
+                                                        REPARACIÓN TUBERÍAS SIN OBRAS
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -240,6 +260,16 @@ function Header() {
                                                 <li>
                                                     <Link href="/services/poceros-madrid">
                                                         <a>POCEROS EN MADRID</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/inundaciones">
+                                                        <a>INUNDACIONES</a>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/services/camion-cuba">
+                                                        <a>CAMIÓN CUBA</a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -257,85 +287,74 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/desatascos/desatascos-madrid">
-                                                        <a>DESATASCOS MADRID</a>
+                                                        <a>MADRID</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-mostoles">
-                                                        <a>DESATASCOS MÓSTOLES</a>
+                                                        <a>MÓSTOLES</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-fuenlabrada">
-                                                        <a>
-                                                            DESATASCOS FUENLABRADA
-                                                        </a>
+                                                        <a>FUENLABRADA</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-getafe">
-                                                        <a>DESATASCOS GETAFE</a>
+                                                        <a>GETAFE</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-alcorcon">
-                                                        <a>DESATASCOS ALCORCÓN</a>
+                                                        <a>ALCORCÓN</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-parla">
-                                                        <a>DESATASCOS PARLA</a>
+                                                        <a>PARLA</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-aranjuez">
-                                                        <a>DESATASCOS ARANJUEZ</a>
+                                                        <a>ARANJUEZ</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-valdemoro">
-                                                        <a>DESATASCOS VALDEMORO</a>
+                                                        <a>VALDEMORO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-pozuelo">
-                                                        <a>DESATASCOS POZUELO</a>
+                                                        <a>POZUELO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-arganda">
-                                                        <a>
-                                                            DESATASCOS ARGANDA DEL
-                                                            REY
-                                                        </a>
+                                                        <a>ARGANDA DEL REY</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-leganes">
-                                                        <a>DESATASCOS LEGANÉS</a>
+                                                        <a>LEGANÉS</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-alcala">
-                                                        <a>
-                                                            DESATASCOS ALCALÁ DE
-                                                            HENARES
-                                                        </a>
+                                                        <a>ALCALÁ DE HENARES</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-navalcarnero">
-                                                        <a>
-                                                            DESATASCOS NAVALCARNERO
-                                                        </a>
+                                                        <a>NAVALCARNERO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/desatascos/desatascos-sesena">
-                                                        <a>DESATASCOS SESEÑA</a>
+                                                        <a>SESEÑA</a>
                                                     </Link>
                                                 </li>
-                                               
                                             </ul>
                                         </li>
                                         {/* <li className={classes.dropdown_holder}>
@@ -393,7 +412,7 @@ function Header() {
                                                 </li>
                                             </ul>
                                         </li> */}
-                                      
+
                                         <li className={classes.dropdown_holder}>
                                             <Link href="/blogs/category/todo">
                                                 <a>
@@ -407,17 +426,26 @@ function Header() {
                                             >
                                                 <li>
                                                     <Link href="/blogs/como-desatascar-un-fregadero">
-                                                        <a>COMO DESATASCAR FREGADERO</a>
+                                                        <a>
+                                                            COMO DESATASCAR
+                                                            FREGADERO
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/blogs/como-desatascar-tuberias">
-                                                        <a>COMO DESATASCAR TUBERÍAS</a>
+                                                        <a>
+                                                            COMO DESATASCAR
+                                                            TUBERÍAS
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/blogs/como-prevenir-atascos">
-                                                        <a>COMO PREVENIR ATASCOS</a>
+                                                        <a>
+                                                            COMO PREVENIR
+                                                            ATASCOS
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
@@ -427,12 +455,18 @@ function Header() {
                                                 </li>
                                                 <li>
                                                     <Link href="/blogs/lo-que-debes-saber-fosas-septicas">
-                                                        <a>COMO MANTENER TUS FOSAS SÉPTICAS</a>
+                                                        <a>
+                                                            COMO MANTENER TUS
+                                                            FOSAS SÉPTICAS
+                                                        </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link href="/blogs/arqueta-sifonica-atascada">
-                                                        <a>¿ARQUETA SIFÓNICA ATASCADA?</a>
+                                                        <a>
+                                                            ¿ARQUETA SIFÓNICA
+                                                            ATASCADA?
+                                                        </a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -458,7 +492,6 @@ function Header() {
                                                     : 'search-hide'
                                             }`}
                                         >
-                                           
                                             <form className="search-form">
                                                 <input
                                                     className="search-input"
@@ -482,8 +515,9 @@ function Header() {
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/">
                             <a className={classes.logo}>
-                                <img
-                                    
+                                <Image
+                                    width={256}
+                                    height={85}
                                     src="/images/logo/dark.png"
                                     alt="Logo Desatascos Pociten Oscuro"
                                 />

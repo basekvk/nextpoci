@@ -1,0 +1,41 @@
+/* Estilo para el contenedor principal del CTA */
+.ctaContainer {
+    /* Color principal azul oscuro */
+    padding: 40px;
+    text-align: center;
+    margin: 40px 0; /* Espacio arriba y abajo para separarlo del contenido circundante */
+}
+
+/* Estilo para el párrafo del CTA */
+.ctaContainer p {
+    color: #00bbb4; /* Color turquesa para el párrafo */
+}
+.ctaContainer h2 {
+    color: #00bbb4; /* Color turquesa para el párrafo */
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+/* Estilo para el botón del CTA */
+.ctaButton {
+    display: inline-flex; /* Hace que el botón se comporte como un elemento en línea */
+    background-color: #00bbb4; /* Color turquesa para el botón */
+    color: #003a70; /* Color azul oscuro para el texto del botón */
+    padding: 30px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-size: 20px;
+    gap: 15px; /* Espacio entre el ícono y el texto */
+}
+.ctaButton a {
+    color: #003a70;
+    text-decoration: none;
+}
+
+/* Cambio de color al hacer hover en el botón */
+.ctaButton:hover {
+    transform: scale(1.05); /* Efecto de escalado al hacer hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}

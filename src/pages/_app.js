@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect } from 'react';
 import { useRouter, Router } from 'next/router';
 import LazyLoad from 'react-lazyload';
-import LocalBusinessSchema from '../components/localbusinessschema';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
@@ -21,15 +21,18 @@ function MyApp({ Component, pageProps }) {
             });
     };
     useEffect(() => {
-        pageView(router.pathname, document.title);
         const handleRouteChange = (url) => {
-            pageView(url, document.title);
+            window.gtag('config', 'G-G7RR3SK94G', {
+                page_path: url,
+            });
         };
-        Router.events.on('routeChangeComplete', handleRouteChange);
+
+        router.events.on('routeChangeComplete', handleRouteChange);
         return () => {
-            Router.events.off('routeChangeComplete', handleRouteChange);
+            router.events.off('routeChangeComplete', handleRouteChange);
         };
-    }, []);
+    }, [router.events]);
+    
     return (
         <Layout>
             <Head>
@@ -40,7 +43,7 @@ function MyApp({ Component, pageProps }) {
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
-                
+
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="google-site-verification"
@@ -164,8 +167,118 @@ function MyApp({ Component, pageProps }) {
                     content="/ms-icon-144x144.png"
                 />
                 <meta name="theme-color" content="#ffffff" />
-                <LocalBusinessSchema />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                    {
+        
+                        "@context": "https://schema.org",
+                        "@graph": [
+                          {
+                            "@type": ["Organization"],
+                            "@id": "https://desatascos-madrid.com/#organization",
+                            "name": "Desatascos Pociten SL",
+                            "sameAs": [
+                              "https://www.facebook.com/desatascospociten",
+                              "https://twitter.com/pociten",
+                              "https://instagram.com/pociten_desatascos",
+                          "https://www.youtube.com/@PocitenDesatascos"
+                            ],
+                            "logo": {
+                              "@type": "ImageObject",
+                              "@id": "https://desatascos-madrid.com/#logo",
+                              "url": "https://www.desatascos-madrid.com/images/logo/light.png",
+                              "contentUrl": "https://www.desatascos-madrid.com/images/logo/light.png",
+                              "caption": "Desatascos Pociten",
+                              "inLanguage": "es",
+                              "width": "256",
+                              "height": "53"
+                            }
+                          },
+                          {
+                            "@type": "WebSite",
+                            "@id": "https://desatascos-madrid.com/#website",
+                            "url": "https://desatascos-madrid.com",
+                            "name": "Desatascos Pociten",
+                            "publisher": {
+                              "@id": "https://desatascos-madrid.com/#organization"
+                            },
+                            "inLanguage": "es",
+                            "potentialAction": {
+                              "@type": "SearchAction",
+                              "target": "https://desatascos-madrid.com/?s={search_term_string}",
+                              "query-input": "required name=search_term_string"
+                            }
+                          },
+                          {
+                            "@type": "WebPage",
+                            "@id": "https://desatascos-madrid.com/#webpage",
+                            "url": "https://desatascos-madrid.com/",
+                            "name": "Desatrancos y Pocería en Madrid | Desatascos Madrid",
+                            "datePublished": "2023-04-26T16:01:27+01:00",
+                            "dateModified": "2023-12-26T11:11:51+01:00",
+                            "about": {
+                              "@id": "https://desatascos-madrid.com/#organization"
+                            },
+                            "isPartOf": {
+                              "@id": "https://desatascos-madrid.com/#website"
+                            },
+                            "primaryImageOfPage": {
+                              "@id": "https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                            },
+                            "inLanguage": "es"
+                          },
+                          {
+                            "@type": "Article",
+                            "headline": "Desatrancos y Poceros en Madrid | Desatascos Pociten",
+                            "keywords": "desatascos madrid",
+                            "datePublished": "2020-02-18T16:01:27+01:00",
+                            "dateModified": "2023-12-17T11:11:51+01:00",
+                            "author": {
+                              "@id": "https://desatascos-madrid.com/#author",
+                              "name": "admin"
+                            },
+                            "publisher": {
+                              "@id": "https://desatascos-madrid.com/#organization"
+                            },
+                            "description": "Desatascos Pociten, con más de 25 años de experiencia, es tu solución de confianza para desatascos en Madrid. Ofrecemos servicios rápidos y eficaces las 24 horas del día. Llámanos al 647 376 782 para solucionar tus problemas de atascos.",
+                            "@id": "https://desatascos-madrid.com/#richSnippet",
+                            "isPartOf": {
+                              "@id": "https://desatascos-madrid.com/#webpage"
+                            },
+                            "image": {
+                              "@id": "https://www.desatascos-madrid.com/images/services/inspeccion-tuberia-con-camara/inspeccion-tuberia-con-camara-lg.webp"
+                            },
+                            "inLanguage": "es",
+                            "mainEntityOfPage": {
+                              "@id": "https://desatascos-madrid.com/#webpage"
+                            }
+                          }
+                        ]
+                      }
+                    `,
+                    }}
+                />
             </Head>
+            {/* Google Analytics Script */}
+            <Script
+                strategy="afterInteractive"
+                src={`https://www.googletagmanager.com/gtag/js?id=G-G7RR3SK94G`}
+            />
+            <Script
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag() { dataLayer.push(arguments); }
+                        gtag('js', new Date());
+                        gtag('config', 'G-G7RR3SK94G', {
+                          page_path: window.location.pathname,
+                        });
+                      `,
+                }}
+            />
             <LazyLoad>
                 <Analytics />
             </LazyLoad>

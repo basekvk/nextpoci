@@ -5,15 +5,32 @@ import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/desatascos/desatascos-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import LazyLoad from 'react-lazyload';
-import CallToAction from '../../components/cta';
+
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
 
-function ServiceDetailsPage({
-    service,
-
-    footerItems,
-}) {
+function ServiceDetailsPage({ service, footerItems }) {
+    const structuredData = {
+        '@context': 'http://schema.org/plumber',
+        '@id': service.canonical + '#webpage',
+        '@type': 'WebPage',
+        url: service.canonical,
+        name: service.title,
+        logo: service.image,
+        description: service.metaContent,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Calle Lezo 8',
+            addressLocality: 'Madrid',
+            postalCode: '28041',
+            addressCountry: 'ES',
+        },
+        contactPoint: {
+            '@type': 'ContactPoint',
+            contactType: 'customer support',
+            telephone: '+34647376782',
+        },
+    };
     return (
         <>
             <Head>
@@ -21,6 +38,9 @@ function ServiceDetailsPage({
                 <meta name="description" content={service.metaContent} />
                 <link rel="canonical" href={service.canonical} />
                 <meta property="og:title" content={service.titleMeta} />
+                <script type="application/ld+json">
+                    {JSON.stringify(structuredData)}
+                </script>
             </Head>
 
             <Breadcrumb
@@ -30,8 +50,7 @@ function ServiceDetailsPage({
             />
             <LazyLoad>
                 <ServiceDetail service={service} />
-                <ProductCluster />
-                <CallToAction />
+                <ProductCluster localidad={service?.lugar} />
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
@@ -42,16 +61,12 @@ function ServiceDetailsPage({
 export function getStaticProps(context) {
     const { params } = context;
     const { slug } = params;
-
-    const sidebarList = getAllItems('desatascos');
     const service = getItemData(slug, 'desatascos');
-
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             service,
-
             footerItems,
         },
     };
