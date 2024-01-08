@@ -5,9 +5,11 @@ import '../styles/globals.scss';
 import { ScrollToTop } from '../components/scroll';
 import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect } from 'react';
-import { useRouter, Router } from 'next/router';
+import { useRouter} from 'next/router';
 import LazyLoad from 'react-lazyload';
 import Script from 'next/script';
+
+
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
@@ -287,6 +289,7 @@ function MyApp({ Component, pageProps }) {
             <LazyLoad>
                 <ScrollToTop />
             </LazyLoad>
+            
         </Layout>
     );
 }
