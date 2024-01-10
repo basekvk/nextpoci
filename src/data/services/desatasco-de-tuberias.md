@@ -1,7 +1,7 @@
 ---
 id: 'service-02'
 title: 'Desatasco Tuberías'
-canonical: https://www.desatascos-madrid.com/services/limpieza-de-tuberias
+canonical: https://www.desatascos-madrid.com/services/desatasco-de-tuberias
 
 mediumImage: 'limpiezadetuberias-md.webp'
 largeImage: 'limpiezadetuberias-lg.webp'

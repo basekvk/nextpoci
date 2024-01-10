@@ -25,7 +25,7 @@ export const OffcanvasData = [
             },
             {
                 id: 'submenu-02',
-                link: '/services/limpieza-de-tuberias',
+                link: '/services/desatasco-de-tuberias',
                 text: 'Limpieza de Tuberías',
             },
          

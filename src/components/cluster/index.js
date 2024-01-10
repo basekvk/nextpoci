@@ -15,7 +15,7 @@ const services = [
         title: 'Desatascos Tuberías',
         image: '/images/cluster/limpiezadetuberias-lg.webp',
         alt: 'Servicios Limpieza de Tuberías',
-        url: '/services/limpieza-de-tuberias',
+        url: '/services/desatasco-de-tuberias',
     },
     {
         id: 3,
