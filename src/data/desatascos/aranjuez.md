@@ -3,7 +3,7 @@ id: 'service-03'
 title: 'Desatascos en Aranjuez'
 titleMeta: "Desatascos y Poceros en Aranjuez | Servicio 24 horas "
 lugar: 'Aranjuez'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-aranjuez
+canonical: https://www.desatascos-madrid.com/desatascos/aranjuez
 mediumImage: 'desatascos-aranjuez-lg.webp'
 largeImage: 'desatascos-aranjuez-md.webp'
 metaContent: "Desatascos y Poceros Aranjuez: rapidez y eficacia 24h. 💧 Solucionamos atascos, limpiezas y mantenimientos. ¡Llámanos ahora! ☎️ 647 376 782. Desatascos Pociten"

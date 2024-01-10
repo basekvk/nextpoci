@@ -8,7 +8,7 @@ largeImage: 'desatascossesena-md.webp'
 metaContent: "Desatascos y Poceros en Seseña: Servicio profesional 24/7🚽👷‍♂️ Soluciona problemas de tuberías y saneamiento con rapidez y eficacia. ¡Contáctanos! 📞💧"
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Empresa de poceros en Seseña con los mejores precios'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-sesena
+canonical: https://www.desatascos-madrid.com/desatascos/sesena
 
 
 title2: 'Desatascos en Seseña'

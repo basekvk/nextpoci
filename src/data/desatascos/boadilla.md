@@ -2,7 +2,7 @@
 id: 'service-31'
 title: 'Desatascos en Boadilla'
 titleMeta: "Desatascos y Poceros en Boadilla - Servicio 24/7"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-boadilla
+canonical: https://www.desatascos-madrid.com/desatascos/boadilla
 
 
 lugar: 'Boadilla'

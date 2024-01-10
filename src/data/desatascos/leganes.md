@@ -3,7 +3,7 @@ id: 'service-08'
 title: 'Desatascos en Leganés'
 titleMeta: "Desatascos en Leganés 24 horas - Pociten "
 lugar: 'Leganés'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-leganes
+canonical: https://www.desatascos-madrid.com/desatascos/leganes
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosleganes-md.webp'
 metaContent: "Pociten: Desatascos y Desatrancos en Leganés 🚽. Expertos en servicios de pocería, rapidez y eficiencia garantizada. ¡Contáctanos! ☎️ 647 376 782."

@@ -286,72 +286,72 @@ function Header() {
                                                 }
                                             >
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-madrid">
+                                                    <Link href="/desatascos/madrid">
                                                         <a>MADRID</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-mostoles">
+                                                    <Link href="/desatascos/mostoles">
                                                         <a>MÓSTOLES</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-fuenlabrada">
+                                                    <Link href="/desatascos/fuenlabrada">
                                                         <a>FUENLABRADA</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-getafe">
+                                                    <Link href="/desatascos/getafe">
                                                         <a>GETAFE</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-alcorcon">
+                                                    <Link href="/desatascos/alcorcon">
                                                         <a>ALCORCÓN</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-parla">
+                                                    <Link href="/desatascos/parla">
                                                         <a>PARLA</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-aranjuez">
+                                                    <Link href="/desatascos/aranjuez">
                                                         <a>ARANJUEZ</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-valdemoro">
+                                                    <Link href="/desatascos/valdemoro">
                                                         <a>VALDEMORO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-pozuelo">
+                                                    <Link href="/desatascos/pozuelo">
                                                         <a>POZUELO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-arganda">
+                                                    <Link href="/desatascos/arganda-del-rey">
                                                         <a>ARGANDA DEL REY</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-leganes">
+                                                    <Link href="/desatascos/leganes">
                                                         <a>LEGANÉS</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-alcala">
+                                                    <Link href="/desatascos/alcala-de-henares">
                                                         <a>ALCALÁ DE HENARES</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-navalcarnero">
+                                                    <Link href="/desatascos/navalcarnero">
                                                         <a>NAVALCARNERO</a>
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/desatascos/desatascos-sesena">
+                                                    <Link href="/desatascos/sesena">
                                                         <a>SESEÑA</a>
                                                     </Link>
                                                 </li>

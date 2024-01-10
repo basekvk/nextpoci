@@ -2,7 +2,7 @@
 id: 'service-01'
 title: 'Desatascos en Alcalá de Henares'
 titleMeta: "Desatascos y Poceros en Alcalá de Henares | 24 Horas"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-alcala
+canonical: https://www.desatascos-madrid.com/desatascos/alcala-de-henares
 
 lugar: 'Alcalá de Henares'
 mediumImage: 'renovation-lg.webp'

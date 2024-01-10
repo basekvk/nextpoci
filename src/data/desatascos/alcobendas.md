@@ -8,7 +8,7 @@ titleMeta: "Desatascos y Poceros en Alcobendas 【647 376 782】"
 title2: 'Desatascos y Poceros en Alcobendas'
 
 lugar: 'Alcobendas'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-alcobendas
+canonical: https://www.desatascos-madrid.com/desatascos/alcobendas
 
 mediumImage: 'desatascos-alcobendas-md.jpg'
 

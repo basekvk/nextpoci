@@ -4,7 +4,7 @@ title: 'Desatascos en Parla'
 
 titleMeta: "Desatascos, Desatrancos y Poceros en Parla "
 lugar: 'Parla'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-parla
+canonical: https://www.desatascos-madrid.com/desatascos/parla
 mediumImage: 'desatascosparla-lg.webp'
 largeImage: 'desatascosparla-md.webp'
 metaContent: "¿Problemas con tus tuberías? Nuestros expertos en desatrancos y pocería están a tu disposición en Parla. ¡Olvídate de los atascos!.☎️​ 647 376 782"

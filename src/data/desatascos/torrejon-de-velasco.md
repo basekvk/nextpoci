@@ -4,7 +4,7 @@ id: 'service-35'
 title: 'Desatascos en Torrejón de Velasco'
 
 titleMeta: "Desatascos en Torrejón de Velasco - Expertos en Desatrancos"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-torrejon-de-velasco
+canonical: https://www.desatascos-madrid.com/desatascos/torrejon-de-velasco
 
 
 lugar: 'Torrejón de Velasco'

@@ -91,72 +91,72 @@ export const OffcanvasData = [
         submenu: [
             {
                 id: 'submenu-01',
-                link: '/desatascos/desatascos-madrid',
+                link: '/desatascos/madrid',
                 text: 'Madrid',
             },
             {
                 id: 'submenu-02',
-                link: '/desatascos/desatascos-mostoles',
+                link: '/desatascos/mostoles',
                 text: 'Móstoles',
             },
             {
                 id: 'submenu-03',
-                link: '/desatascos/desatascos-fuenlabrada',
+                link: '/desatascos/fuenlabrada',
                 text: 'Fuenlabrada',
             },
             {
                 id: 'submenu-04',
-                link: '/desatascos/desatascos-getafe',
+                link: '/desatascos/getafe',
                 text: 'Getafe',
             },
             {
                 id: 'submenu-05',
-                link: '/desatascos/desatascos-alcorcon',
+                link: '/desatascos/alcorcon',
                 text: 'Alcorcón',
             },
             {
                 id: 'submenu-06',
-                link: '/desatascos/desatascos-parla',
+                link: '/desatascos/parla',
                 text: 'Parla',
             },
             {
                 id: 'submenu-07',
-                link: '/desatascos/desatascos-aranjuez',
+                link: '/desatascos/aranjuez',
                 text: 'Aranjuez',
             },
             {
                 id: 'submenu-08',
-                link: '/desatascos/desatascos-valdemoro',
+                link: '/desatascos/valdemoro',
                 text: 'Valdemoro',
             },
             {
                 id: 'submenu-09',
-                link: '/desatascos/desatascos-pozuelo',
+                link: '/desatascos/pozuelo',
                 text: 'Pozuelo',
             },
             {
                 id: 'submenu-10',
-                link: '/desatascos/desatascos-arganda',
+                link: '/desatascos/arganda-del-rey',
                 text: 'Arganda del Rey',
             },
             {
                 id: 'submenu-11',
-                link: '/desatascos/desatascos-alcala',
+                link: '/desatascos/alcala-de-henares',
                 text: 'Alcalá de Henares',
             },
             {
                 id: 'submenu-12',
-                link: '/desatascos/desatascos-navalcarnero',
+                link: '/desatascos/navalcarnero',
                 text: 'Navalcarnero',
             },
             {
                 id: 'submenu-13',
-                link: '/desatascos/desatascos-sesena',
+                link: '/desatascos/sesena',
                 text: 'Seseña',
             },
             {
                 id: 'submenu-14',
-                link: '/desatascos/desatascos-leganes',
+                link: '/desatascos/leganes',
                 text: 'Leganés',
             },
           

@@ -4,7 +4,7 @@ id: 'service-33'
 title: 'Desatascos en Coslada'
 titleMeta: "Desatascos y Poceros en Coslada - Desatrancos Urgentes "
 lugar: 'Coslada'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-coslada
+canonical: https://www.desatascos-madrid.com/desatascos/coslada
 mediumImage: 'desatascos-coslada-md.jpg'
 largeImage: 'desatascos-coslada-md.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

@@ -4,7 +4,7 @@ id: 'service-13'
 title: 'Desatascos en Pinto'
 
 titleMeta: "Desatascos y Poceros en Pinto - Desatrancos Urgentes 24h"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-pinto
+canonical: https://www.desatascos-madrid.com/desatascos/pinto
 
  
 

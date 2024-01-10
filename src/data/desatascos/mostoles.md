@@ -5,7 +5,7 @@ titleMeta: "Desatascos y Desatrancos en Móstoles | Poceros "
 mediumImage: 'renovation-lg.webp'
 lugar: 'Móstoles'
 largeImage: 'desatascosmostoles-md.webp'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-mostoles
+canonical: https://www.desatascos-madrid.com/desatascos/mostoles
 metaContent: "Desatascos Pociten: Desatascos y Desatrancos en Móstoles. Poceros especializados 🌊. Soluciones eficientes para tus problemas de atascos. Llámanos ☎️ 647 376 782"
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Empresa de poceros en Pozuelo con los mejores precios'

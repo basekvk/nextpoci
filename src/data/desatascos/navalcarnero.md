@@ -4,7 +4,7 @@ title: 'Desatascos en Navalcarnero'
 
 titleMeta: "Desatascos y Poceros en Navalcarnero - Desatrancos 24h "
 lugar: 'Navalcarnero'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-navalcarnero
+canonical: https://www.desatascos-madrid.com/desatascos/navalcarnero
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosnavalcarnero-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'

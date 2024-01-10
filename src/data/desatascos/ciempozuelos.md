@@ -4,7 +4,7 @@ id: 'service-05'
 title: 'Desatascos en Ciempozuelos'
 titleMeta: "Desatascos y Poceros en Ciempozuelos - 24 Horas"
 lugar: 'Ciempozuelos'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-ciempozuelos
+canonical: https://www.desatascos-madrid.com/desatascos/ciempozuelos
 mediumImage: 'desatascosciempozuelos-md.webp'
 largeImage: 'desatascosciempozuelos-md.webp'
 metaContent: "Desatascos Pociten: Poceros en Ciempozuelos. Servicio 24h ⏰. Soluciones rápidas y efectivas para atascos. ¡Llámanos! ☎️ 647 376 782"

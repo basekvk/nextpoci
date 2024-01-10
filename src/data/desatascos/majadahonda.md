@@ -6,7 +6,7 @@ title: 'Desatascos en Majadahonda'
 titleMeta: "Desatascos, Desatrancos y Poceros en Majadahonda "
 
 lugar: 'Majadahonda'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-majadahonda
+canonical: https://www.desatascos-madrid.com/desatascos/majadahonda
 
 mediumImage: 'desatascos-majadahonda-md.jpg'
 

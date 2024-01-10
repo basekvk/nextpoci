@@ -6,7 +6,7 @@ title: 'Desatascos en Madrid'
 titleMeta: "Desatascos Madrid | Desatascos Pociten: Soluciones Rápidas y Eficaces 24/7"
 
 lugar: 'Madrid'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-madrid
+canonical: https://www.desatascos-madrid.com/desatascos/madrid
 
 mediumImage: 'desatascosmadrid-md.webp'
 

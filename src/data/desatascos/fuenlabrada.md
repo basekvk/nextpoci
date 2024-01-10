@@ -3,7 +3,7 @@ id: 'service-06'
 title: 'Desatascos en Fuenlabrada'
 titleMeta: "Desatascos y Poceros en Fuenlabrada - 24 Horas - Pociten"
 lugar: 'Fuenlabrada'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-fuenlabrada
+canonical: https://www.desatascos-madrid.com/desatascos/fuenlabrada
 mediumImage: 'desatascosfuenlabrada-lg.webp'
 largeImage: 'desatascosfuenlabrada-md.webp'
 metaContent: "Desatascos y Poceros en Fuenlabrada. Servicio 24h ⏳. Soluciones rápidas y efectivas para atascos. ¡Contáctanos! ☎️ 647 376 782."

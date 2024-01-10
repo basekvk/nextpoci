@@ -13,7 +13,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-parla</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/parla</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -25,13 +25,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-aranjuez</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/aranjuez</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-sesena</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/sesena</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -56,19 +56,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-mostoles</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/mostoles</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-leganes</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/leganes</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-pozuelo</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/pozuelo</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -80,14 +80,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-alcala</loc>
-    <lastmod>2023-05-26</lastmod>
+    <loc>https://www.desatascos-madrid.com/desatascos/alcala-de-henares</loc>
+    <lastmod>2024-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
  
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-alcorcon</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/alcorcon</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -111,13 +111,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-madrid</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/madrid</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-arganda</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/arganda-del-rey</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -135,20 +135,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-fuenlabrada</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/fuenlabrada</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-getafe</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/getafe</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-valdemoro</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/valdemoro</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -162,73 +162,73 @@
   </url>
  
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-navalcarnero</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/navalcarnero</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-vallecas</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/vallecas</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-carabanchel</loc>
+    <loc>https://www.desatascos-madrid.com/desatascosbanchel</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-coslada</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/coslada</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-alcobendas</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/alcobendas</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-ciempozuelos</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/ciempozuelos</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-boadilla</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/boadilla</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
      <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-lasrozas</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/las-rozas</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+     <url>
+    <loc>https://www.desatascos-madrid.com/desatascos/pinto</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
      <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-pinto</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/torrejon-de-ardoz</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
      <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-torrejon-de-ardoz</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-     <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-torrejon-de-velasco</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/torrejon-de-velasco</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
        <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-majadahonda</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/majadahonda</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -240,20 +240,20 @@
     <priority>0.8</priority>
   </url>
       <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-usera</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/usera</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
    
       <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-rivas-vaciamadrid</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/rivas-vaciamadrid</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
    <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/desatascos-sansebastian-delosreyes</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/san-sebastian-de-los-reyes</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -327,6 +327,12 @@
   </url>
   <url>
     <loc>http://www.desatascos-madrid.com/services/reparacion-tuberias-sin-obras</loc>
+    <lastmod>2023-12-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.desatascos-madrid.com/desatascos/carabanchel</loc>
     <lastmod>2023-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

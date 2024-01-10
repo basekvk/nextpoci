@@ -9,7 +9,7 @@ largeImage: 'desatascospozuelo-md.webp'
 metaContent: "Desatascos Pociten: Desatascos en Pozuelo, expertos en pocería y desatrancos 💧. Solucionamos tus problemas de atascos rápidamente. ¡Llámanos! ☎️ 647 376 782."
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Empresa de poceros en Pozuelo con los mejores precios'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-pozuelo
+canonical: https://www.desatascos-madrid.com/desatascos/pozuelo
 
 
 title2: 'Desatascos en Pozuelo'

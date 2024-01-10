@@ -3,7 +3,7 @@ id: 'service-17'
 title: 'Desatascos en Valdemoro'
 
 titleMeta: "Desatascos en Valdemoro - Expertos en Pocería y Desatrancos "
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-valdemoro
+canonical: https://www.desatascos-madrid.com/desatascos/valdemoro
 lugar: 'Valdemoro'
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosvaldemoro-md.webp'

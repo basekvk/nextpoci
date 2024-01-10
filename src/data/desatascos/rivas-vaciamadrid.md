@@ -3,7 +3,7 @@ id: 'service-21'
 title: 'Desatascos en Rivas Vaciamadrid'
 
 titleMeta: "Desatascos en Rivas Vaciamadrid | Servicios de Pocería 24/7"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-rivas-vaciamadrid
+canonical: https://www.desatascos-madrid.com/desatascos/rivas-vaciamadrid
 lugar: 'Rivas Vaciamadrid'
 mediumImage: 'desatascosrivasvaciamadrid-md.webp'
 largeImage: 'desatascosrivasvaciamadrid-md.webp'

@@ -7,7 +7,7 @@ lugar: 'Torrejón de Ardoz'
 mediumImage: 'desatascostorrejondeardoz-md.webp'
 largeImage: 'desatascostorrejondeardoz-md.webp'
 metaContent: "Desatascos y Poceros en Torrejón de Ardoz 🛠️ Servicio 24/7 🕑 Soluciones eficientes y rápidas para atascos. ¡Contáctanos ya! ☎️ 647 376 782"
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-torrejon-de-ardoz
+canonical: https://www.desatascos-madrid.com/desatascos/torrejon-de-ardoz
 
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Somos la empresa de desatascos más económica en toda la Comunidad de Madrid. Llámanos y compruébalo.'

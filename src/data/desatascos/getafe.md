@@ -3,7 +3,7 @@ id: 'service-07'
 title: 'Desatascos en Getafe'
 titleMeta: "Desatascos y Poceros en Getafe - Rápido y Eficiente "
 lugar: 'Getafe'
-canonical: https://www.desatascos-madrid.com/desatascos/desatascos-getafe
+canonical: https://www.desatascos-madrid.com/desatascos/getafe
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosgetafe-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'
