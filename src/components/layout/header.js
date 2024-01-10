@@ -6,7 +6,7 @@ import { IoCloseOutline } from 'react-icons/io5';
 import classes from './header.module.scss';
 import { OffcanvasData } from './offcanvas-data';
 import Image from 'next/image';
-import LogoColor from '../../SVG/logoColor';
+import { menuDesktop } from './menu';
 
 function Header() {
     // Header Sticky Activation
@@ -98,21 +98,20 @@ function Header() {
                                 <div className="header-logo">
                                     <Link href="/">
                                         <a className={classes.logo}>
-                                        <Image
-                                    width={256}
-                                    height={63}
-                                    src="/images/logo/light.webp"
-                                    alt="Logo Desatascos Pociten Color"
-                                />
+                                            <Image
+                                                width={256}
+                                                height={63}
+                                                src="/images/logo/light.webp"
+                                                alt="Logo Desatascos Pociten Color"
+                                            />
                                         </a>
                                     </Link>
                                 </div>
                             </Col>
-                           
+
                             <Col xl={6} lg={4} sm={6}>
                                 <div className={classes.right}>
                                     <div className={classes.contact_number}>
-                                        
                                         <Image
                                             width={32}
                                             height={32}
@@ -170,343 +169,94 @@ function Header() {
                             >
                                 <nav className={classes.menu}>
                                     <ul className={classes.menu__list}>
-                                        <li>
-                                            <Link href="/">
-                                                <a>
-                                                    <span>INICIO</span>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/about">
-                                                <a>
-                                                    <span>QUIÉNES SOMOS</span>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="#">
-                                                <a>
-                                                    <span>SERVICIOS</span>
-                                                </a>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
+                                        {menuDesktop.map((item) => (
+                                            <li
+                                                className={classes[item.cName]}
+                                                key={item.id}
                                             >
-                                                <li>
-                                                    <Link href="/services/24horas">
-                                                        <a>
-                                                            DESATASCOS 24 HORAS
-                                                        </a>
-                                                    </Link>
-                                                </li>
+                                                <Link href={item.link}>
+                                                    <a>
+                                                        <span>
+                                                            {item.title}
+                                                        </span>
+                                                    </a>
+                                                </Link>
+                                                {item.submenu && (
+                                                    <ul
+                                                        className={
+                                                            classes.dropdown_menu
+                                                        }
+                                                    >
+                                                        {item.submenu.map(
+                                                            (subItem) => (
+                                                                <li
+                                                                    key={
+                                                                        subItem.id
+                                                                    }
+                                                                >
+                                                                    <Link
+                                                                        href={
+                                                                            subItem.link
+                                                                        }
+                                                                    >
+                                                                        <a>
+                                                                            {
+                                                                                subItem.text
+                                                                            }
+                                                                        </a>
+                                                                    </Link>
+                                                                    {subItem.submenu && (
+                                                                        <ul
+                                                                            className={
+                                                                                classes.dropdown_nested
+                                                                            }
+                                                                        >
+                                                                            {subItem.submenu.map(
+                                                                                (
+                                                                                    subSubItem
+                                                                                ) => (
+                                                                                    <li
+                                                                                        key={
+                                                                                            subSubItem.id
+                                                                                        }
+                                                                                    >
+                                                                                        <Link
+                                                                                            href={
+                                                                                                subSubItem.link
+                                                                                            }
+                                                                                        >
+                                                                                            <a
+                                                                                                style={{
+                                                                                                    textTransform:
+                                                                                                        'uppercase',
+                                                                                                }}
+                                                                                            >
+                                                                                                {
+                                                                                                    subSubItem.text
+                                                                                                }
+                                                                                            </a>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                )
+                                                                            )}
+                                                                            
+                                                                        </ul>
+                                                                    )}
+                                                                </li>
+                                                            )
+                                                        )}
 
-                                                <li>
-                                                    <Link href="/services/limpieza-de-tuberias">
-                                                        <a>
-                                                            LIMPIEZA DE TUBERÍAS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link href="/services/desatrancos">
-                                                        <a>DESATRANCOS</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/baratos">
-                                                        <a>
-                                                            DESATASCOS BARATOS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link href="/services/obras-de-poceria">
-                                                        <a>OBRAS DE POCERÍA</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/inspeccion-tuberia-con-camara">
-                                                        <a>
-                                                            INSPECCIÓN CON
-                                                            CÁMARA
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/empresa-de-desatascos">
-                                                        <a>
-                                                            EMPRESA DE
-                                                            DESATASCOS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/reparacion-tuberias-sin-obras">
-                                                        <a>
-                                                        REPARACIÓN TUBERÍAS SIN OBRAS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/limpieza-fosas-septicas">
-                                                        <a>FOSAS SÉPTICAS</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/poceros-madrid">
-                                                        <a>POCEROS EN MADRID</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/inundaciones">
-                                                        <a>INUNDACIONES</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/services/camion-cuba">
-                                                        <a>CAMIÓN CUBA</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="#">
-                                                <a>
-                                                    <span>TRABAJAMOS EN</span>
-                                                </a>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/desatascos/madrid">
-                                                        <a>MADRID</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/mostoles">
-                                                        <a>MÓSTOLES</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/fuenlabrada">
-                                                        <a>FUENLABRADA</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/getafe">
-                                                        <a>GETAFE</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/alcorcon">
-                                                        <a>ALCORCÓN</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/parla">
-                                                        <a>PARLA</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/aranjuez">
-                                                        <a>ARANJUEZ</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/valdemoro">
-                                                        <a>VALDEMORO</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/pozuelo">
-                                                        <a>POZUELO</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/arganda-del-rey">
-                                                        <a>ARGANDA DEL REY</a>
-                                                    </Link>
-                                                    
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/leganes">
-                                                        <a>LEGANÉS</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/alcala-de-henares">
-                                                        <a>ALCALÁ DE HENARES</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/navalcarnero">
-                                                        <a>NAVALCARNERO</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/desatascos/sesena">
-                                                        <a>SESEÑA</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        {/* <li className={classes.dropdown_holder}>
-                                            <Link href="/">
-                                                <a>
-                                                    <span>Pages</span>
-                                                </a>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/our-clients">
-                                                        <a>Our Clients</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-team">
-                                                        <a>Our Team</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/our-working-process">
-                                                        <a>
-                                                            Our Working Process
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/blogs/blog-fullwidth">
-                                                <a>
-                                                    <span>Blogs</span>
-                                                </a>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/blogs/blog-leftsidebar">
-                                                        <a>Blog Left Sidebar</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/blog-rightsidebar">
-                                                        <a>
-                                                            Blog Right Sidebar
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li> */}
-
-                                        <li className={classes.dropdown_holder}>
-                                            <Link href="/blogs/category/todo">
-                                                <a>
-                                                    <span>BLOGS</span>
-                                                </a>
-                                            </Link>
-                                            <ul
-                                                className={
-                                                    classes.dropdown_menu
-                                                }
-                                            >
-                                                <li>
-                                                    <Link href="/blogs/como-desatascar-un-fregadero">
-                                                        <a>
-                                                            COMO DESATASCAR
-                                                            FREGADERO
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/como-desatascar-tuberias">
-                                                        <a>
-                                                            COMO DESATASCAR
-                                                            TUBERÍAS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/como-prevenir-atascos">
-                                                        <a>
-                                                            COMO PREVENIR
-                                                            ATASCOS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/obras-poceria-consejos">
-                                                        <a>OBRAS DE POCERÍA</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/lo-que-debes-saber-fosas-septicas">
-                                                        <a>
-                                                            COMO MANTENER TUS
-                                                            FOSAS SÉPTICAS
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blogs/arqueta-sifonica-atascada">
-                                                        <a>
-                                                            ¿ARQUETA SIFÓNICA
-                                                            ATASCADA?
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        {/*   <li>
-                                            <Link href="/blogs/desatascar-tuberias">
-                                                <a>
-                                                    <span>BLOG</span>
-                                                </a>
-                                            </Link>
-                                        </li> */}
-                                        <li className={classes.separator}>
+                                                    </ul>
+                                                )}
+                                                
+                                            </li>
+                                        ))}
+                                        <li className={classes.separator} style={{marginLeft: '40px'}}>
                                             <Link href="/contacto">
                                                 <a>
                                                     <span>CONTACTO</span>
                                                 </a>
                                             </Link>
-                                        </li>
-                                        <li
-                                            className={`${
-                                                search
-                                                    ? 'search-show'
-                                                    : 'search-hide'
-                                            }`}
-                                        >
-                                            <form className="search-form">
-                                                <input
-                                                    className="search-input"
-                                                    type="search"
-                                                    name="search"
-                                                    placeholder="Search"
-                                                />
-                                                <button
-                                                    className="search-inner__btn"
-                                                    type="submit"
-                                                >
-                                                    <FaSearch />
-                                                </button>
-                                            </form>
                                         </li>
                                     </ul>
                                 </nav>

@@ -2,30 +2,32 @@ const menuDesktop = [
     {
         id: 1,
         title: 'INICIO',
-        path: '/',
-        cName: 'offcanvas-text',
+        link: '/',
+        cName: '',
     },
     {
         id: 2,
         title: 'QUIENES SOMOS',
-        path: '/about',
-        cName: 'offcanvas-text',
+        link: '/about',
+        cName: '',
     },
     {
         id: 3,
         title: 'SERVICIOS',
-        path: '#',
-        cName: 'dropdown',
+        link: '#',
+        cName: 'dropdown_holder',
         submenu: [
             {
                 id: 31,
                 text: 'DESATASCOS 24 HORAS',
                 link: '/services/desatascos-24horas',
+                cName: 'dropdown_menu',
+                
             },
             {
                 id: 32,
                 text: 'DESATASCO DE TUBERÍAS',
-                link: 'desatasco-de-tuberias',
+                link: '/services/desatasco-de-tuberias',
             },
             {
                 id: 33,
@@ -35,7 +37,7 @@ const menuDesktop = [
             {
                 id: 34,
                 text: 'DESATASCOS BARATOS',
-                link: 'services/desatascos-baratos',
+                link: '/services/desatascos-baratos',
             },
             {
                 id: 35,
@@ -78,12 +80,12 @@ const menuDesktop = [
     {
         id: 4,
         title: 'TRABAJAMOS EN',
-        path: '#',
-        cName: 'dropdown',
+        link: '#',
+        cName: 'dropdown_holder',
         submenu: [
             {
                 id: 41,
-                text: 'Centro',
+                text: 'CENTRO',
                 link: '#',
                 submenu: [
                     {
@@ -110,9 +112,9 @@ const menuDesktop = [
             },
             {
                 id: 42,
-                text: 'Sur',
+                text: 'SUR',
                 link: '#',
-                cName: 'dropdown',
+                cName: '',
                 submenu: [
                     {
                         id: 421,
@@ -178,9 +180,9 @@ const menuDesktop = [
             },
             {
                 id: 43,
-                text: 'Norte',
+                text: 'NORTE',
                 link: '#',
-                cName: 'dropdown',
+                cName: '',
                 submenu: [
                     {
                         id: 431,
@@ -206,9 +208,9 @@ const menuDesktop = [
             },
             {
                 id: 44,
-                text: 'Este',
+                text: 'ESTE',
                 link: '#',
-                cName: 'dropdown',
+                cName: '',
                 submenu: [
                     {
                         id: 441,
@@ -227,8 +229,8 @@ const menuDesktop = [
                     },
                     {
                         id: 444,
-                        text: 'Rivas',
-                        link: '/desatascos/rivas',
+                        text: 'Rivas Vaciamadrid',
+                        link: '/desatascos/rivas-vaciamadrid',
                     },
                     {
                         id: 445,
@@ -270,9 +272,9 @@ const menuDesktop = [
             },
             {
                 id: 45,
-                text: 'Oeste',
+                text: 'OESTE',
                 link: '#',
-                cName: 'dropdown',
+                cName: '',
                 submenu: [
                     {
                         id: 451,
@@ -302,15 +304,19 @@ const menuDesktop = [
     {
         id: 5,
         title: 'BLOGS',
-        path: '/blog',
-        cName: 'offcanvas-text',
+        link: '/blogs/category/todo',
+        cName: 'dropdown_holder',
+        submenu: [
+            {
+                id: 51,
+                text: 'DESATASCAR FREGADERO',
+                link: '/blogs/como-desatascar-un-fregadero',
+                
+            },
+           
+        ]
     },
-    {
-        id: 6,
-        title: 'CONTACTO',
-        path: '/contacto',
-        cName: 'offcanvas-text',
-    },
+    
     // ... otros elementos del menú ...
 ];
 

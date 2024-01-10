@@ -10,7 +10,6 @@
     padding-bottom: 15px;
     a,
     span {
-        
         font-family: $rajdhani;
         vertical-align: middle;
         font-weight: 800;
@@ -106,7 +105,6 @@
                     }
                 }
             }
-            
         }
     }
 }
@@ -164,6 +162,7 @@
 .dropdown {
     &_holder {
         position: relative;
+
         &:hover {
             .dropdown {
                 &_menu {
@@ -174,6 +173,7 @@
             }
         }
     }
+
     &_menu {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
         background-color: $white;
@@ -189,23 +189,77 @@
         padding-bottom: 25px;
         text-align: left;
         z-index: 2;
+
         @include breakpoint(max-lg-device) {
             left: auto;
             right: 0;
         }
+
         > li {
-            &:not(:last-child) {
-                padding-bottom: 10px;
-            }
+            position: relative;
+            margin: 6px;
+            // Posición relativa para el submenú anidado
+
             &:hover {
                 > a {
                     color: $primary;
                 }
+
+                .dropdown_nested {
+                    // Estilos para el submenú anidado al hacer hover
+                    visibility: visible;
+                    opacity: 1;
+                }
             }
+
             > a {
                 color: $secondary;
             }
+
+            .dropdown_nested {
+                background-color: $white;
+                position: absolute;
+                left: 90%;
+                top: 0;
+                visibility: hidden;
+                opacity: 0;
+                transition: $baseTransition;
+                width: 200px;
+                width: 250px;
+                padding-left: 30px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                text-align: left;
+                z-index: 2;
+                border-width: 2px;
+                border-style: solid;
+                border-color: #003a70;
+                @include breakpoint(max-lg-device) {
+                    left: auto;
+                    right: 0;
+                }
+                > li {
+                    position: relative;
+                    margin: 6px;
+                    // Posición relativa para el submenú anidado
+
+                    &:hover {
+                        > a {
+                            color: $primary;
+                        }
+
+                        .dropdown_nested {
+                            // Estilos para el submenú anidado al hacer hover
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+
+                    > a {
+                        color: $secondary;
+                    }
+                }
+            }
         }
     }
-    
 }
