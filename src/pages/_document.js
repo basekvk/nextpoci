@@ -4,14 +4,8 @@ const MyDocument = () => {
     return (
         <Html lang="es">
             <Head>
-            <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1"
-                />
-                <meta
-                    name="description"
-                    content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
-                />
+            
+               
                 <link
                     rel="preconnect"
                     href="https://fonts.gstatic.com"

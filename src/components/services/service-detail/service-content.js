@@ -4,6 +4,7 @@ import classes from './index.module.scss';
 import CallToAction from '../../cta';
 import Presupuesto from '../../presupuesto';
 import CallButton from '../../CallButton';
+import Image from 'next/image';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
@@ -11,12 +12,14 @@ function ServiceContent({ service }) {
     return (
         <Col lg={{ span: 12 }} className="pe-lg-45">
             <div className="banner">
-                <img
-                    className="img-full"
-                    src={imagePath}
-                    alt={service?.title}
-                    priority
-                />
+            <Image
+                        width={845}
+                        height={564}
+                        className="img-full"
+                        src={imagePath}
+                        alt={service?.title}
+                        priority
+                    />
             </div>
             <div className={classes.content}>
                 <h2 className={classes.title}>{service?.title2}</h2>

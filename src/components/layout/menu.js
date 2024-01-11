@@ -181,6 +181,11 @@ const menuDesktop = [
                         text: 'Torrejón de Velasco',
                         link: '/desatascos/torrejon-de-velasco',
                     },
+                    {
+                        id: 4212,
+                        text: 'Arroyomolinos',
+                        link: '/desatascos/arroyomolinos',
+                    },
                 ],
             },
             {
@@ -242,6 +247,11 @@ const menuDesktop = [
                         id: 447,
                         text: 'San Sebastián de los Reyes',
                         link: '/desatascos/san-sebastian-de-los-reyes',
+                    },
+                    {
+                        id: 448,
+                        text: 'Algete',
+                        link: '/desatascos/algete',
                     },
                     /*
                     {

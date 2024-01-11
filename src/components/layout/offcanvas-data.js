@@ -159,6 +159,16 @@ export const OffcanvasData = [
                 link: '/desatascos/leganes',
                 text: 'Leganés',
             },
+            {
+                id: 'submenu-15',
+                link: '/desatascos/arroyomolinos',
+                text: 'Arroyomolinos',
+            },
+            {
+                id: 'submenu-16',
+                link: '/desatascos/algete',
+                text: 'Algete',
+            },
           
         ],
     },

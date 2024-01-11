@@ -6,6 +6,7 @@ import CallToAction1 from '../../cta1';
 import Presupuesto from '../../presupuesto';
 import GridServices from '../../gridservicios';
 import Problemas from '../../problemas';
+import Image from 'next/image';
 
 function ServiceContent({ service}) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -14,7 +15,9 @@ function ServiceContent({ service}) {
         <>
             <Col lg={{ span: 12 }} className="pe-lg-45">
                 <div className="banner">
-                    <img
+                    <Image
+                        width={845}
+                        height={564}
                         className="img-full"
                         src={imagePath}
                         alt={service?.title}

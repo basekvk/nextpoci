@@ -10,27 +10,7 @@ import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
 
 function ServiceDetailsPage({ service, footerItems }) {
-    const structuredData = {
-        '@context': 'http://schema.org/plumber',
-        '@id': service.canonical + '#webpage',
-        '@type': 'WebPage',
-        url: service.canonical,
-        name: service.title,
-        logo: service.image,
-        description: service.metaContent,
-        address: {
-            '@type': 'PostalAddress',
-            streetAddress: 'Calle Lezo 8',
-            addressLocality: 'Madrid',
-            postalCode: '28041',
-            addressCountry: 'ES',
-        },
-        contactPoint: {
-            '@type': 'ContactPoint',
-            contactType: 'customer support',
-            telephone: '+34647376782',
-        },
-    };
+    
     return (
         <>
             <Head>
@@ -38,9 +18,7 @@ function ServiceDetailsPage({ service, footerItems }) {
                 <meta name="description" content={service.metaContent} />
                 <link rel="canonical" href={service.canonical} />
                 <meta property="og:title" content={service.titleMeta} />
-                <script type="application/ld+json">
-                    {JSON.stringify(structuredData)}
-                </script>
+                
             </Head>
 
             <Breadcrumb
