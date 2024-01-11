@@ -38,6 +38,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <Layout>
             <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>
                     Desatascos, Desatrancos y Pocería en Madrid | Fosas Sépticas
                 </title>
@@ -46,7 +47,7 @@ function MyApp({ Component, pageProps }) {
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
-              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              
 
                 <meta name="robots" content="index, follow" />
                 <meta
@@ -91,10 +92,7 @@ function MyApp({ Component, pageProps }) {
                     property="twitter:image"
                     content="https://desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1"
-                />
+               
                 <link
                     rel="apple-touch-icon"
                     sizes="57x57"
