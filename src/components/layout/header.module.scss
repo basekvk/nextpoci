@@ -1,6 +1,9 @@
 @import '../../styles/abstract/custom-variables';
 @import '../../styles/abstract/custom-mixins';
 
+$color-flecha: $secondary; // Cambia esto por el color que desees para la flecha
+$transition-base: all 0.3s ease; // Ejemplo de transición
+
 .area {
     position: relative;
 }
@@ -175,6 +178,7 @@
     }
 
     &_menu {
+        width: 100%;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
         background-color: $primary;
         position: absolute;
@@ -184,10 +188,8 @@
         left: 0;
         transition: $baseTransition;
         width: 250px;
-        padding-left: 30px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        text-align: left;
+
+        text-align: center;
         z-index: 2;
 
         @include breakpoint(max-lg-device) {
@@ -198,7 +200,24 @@
         > li {
             position: relative;
             margin: 6px;
-            // Posición relativa para el submenú anidado
+            border: 2px solid rgba(255, 255, 255, 0.5); // Un borde con opacidad
+            padding: 10px 0; // Padding superior e inferior para cada `li`
+            margin: 0; // Sin margen entre `li` para que vaya de ancho a ancho
+            background-color: transparent; // Sin relleno de fondo
+            width: 100%; // Asegúrate de que cada `li` tenga el ancho completo
+            box-sizing: border-box;
+            &:has(ul) {
+                &::after {
+                    content: '▶'; // Ícono de flecha
+                    font-size: 0.6em; // Reduce el tamaño de la flecha
+                    color: $color-flecha;
+                    position: absolute;
+                    right: 0; // Ajusta esto para alinear tu flecha
+                    top: 50%;
+                    transform: translateY(-50%);
+                    transition: $transition-base;
+                }
+            }
 
             &:hover {
                 > a {
@@ -228,10 +247,7 @@
                 transition: $baseTransition;
                 width: 200px;
                 width: 250px;
-                padding-left: 30px;
-                padding-top: 25px;
-                padding-bottom: 25px;
-                text-align: left;
+                text-align: center;
                 z-index: 2;
                 border-width: 2px;
                 border-style: solid;
@@ -242,7 +258,13 @@
                 }
                 > li {
                     position: relative;
-                    margin: 6px;
+            margin: 6px;
+            border: 2px solid rgba(255, 255, 255, 0.5); // Un borde con opacidad
+            padding: 10px 0; // Padding superior e inferior para cada `li`
+            margin: 0; // Sin margen entre `li` para que vaya de ancho a ancho
+            background-color: transparent; // Sin relleno de fondo
+            width: 100%; // Asegúrate de que cada `li` tenga el ancho completo
+            box-sizing: border-box;
                     // Posición relativa para el submenú anidado
 
                     &:hover {
