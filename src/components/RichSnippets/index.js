@@ -52,10 +52,6 @@ function RichSnippets() {
                     cámaras de TV.
                 </span>
                 <span itemProp="priceRange">Económicos</span>
-            </div>
-
-            <div itemScope itemType="https://schema.org/LocalBusiness">
-                <span itemProp="name">Desatascos Pociten</span>
                 <div
                     itemProp="aggregateRating"
                     itemScope
@@ -134,6 +130,8 @@ function RichSnippets() {
                     </span>
                 </div>
             </div>
+
+           
 
             <div itemScope itemType="https://schema.org/BlogPosting">
                 <span itemProp="headline">CÓMO DESATASCAR UN FREGADERO</span>
