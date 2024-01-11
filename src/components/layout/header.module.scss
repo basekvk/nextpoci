@@ -212,6 +212,7 @@ $transition-base: all 0.3s ease; // Ejemplo de transición
                     font-size: 0.6em; // Reduce el tamaño de la flecha
                     color: $color-flecha;
                     position: absolute;
+                    margin-right: 30px;
                     right: 0; // Ajusta esto para alinear tu flecha
                     top: 50%;
                     transform: translateY(-50%);
@@ -258,13 +259,13 @@ $transition-base: all 0.3s ease; // Ejemplo de transición
                 }
                 > li {
                     position: relative;
-            margin: 6px;
-            border: 2px solid rgba(255, 255, 255, 0.5); // Un borde con opacidad
-            padding: 10px 0; // Padding superior e inferior para cada `li`
-            margin: 0; // Sin margen entre `li` para que vaya de ancho a ancho
-            background-color: transparent; // Sin relleno de fondo
-            width: 100%; // Asegúrate de que cada `li` tenga el ancho completo
-            box-sizing: border-box;
+                    margin: 6px;
+                    border: 2px solid rgba(255, 255, 255, 0.5); // Un borde con opacidad
+                    padding: 10px 0; // Padding superior e inferior para cada `li`
+                    margin: 0; // Sin margen entre `li` para que vaya de ancho a ancho
+                    background-color: transparent; // Sin relleno de fondo
+                    width: 100%; // Asegúrate de que cada `li` tenga el ancho completo
+                    box-sizing: border-box;
                     // Posición relativa para el submenú anidado
 
                     &:hover {
