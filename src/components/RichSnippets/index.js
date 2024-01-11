@@ -1,11 +1,19 @@
-import './richsnippets.module.css'
+
 
 
 
 function RichSnippets() {
     return (
         <>
-            <div className="visually-hidden">
+            <div style={{
+            position: 'absolute', 
+            width: '1px', 
+            height: '1px', 
+            margin: '-1px', 
+            overflow: 'hidden', 
+            clip: 'rect(0, 0, 0, 0)', 
+            border: '0'
+        }}>
                 <div itemScope itemType="https://schema.org/LocalBusiness">
                     <span itemProp="name">Desatascos Pociten</span>
                     <span itemProp="name">Desatascos Pociten</span>
