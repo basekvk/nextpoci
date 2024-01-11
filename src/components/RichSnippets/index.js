@@ -28,6 +28,7 @@ function RichSnippets() {
                 <span itemProp="telephone">
                     <a href="tel:+34-647-376-782">+34 647 376 782</a>
                 </span>
+                <span itemProp="priceRange">Económicos</span>
                 <div
                     itemprop="aggregateRating"
                     itemScope
@@ -70,7 +71,7 @@ function RichSnippets() {
                 <span itemProp="serviceType">
                     Servicios de desatascos y pocería
                 </span>
-                <span itemProp="areaServed">Madrid y sus alrededores</span>
+                <span itemProp="areaServed">Comunidad de Madrid y zonas limítrofes de Toledo y Guuadalajara</span>
                 <span itemProp="description">
                     Limpieza de tuberías, fosas sépticas, arquetas, bajantes,
                     entre otros. Además, también ofrecen servicios de pocería,
@@ -82,6 +83,15 @@ function RichSnippets() {
 
             <div itemScope itemType="https://schema.org/LocalBusiness">
                 <span itemProp="name">Desatascos Pociten</span>
+                <span itemProp="priceRange">Económicos</span>
+                <span itemProp="telephone">
+                    <a href="tel:+34-647-376-782">+34 647 376 782</a>
+                </span>
+                <img
+                    itemProp="image"
+                    src="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                    alt="Desatascos en Madrid 24 horas - Desatascos Pociten"
+                />
                 <div
                     itemProp="address"
                     itemScope
