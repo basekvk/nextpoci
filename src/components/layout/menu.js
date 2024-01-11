@@ -309,8 +309,38 @@ const menuDesktop = [
         submenu: [
             {
                 id: 51,
-                text: 'DESATASCAR FREGADERO',
+                text: '➡️COMO DESATASCAR FREGADERO',
                 link: '/blogs/como-desatascar-un-fregadero',
+                
+            },
+            {
+                id: 52,
+                text: '➡️ARQUETA SIFÓNICA ATASCADA',
+                link: '/blogs/arqueta-sifonica-atascada',
+                
+            },
+            {
+                id: 53,
+                text: '➡️DESATASCAR UNA TUBERÍA',
+                link: '/blogs/como-desatascar-tuberias',
+                
+            },
+            {
+                id: 54,
+                text: '➡️COMO PREVENIR ATASCOS EN TUBERÍAS',
+                link: '/blogs/como-prevenir-atascos',
+                
+            },
+            {
+                id: 55,
+                text: '➡️CONSEJOS OBRAS DE POCERÍA',
+                link: '/blogs/obras-poceria-consejos',
+                
+            },
+            {
+                id: 55,
+                text: '➡️FOSAS SÉPTICAS LO QUE DEBES SABER',
+                link: '/blogs/lo-que-debes-saber-fosas-septicas',
                 
             },
            
