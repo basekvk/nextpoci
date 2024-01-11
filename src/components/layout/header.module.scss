@@ -176,7 +176,7 @@
 
     &_menu {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-        background-color: $white;
+        background-color: $primary;
         position: absolute;
         visibility: hidden;
         opacity: 0;
@@ -202,13 +202,15 @@
 
             &:hover {
                 > a {
-                    color: $primary;
+                    color: $white;
                 }
 
                 .dropdown_nested {
                     // Estilos para el submenú anidado al hacer hover
                     visibility: visible;
                     opacity: 1;
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                    background-color: $primary;
                 }
             }
 
@@ -245,7 +247,7 @@
 
                     &:hover {
                         > a {
-                            color: $primary;
+                            color: $white;
                         }
 
                         .dropdown_nested {

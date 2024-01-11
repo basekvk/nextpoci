@@ -189,16 +189,7 @@ const menuDesktop = [
                         text: 'Alcobendas',
                         link: '/desatascos/alcobendas',
                     },
-                    {
-                        id: 432,
-                        text: 'Algete',
-                        link: '/desatascos/algete',
-                    },
-                    {
-                        id: 433,
-                        text: 'Algete',
-                        link: '/desatascos/aranjuez',
-                    },
+            
                     {
                         id: 434,
                         text: 'Arganda del Rey',
