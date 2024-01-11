@@ -7,7 +7,6 @@ import { getBlogTags } from '../../lib/blog-tags';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import Head from 'next/head';
 
-
 function BlogDetailPage({
     blog,
     richTexts,
@@ -16,50 +15,16 @@ function BlogDetailPage({
     tags,
     footerItems,
 }) {
-         const structuredData = {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": blog.title,
-        "description": blog.desc,
-        "author": {
-            "@type": "Person",
-            "name": "Desatascos Pociten",
-            "url": "https://www.desatascos-madrid.com",
-            "sameAs": [
-                "https://www.facebook.com/desatascospociten",
-                "https://twitter.com/pociten",
-                "https://instagram.com/pociten_desatascos",
-                "https://www.youtube.com/@PocitenDesatascos"
-            ],
-            "image": "https://www.desatascos-madrid.com/images/logo/light.webp",
-            "jobTitle": "Desatascos y Poceros en Madrid",
-            "worksFor": {
-                "@type": "Organization",
-                "name": "Desatascos Pociten",
-                "url": "https://www.desatascos-madrid.com",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://www.desatascos-madrid.com/images/logo/light.webp"
-                }
-            },
-
-            
-        },
-        
-    };
     return (
         <>
             <Head>
                 <title>{blog.title}</title>
                 <meta name="description" content={blog.desc} />
-                <script type="application/ld+json">
-                    {JSON.stringify(structuredData)}
-                </script>
             </Head>
             <Breadcrumb
                 subTitle={blog?.subTitle}
                 title={blog?.title}
-                desc={blog.desc} 
+                desc={blog.desc}
             />
             <BlogDetail
                 blog={blog}
@@ -68,7 +33,7 @@ function BlogDetailPage({
                 categories={categories}
                 tags={tags}
             />
-           
+
             <Footer footerItems={footerItems} />
         </>
     );
