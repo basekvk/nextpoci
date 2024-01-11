@@ -176,6 +176,11 @@ const menuDesktop = [
                         text: 'Pinto',
                         link: '/desatascos/pinto',
                     },
+                    {
+                        id: 4212,
+                        text: 'Torrejón de Velasco',
+                        link: '/desatascos/torrejon-de-velasco',
+                    },
                 ],
             },
             {
@@ -286,6 +291,19 @@ const menuDesktop = [
                         id: 454,
                         text: 'Rozas',
                         link: '/desatascos/las-rozas',
+                    },
+                ],
+            },
+            {
+                id: 46,
+                text: 'TOLEDO',
+                link: '#',
+                cName: '',
+                submenu: [
+                    {
+                        id: 451,
+                        text: 'SESEÑA',
+                        link: '/desatascos/sesena',
                     },
                 ],
             },

@@ -276,7 +276,7 @@ iframe {
 .offcanvas {
     &-menu {
         transition: all 500ms linear;
-        background-color: black;
+        background-color: $secondary;
         padding-top: 50px;
         padding-left: 50px;
         padding-right: 50px;
@@ -320,6 +320,8 @@ iframe {
                     &.offcanvas {
                         &-text {
                             padding-bottom: 20px;
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
                         }
                     }
                 }
@@ -334,6 +336,7 @@ iframe {
                             font-size: 14px;
                             display: flex;
                             justify-content: space-between;
+                            align-items: center;
                         }
                     }
                 }
@@ -362,6 +365,7 @@ iframe {
                 a {
                     display: none;
                     text-transform: capitalize;
+                    
                 }
             }
         }

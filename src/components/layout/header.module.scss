@@ -118,7 +118,13 @@ $transition-base: all 0.3s ease; // Ejemplo de transición
         align-items: center;
         cursor: pointer;
         height: 100%;
-        color: black;
+        color: #FFFFFF; // Un color claro que contrastará con un fondo oscuro
+        background-color: #003a70; // Un color azul oscuro tomado de tu paleta
+        padding: 10px 20px; // Espaciado interno para hacer el botón más grande
+        border: none; // Sin borde para un look más limpio
+        border-radius: 5px; // Bordes redondeados para suavizar las esquinas
+        font-weight: bold; // Texto en negrita para que resalte más
+        transition: background-color 0.3s ease; // Transición suave para el efecto al pasar el mouse
     }
 }
 /* -Header Logo- */
