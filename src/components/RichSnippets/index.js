@@ -52,6 +52,20 @@ function RichSnippets() {
                     cámaras de TV.
                 </span>
                 <span itemProp="priceRange">Económicos</span>
+            </div>
+
+            <div itemScope itemType="https://schema.org/LocalBusiness">
+                <span itemProp="name">Desatascos Pociten</span>
+                <div
+                    itemProp="address"
+                    itemScope
+                    itemType="https://schema.org/PostalAddress"
+                >
+                    <span itemProp="streetAddress">Calle Lezo 8</span>
+                    <span itemProp="postalCode">28041</span>
+                    <span itemProp="addressLocality">Madrid</span>,
+                    <span itemProp="addressRegion">Madrid</span>
+                </div>
                 <div
                     itemProp="aggregateRating"
                     itemScope
@@ -130,8 +144,6 @@ function RichSnippets() {
                     </span>
                 </div>
             </div>
-
-           
 
             <div itemScope itemType="https://schema.org/BlogPosting">
                 <span itemProp="headline">CÓMO DESATASCAR UN FREGADERO</span>
