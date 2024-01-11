@@ -3,6 +3,12 @@ function RichSnippets() {
         <>
             <div itemScope itemType="https://schema.org/LocalBusiness">
                 <span itemProp="name">Desatascos Pociten</span>
+                <span itemProp="name">Desatascos Pociten</span>
+                <link itemprop="url" href="https://desatascos-madrid.com" />
+                <span itemprop="description">
+                    Empresa líder de desatascos y obras de pocería en la
+                    comunidad de Madrid. Experiencia a tu servicio.
+                </span>
                 <div
                     itemProp="address"
                     itemScope
@@ -22,6 +28,26 @@ function RichSnippets() {
                 <span itemProp="telephone">
                     <a href="tel:+34-647-376-782">+34 647 376 782</a>
                 </span>
+                <div
+                    itemprop="aggregateRating"
+                    itemScope
+                    itemType="https://schema.org/AggregateRating"
+                >
+                    <span itemprop="ratingValue">4.6</span>
+                    <meta itemprop="reviewCount" content="40" />
+                </div>
+                <span itemprop="areaServed">Madrid y zonas limítrofes</span>
+                <div
+                    itemprop="makesOffer"
+                    itemScope
+                    itemType="https://schema.org/Offer"
+                >
+                    <span itemprop="itemOffered">
+                        Desatascos, limpieza de tuberías, inspección con cámara, vaciado fosas sépticas,
+                        bajantes, arquetas, alcantarillado, red de saneamiento, reparación de tuberias sin obra,
+                        etc.
+                    </span>
+                </div>
                 <div
                     itemProp="openingHoursSpecification"
                     itemScope
@@ -147,6 +173,7 @@ function RichSnippets() {
 
             <div itemScope itemType="https://schema.org/BlogPosting">
                 <span itemProp="headline">CÓMO DESATASCAR UN FREGADERO</span>
+
                 <span
                     itemProp="author"
                     itemScope
@@ -155,6 +182,10 @@ function RichSnippets() {
                     <span itemProp="name">Desatascos Pociten</span>
                 </span>
                 <span itemProp="datePublished">2023-12-17</span>
+                <meta
+                    itemProp="url"
+                    content="https://www.desatascos-madrid.com/blogs/como-desatascar-un-fregadero"
+                />
                 <span itemProp="articleBody">
                     En este artículo, se analizarán las principales causas que
                     pueden llevar a un fregadero a sufrir un atasco. Identificar
