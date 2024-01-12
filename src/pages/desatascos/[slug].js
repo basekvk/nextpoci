@@ -12,11 +12,13 @@ import LocalidadBuscador from '../../components/Buscador';
 
 function ServiceDetailsPage({ service, footerItems }) {
     
+    
     return (
         <>
             <Head>
                 <title>{service.titleMeta}</title>
                 <meta name="description" content={service.metaContent} />
+                
                 <link rel="canonical" href={service.canonical} />
                 <meta property="og:title" content={service.titleMeta} />
                 

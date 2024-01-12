@@ -42,9 +42,8 @@ function MyApp({ Component, pageProps }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>
-                    Desatascos, Desatrancos y Pocería en Madrid | Fosas Sépticas
-                </title>
+                <meta charSet="utf-8" />
+
                 <RichSnippets />
 
                 <meta name="robots" content="index, follow" />

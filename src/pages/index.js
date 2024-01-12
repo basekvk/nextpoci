@@ -26,14 +26,14 @@ function HomePage({
         <>
             <Head>
                 <title>
-                    Desatrancos y Pocería en Madrid | Desatascos Madrid
+                    Desatrancos y Pocería en Madrid | Desatascos Madrid - Pociten
                 </title>
                 <meta
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://desatascos-madrid.com" />
+                <link rel="canonical" href="https://www.desatascos-madrid.com" />
             </Head>
 
             <Hero heroItems={heroItems} />
