@@ -8,6 +8,7 @@ import LazyLoad from 'react-lazyload';
 
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
+import LocalidadBuscador from '../../components/Buscador';
 
 function ServiceDetailsPage({ service, footerItems }) {
     
@@ -29,6 +30,7 @@ function ServiceDetailsPage({ service, footerItems }) {
             <LazyLoad>
                 <ServiceDetail service={service} />
                 <ProductCluster localidad={service?.lugar} />
+                
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
