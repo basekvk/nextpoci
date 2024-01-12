@@ -17,8 +17,8 @@ function RichSnippets() {
                 <div itemScope itemType="https://schema.org/LocalBusiness">
                     <span itemProp="name">Desatascos Pociten</span>
                     <span itemProp="name">Desatascos Pociten</span>
-                    <link itemprop="url" href="https://desatascos-madrid.com" />
-                    <span itemprop="description">
+                    <link itemProp="url" href="https://desatascos-madrid.com" />
+                    <span itemProp="description">
                         Empresa líder de desatascos y obras de pocería en la
                         comunidad de Madrid. Experiencia a tu servicio.
                     </span>
@@ -43,20 +43,20 @@ function RichSnippets() {
                     </span>
                     <span itemProp="priceRange">Económicos</span>
                     <div
-                        itemprop="aggregateRating"
+                        itemProp="aggregateRating"
                         itemScope
                         itemType="https://schema.org/AggregateRating"
                     >
-                        <span itemprop="ratingValue">4.6</span>
-                        <meta itemprop="reviewCount" content="40" />
+                        <span itemProp="ratingValue">4.6</span>
+                        <meta itemProp="reviewCount" content="40" />
                     </div>
-                    <span itemprop="areaServed">Madrid y zonas limítrofes</span>
+                    <span itemProp="areaServed">Madrid y zonas limítrofes</span>
                     <div
-                        itemprop="makesOffer"
+                        itemProp="makesOffer"
                         itemScope
                         itemType="https://schema.org/Offer"
                     >
-                        <span itemprop="itemOffered">
+                        <span itemProp="itemOffered">
                             Desatascos, limpieza de tuberías, inspección con
                             cámara, vaciado fosas sépticas, bajantes, arquetas,
                             alcantarillado, red de saneamiento, reparación de
