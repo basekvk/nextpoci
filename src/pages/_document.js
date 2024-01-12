@@ -1,4 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 const MyDocument = () => {
     return (
@@ -23,20 +24,17 @@ const MyDocument = () => {
                     rel="stylesheet"
                 />
 
-                
-                {/* cargar de forma diferida Font Awesome  */}
-
-                {/* Tu componente LocalBusinessSchema aquí */}
+             
             </Head>
             <body>
                 <Main />
                 <NextScript />
                 {/* Google Analytics Script */}
-                <script
+                <Script
                     async
                     src={`https://www.googletagmanager.com/gtag/js?id=G-G7RR3SK94G`}
                 />
-                <script
+                <Script
                     dangerouslySetInnerHTML={{
                         __html: `
                 window.dataLayer = window.dataLayer || [];

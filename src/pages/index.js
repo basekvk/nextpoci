@@ -47,36 +47,33 @@ function HomePage({
                     ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
-                    inspección? <br /><br />¡No te preocupes! Ofrecemos servicios de
-                    desatascos de tuberías (fregaderos, duchas, wc,
-                    lavavajillas, cocinas, etc..), desatrancos, limpieza y
-                    mantenimiento de alcantarillado, limpieza y construcción de
-                    arquetas y pozos negros, achiques de agua, reparación de
-                    bajantes, inspección con cámara de tuberías, vaciado y
-                    mantenimiento de fosas sépticas, reparación de tuberías sin
-                    obra, etc...
+                    inspección? <br />
+                    <br />
+                    ¡No te preocupes! Ofrecemos servicios de desatascos de
+                    tuberías (fregaderos, duchas, wc, lavavajillas, cocinas,
+                    etc..), desatrancos, limpieza y mantenimiento de
+                    alcantarillado, limpieza y construcción de arquetas y pozos
+                    negros, achiques de agua, reparación de bajantes, inspección
+                    con cámara de tuberías, vaciado y mantenimiento de fosas
+                    sépticas, reparación de tuberías sin obra, etc...
                 </p>
-                
-               <br />
+
+                <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
                     y zonas limítrofes de Toledo y Guadalajara. Contamos con
                     camiones cuba preparados para cualquier urgencia las 24
-                    horas del día. <br /> <br />Si estás buscando poceros cualificados y al
-                    mejor precio, no busques más, los acabas de encontrar.
-                    Compruébalo
+                    horas del día. <br /> <br />
+                    Si estás buscando poceros cualificados y al mejor precio, no
+                    busques más, los acabas de encontrar. Compruébalo
                 </p>
-                <br />  
+                <br />
                 <CallButton />
             </div>
-            <br>
-            
-            </br>
-            <ProductCluster localidad= "Madrid" />
-           
+            <br></br>
+            <ProductCluster localidad="Madrid" />
+
             <CallButton />
-            
-            
 
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
@@ -100,15 +97,16 @@ function HomePage({
             </div>
             <Problemas />
             <br></br>
-            <div className="container" >
-                <h2 style={{textAlign: "center", fontSize: "40px"}} >OTROS SERVICIOS</h2>
-            <GridServicios />
+            <div className="container">
+                <h2 style={{ textAlign: 'center', fontSize: '40px' }}>
+                    OTROS SERVICIOS
+                </h2>
+                <GridServicios />
             </div>
             <CallToAction text="inicio" />
-            <div className='container'>
-            <ReviewsSection />
+            <div className="container">
+                <ReviewsSection />
             </div>
-            
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>

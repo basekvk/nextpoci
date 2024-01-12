@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <Layout>
             <Head>
-            <meta
+                <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
@@ -46,8 +46,6 @@ function MyApp({ Component, pageProps }) {
                     Desatascos, Desatrancos y Pocería en Madrid | Fosas Sépticas
                 </title>
                 <RichSnippets />
-                
-              
 
                 <meta name="robots" content="index, follow" />
                 <meta
@@ -92,7 +90,7 @@ function MyApp({ Component, pageProps }) {
                     property="twitter:image"
                     content="https://desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
-               
+
                 <link
                     rel="apple-touch-icon"
                     sizes="57x57"
