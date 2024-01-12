@@ -1,7 +1,7 @@
 ---
 id: 'service-9'
 title: 'Limpieza y Mantenimiento Fosas Sépticas'
-titleMeta: "Limpieza, Vaciado y Mantenimiento de Fosas Sépticas | Desatascos Pociten"
+titleMeta: "Limpieza, Vaciado y Mantenimiento de Fosas Sépticas | Pociten"
 canonical: https://www.desatascos-madrid.com/services/limpieza-fosas-septicas
 
 mediumImage: 'fosassepticas-md.webp'

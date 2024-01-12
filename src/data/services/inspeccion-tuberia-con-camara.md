@@ -1,7 +1,7 @@
 ---
 id: 'service-7'
 title: 'Inspección Tubería Con Cámara'
-titleMeta: "Desatascos Pociten: Expertos en Inspección de Tuberías con Cámara en Madrid"
+titleMeta: "Pociten - Expertos en Inspección de Tuberías con Cámara en Madrid"
 canonical: https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara
 
 metaContent: "🎥🔍 Desatascos Pociten ofrece inspecciones de tuberías con cámara en Madrid. Detectamos y solucionamos problemas de manera eficiente. ☎️ Llámanos al 647 376 782."
