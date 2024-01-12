@@ -170,9 +170,14 @@ export const OffcanvasData = [
                 text: 'Algete',
             },
             {
-                id: 'submenu-16',
+                id: 'submenu-17',
                 link: '/desatascos/illescas',
                 text: 'Illescas',
+            },
+            {
+                id: 'submenu-18',
+                link: '/desatascos/collado-villalba',
+                text: 'Collado Villalba',
             },
           
         ],

@@ -79,23 +79,7 @@ accordionData:
 
 
 contenido: '
-<ul>
-<li>✅ COMUNIDADES DE PROPIETARIOS</li>
-<li>✅ COMUNIDADES DE VECINOS</li>
-<li>✅ ARQUITECTOS</li>
-<li>✅ ADMINISTRADORES DE FINCAS</li>
-<li>✅ MANTENIMIENTO DE EMPRESAS</li>
-<li>✅ PROPIETARIOS DE CHALETS Y PISOS</li>
-<li>✅ AYUNTAMIENTOS</li>
-<li>✅ EMPRESAS CONSTRUCTORAS</li>
-<li>✅ ASEGURADORAS</li>
-<li>✅ COLEGIOS</li>
-<li>✅ AUTÓNOMOS</li>
-</ul>
-<br/>
 
-<p>Contamos con ofertas especiales en todos nuestros servicios destinados a Empresas y Administradores de Fincas. <br/>
-<a class="link" href="https://desatascos-madrid.com/contacto">Contacta con nosotros </a>y pídenos toda la información que necesites.</p>
 '
 
 isFeatured: true

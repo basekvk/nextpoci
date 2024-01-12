@@ -199,11 +199,10 @@ const menuDesktop = [
                         text: 'Alcobendas',
                         link: '/desatascos/alcobendas',
                     },
-            
                     {
                         id: 434,
-                        text: 'Arganda del Rey',
-                        link: '/desatascos/arganda-del-rey',
+                        text: 'Collado Villalba',
+                        link: '/desatascos/collado-villalba',
                     },
                 ],
             },
@@ -252,6 +251,11 @@ const menuDesktop = [
                         id: 448,
                         text: 'Algete',
                         link: '/desatascos/algete',
+                    },
+                    {
+                        id: 449,
+                        text: 'Arganda del Rey',
+                        link: '/desatascos/arganda-del-rey',
                     },
                     /*
                     {
