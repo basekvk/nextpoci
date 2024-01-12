@@ -41,7 +41,7 @@ function HomePage({
 
             <div className="container">
                 <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos de Tuberías en Madrid
+                    Desatascos en Madrid
                 </h2>
                 <p>
                     ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
