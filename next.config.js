@@ -144,6 +144,11 @@ const nextConfig = {
                 destination: '/services/desatasco-de-tuberias',
                 permanent: true,
             },
+            {
+                source: '/services/desatascos-24horas',
+                destination: '/services/desatascos-24-horas',
+                permanent: true,
+            },
         ];
     },
 };
