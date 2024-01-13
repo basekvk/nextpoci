@@ -68,7 +68,7 @@ contenidoDescripcion3: "
 
 
 <h3><strong>Por qué elegir Desatascos Pociten:</strong></h3>
-<ul>
+
   <p>🔝Económicos</p>
   <p>🔝Eficientes</p>
   <p>🔝Tecnología avanzada</p>
@@ -78,7 +78,7 @@ contenidoDescripcion3: "
   <p>🔝Eficacia garantizada</p>
   <p>🔝Atención de urgencias</p>
   <p>🔝Cercanía y confianza</p>
-</ul>
+
 
 <h3><strong><a href='#servicios'>Desatrancos Alcorcón</a></strong></h3>
 <p>Ofrecemos servicios diarios en toda la Comunidad de Madrid a precios competitivos.</p>
