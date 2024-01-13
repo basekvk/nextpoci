@@ -96,8 +96,8 @@ dependencies:
     specifier: 1.8.1
     version: 1.8.1(jquery@3.7.1)
   swiper:
-    specifier: ^11.0.5
-    version: 11.0.5
+    specifier: 6.8.4
+    version: 6.8.4
 
 devDependencies:
   '@babel/eslint-parser':
@@ -1296,6 +1296,12 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       csstype: 3.1.2
+    dev: false
+
+  /dom7@3.0.0:
+    resolution: {integrity: sha512-oNlcUdHsC4zb7Msx7JN3K0Nro1dzJ48knvBOnDPKJ2GV9wl1i5vydJZUSyOfrkKFDZEud/jBsTk92S/VGSAe/g==}
+    dependencies:
+      ssr-window: 3.0.0
     dev: false
 
   /eastasianwidth@0.2.0:
@@ -3741,6 +3747,10 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
+  /ssr-window@3.0.0:
+    resolution: {integrity: sha512-q+8UfWDg9Itrg0yWK7oe5p/XRCJpJF9OBtXfOPgSJl+u3Xd5KI328RUEvUqSMVM9CiQUEf1QdBzJMkYGErj9QA==}
+    dev: false
+
   /string-argv@0.3.2:
     resolution: {integrity: sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==}
     engines: {node: '>=0.6.19'}
@@ -3881,9 +3891,13 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swiper@11.0.5:
-    resolution: {integrity: sha512-rhCwupqSyRnWrtNzWzemnBLMoyYuoDgGgspAm/8iBD3jCvAWycPLH4Z3TB0O5520DHLzMx94yUMH/B9Efpa48w==}
+  /swiper@6.8.4:
+    resolution: {integrity: sha512-O+buF9Q+sMA0H7luMS8R59hCaJKlpo8PXhQ6ZYu6Rn2v9OsFd4d1jmrv14QvxtQpKAvL/ZiovEeANI/uDGet7g==}
     engines: {node: '>= 4.7.0'}
+    requiresBuild: true
+    dependencies:
+      dom7: 3.0.0
+      ssr-window: 3.0.0
     dev: false
 
   /synckit@0.8.8:
