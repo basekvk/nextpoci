@@ -47,9 +47,9 @@ function HomePage({
                     ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
-                    inspección? <br />
+                    inspección? Estás en el sitio adecuado, llevamos la palabra pocero en la sangre<br />
                     <br />
-                    ¡No te preocupes! Ofrecemos servicios de desatascos de
+                    ¡No te preocupes! Como Poceros en Madrid ofrecemos servicios de desatascos de
                     tuberías (fregaderos, duchas, wc, lavavajillas, cocinas,
                     etc..), desatrancos, limpieza y mantenimiento de
                     alcantarillado, limpieza y construcción de arquetas y pozos
