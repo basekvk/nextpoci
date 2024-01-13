@@ -1,8 +1,8 @@
 ---
 id: 'about-01'
-sectionTitle: 'Desatascos en Madrid'
+sectionTitle: 'Poceros Madrid'
 sectionSubtitle: 'Empresa de Desatascos'
-sectionDesc: 'En Desatascos Pociten, ofrecemos soluciones integrales para todo tipo de problemas de atascos y limpieza de tuberías en Madrid. Con más de 20 años de experiencia, nos hemos establecido como una de las empresas líderes en el sector.
+sectionDesc: 'En Desatascos Pociten, ofrecemos soluciones integrales para todo tipo de problemas de atascos y limpieza de tuberías en Madrid. Con más de 20 años de experiencia como poceros, nos hemos establecido como una de las empresas líderes en el sector de la pocería.
 
 Si estás buscando una empresa de desatascos de confianza en Madrid, no busques más. <strong>Contacta con nosotros hoy mismo</strong> al 647 376 782 y estaremos encantados de atenderte. Estamos disponibles las 24 horas del día para atender tus necesidades de desatascos y pocería en Madrid y toda su provincia, incluyendo áreas cercanas de Guadalajara y Toledo.'
 image: '/images/about/1-1.webp'
@@ -21,17 +21,17 @@ listItem:
     [
         {
             id: 'listItem-01',
-            listText: 'Desatascos Pociten: Líderes en Desatascos y Pocería en Madrid. Comprometidos con la excelencia, ofrecemos soluciones de desatascos de alta calidad y económicos, nuestros poceros realizan los servicios adaptados a las necesidades específicas de cada cliente en Madrid.
+            listText: 'Desatascos Pociten: Líderes en Desatascos y Pocería en Madrid. Comprometidos con la excelencia, ofrecemos soluciones de desatascos de alta calidad y económicos, nuestros poceros realizan los servicios adaptados a las necesidades específicas de cada cliente en Madrid como por ejemplo desatrancos, limpiezas de tuberías, desagües, arquetas, wc, bajantes, alcantarillado, inundaciones, fosas sépticas, etc..
 ',
         },
         {
             id: 'listItem-02',
-            listText: 'Servicios Integrales de Pocería y Desatascos en Madrid por Desatascos Pociten. Desde limpieza de tuberías y desatrancos hasta inspecciones con cámara y construcción de galerías visitables, ofrecemos un abanico completo de servicios de pocería, garantizando soluciones eficientes y confiables para cada desafío.
+            listText: 'Servicios Integrales de Pocería y Desatrancos en Madrid. Desde vaciado de fosas sépticas, hasta desatasco de fregaderos, tuberías, bajantes, arquetas y otros tipos de atascos, ofrecemos un abanico completo de servicios de pocería, garantizando soluciones eficientes y confiables para cada desafío.
 ',
         },
         {
             id: 'listItem-03',
-            listText: 'Compromiso y Calidad en Desatascos y Pocería con Desatascos Pociten en Madrid. Si enfrenta problemas con sus tuberías, Desatascos Pociten es su solución de confianza. Contáctenos para experimentar un servicio de desatascos y pocería superior, marcado por nuestra dedicación a resolver eficazmente cada problema.
+            listText: 'Compromiso y Calidad en Desatrancos y Pocería con Desatascos Pociten en Madrid. Si enfrenta problemas con sus tuberías, Desatascos Pociten es su solución de confianza. Contáctenos para experimentar un servicio de desatascos y pocería superior, marcado por nuestra dedicación a resolver eficazmente cada problema.
 ',
         },
     ]
