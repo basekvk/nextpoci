@@ -2,11 +2,11 @@
 id: 'service-02'
 title: 'Desatascos en Alcorcón'
 
-titleMeta: "Desatascos y Poceros en Alcorcón - 24 horas | Pociten"  "
+titleMeta: "Desatascos y Poceros en Alcorcón - 24 horas | Pociten" 
 lugar: 'Alcorcón'
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosalcorcon-md.webp'
-canonical: https://www.desatascos-madrid.com/desatascos/alcorcon
+canonical: 'https://www.desatascos-madrid.com/desatascos/alcorcon'
 
 metaContent: "Pociten Desatascos y Poceros en Alcorcón, servicio 24h ⏰. Atascos resueltos de manera rápida y eficiente. ¡Contáctanos! ☎️ 647 376 782. "
 
