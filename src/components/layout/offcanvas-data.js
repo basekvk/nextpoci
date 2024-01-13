@@ -179,6 +179,11 @@ export const OffcanvasData = [
                 link: '/desatascos/collado-villalba',
                 text: 'Collado Villalba',
             },
+            {
+                id: 'submenu-19',
+                link: '/desatascos/tres-cantos',
+                text: 'Tres Cantos',
+            },
           
         ],
     },

@@ -204,6 +204,11 @@ const menuDesktop = [
                         text: 'Collado Villalba',
                         link: '/desatascos/collado-villalba',
                     },
+                    {
+                        id: 432,
+                        text: 'Tres Cantos',
+                        link: '/desatascos/tres-cantos',
+                    },
                 ],
             },
             {
