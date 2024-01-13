@@ -5,7 +5,7 @@ import Image from 'next/image';
 const services = [
     {
         id: 1,
-        title: 'Desatascos Urgentes',
+        title: 'Desatascos Urgentes 24 horas',
         image: '/images/cluster/desatascos24horas-lg.webp',
         alt: 'Servicios Desatascos',
         url: '/services/desatascos-24horas',
@@ -26,7 +26,7 @@ const services = [
     },
     {
         id: 4,
-        title: 'Desatascos Baratos',
+        title: 'Desatascos',
         image: '/images/cluster/desatascosbaratos-lg.webp',
         alt: 'Servicios Desatascos Baratos',
         url: '/services/desatascos-baratos',
