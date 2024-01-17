@@ -20,7 +20,7 @@ export const OffcanvasData = [
         submenu: [
             {
                 id: 'submenu-01',
-                link: '/services/desatascos-24horas',
+                link: '/services/desatascos-24-horas',
                 text: 'Desatascos 24 horas',
             },
             {

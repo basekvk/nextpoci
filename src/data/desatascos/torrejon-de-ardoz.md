@@ -40,7 +40,7 @@ contenidoDescripcion1: "
 <h3>¿Qué hace un pocero?</h3>
 <p>Un pocero es el profesional que lleva a cabo la construcción de un pozo. Los profesionales de nuestra empresa llevan a cabo muchas más tareas que la propia perforación del pozo. Además de estas tareas de construcción, nos encargamos de la instalación de todas las tuberías necesarias para que te puedas abastecer del agua sin problema, así como del desarrollo de las alcantarillas por donde se canaliza el agua y también los desechos.</p>
 
-<p>Ofrecemos servicio de<a href='/services/desatascos-24horas'> desatascos 24 horas</a> los 365 días del año, para cualquier urgencia.</p>
+<p>Ofrecemos servicio de<a href='/services/desatascos-24-horas'> desatascos 24 horas</a> los 365 días del año, para cualquier urgencia.</p>
 
 <p>Un pocero profesional, además de llevar a cabo estas labores de construcción, se encarga del mantenimiento del pozo para conservar su buen estado. Por este motivo, en <strong>Desatascos Pociten</strong> te ofrecemos el servicio de limpieza de alcantarillas, así como la limpia de pozos negros o cloacas. Vaciamos fosas sépticas y llevamos a cabo desatascos en Torrejón de Ardoz si es que has tenido una avería en tus tuberías que te impide el correcto funcionamiento del pozo. ¡Gracias por confiar en nosotros! 🚰👷‍♂️</p>
 

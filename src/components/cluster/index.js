@@ -8,7 +8,7 @@ const services = [
         title: 'Desatascos Urgentes 24 horas',
         image: '/images/cluster/desatascos24horas-lg.webp',
         alt: 'Servicios Desatascos',
-        url: '/services/desatascos-24horas',
+        url: '/services/desatascos-24-horas',
     },
     {
         id: 2,

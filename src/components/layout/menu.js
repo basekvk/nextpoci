@@ -20,7 +20,7 @@ const menuDesktop = [
             {
                 id: 31,
                 text: 'DESATASCOS 24 HORAS',
-                link: '/services/desatascos-24horas',
+                link: '/services/desatascos-24-horas',
                 cName: 'dropdown_menu',
                 
             },

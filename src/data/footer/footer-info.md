@@ -24,7 +24,7 @@ informationList:
 quickLinkTitle: 'Links de Interés'
 quickLinkList:
     [
-        { id: 'quickLinkList-01', title: 'Servicios Urgentes', path: 'services/desatascos-24horas' },
+        { id: 'quickLinkList-01', title: 'Servicios Urgentes', path: 'services/desatascos-24-horas' },
         { id: 'quickLinkList-02', title: 'Vaciado Fosas Sépticas
 ', path: 'services/limpieza-fosas-septicas' },
         {
