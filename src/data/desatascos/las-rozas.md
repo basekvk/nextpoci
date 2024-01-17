@@ -38,12 +38,12 @@ contenidoDescripcion: "
 contenidoDescripcion1: "
 <h2><strong>¿Qué Ofrecemos en Desatascos Pociten?</strong></h2>
 
-<ul>
+
     <p>🔵 <strong>Desatascos Económicos y Eficaces en Las Rozas:</strong> Solucionamos rápidamente cualquier avería, minimizando el impacto en tu negocio o hogar.</p>
     <p>🔵 <strong>Tecnología Avanzada:</strong> Utilizamos cámaras robot y otras herramientas modernas para ofrecer reparaciones mínimamente invasivas y de alta calidad.</p>
     <p>🔵 <strong>Amplia Gama de Servicios:</strong> Desde la construcción y limpieza de pozos hasta la reparación y mantenimiento de tuberías, alcantarillados y más.</p>
     <p>🔵 <strong>Equipo Experto y Calificado:</strong> Nuestros profesionales están altamente capacitados para proporcionar el mejor servicio de desatascos en Madrid.</p>
-</ul>
+
 
 <h2><strong>Clientes Satisfechos y Servicios Garantizados</strong></h2>
 

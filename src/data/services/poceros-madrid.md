@@ -33,25 +33,25 @@ contenidoDescripcion1: "<h2>Empresa de Pocería en Madrid</h2>
 <p>Un pocero es un profesional especializado en la construcción, perforación, mantenimiento y reparación de pozos, así como en la instalación y acceso a tuberías de abastecimiento o alcantarillado. Se encargan del mantenimiento adecuado para el correcto funcionamiento de estos sistemas, incluyendo la rehabilitación de tuberías antiguas y la limpieza de pozos negros y cloacas.</p>"
 contenidoDescripcion2: "<h2>Todo sobre Servicios de Pocería en Madrid</h2>
 <p>En <strong>Desatascos Pociten</strong>, somos expertos en construcción, limpieza de saneamientos y mantenimiento de pozos de aguas residuales. Nuestros servicios incluyen:</p>
-<ul>
-  <p>➡️ Desatrancos y desatascos</p>
-  <p>➡️ Localización y detección de fugas</p>
-  <p>➡️ Construcción y limpieza de pozos</p>
+
+  <p>➡️ Desatrancos y desatascos</p><br>
+  <p>➡️ Localización y detección de fugas</p><br>
+  <p>➡️ Construcción y limpieza de pozos</p><br>
   <p>➡️ Obras de alcantarillado público</p>
-  <!-- otros servicios -->
-</ul>
+  
+
 <br>
 <p><strong>Poceros profesionales en Madrid</strong> - <strong>Desatascos Pociten</strong> trabaja a diario para ofrecer el mejor servicio a los mejores precios. Nos desplazamos por toda la comunidad de Madrid, garantizando un servicio rápido y eficiente.</p>
 <br>
 <h3>¿Por qué elegir a nuestros Poceros en Madrid?</h3>
 <p><strong>Desatascos Pociten</strong> se destaca por:</p>
-<ul>
-  <p>➡️ Precios económicos y accesibles</p>
-  <p>➡️ Eficiencia y garantía de resultados</p>
-  <p>➡️ Uso de tecnología avanzada para inspección de tuberías</p>
-  <p>➡️ Respuesta rápida a urgencias</p>
-  <!-- otros puntos de venta -->
-</ul>
+
+  <p>➡️ Precios económicos y accesibles</p><br>
+  <p>➡️ Eficiencia y garantía de resultados</p><br>
+  <p>➡️ Uso de tecnología avanzada para inspección de tuberías</p><br>
+  <p>➡️ Respuesta rápida a urgencias</p><br>
+  
+
 
 <br>"
 contenidoDescripcion3: "
