@@ -8,7 +8,7 @@ import LazyLoad from 'react-lazyload';
 
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
-import LocalidadBuscador from '../../components/Buscador';
+
 
 function ServiceDetailsPage({ service, footerItems }) {
     

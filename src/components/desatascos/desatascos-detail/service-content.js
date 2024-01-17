@@ -118,19 +118,7 @@ function ServiceContent({ service}) {
                         __html: service.contenido,
                     }}
                 />
-                {/* 
-                <div className={classes.desc} style={styles}>
-                    <Acordeon
-                        title="¿CÓMO DESATASCO UNA TUBERÍA?"
-                        content={content2}
-                    />
-                    <Acordeon
-                        title="¿QUÉ PRODUCTOS PUEDO UTILIZAR?"
-                        content={content2}
-                    />
-                </div> */}
-
-                {/*PODEMOS INCLUIR CÓDIGO DESDE MARKDOWN*/}
+               
                 <div
                     style={{
                         textAlign: 'center',

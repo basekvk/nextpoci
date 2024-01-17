@@ -185,7 +185,23 @@ function MyApp({ Component, pageProps }) {
           `,
                 }}
             />
-
+            {/* Google Analytics Script */}
+            <Script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=G-G7RR3SK94G`}
+            />
+            <Script
+                dangerouslySetInnerHTML={{
+                    __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-G7RR3SK94G', {
+                  page_path: window.location.pathname,
+                });
+              `,
+                }}
+            />
             <LazyLoad>
                 <Analytics />
             </LazyLoad>

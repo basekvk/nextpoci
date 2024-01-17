@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
+
 
 const MyDocument = () => {
     return (
@@ -29,23 +29,7 @@ const MyDocument = () => {
             <body>
                 <Main />
                 <NextScript />
-                {/* Google Analytics Script */}
-                <Script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-G7RR3SK94G`}
-                />
-                <Script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-G7RR3SK94G', {
-                  page_path: window.location.pathname,
-                });
-              `,
-                    }}
-                />
+               
                 <img src="https://tracker.metricool.com/c3po.jpg?hash=87000e24db10b294b3151b5f362f5f72" alt='Metricool Pixel'/>
             </body>
         </Html>
