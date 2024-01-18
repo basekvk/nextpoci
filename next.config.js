@@ -180,7 +180,7 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/evacuacion-de-aguas/',
+                source: '/evacuacion-de-aguas',
                 destination: '/services/inundaciones',
                 permanent: true,
             },
@@ -190,52 +190,43 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/servicios-de-poceria/desatascos-baratos-madrid/',
+                source: '/servicios-de-poceria/desatascos-baratos-madrid',
                 destination: '/services/desatascos-baratos',
                 permanent: true,
             },
             {
-                source: '/desatascos-aranjuez/',
+                source: '/desatascos-aranjuez',
                 destination: '/desatascos/aranjuez',
                 permanent: true,
             },
             {
-                source: '/desatascos-urgentes-24h/',
+                source: '/desatascos-urgentes-24h',
                 destination: '/services/desatascos-24-horas',
                 permanent: true,
             },
             {
-                source: '/cuenta-con-especialistas-de-confianza/',
+                source: '/cuenta-con-especialistas-de-confianza',
                 destination: '/',
                 permanent: true,
             },
             {
-                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
+                source: '/servicios-de-poceria/inspeccion-de-tuberias',
                 destination: '/services/desatasco-de-tuberias',
                 permanent: true,
             },
-            {
-                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
-                destination: '/services/desatasco-de-tuberias',
-                permanent: true,
-            },
-            {
-                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
-                destination: '/services/desatasco-de-tuberias',
-                permanent: true,
-            },
+            
             {
                 source: '/desatascos-illescas',
                 destination: '/desatascos/illescas',
                 permanent: true,
             },
             {
-                source: '/tips-y-consejos/',
+                source: '/tips-y-consejos',
                 destination: '/blogs/category/todo',
                 permanent: true,
             },
             {
-                source: '/solicita-tu-presupuesto/',
+                source: '/solicita-tu-presupuesto',
                 destination: '/contacto',
                 permanent: true,
             },
