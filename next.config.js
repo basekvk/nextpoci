@@ -39,6 +39,11 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/desatascos-alcobendas',
+                destination: '/desatascos/alcobendas',
+                permanent: true,
+            },
+            {
                 source: '/desatascos/desatascos-alcorcon',
                 destination: '/desatascos/alcorcon',
                 permanent: true,
@@ -110,12 +115,12 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/desatascos/pinto',
+                source: '/desatascos/desatascos-pinto',
                 destination: '/desatascos/pinto',
                 permanent: true,
             },
             {
-                source: '/desatascos/pozuelo',
+                source: '/desatascos/desatascos-pozuelo',
                 destination: '/desatascos/pozuelo',
                 permanent: true,
             },
@@ -130,12 +135,12 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/desatascos/sesena',
+                source: '/desatascos/desatascos-sesena',
                 destination: '/desatascos/sesena',
                 permanent: true,
             },
             {
-                source: '/desatascos/torrejon-de-ardoz',
+                source: '/desatascos/desatascos-torrejon-de-ardoz',
                 destination: '/desatascos/torrejon-de-ardoz',
                 permanent: true,
             },
@@ -147,6 +152,91 @@ const nextConfig = {
             {
                 source: '/services/desatascos-24horas',
                 destination: '/services/desatascos-24-horas',
+                permanent: true,
+            },
+            {
+                source: '/author/desatrancosypoceriamadrid',
+                destination: '/contacto',
+                permanent: true,
+            },
+            {
+                source: '/servicios',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/projects',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/services/tuberias-sin-zanja',
+                destination: '/services/reparacion-tuberias-sin-obras',
+                permanent: true,
+            },
+            {
+                source: '/sobre-nosotros',
+                destination: '/about',
+                permanent: true,
+            },
+            {
+                source: '/evacuacion-de-aguas/',
+                destination: '/services/inundaciones',
+                permanent: true,
+            },
+            {
+                source: '/politica-de-privacidad',
+                destination: 'politica-privacidad',
+                permanent: true,
+            },
+            {
+                source: '/servicios-de-poceria/desatascos-baratos-madrid/',
+                destination: '/services/desatascos-baratos',
+                permanent: true,
+            },
+            {
+                source: '/desatascos-aranjuez/',
+                destination: '/desatascos/aranjuez',
+                permanent: true,
+            },
+            {
+                source: '/desatascos-urgentes-24h/',
+                destination: '/services/desatascos-24-horas',
+                permanent: true,
+            },
+            {
+                source: '/cuenta-con-especialistas-de-confianza/',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
+                destination: '/services/desatasco-de-tuberias',
+                permanent: true,
+            },
+            {
+                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
+                destination: '/services/desatasco-de-tuberias',
+                permanent: true,
+            },
+            {
+                source: '/servicios-de-poceria/inspeccion-de-tuberias/',
+                destination: '/services/desatasco-de-tuberias',
+                permanent: true,
+            },
+            {
+                source: '/desatascos-illescas',
+                destination: '/desatascos/illescas',
+                permanent: true,
+            },
+            {
+                source: '/tips-y-consejos/',
+                destination: '/blogs/category/todo',
+                permanent: true,
+            },
+            {
+                source: '/solicita-tu-presupuesto/',
+                destination: '/contacto',
                 permanent: true,
             },
         ];
