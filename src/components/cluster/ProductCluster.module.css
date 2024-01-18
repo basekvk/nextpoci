@@ -1,5 +1,6 @@
 .container {
-    padding: 40px 40px; /* Esto añadirá bordes a los lados de la web */
+    padding: 40px 40px;
+     /* Esto añadirá bordes a los lados de la web */
   }
   .cluster {
     display: flex;
@@ -8,6 +9,7 @@
     justify-content: center; /* Centra las cajas horizontalmente */
     margin: 0 auto; /* Centra el contenedor en la página */
     padding: 20px;
+    position: relative;
   }
   
   .box {

@@ -34,7 +34,7 @@ contenidoDescripcion1: "
 <h3>Nuestros <strong>poceros en Leganés</strong></h3>
 <p>En <strong>Desatascos Pociten</strong>, nos comprometemos a ofrecer el mejor servicio al precio más competitivo. Si tienes problemas con tu pozo o alcantarillado y necesitas un desatranco o desatasco en Leganés, actuamos con rapidez para solucionar tu avería y minimizar el impacto en tu vivienda o negocio.</p>
 
-<p>Ofrecemos <a href='/services/desatascos-24horas'>servicio de desatascos 24 horas</a> los 365 días del año, para cualquier urgencia.</p>
+<p>Ofrecemos <a href='/services/desatascos-24-horas'>servicio de desatascos 24 horas</a> los 365 días del año, para cualquier urgencia.</p>
 
 
 
