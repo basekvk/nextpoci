@@ -3,7 +3,7 @@ id: 'service-04'
 title: 'Desatascos en Arganda'
 titleMeta: "Desatascos y Poceros en Arganda del Rey - Desatrancos "
 lugar: 'Arganda del Rey'
-canonical: https://www.desatascos-madrid.com/desatascos/arganda
+canonical: https://www.desatascos-madrid.com/desatascos/arganda-del-rey
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosarganda-md.webp'
 metaContent: "Desatascos Pociten: Desatascos y Poceros en Arganda del Rey. Expertos en desatrancos 🚿. Soluciones rápidas y eficaces para atascos. ¡Llámanos! ☎️ 647 376 782"
