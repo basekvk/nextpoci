@@ -6,7 +6,7 @@ title: 'Desatascos en Madrid'
 titleMeta: "Poceros| Desatascos Madrid - Pociten 24 horas"
 
 lugar: 'Madrid'
-canonical: https://www.desatascos-madrid.com/desatascos/madrid
+canonical: https://www.desatascos-madrid.com/
 
 mediumImage: 'desatascosmadrid-md.webp'
 
