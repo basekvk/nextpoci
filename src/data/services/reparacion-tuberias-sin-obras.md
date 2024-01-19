@@ -7,7 +7,7 @@ lugar: 'Madrid'
 mediumImage: 'reparacion-tuberias-sin-obras-md.webp'
 largeImage: 'reparacion-tuberias-sin-obras-md.webp'
 
-metaContent: 'Ofrecemos nuestro servicio de reparación de tuberías sin obra al mejor precio y con las máxima calidad. Confía en nuestra experiencia y tecnología avanzada ¡Contáctanos ahora!☎️​ 647 376 782'
+metaContent: 'Reparación de tuberías sin obra, calidad y precio excelentes. Confía en nosotros. ☎️​ 647 376 782. 😊'
 detailBreadcrumbSubTitle: 'Reparación Tuberías sin Obras'
 detailBreadcrumbDesc: 'Reparación Tuberías sin Obras'
 

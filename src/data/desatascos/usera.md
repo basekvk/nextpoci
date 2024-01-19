@@ -8,7 +8,7 @@ lugar: 'Usera'
 mediumImage: 'desatascosusera-md.webp'
 largeImage: 'desatascosusera-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'
-metaContent: "Somos especialistas en servicios de desatascos, pocería y inspecciones con cámara en Usera. Confíe en nuestra experiencia y tecnología avanzada para todas sus necesidades de pocería.☎️ 647 376 782"
+metaContent: "Especialistas en desatascos, pocería e inspecciones con cámara en Usera. Confía en nuestra experiencia y tecnología avanzada. ☎️ 647 376 782. 😊"
 detailBreadcrumbDesc: 'Empresa de poceros en Usera. Desatacascos 24 Horas. No cobramos desplazamiento'
 title2: 'Desatascos en Usera'
 

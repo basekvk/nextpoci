@@ -7,7 +7,7 @@ mediumImage: 'limpiezadetuberias-md.webp'
 largeImage: 'limpiezadetuberias-lg.webp'
 detailBreadcrumbSubTitle: 'Tuberías'
 titleMeta: "Desatascos de Tuberías en Madrid - Pociten"
-metaContent: "¿Tuberías obstruidas? Nuestros especialistas en desatascos de tuberías en Madrid brindan un servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782"
+metaContent: "¿Tuberías atascadas en Madrid: servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782. 😊"
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 lugar: 'Madrid'
 

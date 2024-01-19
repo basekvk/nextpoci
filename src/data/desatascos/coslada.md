@@ -8,7 +8,7 @@ canonical: https://www.desatascos-madrid.com/desatascos/coslada
 mediumImage: 'desatascos-coslada-md.jpg'
 largeImage: 'desatascos-coslada-md.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
-metaContent: "Desatascos Pociten: Desatascos y Poceros en Coslada. Desatrancos urgentes 🚨. Soluciones rápidas y eficaces para tus problemas de atascos. ¡Llámanos! ☎️ 647 376 782"
+metaContent: "Desatascos Pociten en Coslada 🚨: Expertos en desatascos y pocería. Soluciones rápidas y económicas para tus problemas de atascos. ¡Llámanos al ☎️ 647 376 782! 😊"
 
 detailBreadcrumbDesc: 'Empresa de poceros en Coslada con los mejores precios'
 

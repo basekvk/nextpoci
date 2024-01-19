@@ -16,7 +16,7 @@ function ContactPage({ contactItems,  footerItems }) {
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="description"
-                    content="Contacta con Desatascos Pociten, líder en desatascos y pocería en Madrid. Expertos en soluciones rápidas y eficientes para tus problemas de tuberías y saneamiento. ¡Llámanos!"
+                    content="¡Contacta con Desatascos Pociten en Madrid! 🛠️ Líder en desatascos y pocería en Madrid, soluciones rápidas y eficientes. ¡Llámanos ya! 📞 647 376 782"
                 />
                 <link
                     rel="canonical"

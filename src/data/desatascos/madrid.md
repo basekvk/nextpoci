@@ -12,7 +12,7 @@ mediumImage: 'desatascosmadrid-md.webp'
 
 largeImage: 'desatascosmadrid-md.webp'
 
-metaContent: "Desatascos Pociten, con más de 25 años de experiencia, es tu solución de confianza para desatascos en Madrid. Ofrecemos servicios rápidos y eficaces las 24 horas del día. Llámanos al 647 376 782 para solucionar tus problemas de atascos."
+metaContent: "Desatascos Pociten: ¡20 años de experiencia! 🛠️ Tu solución confiable para desatascos en Madrid las 24 horas. Llámanos al 647 376 782. 😊"
 
 detailBreadcrumbSubTitle: 'Desatascos Madrid'
 

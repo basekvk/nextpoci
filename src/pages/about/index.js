@@ -26,7 +26,7 @@ function AboutPage({
                 <title>Desatascos Pociten: Líderes en Desatascos y Pocería en Madrid | Servicio 24/7</title>
                 <meta
                     name="description"
-                    content="Con más de 25 años de experiencia, Desatascos Pociten es tu solución de confianza para desatascos y pocería en Madrid. Ofrecemos una amplia gama de servicios de alta calidad, disponibles las 24 horas del día. Contacta con nosotros al 647 376 782."
+                    content="Desatascos Pociten, 20 años de experiencia en desatascos y pocería en Madrid. ¡Disponibles 24/7! ☎️ 647 376 782. 😊"
                 />
                 <link rel="canonical" href="https://www.desatascos-madrid.com/about" />
             </Head>

@@ -15,7 +15,7 @@ largeImage: 'desatascos-torrejon-de-velasco-md.jpg'
 
 detailBreadcrumbSubTitle: 'Single Service'
 
-metaContent: "Desatascos Pociten: Desatascos en Torrejón de Velasco, expertos en pocería y desatrancos 🌊. Soluciones rápidas y eficaces para atascos. ¡Llámanos! ☎️ 647 376 782"
+metaContent: "Desatascos Pociten en Torrejón de Velasco 🌊: Expertos en pocería y desatrancos. Soluciones rápidas y eficaces. ¡Llámanos al ☎️ 647 376 782! 😊"
 
 detailBreadcrumbDesc: 'Empresa de poceros en Torrejón de Velasco con los mejores precios'
 

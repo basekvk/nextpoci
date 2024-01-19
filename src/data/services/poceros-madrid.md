@@ -6,7 +6,7 @@ canonical: https://www.desatascos-madrid.com/services/poceros-madrid
 lugar: 'Madrid'
 mediumImage: 'poceros-madrid-md.webp'
 largeImage: 'poceros-madrid-lg.webp'
-metaContent: 'Poceros en Madrid - Servicios de pocería profesional Pociten. Atascos, fugas, roturas en las tuberías, pozos sépticos, red de saneamiento, fosas sépticas etc...  ¡Contáctanos ahora!☎️​ 647 376 782'
+metaContent: 'Poceros en Madrid - Servicios de pocería profesional con Pociten. Atascos, fugas, roturas en tuberías, pozos sépticos y más. ¡Contáctanos ahora! ☎️​ 647 376 782. 😊'
 detailBreadcrumbSubTitle: 'Poceros en Madrid'
 detailBreadcrumbDesc: 'Poceros en Madrid'
 

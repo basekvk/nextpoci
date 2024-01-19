@@ -9,7 +9,7 @@ canonical: https://www.desatascos-madrid.com/desatascos/las-rozas
 
 detailBreadcrumbSubTitle: 'Single Service'
 
-metaContent: "Desatascos Pociten: Desatascos, desatrancos y poceros en Las Rozas 🛠️. Servicios profesionales y eficaces para solucionar tus problemas. ¡Contáctanos! ☎️ 647 376 782"
+metaContent: "Desatascos Pociten en Las Rozas 🛠️: Expertos en desatascos, desatrancos y pocería. ¡Servicios profesionales y eficaces! Contáctanos al ☎️ 647 376 782. 😊"
 
 detailBreadcrumbDesc: 'Empresa de poceros en Las Rozas con los mejores precios'
 

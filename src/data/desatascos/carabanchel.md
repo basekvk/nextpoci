@@ -8,7 +8,7 @@ lugar: 'Carabanchel'
 mediumImage: 'desatascoscarabanchel-md.webp'
 largeImage: 'desatascoscarabanchel-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'
-metaContent: "Empresa de desatascos en Carabanchel. Servicios de Pocería Urgentes 24 horas para problemas de obstrucción en tuberías y desagües. Contrata a Desatascos Pociten, tu aliado confiable.☎️ 647 376 782"
+metaContent: "Desatascos Pociten en Carabanchel: ¡Tu aliado confiable!. Servicios de Pocería Urgentes 24 horas. Resuelve problemas de obstrucción en tuberías y desagües ☎️ 647 376 782"
 detailBreadcrumbDesc: 'Empresa de poceros en Carabanchel. Desatacascos al mejor precio'
 title2: 'Desatascos en Carabanchel'
 

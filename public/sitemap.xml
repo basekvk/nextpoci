@@ -367,5 +367,23 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+     <url>
+    <loc>https://www.desatascos-madrid.com/contacto</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+     <url>
+    <loc>https://www.desatascos-madrid.com/politica-privacidad</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+     <url>
+    <loc>https://www.desatascos-madrid.com/cookies </loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>
