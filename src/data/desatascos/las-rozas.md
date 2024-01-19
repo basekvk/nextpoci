@@ -51,7 +51,7 @@ contenidoDescripcion1: "
 
 <h2><strong>Contacta con Desatascos Pociten Hoy Mismo</strong></h2>
 
-<p>¿Necesitas un servicio de desatascos en Las Rozas? No dudes en <a href='#contacto'contactarnos</a>. Ofrecemos presupuestos gratuitos y asesoramiento experto para todas tus necesidades de pocería.</p>
+<p>¿Necesitas un servicio de desatascos en Las Rozas?. Ofrecemos presupuestos gratuitos y asesoramiento experto para todas tus necesidades de pocería.</p>
 
 
 
