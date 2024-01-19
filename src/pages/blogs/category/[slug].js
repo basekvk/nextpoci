@@ -10,7 +10,7 @@ function BlogCategoryPage({ categories, tags, blogs, blogsSidebar}) {
     return (
         <>
             <Head>
-                <title>{categories[1].split('|')[0].trim()} | Blog - Desatascos Pociten</title>
+                <title>{categories[1].split('|')[0].trim() + " "} | Blog - Desatascos Pociten</title>
                 <link rel="canonical" href={canonicalUrl} />
                 <meta name="description" content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías" />
             </Head>
