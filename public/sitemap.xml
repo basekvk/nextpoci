@@ -174,7 +174,7 @@
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://www.desatascos-madrid.com/desatascosbanchel</loc>
+    <loc>https://www.desatascos-madrid.com/desatascos/carabanchel</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -273,12 +273,6 @@
 
      <url>
     <loc>https://www.desatascos-madrid.com/blogs/como-desatascar-un-fregadero</loc>
-    <lastmod>2023-12-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-     <url>
-    <loc>https://www.desatascos-madrid.com/blogs</loc>
     <lastmod>2023-12-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
