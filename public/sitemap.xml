@@ -111,12 +111,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/madrid</loc>
-    <lastmod>2023-05-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.desatascos-madrid.com/desatascos/arganda-del-rey</loc>
     <lastmod>2023-05-26</lastmod>
     <changefreq>daily</changefreq>
