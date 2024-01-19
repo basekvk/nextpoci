@@ -125,12 +125,12 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/desatascos/rivas-vaciamadrid',
+                source: '/desatascos/desatascos-rivas-vaciamadrid',
                 destination: '/desatascos/rivas-vaciamadrid',
                 permanent: true,
             },
             {
-                source: '/desatascos/san-sebastian-de-los-reyes',
+                source: '/desatascos-sansebastian-delosreyes',
                 destination: '/desatascos/san-sebastian-de-los-reyes',
                 permanent: true,
             },
