@@ -3,7 +3,7 @@ function Cookies() {
         <>
         <div className="container">
             
-            <h1>Política de Cookies</h1>
+            <h2>Política de Cookies</h2>
             <p>Última actualización: 06 de junio de 2023</p>
 
             <p>
