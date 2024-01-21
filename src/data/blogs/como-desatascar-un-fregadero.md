@@ -6,6 +6,7 @@ metaContent: 'Aprende a desatascar un fregaderopor ti mismo sin productos quími
 desc: 'Realiza la limpieza de tu fregadero atascado tu mismo con los consejos de Pociten'
 mediumImage: '845.webp'
 largeImage: '370.webp'
+slug: 'como-desatascar-fregadero'
 blogMeta: '18 DICIEMBRE 2023 - Desatascos Pociten'
 excerpt: 'Si quieres trucos caseros de como intentar desatrancar un fregadero este es tu sitio'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'

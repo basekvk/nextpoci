@@ -15,7 +15,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                     name="description"
                     content="Aquí podras encontrar todo lo referente a los aspectos legales de la web de Pocería Pociten"
                 />
-                <link rel="canonical" href="https://desatascos-madrid.com/aviso-legal"/>
+                <link rel="canonical" href="https://www.desatascos-madrid.com/aviso-legal"/>
             </Head>
             <Breadcrumb subTitle="Pocería Pociten" title="Aviso Legal" desc="" />
 

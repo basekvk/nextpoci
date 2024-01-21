@@ -2,6 +2,7 @@
 title: 'COMO MANTENER TUS FOSAS SÉPTICAS'	
 subTitle: 'Mantenimiento profesional para tus fosas sépticas con Desatascos Pociten.'
 metaDescription: 'Mantén en buen estado tus fosas sépticas con Desatascos Pociten. Ofrecemos servicios profesionales de vaciado y mantenimiento en Madrid.'
+slug: 'como-mantener-tus-fosas-septicas'
 metaContent: 'Mantén en buen estado tus fosas sépticas con Desatascos Pociten. Ofrecemos servicios profesionales de vaciado y mantenimiento en Madrid.'
 desc: 'Todo lo que necesitas saber para llevar a cabo un mantenimiento adecuado de tus Fosas Sépticas'
 mediumImage: '845.webp'
