@@ -29,6 +29,19 @@ function ServiceContent({ service }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.detailDesc}
                     </p>
+                    
+                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
+                        {service?.pregunta2}
+                    </h2>
+                    <p className={classes.desc} style={{ fontSize: 20 }}>
+                        {service?.descripcion1}
+                    </p>
+                    <div
+                        className={classes.desc}
+                        dangerouslySetInnerHTML={{
+                            __html: service?.contenidoDescripcion,
+                        }}
+                    />
                     <div style={{display:"flex", flexDirection: "row", alignItems:"center", justifyContent:"space-evenly", margin: "20px", marginBottom:"40px"}}  >
                         <Image
                             width={550}
@@ -48,18 +61,6 @@ function ServiceContent({ service }) {
                         />*/}
                        
                     </div>
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta2}
-                    </h2>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion1}
-                    </p>
-                    <div
-                        className={classes.desc}
-                        dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion,
-                        }}
-                    />
                     <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
