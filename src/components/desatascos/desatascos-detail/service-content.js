@@ -14,7 +14,7 @@ function ServiceContent({ service }) {
     return (
         <>
             <Col lg={{ span: 12 }} className="pe-lg-45">
-                <div className="banner"></div>
+                
                 <div className={classes.content}>
                     <h2 className={classes.title}>{service?.title2}</h2>
                     <h2 className={classes.subtitle}>
