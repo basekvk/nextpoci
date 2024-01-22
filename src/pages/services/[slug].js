@@ -10,8 +10,6 @@ import Problemas from '../../components/problemas';
 
 function ServiceDetailsPage({
     service,
-
-    servicesSidebar,
     footerItems,
 }) {
     return (
@@ -21,6 +19,41 @@ function ServiceDetailsPage({
                 <meta name="description" content={service.metaContent} />
                 <meta property="og:title" content={service.titleMeta} />
                 <link rel="canonical" href={service.canonical} />
+                <meta
+                    property="og:url"
+                    content={service?.canonical}
+                />
+                <meta
+                    property="og:title"
+                    content={service?.titleMeta}
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:description"
+                    content={service?.metaContent}
+                />
+                
+                <meta
+                    property="og:image"
+                    content={service?.largeImage}
+                />
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:url"
+                    content={service?.canonical}
+                />
+                <meta
+                    property="twitter:title"
+                    content={service?.titleMeta}
+                />
+                <meta
+                    property="twitter:description"
+                    content={service?.metaContent}
+                />
+                <meta
+                    property="twitter:image"
+                    content={service?.largeImage}
+                />
             </Head>
 
             <Breadcrumb

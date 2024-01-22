@@ -20,7 +20,42 @@ function ServiceDetailsPage({ service, footerItems }) {
                 <meta name="description" content={service.metaContent} />
                 
                 <link rel="canonical" href={service.canonical} />
-                <meta property="og:title" content={service.titleMeta} />
+                <meta
+                    property="og:url"
+                    content={service?.canonical}
+                />
+                <meta
+                    property="og:title"
+                    content={service?.titleMeta}
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:description"
+                    content={service?.metaContent}
+                />
+                
+                <meta
+                    property="og:image"
+                    content={service?.largeImage}
+                />
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:url"
+                    content={service?.canonical}
+                />
+                <meta
+                    property="twitter:title"
+                    content={service?.titleMeta}
+                />
+                <meta
+                    property="twitter:description"
+                    content={service?.metaContent}
+                />
+                <meta
+                    property="twitter:image"
+                    content={service?.largeImage}
+                />
+
                 
             </Head>
 

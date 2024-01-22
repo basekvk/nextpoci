@@ -33,6 +33,41 @@ function HomePage({
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
                 <meta name="robots" content="index, follow" />
+                <meta
+                    property="og:url"
+                    content="https://desatascos-madrid.com/"
+                />
+                <meta
+                    property="og:title"
+                    content="Desatascos-Pocería-Alcantarillado 【647 376 782】| Desatascos Pociten"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:description"
+                    content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
+                />
+                
+                <meta
+                    property="og:image"
+                    content="https://desatascos-madrid.es/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                />
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:url"
+                    content="https://desatascos-madrid.com/"
+                />
+                <meta
+                    property="twitter:title"
+                    content="Desatascos y Poceros Madrid【647 376 782】Desatascos Pociten"
+                />
+                <meta
+                    property="twitter:description"
+                    content="✅Poceros en Madrid. 🔝 Empresa de desatascos en Madrid 24 horas. 📢 Desatascos baratos con los mejores precios. ☎️​647 376 782"
+                />
+                <meta
+                    property="twitter:image"
+                    content="https://desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                />
                 <link rel="canonical" href="https://www.desatascos-madrid.com" />
             </Head>
 
