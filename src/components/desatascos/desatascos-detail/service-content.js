@@ -8,22 +8,13 @@ import GridServices from '../../gridservicios';
 import Problemas from '../../problemas';
 import Image from 'next/image';
 
-function ServiceContent({ service}) {
+function ServiceContent({ service }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
 
     return (
         <>
             <Col lg={{ span: 12 }} className="pe-lg-45">
-                <div className="banner">
-                    <Image
-                        width={845}
-                        height={564}
-                        className="img-full"
-                        src={imagePath}
-                        alt={service?.title}
-                        priority
-                    />
-                </div>
+                <div className="banner"></div>
                 <div className={classes.content}>
                     <h2 className={classes.title}>{service?.title2}</h2>
                     <h2 className={classes.subtitle}>
@@ -38,7 +29,25 @@ function ServiceContent({ service}) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.detailDesc}
                     </p>
-                    
+                    <div style={{display:"flex", flexDirection: "row", alignItems:"center", justifyContent:"space-evenly", margin: "20px", marginBottom:"40px"}}  >
+                        <Image
+                            width={550}
+                            height={350}
+                            className=""
+                            src={imagePath}
+                            alt={service?.title}
+                            priority
+                        />
+                       { /*<Image
+                            width={545}
+                            height={364}
+                            className=""
+                            src={imagePath}
+                            alt={service?.title}
+                            priority
+                        />*/}
+                       
+                    </div>
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta2}
                     </h2>
@@ -65,7 +74,6 @@ function ServiceContent({ service}) {
                         {service?.descripcion31}
                     </p>
 
-                   
                     <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
@@ -73,21 +81,20 @@ function ServiceContent({ service}) {
                         }}
                     />
                     <GridServices />
-                     <div
+                    <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
                             __html: service?.contenidoDescripcion2,
                         }}
                     />
                     <Presupuesto />
-                    
-                     <div
+
+                    <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
                             __html: service?.contenidoDescripcion3,
                         }}
                     />
-
 
                     <h2 className={classes.desc} style={{ fontSize: 30 }}>
                         {service?.pregunta4}
@@ -109,7 +116,6 @@ function ServiceContent({ service}) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion51}
                     </p>
-                   
                 </div>
 
                 <div
@@ -118,7 +124,7 @@ function ServiceContent({ service}) {
                         __html: service.contenido,
                     }}
                 />
-               
+
                 <div
                     style={{
                         textAlign: 'center',
@@ -136,8 +142,11 @@ function ServiceContent({ service}) {
                         href="tel:647376782"
                         call-button
                     >
-                      <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>  
-                      <p style={{color: "white"}}>Presiona el botón para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
+                        <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>
+                        <p style={{ color: 'white' }}>
+                            Presiona el botón para contactarnos. Acudiremos de
+                            inmediato para atender tu emergencia.
+                        </p>
                     </a>
                 </div>
             </Col>
