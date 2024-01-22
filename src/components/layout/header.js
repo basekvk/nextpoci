@@ -99,7 +99,7 @@ function Header() {
                                     <Link href="/">
                                         <a className={classes.logo}>
                                             <Image
-                                                width={256}
+                                                width={243}
                                                 height={63}
                                                 src="/images/logo/light.png"
                                                 alt="Logo Desatascos Pociten Color"
