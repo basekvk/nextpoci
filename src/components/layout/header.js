@@ -101,7 +101,7 @@ function Header() {
                                             <Image
                                                 width={256}
                                                 height={63}
-                                                src="/images/logo/light.webp"
+                                                src="/images/logo/light.png"
                                                 alt="Logo Desatascos Pociten Color"
                                             />
                                         </a>
