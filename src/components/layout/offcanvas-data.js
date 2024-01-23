@@ -230,6 +230,11 @@ export const OffcanvasData = [
                 link: "/blogs/como-desatascar-un-fregadero",
                 text: 'COMO DESATASCAR FREGADERO',
             },
+            {
+                id: 'submenu-07',
+                link: "/blogs/los-seguros-cubren-las-bajantes",
+                text: '¿LOS SEGUROS CUBREN LAS BAJANTES?',
+            },
           
         ],
     }, 

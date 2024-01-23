@@ -376,6 +376,12 @@ const menuDesktop = [
                 link: '/blogs/lo-que-debes-saber-fosas-septicas',
                 
             },
+            {
+                id: 57,
+                text: '¿LOS SEGUROS CUBREN LAS BAJANTES?',
+                link: '/blogs/los-seguros-cubren-las-bajantes',
+                
+            },
            
         ]
     },
