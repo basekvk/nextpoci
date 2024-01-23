@@ -230,11 +230,6 @@ const nextConfig = {
                 destination: '/contacto',
                 permanent: true,
             },
-            {
-                source: 'https://desatascos-madrid.com',
-                destination: 'https://www.desatascos-madrid.com',
-                permanent: true,
-            },
         ];
     },
 };
