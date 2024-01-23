@@ -7,8 +7,8 @@ lugar: 'Madrid'
 mediumImage: 'obrasdepoceria-md.webp'
 largeImage: 'obrasdepoceria-lg.webp'
 metaContent: "Pociten - Obras de Pocería: expertos en saneamiento de redes 🔧. Garantizamos calidad y eficiencia en nuestros trabajos. ¡Llama ya! ☎️ 647 376 782."
-detailBreadcrumbSubTitle: 'Desatascos 24 Horas'
-detailBreadcrumbDesc: 'Empresa de destascos en Madrid con los mejores precios.'
+detailBreadcrumbSubTitle: 'Obras de Pocería'
+detailBreadcrumbDesc: 'Empresa de desatascos en Madrid con los mejores precios.'
 
 title2: 'Obras de Pocería'
 #PARRAFO color negro de fondo y letras en verde

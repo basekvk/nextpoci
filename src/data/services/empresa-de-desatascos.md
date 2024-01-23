@@ -10,7 +10,7 @@ largeImage: 'empresadedesatascos-ld.webp'
 detailBreadcrumbSubTitle: 'Empresa de Desatascos'
 detailBreadcrumbDesc: 'Empresa de desatascos: Experiencia y profesionalismo desde Pociten'
 
-title2: 'Empresa de desatascos'
+title2: 'Empresa de desatascos en Madrid'
 #PARRAFO color negro de fondo y letras en verde
 detailSubTitle: 'Empresa de desatascos con la solución a tus problemas de tuberías'
 

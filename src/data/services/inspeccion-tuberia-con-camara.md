@@ -92,8 +92,7 @@ accordionData:
 
 
 #Videos de Youtube
-videoId: IWpfzwCv0rc
-titleVideo: "Desatascos 24 horas en Madrid"
+
 
 isFeatured: true
 ---

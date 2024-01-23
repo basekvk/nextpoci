@@ -46,7 +46,7 @@ contenidoDescripcion1: "<h2>Obras de Pocería Profesionales</h2>
 
 <h3>Disponibles 24/7 para Desatascos Urgentes</h3>
 
-<p>¿Tienes una emergencia de desatascos urgentes en Rivas Vaciamadrid? No te preocupes. Nuestro servicio de desatascos 24 horas en Rivas Vaciamadrid está aquí para ayudarte. Sin importar la hora, puedes contar con Desatascos Pociten para proporcionarte una solución rápida y efectiva.</p>
+<p>¿Tienes una emergencia de desatascos urgentes en Rivas Vaciamadrid? No te preocupes. Nuestro servicio de <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>desatascos 24 horas</a> en Rivas Vaciamadrid está aquí para ayudarte. Sin importar la hora, puedes contar con Desatascos Pociten para proporcionarte una solución rápida y efectiva.</p>
 
 <h2>Contacta con Desatascos Pociten Hoy</h2>
 
