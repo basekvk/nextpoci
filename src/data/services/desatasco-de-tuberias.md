@@ -23,10 +23,10 @@ parrafo: "Soluciones de desatascos de tuberías personalizadas para su hogar o n
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>Como expertos en el mantenimiento y desatascos de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
+<p>Como expertos en el mantenimiento y <a href='https://www.desatascos-madrid-com'>desatascos de tuberías</a>, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
 <br>
 <h2>¿Qué es la limpieza de tuberías?</h2>
-<p>Antes de profundizar en los detalles de cómo limpiamos las tuberías, es importante comprender qué es la limpieza de tuberías y por qué es necesaria. En términos simples, la limpieza de tuberías es el proceso de eliminar cualquier obstrucción o residuo que haya acumulado en las tuberías con el tiempo. Esto puede incluir todo, desde cabello y residuos de alimentos hasta sedimentos y otros materiales que se acumulan en las tuberías con el tiempo.</p>
+<p>Antes de profundizar en los detalles de cómo limpiamos las tuberías, es importante comprender qué es la limpieza de tuberías y por qué es necesaria. En términos simples, la limpieza de tuberías es el proceso de eliminar cualquier atasco o residuo que haya acumulado en las tuberías con el tiempo. Esto puede incluir todo, desde cabello y residuos de alimentos hasta sedimentos y otros materiales que se acumulan en las tuberías con el tiempo.</p>
 <br></br>
 
 
@@ -34,7 +34,7 @@ contenidoDescripcion: "
 
 "
 contenidoDescripcion1: "<h2>Los desafíos de la limpieza de tuberías</h2>
-<p>La limpieza de tuberías puede ser un proceso complicado, especialmente si la obstrucción es particularmente difícil de alcanzar. En Desatascos Pociten, hemos enfrentado muchos desafíos a lo largo de los años, y algunos de los más comunes incluyen:</p>
+<p>La limpieza de tuberías puede ser un proceso complicado, especialmente si el atasco es particularmente difícil de alcanzar. En Desatascos Pociten, hemos enfrentado muchos desafíos a lo largo de los años, y algunos de los más comunes incluyen:</p>
 
 <h3>Obstrucciones difíciles de alcanzar</h3>
 <p>A veces, las obstrucciones pueden estar muy profundas en las tuberías, lo que hace que sea difícil llegar a ellas. En estos casos, necesitamos herramientas especiales para llegar a la obstrucción y despejarla.</p>
