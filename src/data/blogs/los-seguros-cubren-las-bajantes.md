@@ -12,7 +12,7 @@ excerpt: 'Lo que necesitas saber sobre tu seguro y las bajantes.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: '¿Mi seguro me cubre las bajantes?'
 detailSubTitle: 'HAZTE UN BUEN SEGURO'
-quote: "Con la poliza de seguros adecuada podrás evitarte problemas en un futuro."
+quote: "Con la póliza de seguros adecuada podrás evitarte problemas en un futuro."
 htmlCode: "
 <h1>¿Los Seguros Cubren las Bajantes? Descubre Todo lo que Necesitas Saber</h1>
 <p>Los problemas en las bajantes de un edificio pueden ser una pesadilla para cualquier propietario. Cuando surge una obstrucción o daño en las bajantes, es fundamental abordarlo de manera eficiente y económica. Una de las preguntas más frecuentes que surgen en estos casos es: ¿Los Seguros Cubren las Bajantes?</p>
