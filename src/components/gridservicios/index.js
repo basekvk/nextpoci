@@ -2,24 +2,24 @@ import React from 'react';
 import styles from './ServicesGrid.module.css'; // Asumiendo que el archivo de estilos se llama ServicesGrid.module.css
 
 const services = [
-    { name: "Cambio de bajantes", url: "" },
-    { name: "Construcción de arquetas", url: "" },
-    { name: "Sustitución de tuberías", url: "" },
-    { name: "Colocación de tapas de registro", url: "" },
-    { name: "Arreglos de colectores municipales", url: "" },
-    { name: "Construcción de galerías visitantes", url: "" },
-    { name: "Zanjas para suministro y colocación de tuberías de 160 a 315 cm", url: "" },
-    { name: "Reparación de tuberías sin zanja", url: "" },
-    { name: "Mantenimiento y Limpieza de tuberías", url: "" },
-    { name: "Desatrancos", url: "" },
-    { name: "Desatascos", url: "" },
-    { name: "Localización y detección de fugas", url: "" },
-    { name: "Construcción y limpieza de pozos", url: "" },
-    { name: "Obras de alcantarillado público", url: "" },
-    { name: "Rehabilitación y mantenimiento de tuberías, pozos o alcantarillados", url: "" },
-    { name: "Arreglos de arquetas", url: "" },
-    { name: "Localización de malos olores", url: "" },
-    { name: "Construcción de pozos de registro", url: "" }
+    { name: "Cambio de bajantes", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Construcción de arquetas", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Sustitución de tuberías", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Colocación de tapas de registro", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Arreglos de colectores municipales", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Construcción de galerías visitantes", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Zanjas para suministro y colocación de tuberías de 160 a 315 cm", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Reparación de tuberías sin zanja", url: "https://www.desatascos-madrid.com/services/reparacion-tuberias-sin-obras" },
+    { name: "Mantenimiento y Limpieza de tuberías", url: "https://www.desatascos-madrid.com/services/desatasco-de-tuberias" },
+    { name: "Desatrancos", url: "https://www.desatascos-madrid.com/" },
+    { name: "Desatascos", url: "https://www.desatascos-madrid.com/" },
+    { name: "Localización y detección de fugas", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Construcción y limpieza de pozos", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Obras de alcantarillado público", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Rehabilitación y mantenimiento de tuberías, pozos o alcantarillados", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Arreglos de arquetas", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Localización de malos olores", url: "https://www.desatascos-madrid.com/services/poceros-madrid" },
+    { name: "Construcción de pozos de registro", url: "https://www.desatascos-madrid.com/services/poceros-madrid" }
   ];
   
 

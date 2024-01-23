@@ -6,11 +6,12 @@ import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import ProductCluster from '../../components/cluster';
 import Problemas from '../../components/problemas';
-
+import ContactForm from '../../components/form-page';
 
 function ServiceDetailsPage({
     service,
     footerItems,
+    contactItemsForm
 }) {
     return (
         <>
@@ -65,6 +66,7 @@ function ServiceDetailsPage({
             <ServiceDetail service={service} />   
             <Problemas />     
             <ProductCluster localidad={service?.lugar} />
+            <ContactForm contactItemsForm={contactItemsForm} />
             <Footer footerItems={footerItems} />
         </>
     );
@@ -73,27 +75,23 @@ function ServiceDetailsPage({
 export function getStaticProps(context) {
     const { params } = context;
     const { slug } = params;
-
+    const contactItemsForm = getAllItems('contacto');
     const service = getItemData(slug, 'services');
-
     const ourServices = getAllItems('our-service');
-
     const footerItems = getAllItems('footer');
 
     return {
         props: {
             service,
-
             ourServices,
-
             footerItems,
+            contactItemsForm
         },
     };
 }
 
 export function getStaticPaths() {
     const serviceFilenames = getItemsFiles('services');
-
     const slugs = serviceFilenames.map((fileName) =>
         fileName.replace(/\.md$/, '')
     );
@@ -106,10 +104,9 @@ export function getStaticPaths() {
 
 ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
-
     ourServices: PropTypes.instanceOf(Object).isRequired,
-
     footerItems: PropTypes.instanceOf(Object).isRequired,
+    contactItemsForm: PropTypes.instanceOf(Object).isRequired
 };
 
 export default ServiceDetailsPage;

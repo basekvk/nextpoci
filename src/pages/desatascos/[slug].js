@@ -5,12 +5,12 @@ import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/desatascos/desatascos-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import LazyLoad from 'react-lazyload';
-
+import ContactForm from '../../components/form-page';
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
 
 
-function ServiceDetailsPage({ service, footerItems }) {
+function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
     
     
     return (
@@ -67,7 +67,7 @@ function ServiceDetailsPage({ service, footerItems }) {
             <LazyLoad>
                 <ServiceDetail service={service} />
                 <ProductCluster localidad={service?.lugar} />
-                
+                <ContactForm contactItemsForm={contactItemsForm} />
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
@@ -80,11 +80,13 @@ export function getStaticProps(context) {
     const { slug } = params;
     const service = getItemData(slug, 'desatascos');
     const footerItems = getAllItems('footer');
+    const contactItemsForm = getAllItems('contacto');
 
     return {
         props: {
             service,
             footerItems,
+            contactItemsForm,
         },
     };
 }
@@ -104,7 +106,7 @@ export function getStaticPaths() {
 
 ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
-
+    contactItemsForm: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 

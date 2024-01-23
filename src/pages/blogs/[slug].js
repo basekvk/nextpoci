@@ -7,6 +7,7 @@ import { getBlogTags } from '../../lib/blog-tags';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import Head from 'next/head';
 
+
 function BlogDetailPage({
     blog,
     richTexts,
@@ -33,7 +34,9 @@ function BlogDetailPage({
                 categories={categories}
                 tags={tags}
             />
+            
 
+             
             <Footer footerItems={footerItems} />
         </>
     );

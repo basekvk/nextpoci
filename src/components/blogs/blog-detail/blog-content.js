@@ -3,6 +3,8 @@ import { Col } from 'react-bootstrap';
 import Blockquote from '../../blockquote';
 import classes from './index.module.scss';
 import Head from 'next/head';
+import CallButton from '../../CallButton';
+import Image from 'next/image';
 
 function BlogContent({ blog}) {
     const imagePath = `/images/blogs/${blog?.slug}/${blog?.largeImage}`;
@@ -20,7 +22,10 @@ function BlogContent({ blog}) {
             </Head>
         <Col lg={{ span: 8 }} className="pe-lg-45">
             <div className="banner">
-                <img className="img-full" src={imagePath} alt={blog?.title} />
+                <Image
+                width={600}
+                height={400}
+                className="img-full" src={imagePath} alt={blog?.title} />
             </div>
             <div className={classes.content}>
                 <span className={classes.meta}>{blog?.blogMeta}</span>
@@ -41,7 +46,7 @@ function BlogContent({ blog}) {
             quote={blog?.quote}
             />
            
-            
+            <CallButton />
         </Col>
         </>
         
