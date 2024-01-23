@@ -97,8 +97,8 @@ function HomePage({
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
                     y zonas limítrofes de Toledo y Guadalajara. Contamos con
-                    camiones cuba preparados para cualquier urgencia las 24
-                    horas del día. <br /> <br />
+                    camiones cuba preparados para cualquier <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>urgencia las 24
+                    horas del día</a>. <br /> <br />
                     Si estás buscando poceros cualificados y al mejor precio, no
                     busques más, los acabas de encontrar. Compruébalo
                 </p>
@@ -120,7 +120,7 @@ function HomePage({
                     ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
                     importa ni el cuándo ni el dónde, llámanos y acudiremos a tu
                     llamada en el menor tiempo posible con nuestro servicio de
-                    desatascos urgentes 24 horas.{' '}
+                    <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>desatascos urgentes 24 horas</a>.{' '}
                 </p>
                 <br />
                 <p>
