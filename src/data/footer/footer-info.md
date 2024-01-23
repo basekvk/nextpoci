@@ -2,7 +2,7 @@
 id: 'footer-01'
 footerLogo: '/images/logo/white.webp'
 footerLogoAlt: 'Desatascos Pociten'
-excerpt: 'Desatascos Pociten lleva años destacando entre las mejores empresas de <a href='https://www.desatascos-madrid.com'>desatascos en Madrid</a>. Ofrecemos no solo los mejores servicios, sino que también somos la empresa de desatrancos más económica de Madrid. Compruébalo'
+excerpt: 'Desatascos Pociten lleva años destacando entre las mejores empresas de desatascos en Madrid. Ofrecemos no solo los mejores servicios, sino que también somos la empresa de desatrancos más económica de Madrid. Compruébalo'
 inquary: 'Teléfono 24 horas'
 inquaryNumber: '647 376 782
 '

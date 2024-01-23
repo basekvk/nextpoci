@@ -8,6 +8,7 @@ import Image from 'next/image';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
+    const imagePath2 = `/images/services/${service?.slug}/${service?.mediumImage}`;
 
     return (
         <Col lg={{ span: 12 }} className="pe-lg-45">
@@ -37,21 +38,27 @@ function ServiceContent({ service }) {
                 />
                 <div style={{display:"flex", flexDirection: "row", alignItems:"center", justifyContent:"space-evenly", margin: "20px", marginBottom:"40px"}}  >
                         <Image
-                            width={550}
-                            height={350}
+                            width={800}
+                            height={600}
                             className=""
                             src={imagePath}
                             alt={service?.title}
                             priority
                         />
-                       { /*<Image
-                            width={545}
-                            height={364}
+                       {/*
+                       
+                       <Image
+                            width={350}
+                            height={350}
                             className=""
-                            src={imagePath}
+                            src={imagePath2}
                             alt={service?.title}
                             priority
-                        />*/}
+                        />
+                       
+                       
+                       
+                       */}
                        
                     </div>
                 <CallToAction text={service?.title} />

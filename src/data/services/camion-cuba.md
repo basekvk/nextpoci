@@ -7,15 +7,15 @@ lugar: 'Madrid'
 mediumImage: 'camion-cuba-md.webp'
 largeImage: 'camion-cuba-md.webp'
 
-metaContent: 'Descubre nuestros camiones cuba para <a href='https://www.desatascos-madrid.com'>desatascos en Madrid</a>. Confía en nuestra flota, experiencia y tecnología avanzada ¡Contáctanos ahora!☎️​ 647 376 782'
-detailBreadcrumbSubTitle: 'Nuestros camiones Cuba están listos para salir a resolver tu problema en cuanto nos llames. ofrecemos el mejor servicio con la mayor calidad del mercado unida con la última tenología.'
+metaContent: 'Descubre nuestros camiones cuba para desatascos en Madrid. Confía en nuestra flota, experiencia y tecnología avanzada ¡Contáctanos ahora!☎️​647 376 782'
+detailBreadcrumbSubTitle: 'Nuestros camiones Cuba están listos para salir a resolver tu problema en cuanto nos llames. Ofrecemos el mejor servicio con la mayor calidad del mercado unida con la última tenología.'
 detailBreadcrumbDesc: 'Camión Cuba'
 title2: ''
 #PARRAFO color negro de fondo y letras en verde
 detailSubTitle: 'Nuestros Camiones Cuba están listos para afrontar cualquier tipo de desatasco'
 
 #PARRAFO slider
-parrafo: 'Nuestros Camiones Cuba están listos para salir a resolver tu problema en cuanto nos llames. ofrecemos el mejor servicio con la mayor calidad del mercado unida con la última tenología.'
+parrafo: 'Nuestros Camiones Cuba están listos para salir a resolver tu problema en cuanto nos llames. Ofrecemos el mejor servicio con la mayor calidad del mercado unida con la última tenología.'
 
 
 
