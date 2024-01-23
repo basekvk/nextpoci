@@ -8,11 +8,17 @@ import Image from 'next/image';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
-    const imagePath2 = `/images/services/${service?.slug}/${service?.mediumImage}`;
 
     return (
         <Col lg={{ span: 12 }} className="pe-lg-45">
-            
+            <Image
+                width={1200}
+                height={800}
+                className=""
+                src={imagePath}
+                alt={service?.title}
+                priority
+            />
             <div className={classes.content}>
                 <h2 className={classes.title}>{service?.title2}</h2>
                 <h2 className={classes.subtitle}>{service?.detailSubTitle}</h2>
@@ -25,44 +31,19 @@ function ServiceContent({ service }) {
                 <p className={classes.desc} style={{ fontSize: 20 }}>
                     {service?.detailDesc}
                 </p>
-        
+
                 <h2 className={classes.desc} style={{ fontSize: 30 }}>
                     {service?.pregunta2}
                 </h2>
-               
+
                 <div
                     className={classes.desc}
                     dangerouslySetInnerHTML={{
                         __html: service?.contenidoDescripcion,
                     }}
                 />
-                <div style={{display:"flex", flexDirection: "row", alignItems:"center", justifyContent:"space-evenly", margin: "20px", marginBottom:"40px"}}  >
-                        <Image
-                            width={800}
-                            height={600}
-                            className=""
-                            src={imagePath}
-                            alt={service?.title}
-                            priority
-                        />
-                       {/*
-                       
-                       <Image
-                            width={350}
-                            height={350}
-                            className=""
-                            src={imagePath2}
-                            alt={service?.title}
-                            priority
-                        />
-                       
-                       
-                       
-                       */}
-                       
-                    </div>
+
                 <CallToAction text={service?.title} />
-              
 
                 <div
                     className={classes.desc}
@@ -89,12 +70,10 @@ function ServiceContent({ service }) {
                 <h2 className={classes.desc} style={{ fontSize: 30 }}>
                     {service?.pregunta4}
                 </h2>
-                
-                
+
                 <h2 className={classes.desc} style={{ fontSize: 30 }}>
                     {service?.pregunta5}
                 </h2>
-
             </div>
 
             <div
@@ -103,7 +82,6 @@ function ServiceContent({ service }) {
                     __html: service.contenido,
                 }}
             />
-         
         </Col>
     );
 }

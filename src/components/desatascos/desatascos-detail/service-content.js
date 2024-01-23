@@ -14,8 +14,16 @@ function ServiceContent({ service }) {
     return (
         <>
             <Col lg={{ span: 12 }} className="pe-lg-45">
-                
+            
                 <div className={classes.content}>
+                <Image
+                width={1200}
+                height={800}
+                className=""
+                src={imagePath}
+                alt={service?.title}
+                priority
+            />
                     <h2 className={classes.title}>{service?.title2}</h2>
                     <h2 className={classes.subtitle}>
                         {service?.detailSubTitle}
@@ -42,25 +50,7 @@ function ServiceContent({ service }) {
                             __html: service?.contenidoDescripcion,
                         }}
                     />
-                    <div style={{display:"flex", flexDirection: "row", alignItems:"center", justifyContent:"space-evenly", margin: "20px", marginBottom:"40px"}}  >
-                        <Image
-                            width={550}
-                            height={350}
-                            className=""
-                            src={imagePath}
-                            alt={service?.title}
-                            priority
-                        />
-                       { /*<Image
-                            width={545}
-                            height={364}
-                            className=""
-                            src={imagePath}
-                            alt={service?.title}
-                            priority
-                        />*/}
-                       
-                    </div>
+                  
                     <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
