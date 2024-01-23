@@ -8,7 +8,7 @@ metaContent: "🚰 Desatascos Pociten, tu empresa de desatascos de confianza en 
 mediumImage: 'empresadedesatascos-md.jpg'
 largeImage: 'empresadedesatascos-ld.webp'
 detailBreadcrumbSubTitle: 'Empresa de Desatascos'
-detailBreadcrumbDesc: 'Desatascos 24 horas: Experiencia y profesionalismo desde Desatascos Pociten'
+detailBreadcrumbDesc: 'Empresa de desatascos: Experiencia y profesionalismo desde Pociten'
 
 title2: 'Empresa de desatascos'
 #PARRAFO color negro de fondo y letras en verde
@@ -28,7 +28,7 @@ contenidoDescripcion: "
 
 <h2>¿Por qué elegirnos como tu empresa de desatascos de confianza?</h2>
 
-<p>Ofrecemos servicios de emergencia las 24 horas, personal altamente capacitado y tecnología de última generación. Nos distinguimos por nuestra eficiencia, calidad y precios competitivos. 🕒👷‍♂️💰</p>
+<p>Ofrecemos <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>servicios de emergencia las 24 horas</a>, personal altamente capacitado y tecnología de última generación. Nos distinguimos por nuestra eficiencia, calidad y precios competitivos. 🕒👷‍♂️💰</p>
 
 <h2>Amplia gama de servicios de desatascos</h2>
 
