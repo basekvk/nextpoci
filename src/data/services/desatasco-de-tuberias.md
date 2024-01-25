@@ -3,8 +3,8 @@ id: 'service-02'
 title: 'Desatasco Tuberías'
 canonical: https://www.desatascos-madrid.com/services/desatasco-de-tuberias
 
-mediumImage: 'limpiezadetuberias-md.webp'
-largeImage: 'limpiezadetuberias-lg.webp'
+mediumImage: 'desatasco-de-tuberias.webp'
+largeImage: 'desatasco-de-tuberias.webp'
 detailBreadcrumbSubTitle: 'Tuberías'
 titleMeta: "Desatascos de Tuberías en Madrid - Pociten"
 metaContent: "¿Tuberías atascadas en Madrid: servicio eficiente y de calidad. ¡Contáctanos hoy mismo! ☎️​ 647 376 782. 😊"

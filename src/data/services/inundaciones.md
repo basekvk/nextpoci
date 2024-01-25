@@ -4,8 +4,8 @@ title: 'Inundaciones'
 titleMeta: '▷ Inundaciones【647 376 782】Desatascos Pociten 24h'
 canonical: https://www.desatascos-madrid.com/services/inundaciones
 
-mediumImage: 'inundaciones-md.webp'
-largeImage: 'inundaciones-md.webp'
+mediumImage: 'inundaciones.webp'
+largeImage: 'inundaciones.webp'
 
 metaContent: 'Inundaciones. Servicio urgente para la evacuación de aguas ✅ Disponemos de camiones preparados para la subción de aguas por bombeos. Rápidos y económicos.'
 detailBreadcrumbSubTitle: 'Inundaciones'

@@ -5,7 +5,7 @@ titleMeta: "Desatascos 24 Horas en Madrid | Pociten: Servicio Urgente y Eficaz "
 canonical: https://www.desatascos-madrid.com/services/desatascos-24-horas
 lugar: 'Madrid'
 metaContent: "Pociten ofrece servicios de desatascos 24 horas en Madrid. Respuesta urgente y eficaz a emergencias. Tu solución de confianza. Llámanos al 647 376 782"
-mediumImage: 'desatascos-24-horas.webp'
+mediumImage: 'desatascos-urgentes-24-horas.webp'
 largeImage: 'desatascos-urgentes-24-horas.webp'
 detailBreadcrumbSubTitle: 'Desatascos 24 Horas'
 detailBreadcrumbDesc: 'Desatascos 24 horas: Experiencia y profesionalismo desde Desatascos Pociten'

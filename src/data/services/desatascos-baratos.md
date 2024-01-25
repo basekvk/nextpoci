@@ -6,7 +6,7 @@ canonical: https://www.desatascos-madrid.com/services/desatascos-baratos
 lugar: 'Madrid'
 metaContent: "¿Buscas desatascos baratos y de calidad? ¡Tenemos la solución! Poceros rápidos y eficaces las 24 horas. ¡Pide tu presupuesto ya! ☎️​ 647 376 782"
 mediumImage: 'desatascos-baratos.webp'
-largeImage: 'desatascos-baratos-madrid.webp'
+largeImage: 'desatascos-baratos.webp'
 detailBreadcrumbSubTitle: 'Desatascos 24 Horas'
 detailBreadcrumbDesc: 'Desatascos Baratos: Experiencia y profesionalismo desde Desatascos Pociten'
 
