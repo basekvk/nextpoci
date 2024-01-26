@@ -17,8 +17,8 @@ function ServiceContent({ service }) {
             
                 <div className={classes.content}>
                 <Image
-                width={1200}
-                height={800}
+                width={845}
+                height={475}
                 className=""
                 src={imagePath}
                 alt={service?.title}

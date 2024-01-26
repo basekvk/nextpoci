@@ -12,8 +12,8 @@ function ServiceContent({ service }) {
     return (
         <Col lg={{ span: 12 }} className="pe-lg-45">
             <Image
-                width={1200}
-                height={800}
+                width={845}
+                height={475}
                 className=""
                 src={imagePath}
                 alt={service?.title}
