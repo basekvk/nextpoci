@@ -21,12 +21,12 @@ class MyDocument extends Document {
                         content="d3df955d4e2e80331481050a676081d6"
                     />
                     <link rel="manifest" href="/manifest.json" />
-                    <meta name="msapplication-TileColor" content="#ffffff" />
+                    <meta name="msapplication-TileColor" content="#00BBB4" />
                     <meta
                         name="msapplication-TileImage"
                         content="/ms-icon-144x144.png"
                     />
-                    <meta name="theme-color" content="#ffffff" />
+                    <meta name="theme-color" content="#003A70" />
                     <link
                         rel="apple-touch-icon"
                         sizes="180x180"

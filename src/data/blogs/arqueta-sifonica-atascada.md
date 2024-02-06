@@ -6,6 +6,7 @@ metaContent: 'Previene y resuelve atascos en arquetas sifónicas. Aprende sobre 
 desc: 'Consejos esenciales: ¡Mantén tus Arquetas en perfecto estado y evita problemas!'
 mediumImage: '845.webp'
 largeImage: '370.webp'
+date: '26 MAYO 2023'
 blogMeta: '26 MAYO  2023 - Desatascos Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus arquetas.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'

@@ -6,6 +6,7 @@ metaContent: 'Mantén en buen estado tus fosas sépticas con Desatascos Pociten.
 desc: 'Todo lo que necesitas saber para llevar a cabo un mantenimiento adecuado de tus Fosas Sépticas'
 mediumImage: '845.webp'
 largeImage: '370.webp'
+date: '4 MAYO 2023'
 blogMeta: '4 MAYO 2023 - Desatascos Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus fosas sépticas.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'

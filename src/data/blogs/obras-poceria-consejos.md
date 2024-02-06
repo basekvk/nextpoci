@@ -6,7 +6,7 @@ metaContent: 'Ahorra tiempo y dinero en tu proyecto de obras de pocería. Descub
 desc: 'Todo lo que necesitas saber para llevar a cabo con éxito tu proyecto de pocería'
 mediumImage: '845.webp'
 largeImage: '370.webp'
-
+date: '18 ABRIL 2023'
 blogMeta: '18 ABRIL 2023 - Desatascos Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus tuberías y alcantarillado.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'

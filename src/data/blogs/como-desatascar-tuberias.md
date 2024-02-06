@@ -6,6 +6,7 @@ metaContent: 'Aprende a desatascar una tubería por ti mismo sin productos quím
 desc: 'Realiza la limpieza de tu tubería atascada tu mismo con los consejos de Desatascos Pociten'
 mediumImage: '845.webp'
 largeImage: '370.webp'
+date: '17 ABRIL 2023'
 blogMeta: '17 ABRIL 2023 - Desatascos Pociten'
 excerpt: 'Si quieres trucos caseros de como intentar desatrancar una tubería este es tu sitio'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'

@@ -3,16 +3,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import classes from './hero.module.scss';
 
-
 function Hero({ heroItems }) {
     const heroItem = heroItems[0];
 
-    // Asegúrate de que tu archivo SCSS tenga reglas para posicionar el texto sobre la imagen
-    // Por ejemplo, .hero-container { position: relative; z-index: 1; }
-
     return (
         <div className={classes.heroBackground}>
-           
             <Image
                 src="/images/hero/1.webp"
                 alt="Poceria Pociten desatascos en Madrid Camion Cuba"
@@ -20,19 +15,10 @@ function Hero({ heroItems }) {
                 objectFit="cover"
                 quality={75}
                 priority
-               // Ejemplo de tamaños para dispositivos móviles y de escritorio
             />
-           
-            {/* La imagen de fondo */}
-           
-            {/* El contenedor y el contenido */}
             <div className={classes.heroContainer}>
                 <div className={classes.container}>
-                    {' '}
-                    {/* Asegúrate de que esta clase esté definida para contener y centrar tu contenido */}
                     <div className={classes.content}>
-                        {' '}
-                        {/* Esta clase debería posicionar tu contenido sobre la imagen */}
                         <span
                             className={`subtitle-animation ${classes.subtitle}`}
                         >
@@ -40,15 +26,11 @@ function Hero({ heroItems }) {
                         </span>
                         <div
                             className={`title-animation ${classes.title}`}
-                            dangerouslySetInnerHTML={{
-                                __html: heroItem.title,
-                            }}
+                            dangerouslySetInnerHTML={{ __html: heroItem.title }}
                         />
                         <div
                             className={`desc-animation ${classes.desc}`}
-                            dangerouslySetInnerHTML={{
-                                __html: heroItem.desc,
-                            }}
+                            dangerouslySetInnerHTML={{ __html: heroItem.desc }}
                         />
                         <div className={`btn-animation ${classes.btn_wrap}`}>
                             <Link href="/contacto">
@@ -74,7 +56,15 @@ function Hero({ heroItems }) {
 }
 
 Hero.propTypes = {
-    heroItems: PropTypes.instanceOf(Object).isRequired,
+    heroItems: PropTypes.arrayOf(
+        PropTypes.shape({
+            subtitle: PropTypes.string,
+            title: PropTypes.string,
+            desc: PropTypes.string,
+            btnSecondaryText: PropTypes.string,
+            btnPrimaryText: PropTypes.string,
+        })
+    ).isRequired,
 };
 
 export default Hero;

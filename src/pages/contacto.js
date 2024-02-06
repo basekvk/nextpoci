@@ -13,7 +13,7 @@ function ContactPage({ contactItems,  footerItems }) {
                 <title>
                     Contacta - Desatascos y pocería en Madrid | Desatascos Pociten
                 </title>
-                <meta name="robots" content="index, follow" />
+               
                 <meta
                     name="description"
                     content="¡Contacta con Desatascos Pociten en Madrid! 🛠️ Líder en desatascos y pocería en Madrid, soluciones rápidas y eficientes. ¡Llámanos ya! 📞 647 376 782"

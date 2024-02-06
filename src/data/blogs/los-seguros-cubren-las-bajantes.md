@@ -6,7 +6,7 @@ metaContent: 'Descubre si tu seguro se puede hacer cargo de la rotura de tus baj
 desc: 'Todo lo que necesitas saber para que tu seguro te cubra las bajantes'
 mediumImage: '845.webp'
 largeImage: '370.webp'
-
+date: '23 ENERO 2024'
 blogMeta: '23 ENERO 2024 - Desatascos Pociten'
 excerpt: 'Lo que necesitas saber sobre tu seguro y las bajantes.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
@@ -14,7 +14,7 @@ detailBreadcrumbDesc: '¿Mi seguro me cubre las bajantes?'
 detailSubTitle: 'HAZTE UN BUEN SEGURO'
 quote: "Con la póliza de seguros adecuada podrás evitarte problemas en un futuro."
 htmlCode: "
-<h1>¿Los Seguros Cubren las Bajantes? Descubre Todo lo que Necesitas Saber</h1>
+<h2>¿Los Seguros Cubren las Bajantes? Descubre Todo lo que Necesitas Saber</h2>
 <p>Los problemas en las bajantes de un edificio pueden ser una pesadilla para cualquier propietario. Cuando surge una obstrucción o daño en las bajantes, es fundamental abordarlo de manera eficiente y económica. Una de las preguntas más frecuentes que surgen en estos casos es: ¿Los Seguros Cubren las Bajantes?</p>
 <h2>¿Qué Son las Bajantes?</h2>
 <p>Antes de responder a esa pregunta, es importante entender qué son las bajantes. Las bajantes son las tuberías verticales que transportan las aguas residuales desde los pisos superiores de un edificio hacia la red de alcantarillado municipal o el sistema de saneamiento. Estas tuberías son esenciales para mantener el buen funcionamiento de un edificio y prevenir problemas de obstrucción y filtraciones.</p>

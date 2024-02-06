@@ -35,7 +35,6 @@ function HomePage({
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
                 />
-                <meta name="robots" content="index, follow" />
                 <meta
                     property="og:url"
                     content="https://desatascos-madrid.com/"

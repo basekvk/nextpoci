@@ -5,7 +5,7 @@ metaDescription: 'Aprende a prevenir atascos en tuberías y alcantarillado con n
 metaContent: 'Aprende a prevenir atascos en tuberías y alcantarillado con nuestros consejos prácticos. Mantén tus sistemas de drenaje funcionando correctamente.'
 desc: 'Consejos esenciales: ¡Mantén tus tuberías y alcantarillado libres de atascos'
 mediumImage: '845.webp'
-
+date: '17 ABRIL 2023'
 largeImage: '370.webp'
 blogMeta: '17 ABRIL 2023 - Desatascos Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus tuberías y alcantarillado.'
