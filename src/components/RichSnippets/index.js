@@ -34,7 +34,7 @@ function RichSnippets() {
                     </div>
                     <img
                         itemProp="image"
-                        src="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                        src="/images/about/1-1.webp"
                         alt="Desatascos en Madrid 24 horas - Desatascos Pociten"
                     />
                     Teléfono:{' '}
@@ -106,7 +106,7 @@ function RichSnippets() {
                     </span>
                     <img
                         itemProp="image"
-                        src="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                        src="/images/about/1-1.webp"
                         alt="Desatascos en Madrid 24 horas - Desatascos Pociten"
                     />
                     <div
