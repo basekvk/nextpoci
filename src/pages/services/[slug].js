@@ -24,10 +24,6 @@ function ServiceDetailsPage({
                     property="og:url"
                     content={service?.canonical}
                 />
-                <meta
-                    property="og:title"
-                    content={service?.titleMeta}
-                />
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:description"

@@ -43,15 +43,6 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/services/poceros-madrid</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fpoceros-madrid%2Fconstruccion-pozo.webp&amp;w=1600&amp;q=75</image:loc>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.desatascos-madrid.com/blogs/como-prevenir-atascos</loc>
     <lastmod>2024-01-28</lastmod>
     <changefreq>daily</changefreq>
@@ -196,15 +187,6 @@
     <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Finspeccion-tuberia-con-camara%2Finspeccion-tuberia-con-camara-lg.webp&amp;w=1600&amp;q=75</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.desatascos-madrid.com/services/inundaciones</loc>
-    <lastmod>2024-01-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Finundaciones%2Finundaciones.webp&amp;w=1600&amp;q=75</image:loc>
       </image:image>
   </url>
   <url>
