@@ -14,10 +14,9 @@ function ServiceContent({ service }) {
             <Image
                 width={845}
                 height={475}
-                className=""
                 src={imagePath}
                 alt={service?.title}
-                priority
+                className={classes.image}
             />
             <div className={classes.content}>
                 <h2 className={classes.title}>{service?.title2}</h2>

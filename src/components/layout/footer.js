@@ -177,7 +177,7 @@ function Footer({ footerItems }) {
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
-                                            © 2024 <Link href="#">Duegency</Link>
+                                            © 2024 <Link href="https://duegency.es">Duegency</Link>
                                             <span
                                                 className={classes.icon}
                                             ></span>

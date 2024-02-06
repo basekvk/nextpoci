@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
 import AboutOne from '../components/about';
 import BannerOne from '../components/banner';
@@ -7,13 +8,14 @@ import Footer from '../components/layout/footer';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
-import ContactForm from '../components/form-page';
-import CookiePopup from '../components/cookiebanner';
 import ReviewsSection from '../components/reviews';
 import Areastrabajo from '../components/areastrabajo';
 import CallButton from '../components/CallButton';
 import GridServicios from '../components/gridservicios';
 import Problemas from '../components/problemas';
+
+const ContactForm = dynamic(() => import('../components/form-page'));
+const CookiePopup = dynamic(() => import('../components/cookiebanner'));
 
 function HomePage({
     heroItems,
@@ -26,7 +28,8 @@ function HomePage({
         <>
             <Head>
                 <title>
-                    Desatrancos y Pocería en Madrid | Desatascos Madrid - Pociten
+                    Desatrancos y Pocería en Madrid | Desatascos Madrid -
+                    Pociten
                 </title>
                 <meta
                     name="description"
@@ -46,11 +49,8 @@ function HomePage({
                     property="og:description"
                     content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
                 />
-                
-                <meta
-                    property="og:image"
-                    content="https://desatascos-madrid.es/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
-                />
+
+                <meta property="og:image" content="/images/about/1-1.webp" />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta
                     property="twitter:url"
@@ -66,9 +66,12 @@ function HomePage({
                 />
                 <meta
                     property="twitter:image"
-                    content="https://desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                    content="/images/about/1-1.webp"
                 />
-                <link rel="canonical" href="https://www.desatascos-madrid.com" />
+                <link
+                    rel="canonical"
+                    href="https://www.desatascos-madrid.com"
+                />
             </Head>
 
             <Hero heroItems={heroItems} />
@@ -82,23 +85,26 @@ function HomePage({
                     ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
-                    inspección? Estás en el sitio adecuado, llevamos la palabra pocero en la sangre<br />
+                    inspección? Estás en el sitio adecuado, llevamos la palabra
+                    pocero en la sangre
                     <br />
-                    ¡No te preocupes! Como Poceros en Madrid ofrecemos servicios de desatascos de
-                    tuberías (fregaderos, duchas, wc, lavavajillas, cocinas,
-                    etc..), desatrancos, limpieza y mantenimiento de
-                    alcantarillado, limpieza y construcción de arquetas y pozos
-                    negros, achiques de agua, reparación de bajantes, inspección
-                    con cámara de tuberías, vaciado y mantenimiento de fosas
-                    sépticas, reparación de tuberías sin obra, etc...
+                    <br />
+                    ¡No te preocupes! Como Poceros en Madrid ofrecemos servicios
+                    de desatascos de tuberías (fregaderos, duchas, wc,
+                    lavavajillas, cocinas, etc..), desatrancos, limpieza y
+                    mantenimiento de alcantarillado, limpieza y construcción de
+                    arquetas y pozos negros, achiques de agua, reparación de
+                    bajantes, inspección con cámara de tuberías, vaciado y
+                    mantenimiento de fosas sépticas, reparación de tuberías sin
+                    obra, etc...
                 </p>
 
                 <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la comunidad de Madrid
                     y zonas limítrofes de Toledo y Guadalajara. Contamos con
-                    camiones cuba preparados para cualquier <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>urgencia las 24
-                    horas del día</a>. <br /> <br />
+                    camiones cuba preparados para cualquier urgencia las 24
+                    horas del día . <br /> <br />
                     Si estás buscando poceros cualificados y al mejor precio, no
                     busques más, los acabas de encontrar. Compruébalo
                 </p>
@@ -120,7 +126,7 @@ function HomePage({
                     ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
                     importa ni el cuándo ni el dónde, llámanos y acudiremos a tu
                     llamada en el menor tiempo posible con nuestro servicio de
-                    <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>desatascos urgentes 24 horas</a>.{' '}
+                    desatascos urgentes 24 horas .{' '}
                 </p>
                 <br />
                 <p>
@@ -158,17 +164,11 @@ export function getStaticProps() {
     const heroItems = getAllItems('heros');
     const bannerItems = getAllItems('banner');
     const aboutItems = getAllItems('about');
-    const projectSectionItems = getAllItems('project-section');
-    const projects = getAllItems('projects');
-    const LatestProject = getFeaturedItems(projects);
     const services = getAllItems('services');
     const serviceSectionItems = getAllItems('service-section');
     const HomePageServices = getFeaturedItems(services);
     const bannerTwoItems = getAllItems('banner-2');
-    const teamItems = getAllItems('team');
-    const teamSectionItems = getAllItems('team-section');
     const footerItems = getAllItems('footer');
-    const partnersItems = getAllItems('partners');
     const contactItemsForm = getAllItems('contacto');
 
     return {
@@ -176,15 +176,9 @@ export function getStaticProps() {
             heroItems,
             bannerItems,
             aboutItems,
-            projectSectionItems,
-            projects: LatestProject,
             services: HomePageServices,
             serviceSectionItems,
-            bannerTwoItems,
-            teamItems,
-            teamSectionItems,
             footerItems,
-            partnersItems,
             contactItemsForm,
         },
     };
@@ -194,13 +188,6 @@ HomePage.propTypes = {
     heroItems: PropTypes.instanceOf(Object).isRequired,
     bannerItems: PropTypes.instanceOf(Object).isRequired,
     aboutItems: PropTypes.instanceOf(Object).isRequired,
-    projects: PropTypes.instanceOf(Object).isRequired,
-    projectSectionItems: PropTypes.instanceOf(Object).isRequired,
-    services: PropTypes.instanceOf(Object).isRequired,
-    serviceSectionItems: PropTypes.instanceOf(Object).isRequired,
-    bannerTwoItems: PropTypes.instanceOf(Object).isRequired,
-    teamItems: PropTypes.instanceOf(Object).isRequired,
-    teamSectionItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
     contactItemsForm: PropTypes.instanceOf(Object).isRequired,
 };
