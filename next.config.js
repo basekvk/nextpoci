@@ -240,6 +240,17 @@ const nextConfig = {
                 destination: '/blogs/tag/tuberias',
                 permanent: true,
             },
+            {
+                source: '/blog/tag/undefined',
+                destination: '/blogs/tag/tuberias',
+                permanent: true,
+            },
+            {
+                source: '/blog/category/undefined',
+                destination: '/blogs/tag/tuberias',
+                permanent: true,
+            },
+
             
          
         ];

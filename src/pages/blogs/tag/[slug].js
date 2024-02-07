@@ -7,7 +7,7 @@ import { getBlogTags } from '../../../lib/blog-tags';
 
 
 function BlogTagPage({ categories, tags, blogs, blogsSidebar}) {
-    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/tag/${tags[0].split('|')[0].trim()}`;
+    const canonicalUrl = `https://www.desatascos-madrid.com//blogs/tag/poceros`;
 
   
     return (
