@@ -230,6 +230,18 @@ const nextConfig = {
                 destination: '/contacto',
                 permanent: true,
             },
+            {
+                source: '/desatascos/arganda',
+                destination: '/desatascos/arganda-del-rey',
+                permanent: true,
+            },
+            {
+                source: '/blog/tag/tuberias',
+                destination: '/blogs/tag/tuberias',
+                permanent: true,
+            },
+            
+         
         ];
     },
 };
