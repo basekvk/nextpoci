@@ -6,12 +6,11 @@ import { getAllItems } from '../../../lib/items-util';
 import { getBlogTags } from '../../../lib/blog-tags';
 
 function BlogCategoryPage({ categories, tags, blogs, blogsSidebar}) {
-    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/category/${categories[0].split('|')[0].trim()}`;
-    return (
+    
         <>
             <Head>
                 <title>{categories[1].split('|')[0].trim() + " "} | Blog - Desatascos Pociten</title>
-                <link rel="canonical" href={canonicalUrl} />
+               
                 <meta name="description" content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías" />
             </Head>
             <h1 className='container' style={{padding:"20px", textAlign: 'center', fontSize: '42px', marginTop: '20px'}} >Consulta Nuestros Últimos Artículos sobre Pocería y Desatascos</h1>
@@ -22,7 +21,7 @@ function BlogCategoryPage({ categories, tags, blogs, blogsSidebar}) {
                 tags={tags}
             />
         </>
-    );
+    ;
 }
 
 export const getStaticProps = ({ params }) => {
