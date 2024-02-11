@@ -265,7 +265,16 @@ const nextConfig = {
                 destination: '/politica-privacidad',
                 permanent: true,
             },
-           
+            {
+                source: '/desatascos-aranjuez/',
+                destination: '/desatascos/aranjuez',
+                permanent: true,
+            },
+            {
+                source: '/desatascos-urgentes-24h/',
+                destination: '/services/desatascos-24-horas',
+                permanent: true,
+            },
 
             
          
