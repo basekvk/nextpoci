@@ -6,22 +6,18 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fhero%2F1.webp&amp;w=1600&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&amp;w=1024&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fhero%2F1.webp&w=1600&q=75</image:loc>
       </image:image>
-      <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2Favatar.webp&amp;w=1024&amp;q=75</image:loc>
-      </image:image>
-  </url>
   <url>
     <loc>https://www.desatascos-madrid.com/blogs/arqueta-sifonica-atascada</loc>
     <lastmod>2024-01-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Farqueta-sifonica-atascada%2F370.webp&amp;w=1280&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Farqueta-sifonica-atascada%2F370.webp&w=640&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -30,7 +26,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fobras-de-poceria%2Fobras-de-poceria.webp&amp;w=1600&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fobras-de-poceria%2Fobras-de-poceria.webp&w=1024&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -39,7 +35,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Fcomo-desatascar-tuberias%2F370.webp&amp;w=1280&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Fcomo-desatascar-tuberias%2F370.webp&w=640&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -48,7 +44,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Fcomo-prevenir-atascos%2F370.webp&amp;w=1280&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fblogs%2Fcomo-prevenir-atascos%2F370.webp&w=640&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -93,7 +89,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Freparacion-tuberias-sin-obras%2Freparacion-tuberias-sin-obras-md.webp&amp;w=1600&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Freparacion-tuberias-sin-obras%2Freparacion-tuberias-sin-obras-md.webp&w=1024&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -102,7 +98,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Flimpieza-fosas-septicas%2Ffosassepticas-lg.webp&amp;w=1600&amp;q=75</image:loc>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Flimpieza-fosas-septicas%2Ffosassepticas-lg.webp&w=1024&q=75</image:loc>
       </image:image>
   </url>
   <url>
@@ -346,6 +342,24 @@
       </image:image>
       <image:image>
         <image:loc>https://www.desatascos-madrid.com/images/blogs/como-prevenir-atascos/845.webp</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.desatascos-madrid.com/services/poceros-madrid</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fpoceros-madrid%2Fconstruccion-pozo.webp&w=1024&q=75</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.desatascos-madrid.com/services/inundaciones</loc>
+    <lastmod>2024-02-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Finundaciones%2Finundaciones.webp&w=1024&q=75</image:loc>
       </image:image>
   </url>
 </urlset>
