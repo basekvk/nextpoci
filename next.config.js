@@ -250,6 +250,22 @@ const nextConfig = {
                 destination: '/blogs/tag/tuberias',
                 permanent: true,
             },
+            {
+                source: '/desatascos/desatascos-valdemoro',
+                destination: '/desatascos/valdemoro',
+                permanent: true,
+            },
+            {
+                source: '/desatascos/desatascos-rivas-vaciamadrid',               
+                destination: '/desatascos/rivas-vaciamadrid',
+                permanent: true,
+            },
+            {
+                source: '/politica-de-privacidad/',
+                destination: '/politica-privacidad',
+                permanent: true,
+            },
+           
 
             
          
