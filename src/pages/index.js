@@ -33,11 +33,11 @@ function HomePage({
                 </title>
                 <meta
                     name="description"
-                    content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. Llama ahora ☎️​ 647 376 782"
+                    content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. ☎️​ 647 376 782"
                 />
                 <meta
                     property="og:url"
-                    content="https://desatascos-madrid.com/"
+                    content="https://www.desatascos-madrid.com/"
                 />
                 <meta
                     property="og:title"
@@ -53,7 +53,7 @@ function HomePage({
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta
                     property="twitter:url"
-                    content="https://desatascos-madrid.com/"
+                    content="https://www.desatascos-madrid.com/"
                 />
                 <meta
                     property="twitter:title"
