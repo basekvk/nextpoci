@@ -275,6 +275,11 @@ const nextConfig = {
                 destination: '/services/desatascos-24-horas',
                 permanent: true,
             },
+            {
+                source: '/desatascos/desatascos-usera',
+                destination: '/desatascos/usera',
+                permanent: true,
+            },
 
             
          
