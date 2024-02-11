@@ -2,7 +2,7 @@
 id: 'service-18'
 title: 'Desatascos en Vallecas'
 
-titleMeta: "Poceros en Vallecas - Desatascos Urgentes 24 Horas | Desatascos Pociten "
+titleMeta: "Poceros en Vallecas - Desatascos 24 Horas | Pociten "
 canonical: https://www.desatascos-madrid.com/desatascos/vallecas
 lugar: 'Vallecas'
 mediumImage: 'desatascosvallecas-md.webp'

@@ -5,12 +5,14 @@ export const OffcanvasData = [
         path: '/',
         cName: 'offcanvas-text',
     },
+    /*
     {
         id: 2,
         title: 'Quiénes Somos',
         path: '/about',
         cName: 'offcanvas-text',
     },
+    */
     {
         id: 3,
         title: 'Servicios',

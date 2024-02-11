@@ -11,7 +11,7 @@ inquaryNumber1: '647 376 782'
 informationTitle: 'Información'
 informationList:
     [
-        { id: 'informationList-01', title: 'Quiénes Somos', path: 'about' },
+        # { id: 'informationList-01', title: 'Quiénes Somos', path: 'about' },
         { id: 'informationList-02', title: 'Política Cookies', path: 'cookies' },
         {
             id: 'informationList-03',

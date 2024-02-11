@@ -180,6 +180,11 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/about',
+                destination: '/',
+                permanent: true,
+            },
+            {
                 source: '/evacuacion-de-aguas',
                 destination: '/services/inundaciones',
                 permanent: true,

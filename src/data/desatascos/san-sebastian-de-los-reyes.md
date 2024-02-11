@@ -2,7 +2,7 @@
 id: 'service-22'
 title: 'Desatascos en San Sebastián de los Reyes'
 
-titleMeta: "Servicio de Desatascos 24/7 en San Sebastián de los Reyes | Expertos en Pocería e Inspección con Cámara"
+titleMeta: "Desatascos 24/7 en San Sebastián de los Reyes | Pociten"
 canonical: https://www.desatascos-madrid.com/desatascos/san-sebastian-de-los-reyes
 lugar: 'San Sebastián de los Reyes'
 mediumImage: 'desatascossanse-md.webp'

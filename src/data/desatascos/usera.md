@@ -2,7 +2,7 @@
 id: 'service-20'
 title: 'Desatascos en Usera'
 
-titleMeta: "Desatascos Pociten - Desatascos y Poceros Expertos en Usera | Inspección con Cámara y Obras de Pocería"
+titleMeta: "Desatascos - Poceros en Usera | Pociten"
 canonical: https://www.desatascos-madrid.com/desatascos/usera
 lugar: 'Usera'
 mediumImage: 'desatascosusera-md.webp'

@@ -5,12 +5,12 @@ const menuDesktop = [
         link: '/',
         cName: '',
     },
-    {
+    /*{
         id: 2,
         title: 'QUIENES SOMOS',
         link: '/about',
         cName: '',
-    },
+    },*/
     {
         id: 3,
         title: 'SERVICIOS',
