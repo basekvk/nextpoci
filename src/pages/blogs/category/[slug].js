@@ -5,7 +5,7 @@ import { getBlogCategories } from '../../../lib/blog-categories';
 import { getAllItems } from '../../../lib/items-util';
 import { getBlogTags } from '../../../lib/blog-tags';
 
-function BlogCategoryPage({ categories, tags, blogs, blogsSidebar,slug }) {
+function BlogCategoryPage({ categories, tags, blogs, blogsSidebar, slug }) {
     const canonicalUrl = `https://www.desatascos-madrid.com/blogs/category/${slug}`;
     return (
         // Añade esta línea para retornar el JSX
@@ -19,8 +19,7 @@ function BlogCategoryPage({ categories, tags, blogs, blogsSidebar,slug }) {
                     name="description"
                     content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías"
                 />
-                 <link rel="canonical" href={canonicalUrl} />
-               
+                <link rel="canonical" href={canonicalUrl} />
             </Head>
             <h1
                 className="container"
