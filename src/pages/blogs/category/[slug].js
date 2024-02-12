@@ -5,14 +5,34 @@ import { getBlogCategories } from '../../../lib/blog-categories';
 import { getAllItems } from '../../../lib/items-util';
 import { getBlogTags } from '../../../lib/blog-tags';
 
-function BlogCategoryPage({ categories, tags, blogs, blogsSidebar }) {
-    return ( // Añade esta línea para retornar el JSX
+function BlogCategoryPage({ categories, tags, blogs, blogsSidebar,slug }) {
+    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/category/${slug}`;
+    return (
+        // Añade esta línea para retornar el JSX
         <>
             <Head>
-                <title>{categories[1].split('|')[0].trim() + " "} | Blog - Desatascos Pociten</title>
-                <meta name="description" content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías" />
+                <title>
+                    {categories[1].split('|')[0].trim() + ' '} | Blog -
+                    Desatascos Pociten
+                </title>
+                <meta
+                    name="description"
+                    content="Aquí podrás encontrar los mejores artículos sobre desatascos y obras de pocería para ayudarte con tus problemas de tuberías"
+                />
+                 <link rel="canonical" href={canonicalUrl} />
+               
             </Head>
-            <h1 className='container' style={{padding:"20px", textAlign: 'center', fontSize: '42px', marginTop: '20px'}} >Consulta Nuestros Últimos Artículos sobre Pocería y Desatascos</h1>
+            <h1
+                className="container"
+                style={{
+                    padding: '20px',
+                    textAlign: 'center',
+                    fontSize: '42px',
+                    marginTop: '20px',
+                }}
+            >
+                Consulta Nuestros Últimos Artículos sobre Pocería y Desatascos
+            </h1>
             <BlogLeftSidebar
                 blogs={blogs}
                 blogsSidebar={blogsSidebar}
@@ -44,6 +64,7 @@ export const getStaticProps = ({ params }) => {
             categories,
             tags,
             blogsSidebar,
+            slug,
         },
     };
 };

@@ -13,7 +13,7 @@ function BlogTagPage({ categories, tags, blogs, blogsSidebar, slug}) {
 
     
     
-    const canonicalUrl = `https://www.desatascos-madrid.com/blog/tag/${slug}`;
+    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/tag/${slug}`;
    
     return (
         <>
