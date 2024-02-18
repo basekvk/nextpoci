@@ -5,7 +5,7 @@ titleMeta: "Pociten | Desatrancos Rápidos y Económicos - 24 horas"
 canonical: https://www.desatascos-madrid.com/services/desatrancos
 metaContent: "Desatascos Pociten: Desatrancos rápidos y económicos ⚡. Servicio 24h para tus urgencias. Calidad y eficiencia garantizada. ¡Llama ahora! ☎️ 647 376 782"
 mediumImage: 'desatrancos.webp'
-largeImage: 'desatrancos-en-madrid.webp'
+largeImage: 'desatrancos.webp'
 detailBreadcrumbSubTitle: 'Desatrancos'
 detailBreadcrumbDesc: 'Desatascos Baratos: Experiencia y profesionalismo desde Desatascos Pociten'
 lugar: 'Madrid'

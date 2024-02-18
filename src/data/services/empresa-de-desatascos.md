@@ -5,8 +5,8 @@ titleMeta: "Pociten - Tu Empresa de Desatascos de Confianza en Madrid"
 canonical: https://www.desatascos-madrid.com/services/empresa-de-desatascos
 
 metaContent: "🚰 Desatascos Pociten, tu empresa de desatascos de confianza en Madrid. Ofrecemos soluciones rápidas y efectivas 24/7. Llámanos al 647 376 782"
-mediumImage: 'empresadedesatascos-md.jpg'
-largeImage: 'empresadedesatascos-ld.webp'
+mediumImage: 'empresa-de-desatascos-webp'
+largeImage: 'empresa-de-desatascos.webp'
 detailBreadcrumbSubTitle: 'Empresa de Desatascos'
 detailBreadcrumbDesc: 'Empresa de desatascos: Experiencia y profesionalismo desde Pociten'
 
