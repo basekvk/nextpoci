@@ -78,9 +78,14 @@ function HomePage({
 
             <div className="container">
                 <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos y Pocería en Madrid
+                    Desatascos en Madrid
                 </h2>
-                <p>
+                <p style={{
+                    fontFamily: 'yantramanav, sans-serif',
+                    fontSize: '20px',
+                    justifyContent: 'center',
+                
+                }}>
                     ¿Problemas con tus tuberías? ¿Necesitas un desatasco? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
