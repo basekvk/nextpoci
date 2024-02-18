@@ -53,14 +53,14 @@ function Hero({ heroItems }) {
                             <div
                                 className={`btn-animation ${classes.btn_wrap}`}
                             >
-                                <Link href="/projects/project-fullwidth">
+                                <Link href="/contacto">
                                     <a
                                         className={`me-20 ${classes.btn} ${classes.btn_secondary} ${classes.btn_hover__white}`}
                                     >
                                         {heroItem?.btnSecondaryText}
                                     </a>
                                 </Link>
-                                <Link href="/contact">
+                                <Link href="tel:647376782">
                                     <a
                                         className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white}`}
                                     >
