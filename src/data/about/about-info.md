@@ -2,9 +2,9 @@
 id: 'about-01'
 sectionTitle: 'Poceros Madrid'
 sectionSubtitle: 'Empresa de Desatascos'
-sectionDesc: "En Pociten, <a href='https://desatascos-madrid.com/services/poceros-madrid'>expertos poceros</a>, ofrecemos soluciones integrales para todo tipo de problemas de atascos y limpieza de tuberías en Madrid. Con más de dos décadas de experiencia en el sector de la pocería, nos hemos establecido como una de las empresas líderes, brindando servicios de desatascos urgentes y mantenimiento de alcantarillado. Si estás buscando una empresa de <a href='https://desatascos-madrid.com/services/desatascos-24-horas'>desatascos de confianza 24 horas</a> y con respuesta rápida en Madrid, Desatascos Pociten es tu opción ideal.
+sectionDesc: "En Pociten, expertos poceros, ofrecemos soluciones integrales para todo tipo de problemas de atascos y limpieza de tuberías en Madrid. Con más de dos décadas de experiencia en el sector de la pocería, nos hemos establecido como una de las empresas líderes, brindando servicios de desatascos urgentes y mantenimiento de alcantarillado. Si estás buscando una empresa de desatascos de confianza 24 horas</a> y con respuesta rápida en Madrid, Desatascos Pociten es tu opción ideal.
 
-No dudes en contactarnos al 647 376 782 para servicios de <a href='https://desatascos-madrid.com/services/desatascos-24-horas'>desatascos urgentes</a>. Estamos disponibles las 24 horas del día para atender de manera inmediata tus necesidades de desatascos y pocería en Madrid y sus alrededores, incluyendo las áreas cercanas de Guadalajara y Toledo. Nuestro equipo de poceros profesionales está preparado para proporcionarte soluciones rápidas y efectivas."
+No dudes en contactarnos al 647 376 782 para servicios de desatascos urgentes. Estamos disponibles las 24 horas del día para atender de manera inmediata tus necesidades de <strong>desatascos y pocería en Madrid</strong> y sus alrededores, incluyendo las áreas cercanas de Guadalajara y Toledo. Nuestro equipo de poceros profesionales está preparado para proporcionarte soluciones rápidas y efectivas."
 image: '/images/about/1-1.webp'
 alt: 'Desatascos Pociten'
 pattern: '/images/about/pattern.webp'
