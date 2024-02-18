@@ -23,7 +23,7 @@
         max-width: 100%;
     }
     span {
-        color: $primary;
+        color: aqua;
     }
 
 }
@@ -47,10 +47,11 @@
 }
 .subtitle {
     font-family: $rajdhani;
-    font-size: 24px;
+    font-size: 34px;
+    font-weight: 800;
     line-height: 30px;
     display: block;
-    color: $primary;
+    color: aqua;
     position: relative;
     padding-left: 100px;
     margin-bottom: 5px;
