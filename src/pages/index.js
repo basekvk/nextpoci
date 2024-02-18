@@ -78,18 +78,16 @@ function HomePage({
 
             <div className="container">
                 <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos en Madrid
+                    Desatascos y Pocería en Madrid
                 </h2>
                 <p>
-                    ¿Problemas con tus tuberías? ¿La ducha o el fregadero no
+                    ¿Problemas con tus tuberías? ¿Necesitas un desatasco? ¿La ducha o el fregadero no
                     traga agua? ¿Se te ha inundado el garaje? ¿o solo quieres
                     mantener tu red de saneamiento en buen estado con una simple
-                    inspección? Estás en el sitio adecuado, llevamos la palabra
-                    pocero en la sangre
+                    inspección? Estás en el sitio adecuado, somos Poceros de toda la vida. Evita precios indeseados o mala calidad en los materiales y servicios. Contrata servicios de pocería con garantía. ¡No cobramos desplazamiento!
                     <br />
                     <br />
-                    ¡No te preocupes! Como Poceros en Madrid ofrecemos servicios
-                    de desatascos de tuberías (fregaderos, duchas, wc,
+                    Ofrecemos servicios de desatascos de tuberías (fregaderos, duchas, wc,
                     lavavajillas, cocinas, etc..), desatrancos, limpieza y
                     mantenimiento de alcantarillado, limpieza y construcción de
                     arquetas y pozos negros, achiques de agua, reparación de
