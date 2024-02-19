@@ -214,6 +214,11 @@ const menuDesktop = [
                         text: 'Tres Cantos',
                         link: '/desatascos/tres-cantos',
                     },
+                    {
+                        id: 433,
+                        text: 'El Escorial',
+                        link: '/desatascos/el-escorial',
+                    }
                 ],
             },
             {

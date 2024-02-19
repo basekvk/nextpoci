@@ -191,6 +191,11 @@ export const OffcanvasData = [
                 link: '/desatascos/san-fernando-de-henares',
                 text: 'San Fernando de Henares',
             },
+            {
+                id: 'submenu-21',
+                link: '/desatascos/el-escorial',
+                text: 'El Escorial',
+            }
           
         ],
     },
