@@ -4,7 +4,7 @@ function Cookies() {
         <div className="container">
             
             <h2>Política de Cookies</h2>
-            <p>Última actualización: 06 de junio de 2023</p>
+            <p>Última actualización: 19 de febrero de 2024</p>
 
             <p>
                 Esta página web, cuyo responsable es Desatascos Madrid,
@@ -103,7 +103,7 @@ function Cookies() {
             <h2>Contacto</h2>
             <p>
                 Si tienes cualquier pregunta sobre nuestra política de cookies,
-                no dudes en contactar con nosotros a través de info@desatascos-madrid.com.
+                no dudes en contactar con nosotros a través de info@pocitendesatascos.es
             </p>
         </div>
         <br>

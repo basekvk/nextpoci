@@ -40,7 +40,7 @@ function avisoLegal({ newsletterItems, footerItems }) {
                             <br />NIF: B56236755
                             <br /> Dirección: Calle Lezo 8, 4D. 28041 , Madrid –
                             España.
-                            <br /> Email de contacto: info@pocitenPocería.es
+                            <br /> Email de contacto: info@pocitendeatascos.es
                         </p>
                         <h2>II. TÉRMINOS Y CONDICIONES GENERALES DE USO</h2>
                         <h3>El objeto de las condiciones: El Sitio Web</h3>
