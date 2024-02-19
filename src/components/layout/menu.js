@@ -218,6 +218,11 @@ const menuDesktop = [
                         id: 433,
                         text: 'El Escorial',
                         link: '/desatascos/el-escorial',
+                    },
+                    {
+                        id: 435,
+                        text: 'Colmenar Viejo',
+                        link: '/desatascos/colmenar-viejo',
                     }
                 ],
             },
