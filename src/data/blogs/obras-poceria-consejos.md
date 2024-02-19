@@ -15,7 +15,7 @@ detailSubTitle: 'EVITA PROBLEMAS DE ATASCOS'
 quote: "Con la información adecuada y las herramientas necesarias, cualquier persona puede realizar obras de pocería con éxito y ahorrar dinero en el proceso."
 htmlCode: "
 <h3 style='font-size:32px' >1.Introducción</h3>
-<p>En este artículo, abordaremos todo lo que debes saber antes de comenzar un proyecto de obras de pocería, desde la planificación inicial hasta el mantenimiento preventivo de las redes de saneamiento.</p>
+<p>En este artículo, abordaremos todo lo que debes saber antes de comenzar un proyecto de <a href='https://www.desatascos-madrid.com/services/obras-de-poceria'>obras de pocería</a>, desde la planificación inicial hasta el mantenimiento preventivo de las redes de saneamiento.</p>
 <br>
 
 <h3 style='font-size:32px'>2.¿Qué son las obras de pocería?</h3>

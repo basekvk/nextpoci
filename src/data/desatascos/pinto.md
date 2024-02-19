@@ -3,7 +3,7 @@ id: 'service-13'
 
 title: 'Desatascos en Pinto'
 
-titleMeta: "Desatascos y Poceros en Pinto - Desatrancos Urgentes 24h"
+titleMeta: "Desatascos y Poceros en Pinto - Pociten 24 Horas"
 canonical: https://www.desatascos-madrid.com/desatascos/pinto
 
  
@@ -14,7 +14,7 @@ mediumImage: 'desatascospinto-md.webp'
 
 largeImage: 'desatascospinto-md.webp'
 
-metaContent: "Desatascos y Poceros en Pinto. Desatrancos urgentes 24h ⏰. Soluciones rápidas y eficaces en tus emergencias. ¡Llámanos! ☎️ 647 376 782."
+metaContent: "Desatascos y Poceros en Pinto. Desatrancos urgentes 24 horas ⏰. Soluciones eficaces a tus emergencias. ¡Llámanos! ☎️ 647 376 782."
 
 detailBreadcrumbSubTitle: 'Single Service'
 

@@ -74,6 +74,11 @@ const menuDesktop = [
                 text: 'CAMIÓN CUBA',
                 link: '/services/camion-cuba',
             },
+            {
+                id: 312,
+                text: 'INSPECCIÓNES CON CÁMARA TV',
+                link: '/services/inspeccion-tuberia-con-camara',
+            }
         ],
     },
     // ... otros elementos del menú ...

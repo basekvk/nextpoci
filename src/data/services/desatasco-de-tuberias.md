@@ -53,7 +53,7 @@ contenidoDescripcion2: "<h2>Cómo limpiamos las tuberías</h2>
 <h3>Limpieza mecánica</h3>
 <p>La limpieza mecánica implica el uso de herramientas mecánicas para despejar obstrucciones en las tuberías. Esto puede incluir el uso de varillas flexibles o serpentines que se pueden pasar a través de la tubería para eliminar la obstrucción.</p>
 <h3>Cámara de inspección</h3>
-<p>Antes de comenzar la limpieza, es importante entender la naturaleza de la obstrucción y dónde se encuentra. Para esto, utilizamos cámaras de inspección que se pueden introducir en la tubería para visualizar y evaluar el problema</p>
+<p>Antes de comenzar la limpieza, es importante entender la naturaleza de la obstrucción y dónde se encuentra. Para esto, utilizamos <en href='https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara'>cámaras de inspección</a> que se pueden introducir en la tubería para visualizar y evaluar el problema</p>
 
 <h2>Nuestro enfoque en Desatascos Pociten</h2>
 <p>En Desatascos Pociten, creemos en un enfoque personalizado para cada uno de nuestros clientes. Cada situación es única, y trabajamos con nuestros clientes para entender sus necesidades específicas y crear soluciones adaptadas a ellas. Esto significa que tomamos el tiempo para evaluar cada situación y determinar el mejor enfoque para solucionar el problema.</p>

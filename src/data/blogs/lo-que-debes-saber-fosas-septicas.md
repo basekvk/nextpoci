@@ -15,11 +15,11 @@ detailSubTitle: 'EVITA PROBLEMAS CON TUS FOSAS SÉPTICAS'
 quote: "El mantenimiento adecuado de las fosas sépticas es esencial. En Desatascos Pociten, te ofrecemos servicios profesionales para garantizar su correcto funcionamiento."
 htmlCode: "
 <h3 style='font-size:32px'>1.Mantenimiento de fosas sépticas: todo lo que necesitas saber</h3>
-<p>Las fosas sépticas son una solución indispensable para el tratamiento de las aguas residuales en ubicaciones rurales o aisladas. Sin embargo, para que funcionen correctamente, es necesario realizar un mantenimiento periódico que garantice su buen estado y prolongue su vida útil. En Desatascos Pociten somos expertos en el vaciado y mantenimiento de <a href='https://www.desatascos-madrid.com/services/limpieza-fosas-septicas'>fosas sépticas </a>en Madrid.</p>
+<p>Las fosas sépticas son una solución indispensable para el tratamiento de las aguas residuales en ubicaciones rurales o aisladas. Sin embargo, para que funcionen correctamente, es necesario realizar un mantenimiento periódico que garantice su buen estado y prolongue su vida útil. En Desatascos Pociten somos expertos en el vaciado y mantenimiento de fosas sépticas en Madrid.</p>
 <br>
 
 <h3 style='font-size:32px'>2.¿Qué es una fosa séptica y cómo funciona?</h3>
-<p>Una fosa séptica es un sistema de tratamiento de aguas residuales que se utiliza en viviendas aisladas o ubicaciones rurales. En Desatascos Pociten, ofrecemos servicios profesionales de vaciado y mantenimiento de fosas sépticas, para que funcionen adecuadamente y duren mucho tiempo.</p>
+<p>Una fosa séptica es un sistema de tratamiento de aguas residuales que se utiliza en viviendas aisladas o ubicaciones rurales. En Desatascos Pociten, ofrecemos servicios profesionales de <en href='https://www.desatascos-madrid.com/services/limpieza-fosas-septicas'>vaciado y mantenimiento de fosas sépticas</a>, para que funcionen adecuadamente y duren mucho tiempo.</p>
 <br>
 <h3 style='font-size:32px'>3.¿Por qué es importante el mantenimiento de una fosa séptica? </h3>
 <p>Para que una fosa séptica funcione correctamente, es necesario realizar un mantenimiento periódico que garantice su buen estado y prolongue su vida útil. En Desatascos Pociten, recomendamos contactar con nosotros para mantener tus fosas sépticas en perfecto estado y evitar averías.</p>
