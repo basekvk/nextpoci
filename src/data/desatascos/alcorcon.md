@@ -40,14 +40,9 @@ contenidoDescripcion: "
 <p>Te ofrecemos una experiencia inigualable y somos los más económicos en toda la Comunidad de Madrid en cuanto a servicios de pocería se refiere.</p>
 
 
-
-
-
-
-
 "
 contenidoDescripcion1: "<h3><strong>¿A qué se dedica un pocero?</strong></h3>
-<p>Nuestros poceros en Alcorcón se encargan de la construcción, mantenimiento y reparación de pozos. Somos expertos en la instalación de tuberías y alcantarillado, asegurando el correcto manejo del agua y los desechos.</p>
+<p>Nuestros poceros en Alcorcón se encargan de la construcción, mantenimiento y reparación de pozos. Somos expertos en la instalación de tuberías, <a href='https://desatascos-madrid.com'>desatascos</a> y alcantarillado, asegurando el correcto manejo del agua y los desechos.</p>
 
 <p>Además, realizamos mantenimiento de pozos y ofrecemos servicios de desatascos y limpieza para asegurar su buen funcionamiento.</p>
 
@@ -80,12 +75,6 @@ contenidoDescripcion3: "
   <p>🔝Cercanía y confianza</p>
 
 
-<h3><strong><a href='#servicios'>Desatrancos Alcorcón</a></strong></h3>
-<p>Ofrecemos servicios diarios en toda la Comunidad de Madrid a precios competitivos.</p>
-
-
-<h3><strong>¿Con quién trabajamos?</strong></h3>
-<p>Colaboramos con todo tipo de empresas y particulares, adaptándonos a las necesidades de cada proyecto.</p>"
 
 
 
