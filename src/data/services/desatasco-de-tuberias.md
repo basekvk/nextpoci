@@ -23,7 +23,7 @@ parrafo: "Soluciones de desatascos de tuberías personalizadas para su hogar o n
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>Como expertos en el mantenimiento y <a href='https://www.desatascos-madrid-com'>desatascos</a> de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
+<p>Como expertos en el mantenimiento y <a href='https://www.desatascos-madrid.com'>desatascos</a> de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
 <br>
 <h2>¿Qué es la limpieza de tuberías?</h2>
 <p>Antes de profundizar en los detalles de cómo limpiamos las tuberías, es importante comprender qué es la limpieza de tuberías y por qué es necesaria. En términos simples, la limpieza de tuberías es el proceso de eliminar cualquier atasco o residuo que haya acumulado en las tuberías con el tiempo. Esto puede incluir todo, desde cabello y residuos de alimentos hasta sedimentos y otros materiales que se acumulan en las tuberías con el tiempo.</p>
