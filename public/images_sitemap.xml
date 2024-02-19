@@ -332,22 +332,4 @@
         <image:loc>https://www.desatascos-madrid.com/images/blogs/como-prevenir-atascos/845.webp</image:loc>
       </image:image>
   </url>
-  <url>
-    <loc>https://www.desatascos-madrid.com/services/poceros-madrid</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fpoceros-madrid%2Fconstruccion-pozo.webp&w=1024&q=75</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.desatascos-madrid.com/services/inundaciones</loc>
-    <lastmod>2024-02-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Finundaciones%2Finundaciones.webp&w=1024&q=75</image:loc>
-      </image:image>
-  </url>
 </urlset>
