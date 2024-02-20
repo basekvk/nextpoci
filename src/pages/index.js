@@ -9,10 +9,10 @@ import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
 import ReviewsSection from '../components/reviews';
-import Areastrabajo from '../components/areastrabajo';
 import CallButton from '../components/CallButton';
 import GridServicios from '../components/gridservicios';
 import Problemas from '../components/problemas';
+import LatestBlog from '../components/home-page/latest-blog';
 
 const ContactForm = dynamic(() => import('../components/form-page'));
 const CookiePopup = dynamic(() => import('../components/cookiebanner'));
@@ -23,6 +23,8 @@ function HomePage({
     aboutItems,
     footerItems,
     contactItemsForm,
+    blogs,
+    blogSectionItems,
 }) {
     return (
         <>
@@ -167,8 +169,8 @@ function HomePage({
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
 
-            <Areastrabajo />
-
+            <h3 className='container' style={{fontSize:"32px"}} >Últimas Publicaciones</h3>
+            <LatestBlog blogs={blogs} blogSectionItems={blogSectionItems} />
             <Footer footerItems={footerItems} />
             <CookiePopup />
         </>
@@ -181,10 +183,11 @@ export function getStaticProps() {
     const aboutItems = getAllItems('about');
     const services = getAllItems('services');
     const serviceSectionItems = getAllItems('service-section');
+    const blogs = getAllItems('blogs');
     const HomePageServices = getFeaturedItems(services);
-    const bannerTwoItems = getAllItems('banner-2');
     const footerItems = getAllItems('footer');
     const contactItemsForm = getAllItems('contacto');
+    const LatestBlog = getFeaturedItems(blogs);
 
     return {
         props: {
@@ -195,6 +198,7 @@ export function getStaticProps() {
             serviceSectionItems,
             footerItems,
             contactItemsForm,
+            blogs: LatestBlog,
         },
     };
 }
@@ -205,6 +209,7 @@ HomePage.propTypes = {
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
     contactItemsForm: PropTypes.instanceOf(Object).isRequired,
+    blogs: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default HomePage;

@@ -7,6 +7,8 @@ function LatestBlogItem({ blog }) {
     const linkPath = `/blogs/${blog?.slug}`;
 
     return (
+        <>
+         
         <div className={classes.blog_item}>
             <Link href={linkPath}>
                 <a className={classes.blog_img}>
@@ -34,6 +36,9 @@ function LatestBlogItem({ blog }) {
                 </ul>
             </div>
         </div>
+        
+        </>
+       
     );
 }
 
