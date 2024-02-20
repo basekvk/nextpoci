@@ -107,6 +107,9 @@ function HomePage({
                     rel="canonical"
                     href="https://www.desatascos-madrid.com"
                 />
+                <link rel="image_src" href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75" />
+
+                
             </Head>
 
             <Hero heroItems={heroItems} />
