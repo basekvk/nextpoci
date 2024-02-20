@@ -5,23 +5,48 @@ import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 
-
 // Componentes dinámicos con SSR deshabilitado para mejorar la carga
-const Hero = dynamic(() => import('../components/home-page/hero'), { ssr: false });
+const Hero = dynamic(() => import('../components/home-page/hero'), {
+    ssr: false,
+});
 const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
 const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
-const Footer = dynamic(() => import('../components/layout/footer'), { ssr: false });
-const ProductCluster = dynamic(() => import('../components/cluster'), { ssr: false });
+const Footer = dynamic(() => import('../components/layout/footer'), {
+    ssr: false,
+});
+const ProductCluster = dynamic(() => import('../components/cluster'), {
+    ssr: false,
+});
 const CallToAction = dynamic(() => import('../components/cta'), { ssr: false });
-const ReviewsSection = dynamic(() => import('../components/reviews'), { ssr: false });
-const CallButton = dynamic(() => import('../components/CallButton'), { ssr: false });
-const GridServicios = dynamic(() => import('../components/gridservicios'), { ssr: false });
-const Problemas = dynamic(() => import('../components/problemas'), { ssr: false });
-const LatestBlog = dynamic(() => import('../components/home-page/latest-blog'), { ssr: false });
-const ContactForm = dynamic(() => import('../components/form-page'), { ssr: false });
-const CookiePopup = dynamic(() => import('../components/cookiebanner'), { ssr: false });
-const TextHome = dynamic(() => import('../components/textHome'), { ssr: false });
-const TextUrgentesHome = dynamic(() => import('../components/textUrgentesHome'), { ssr: false });
+const ReviewsSection = dynamic(() => import('../components/reviews'), {
+    ssr: false,
+});
+const CallButton = dynamic(() => import('../components/CallButton'), {
+    ssr: false,
+});
+const GridServicios = dynamic(() => import('../components/gridservicios'), {
+    ssr: false,
+});
+const Problemas = dynamic(() => import('../components/problemas'), {
+    ssr: false,
+});
+const LatestBlog = dynamic(
+    () => import('../components/home-page/latest-blog'),
+    { ssr: false }
+);
+const ContactForm = dynamic(() => import('../components/form-page'), {
+    ssr: false,
+});
+const CookiePopup = dynamic(() => import('../components/cookiebanner'), {
+    ssr: false,
+});
+const TextHome = dynamic(() => import('../components/textHome'), {
+    ssr: false,
+});
+const TextUrgentesHome = dynamic(
+    () => import('../components/textUrgentesHome'),
+    { ssr: false }
+);
 
 function HomePage({
     heroItems,
@@ -31,7 +56,6 @@ function HomePage({
     contactItemsForm,
     blogs,
 }) {
-   
     return (
         <>
             <Head>
@@ -39,6 +63,7 @@ function HomePage({
                     Desatrancos y Pocería en Madrid | Desatascos Madrid -
                     Pociten
                 </title>
+                <meta name="robots" content="index, follow" />
                 <meta
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. ☎️​ 647 376 782"
@@ -57,7 +82,10 @@ function HomePage({
                     content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
                 />
 
-                <meta property="og:image" content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75" />
+                <meta
+                    property="og:image"
+                    content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta
                     property="twitter:url"
@@ -118,8 +146,6 @@ function HomePage({
         </>
     );
 }
-
-
 
 export function getStaticProps() {
     const heroItems = getAllItems('heros');

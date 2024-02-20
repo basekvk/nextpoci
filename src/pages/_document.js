@@ -10,48 +10,10 @@ class MyDocument extends Document {
         return (
             <Html lang="es">
                 <Head>
-                    <meta charSet="utf-8" />
-                    <meta name="robots" content="index, follow" />
-                    <meta
-                        name="google-site-verification"
-                        content="j8oNhhcDDjHc4U1eCXwkvjdoyRmPTNQQDMPLOxAocCs"
-                    />
-                    <meta
-                        name="p:domain_verify"
-                        content="d3df955d4e2e80331481050a676081d6"
-                    />
-                    <link rel="manifest" href="/manifest.json" />
-                    <meta name="msapplication-TileColor" content="#00BBB4" />
-                    <meta
-                        name="msapplication-TileImage"
-                        content="/ms-icon-144x144.png"
-                    />
-                    <meta name="theme-color" content="#003A70" />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="180x180"
-                        href="/apple-icon-180x180.png"
-                    />
-                    <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="32x32"
-                        href="/favicon-32x32.png"
-                    />
-                    <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="16x16"
-                        href="/favicon-16x16.png"
-                    />
-                    <link
-                        rel="preconnect"
-                        href="https://fonts.gstatic.com"
-                        crossOrigin="true"
-                    />
-                    <link
+                <link
                         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Yantramanav:wght@300;400;500;700;900&display=swap"
                         rel="stylesheet"
+                        
                     />
                 </Head>
                 <body>
