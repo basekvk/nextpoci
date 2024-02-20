@@ -71,7 +71,7 @@ function ReviewsSection() {
                     pagination={{
                         clickable: true,
                     }}
-                    navigation={true}
+                    
                     autoplay={{
                         delay: 2500, // Tiempo en milisegundos antes de pasar a la siguiente diapositiva
                         disableOnInteraction: false, // Continúa el autoplay después de la interacción del usuario
