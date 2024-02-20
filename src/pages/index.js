@@ -1,21 +1,27 @@
+// Importaciones esenciales
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
-import AboutOne from '../components/about';
-import BannerOne from '../components/banner';
-import Hero from '../components/home-page/hero';
-import Footer from '../components/layout/footer';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
-import ProductCluster from '../components/cluster';
-import CallToAction from '../components/cta';
-import ReviewsSection from '../components/reviews';
-import CallButton from '../components/CallButton';
-import GridServicios from '../components/gridservicios';
-import Problemas from '../components/problemas';
-import LatestBlog from '../components/home-page/latest-blog';
+import { parseSpanishDate } from '../utils/dateUtils';
 
-const ContactForm = dynamic(() => import('../components/form-page'));
-const CookiePopup = dynamic(() => import('../components/cookiebanner'));
+
+// Componentes dinámicos con SSR deshabilitado para mejorar la carga
+const Hero = dynamic(() => import('../components/home-page/hero'), { ssr: false });
+const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
+const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
+const Footer = dynamic(() => import('../components/layout/footer'), { ssr: false });
+const ProductCluster = dynamic(() => import('../components/cluster'), { ssr: false });
+const CallToAction = dynamic(() => import('../components/cta'), { ssr: false });
+const ReviewsSection = dynamic(() => import('../components/reviews'), { ssr: false });
+const CallButton = dynamic(() => import('../components/CallButton'), { ssr: false });
+const GridServicios = dynamic(() => import('../components/gridservicios'), { ssr: false });
+const Problemas = dynamic(() => import('../components/problemas'), { ssr: false });
+const LatestBlog = dynamic(() => import('../components/home-page/latest-blog'), { ssr: false });
+const ContactForm = dynamic(() => import('../components/form-page'), { ssr: false });
+const CookiePopup = dynamic(() => import('../components/cookiebanner'), { ssr: false });
+const TextHome = dynamic(() => import('../components/textHome'), { ssr: false });
+const TextUrgentesHome = dynamic(() => import('../components/textUrgentesHome'), { ssr: false });
 
 function HomePage({
     heroItems,
@@ -24,8 +30,8 @@ function HomePage({
     footerItems,
     contactItemsForm,
     blogs,
-    blogSectionItems,
 }) {
+   
     return (
         <>
             <Head>
@@ -78,56 +84,7 @@ function HomePage({
             <Hero heroItems={heroItems} />
             <br></br>
 
-            <div className="container">
-                <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos en Madrid
-                </h2>
-                <p
-                    style={{
-                        fontFamily: 'yantramanav, sans-serif',
-                        fontSize: '20px',
-                        justifyContent: 'center',
-                    }}
-                >
-                    ¿Problemas con tus tuberías? ¿Necesitas un desatasco? ¿La
-                    ducha o el fregadero no traga agua? ¿Se te ha inundado el
-                    garaje? ¿o solo quieres mantener tu red de saneamiento en
-                    buen estado con una simple inspección? Estás en el sitio
-                    adecuado, somos Poceros de toda la vida. Evita precios
-                    indeseados o mala calidad en los materiales y servicios.
-                    Contrata servicios de pocería con garantía. ¡No cobramos
-                    desplazamiento!
-                    <br />
-                    <br />
-                    <b>Desatascos Pociten</b> es una empresa ubicada en Madrid
-                    con amplia experiencia en todo tipo de{' '}
-                    <strong>desatrancos y desatascos</strong>. Ofrecemos
-                    servicios de desatascos de tuberías (fregaderos, duchas, wc,
-                    lavavajillas, cocinas, etc..), desatrancos, limpieza y
-                    mantenimiento de alcantarillado, limpieza y construcción de
-                    arquetas y pozos negros, achiques de agua, reparación de
-                    bajantes, inspección con cámara de tuberías, vaciado y
-                    mantenimiento de fosas sépticas, reparación de tuberías sin
-                    obra, etc...
-                </p>
-                <p>
-                    Nuestros trabajos de desatascos también incluyen la gestión
-                    y transporte de los residuos producidos. Por lo que no
-                    deberás preocuparte por nada.
-                </p>
-
-                <br />
-                <p>
-                    Ofrecemos nuestros servicios en toda la Comunidad de Madrid
-                    y zonas limítrofes de Toledo y Guadalajara. Contamos con
-                    camiones cuba preparados para cualquier urgencia las 24
-                    horas del día . <br /> <br />
-                    Si estás buscando poceros cualificados y al mejor precio, no
-                    busques más, los acabas de encontrar. Compruébalo.
-                </p>
-                <br />
-                <CallButton />
-            </div>
+            <TextHome />
             <br></br>
             <ProductCluster localidad="Madrid" />
 
@@ -135,24 +92,7 @@ function HomePage({
 
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
-            <div className="container">
-                <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos Urgentes
-                </h2>
-                <p>
-                    ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no
-                    importa ni el cuándo ni el dónde, llámanos y acudiremos a tu
-                    llamada en el menor tiempo posible con nuestro servicio de
-                    desatascos urgentes 24 horas .{' '}
-                </p>
-                <br />
-                <p>
-                    No esperes más, antes de agravar la avería llámanos y te lo
-                    solucionamos en tiempo record para que puedas seguir con tu
-                    día a día ya sea en tu negocio, empresa, comunidad de
-                    vecinos o domicilio particular
-                </p>
-            </div>
+            <TextUrgentesHome />
             <Problemas />
             <br></br>
             <div className="container">
@@ -169,13 +109,17 @@ function HomePage({
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
 
-            <h3 className='container' style={{fontSize:"32px"}} >Últimas Publicaciones</h3>
-            <LatestBlog blogs={blogs} blogSectionItems={blogSectionItems} />
+            <h3 className="container" style={{ fontSize: '32px' }}>
+                ÚLTIMAS PUBLICACIONES
+            </h3>
+            <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
             <CookiePopup />
         </>
     );
 }
+
+
 
 export function getStaticProps() {
     const heroItems = getAllItems('heros');
@@ -183,7 +127,18 @@ export function getStaticProps() {
     const aboutItems = getAllItems('about');
     const services = getAllItems('services');
     const serviceSectionItems = getAllItems('service-section');
-    const blogs = getAllItems('blogs');
+    let blogs = getAllItems('blogs')
+        .map((blog) => ({
+            ...blog,
+            parsedDate: parseSpanishDate(blog.date).toISOString(), // Convertimos la fecha a string
+        }))
+        .sort((a, b) => new Date(b.parsedDate) - new Date(a.parsedDate));
+
+    // Eliminamos la propiedad 'parsedDate' si no la necesitas en el front-end
+    blogs = blogs.map((blog) => {
+        const { parsedDate, ...rest } = blog;
+        return rest;
+    });
     const HomePageServices = getFeaturedItems(services);
     const footerItems = getAllItems('footer');
     const contactItemsForm = getAllItems('contacto');
@@ -200,6 +155,7 @@ export function getStaticProps() {
             contactItemsForm,
             blogs: LatestBlog,
         },
+        revalidate: 3600,
     };
 }
 

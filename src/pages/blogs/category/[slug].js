@@ -6,7 +6,7 @@ import { getAllItems } from '../../../lib/items-util';
 import { getBlogTags } from '../../../lib/blog-tags';
 
 function BlogCategoryPage({ categories, tags, blogs, blogsSidebar, slug }) {
-    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/category/${slug}`;
+    const canonicalUrl = `https://www.desatascos-madrid.com/blogs/category/${slug}`;    
     return (
         // Añade esta línea para retornar el JSX
         <>
@@ -42,31 +42,63 @@ function BlogCategoryPage({ categories, tags, blogs, blogsSidebar, slug }) {
     );
 }
 
-export const getStaticProps = ({ params }) => {
+function parseDate(dateString) {
+    const months = {
+      ENERO: 0,
+      FEBRERO: 1,
+      MARZO: 2,
+      ABRIL: 3,
+      MAYO: 4,
+      JUNIO: 5,
+      JULIO: 6,
+      AGOSTO: 7,
+      SEPTIEMBRE: 8,
+      OCTUBRE: 9,
+      NOVIEMBRE: 10,
+      DICIEMBRE: 11,
+    };
+  
+    const parts = dateString.split(' ');
+    const day = parseInt(parts[0], 10);
+    const month = months[parts[1]];
+    const year = parseInt(parts[2], 10);
+  
+    return new Date(year, month, day);
+  }
+  
+  export const getStaticProps = async ({ params }) => {
     const { slug } = params;
-    const blogs = getAllItems('blogs');
+    let blogs = getAllItems('blogs');
+  
+    // Parse the dates and sort by them
+    blogs = blogs.map(blog => ({
+      ...blog,
+      parsedDate: parseDate(blog.date), // Asumiendo que 'blog.date' tiene la fecha en el formato '12 MARZO 2024'
+    })).sort((a, b) => b.parsedDate - a.parsedDate); // Ordena de más reciente a más antiguo
+  
+    // Filtrar por categoría
+    const filteredBlogs = blogs.filter(blog => {
+      return blog.category.find(cate => cate?.split('|')[0]?.trim() === slug);
+    });
+  
     const blogsSidebar = getAllItems('blog-sidebar');
-    const filteredblogs = blogs
-        .map((blog) => ({
-            ...blog,
-            uniqueCategory: blog.category.find(
-                (cate) => cate?.split('|')[0]?.trim() === slug
-            ),
-        }))
-        .filter((blog) => blog.uniqueCategory?.split('|')[0]?.trim() === slug);
     const categories = getBlogCategories();
     const tags = getBlogTags();
-
+  
+    // No olvides remover la propiedad 'parsedDate' si no la necesitas en el componente
+    filteredBlogs.forEach(blog => delete blog.parsedDate);
+  
     return {
-        props: {
-            blogs: filteredblogs,
-            categories,
-            tags,
-            blogsSidebar,
-            slug,
-        },
+      props: {
+        blogs: filteredBlogs,
+        categories,
+        tags,
+        blogsSidebar,
+        slug,
+      },
     };
-};
+  };
+  
 
 export const getStaticPaths = () => {
     const categories = getBlogCategories();
