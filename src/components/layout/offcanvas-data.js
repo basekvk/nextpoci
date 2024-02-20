@@ -200,6 +200,11 @@ export const OffcanvasData = [
                 id: 'submenu-22',
                 link: '/desatascos/colmenar-viejo',
                 text: 'Colmenar Viejo',
+            },
+            {
+                id: 'submenu-23',
+                link: '/desatascos/galapagar',
+                text: 'Galapagar',
             }
           
         ],

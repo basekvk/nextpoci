@@ -223,6 +223,12 @@ const menuDesktop = [
                         id: 435,
                         text: 'Colmenar Viejo',
                         link: '/desatascos/colmenar-viejo',
+                    },
+                    {
+                        id: 436,
+                        text: 'Galapagar',
+                        link: '/desatascos/galapagar',
+
                     }
                 ],
             },
