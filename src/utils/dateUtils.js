@@ -1,4 +1,4 @@
-// utils/dateUtils.js
+// utils/dateUtils.js ordenar fechas de string a Date
 
 export function parseSpanishDate(dateString) {
     const months = {
