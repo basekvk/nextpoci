@@ -57,7 +57,7 @@ function HomePage({
                     content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
                 />
 
-                <meta property="og:image" content="/images/about/1-1.webp" />
+                <meta property="og:image" content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75" />
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta
                     property="twitter:url"
@@ -73,7 +73,7 @@ function HomePage({
                 />
                 <meta
                     property="twitter:image"
-                    content="/images/about/1-1.webp"
+                    content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
                 <link
                     rel="canonical"
