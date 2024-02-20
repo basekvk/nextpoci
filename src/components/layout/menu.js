@@ -248,11 +248,7 @@ const menuDesktop = [
                         text: 'Coslada',
                         link: '/desatascos/coslada',
                     },
-                    {
-                        id: 443,
-                        text: 'Pozuelo',
-                        link: '/desatascos/pozuelo',
-                    },
+                    
                     {
                         id: 444,
                         text: 'Rivas Vaciamadrid',
