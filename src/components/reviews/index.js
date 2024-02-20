@@ -63,22 +63,35 @@ function ReviewsSection() {
                         Nuestros Clientes Opinan
                     </h3>
                 </div>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    loop={true} // Esto hará que el swiper comience de nuevo después de la última diapositiva
-                    pagination={{
-                        clickable: true,
-                    }}
-                    
-                    autoplay={{
-                        delay: 2500, // Tiempo en milisegundos antes de pasar a la siguiente diapositiva
-                        disableOnInteraction: false, // Continúa el autoplay después de la interacción del usuario
-                    }}
+                    slidesPerView={3} // Default value for desktop
+                    spaceBetween={30} // Default space between slides
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 2500, disableOnInteraction: false }}
                     className="mySwiper"
+                    breakpoints={{
+                        // Cuando el ancho de la pantalla es >= 320px
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        // Cuando el ancho de la pantalla es >= 640px
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        // Cuando el ancho de la pantalla es >= 1024px
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                    }}
                 >
+                    {/* SwiperSlide components */}
+
                     {reviewsData.map((review, index) => (
                         <SwiperSlide key={index}>
                             <div className="testimonial">
@@ -93,53 +106,76 @@ function ReviewsSection() {
                 </Swiper>
 
                 <style jsx>{`
-                    .testimonial-container {
-                        width: 100%;
-                        padding: 20px;
-                    }
-                    .testimonial {
-                        text-align: center;
-                    }
-                    .testimonial img {
-                        border-radius: 50%;
-                        margin-bottom: 10px;
-                    }
-                    .swiper-button-prev,
-                    .swiper-button-next {
-                        position: absolute;
-                        top: 50%; // Centra verticalmente las flechas
-                        width: 50px; // Anchura de las flechas
-                        height: 50px; // Altura de las flechas
-                        margin-top: -85px; // Desplazamiento para centrarlas respecto al swiper
-                        z-index: 10; // Asegura que las flechas estén por encima de las tarjetas
-                        background: rgba(
-                            0,
-                            0,
-                            0,
-                            0.5
-                        ); // Fondo para mejor visibilidad, ajusta como prefieras
-                        border-radius: 50%; // Hace las flechas circulares
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
+    .testimonial-container {
+        width: 100%;
+        padding: 20px;
+    }
+    .testimonial {
+        text-align: center;
+    }
+    .testimonial img {
+        border-radius: 50%;
+        margin-bottom: 10px;
+        width: 120px; /* Tamaño predeterminado de las imágenes */
+        height: 120px; /* Mantén el aspect ratio de las imágenes */
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px; /* Centra verticalmente las flechas */
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff; /* Color del icono de las flechas */
+    }
 
-                    .swiper-button-prev {
-                        left: 10px; // Distancia desde el lado izquierdo del swiper
-                        transform: translateX(
-                            -100%
-                        ); // Ajusta para separar de las tarjetas
-                    }
+    .swiper-button-prev {
+        left: 10px;
+    }
 
-                    .swiper-button-next {
-                        right: 10px;
-                        left: 50px; // Distancia desde el lado derecho del swiper
-                        transform: translateX(
-                            100%
-                        ); // Ajusta para separar de las tarjetas
-                    }
-                    // Añade aquí más estilos para que coincida con tu diseño
-                `}</style>
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    /* Media queries para diferentes tamaños de pantalla */
+    @media (max-width: 1024px) {
+        /* Para tablets y dispositivos menores */
+        .testimonial img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        /* Para dispositivos móviles en orientación landscape y tablets pequeñas */
+        .testimonial-container {
+            padding: 15px;
+        }
+
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        /* Para dispositivos móviles en orientación portrait */
+        .testimonial-container {
+            padding: 10px;
+        }
+
+        .testimonial img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+`}</style>
             </div>
         </>
     );
