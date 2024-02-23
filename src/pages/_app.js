@@ -7,6 +7,7 @@ import React from 'react';
 import RichSnippets from '../components/RichSnippets';
 import useGoogleAnalytics from '../hook/useGoogleAnalytics'; // Hook para Google Analytics
 import Script from 'next/script';
+import GoogleAdsTag from '../components/googleads';
 
 
 function MyApp({ Component, pageProps }) {
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
                     `,
                 }}
             />
+            <GoogleAdsTag />
 
             {/* ... */}
         </Layout>
