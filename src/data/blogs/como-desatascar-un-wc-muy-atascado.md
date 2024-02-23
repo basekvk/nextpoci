@@ -4,8 +4,8 @@ subTitle: 'Consejos y trucos para desatascar WC muy atascado.'
 metaDescription: 'Descubre métodos efectivos y consejos profesionales 🛠️ para desatascar tu WC de forma segura y rápida. Soluciones prácticas con Desatascos Pociten.'
 metaContent: 'Descubre métodos efectivos y consejos profesionales 🛠️ para desatascar tu WC de forma segura y rápida. Soluciones prácticas con Desatascos Pociten.'
 desc: 'Todo lo que necesitas saber para llevar a cabo un desatasco de WC muy atascado. Consejos y trucos profesionales para solucionar el problema de forma rápida y segura.'
-mediumImage: '845.webp'
-largeImage: '370.webp'
+mediumImage: '370.webp'
+largeImage: '845.webp'
 date: '23 FEBRERO 2024'
 blogMeta: '23 FEBRERO 2024 - Desatascos Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus tuberías.'
@@ -55,6 +55,8 @@ category:
     - todo | <span>04</span>
     - desatascos | <span>02</span>
 tag:
+    - tuberias
+    - prevención
     - desatascos
     
 isFeatured: true

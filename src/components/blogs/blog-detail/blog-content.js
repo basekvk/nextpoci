@@ -13,7 +13,7 @@ function BlogContent({ blog}) {
     return (
         <>
         <Head>
-                <title>{blog.title} - DESATASCOS MADRID</title>
+                <title>{blog.title} - POCITEN</title>
                 <meta
                     name="description"
                     content={blog?.metaContent} 
