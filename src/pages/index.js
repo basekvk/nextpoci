@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
+import GoogleAdsScript from '../components/googleads';
 
 // Componentes dinámicos con SSR deshabilitado para mejorar la carga
 const Hero = dynamic(() => import('../components/home-page/hero'), {
@@ -108,7 +109,8 @@ function HomePage({
                     href="https://www.desatascos-madrid.com"
                 />
                 <link rel="image_src" href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75" />
-
+                
+             <GoogleAdsScript />
                 
             </Head>
 
