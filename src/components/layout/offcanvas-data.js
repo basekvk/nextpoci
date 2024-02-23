@@ -30,8 +30,7 @@ export const OffcanvasData = [
                 link: '/services/desatasco-de-tuberias',
                 text: 'Limpieza de Tuberías',
             },
-         
-           
+
             {
                 id: 'submenu-05',
                 link: '/services/desatrancos',
@@ -42,14 +41,13 @@ export const OffcanvasData = [
                 link: '/services/desatascos-baratos',
                 text: 'Desatascos Baratos',
             },
-          
-         
+
             {
                 id: 'submenu-09',
                 link: '/services/inspeccion-tuberia-con-camara',
                 text: 'Inspeccion con Cámara',
             },
-        
+
             {
                 id: 'submenu-11',
                 link: '/services/empresa-de-desatascos',
@@ -80,8 +78,6 @@ export const OffcanvasData = [
                 link: '/services/reparacion-tuberias-sin-obras',
                 text: 'Reparación Tuberías sin Obras',
             },
-        
-        
         ],
     },
     {
@@ -205,12 +201,11 @@ export const OffcanvasData = [
                 id: 'submenu-23',
                 link: '/desatascos/galapagar',
                 text: 'Galapagar',
-            }
-          
+            },
         ],
     },
-  
-      {
+
+    {
         id: 6,
         title: 'Blogs',
         path: '/blogs/category/todo',
@@ -239,22 +234,26 @@ export const OffcanvasData = [
             },
             {
                 id: 'submenu-05',
-                link: "/blogs/arqueta-sifonica-atascada",
+                link: '/blogs/arqueta-sifonica-atascada',
                 text: '¿ARQUETA SIFÓNICA ATASCADA?',
             },
             {
                 id: 'submenu-06',
-                link: "/blogs/como-desatascar-un-fregadero",
+                link: '/blogs/como-desatascar-un-fregadero',
                 text: 'COMO DESATASCAR FREGADERO',
             },
             {
                 id: 'submenu-07',
-                link: "/blogs/los-seguros-cubren-las-bajantes",
+                link: '/blogs/los-seguros-cubren-las-bajantes',
                 text: '¿LOS SEGUROS CUBREN LAS BAJANTES?',
             },
-          
+            {
+                id: 'submenu-08',
+                text: '¿CÓMO DESATASCAR UN WC?',
+                link: '/blogs/como-desatascar-un-wc-muy-atascado',
+            },
         ],
-    }, 
+    },
     {
         id: 7,
         title: 'Contacto',

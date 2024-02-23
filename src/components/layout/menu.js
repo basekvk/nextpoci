@@ -399,6 +399,11 @@ const menuDesktop = [
                 link: '/blogs/los-seguros-cubren-las-bajantes',
                 
             },
+            {
+                id: 58,
+                text: '¿CÓMO DESATASCAR UN WC?',
+                link: '/blogs/como-desatascar-un-wc-muy-atascado',
+            }
            
         ]
     },
