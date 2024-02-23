@@ -7,6 +7,7 @@ import React from 'react';
 import RichSnippets from '../components/RichSnippets';
 import useGoogleAnalytics from '../hook/useGoogleAnalytics'; // Hook para Google Analytics
 import Script from 'next/script';
+import GoogleAdsScript from '../components/googleads';
 
 function MyApp({ Component, pageProps }) {
     useGoogleAnalytics(); // Usamos el hook personalizado para Google Analytics
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <RichSnippets />
+                <GoogleAdsScript />
             </Head>
 
             <Component {...pageProps} />
