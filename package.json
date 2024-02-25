@@ -11,6 +11,9 @@
     },
     "dependencies": {
         "@emailjs/browser": "3.10.0",
+        "@fontsource-variable/onest": "^5.0.2",
+        "@fontsource/rajdhani": "^5.0.8",
+        "@fontsource/yantramanav": "^5.0.18",
         "@fortawesome/fontawesome-free": "6.4.0",
         "@fortawesome/fontawesome-svg-core": "6.4.0",
         "@fortawesome/free-solid-svg-icons": "6.4.0",

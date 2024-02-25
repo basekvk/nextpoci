@@ -7,7 +7,7 @@ desc: 'Realiza la limpieza de tu fregadero atascado tu mismo con los consejos de
 mediumImage: '370.webp'
 largeImage: '845.webp'
 date: '18 DICIEMBRE 2023'
-blogMeta: '18 DICIEMBRE 2023 - Desatascos Pociten'
+blogMeta: '18 DICIEMBRE 2023 - Pociten'
 excerpt: 'Si quieres trucos caseros de como intentar desatrancar un fregadero este es tu sitio'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: 'Como desatascar un Fregadero'

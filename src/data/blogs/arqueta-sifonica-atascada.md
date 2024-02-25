@@ -7,7 +7,7 @@ desc: 'Consejos esenciales: ¡Mantén tus Arquetas en perfecto estado y evita pr
 mediumImage: '370.webp'
 largeImage: '845.webp'
 date: '26 MAYO 2023'
-blogMeta: '26 MAYO  2023 - Desatascos Pociten'
+blogMeta: '26 MAYO  2023 - Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus arquetas.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: '¿ARQUETA SIFÓNICA ATASCADA?'

@@ -7,7 +7,7 @@ desc: 'Consejos esenciales: ¡Mantén tus tuberías y alcantarillado libres de a
 mediumImage: '370.webp'
 largeImage: '845.webp'
 date: '17 ABRIL 2023'
-blogMeta: '17 ABRIL 2023 - Desatascos Pociten'
+blogMeta: '17 ABRIL 2023 - Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus tuberías y alcantarillado.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: 'CÓMO PREVENIR ATASCOS EN TUBERÍAS'

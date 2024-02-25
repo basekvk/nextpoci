@@ -7,7 +7,7 @@ desc: 'Todo lo que necesitas saber para llevar a cabo un mantenimiento adecuado 
 mediumImage: '370.webp'
 largeImage: '845.webp'
 date: '4 MAYO 2023'
-blogMeta: '4 MAYO 2023 - Desatascos Pociten'
+blogMeta: '4 MAYO 2023 - Pociten'
 excerpt: 'Evita problemas mayores con un mantenimiento adecuado de tus fosas sépticas.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: 'Fosas Sépticas: Como realizar un perfecto mantenimiento'

@@ -4,6 +4,7 @@ import 'react-whatsapp-widget/dist/index.css';
 import dynamic from 'next/dynamic';
 import { Analytics } from '@vercel/analytics/react';
 
+
 // Importar WhatsAppWidget y PhoneWidget dinámicamente sin SSR
 const WhatsAppWidget = dynamic(
     () => import('react-whatsapp-widget').then((mod) => mod.WhatsAppWidget),

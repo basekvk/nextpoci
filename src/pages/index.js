@@ -5,8 +5,6 @@ import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 
-
-
 // Componentes dinámicos con SSR deshabilitado para mejorar la carga
 const Hero = dynamic(() => import('../components/home-page/hero'), {
     ssr: false,
@@ -50,11 +48,9 @@ const TextUrgentesHome = dynamic(
     { ssr: false }
 );
 
-const VideoPortada = dynamic(
-    () => import('../components/videoportada'),
-    { ssr: false }
-);
-
+const VideoPortada = dynamic(() => import('../components/videoportada'), {
+    ssr: false,
+});
 
 function HomePage({
     heroItems,
@@ -119,8 +115,6 @@ function HomePage({
                     rel="image_src"
                     href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
                 />
-
-                
             </Head>
 
             <Hero heroItems={heroItems} />
@@ -142,8 +136,9 @@ function HomePage({
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
+                <VideoPortada />
             </div>
-            <VideoPortada />
+            
             <CallToAction text="inicio" />
             <div className="container">
                 <ReviewsSection />

@@ -7,7 +7,7 @@ desc: 'Realiza la limpieza de tu tubería atascada tu mismo con los consejos de 
 mediumImage: '370.webp'
 largeImage: '845.webp'
 date: '17 ABRIL 2023'
-blogMeta: '17 ABRIL 2023 - Desatascos Pociten'
+blogMeta: '17 ABRIL 2023 - Pociten'
 excerpt: 'Si quieres trucos caseros de como intentar desatrancar una tubería este es tu sitio'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: 'Como desatascar una tubería'
