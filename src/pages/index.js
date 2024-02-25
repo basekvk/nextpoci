@@ -6,6 +6,7 @@ import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 
 
+
 // Componentes dinámicos con SSR deshabilitado para mejorar la carga
 const Hero = dynamic(() => import('../components/home-page/hero'), {
     ssr: false,
@@ -48,6 +49,12 @@ const TextUrgentesHome = dynamic(
     () => import('../components/textUrgentesHome'),
     { ssr: false }
 );
+
+const VideoPortada = dynamic(
+    () => import('../components/videoportada'),
+    { ssr: false }
+);
+
 
 function HomePage({
     heroItems,
@@ -136,6 +143,7 @@ function HomePage({
                 </h2>
                 <GridServicios />
             </div>
+            <VideoPortada />
             <CallToAction text="inicio" />
             <div className="container">
                 <ReviewsSection />
