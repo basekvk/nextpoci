@@ -8,7 +8,7 @@ lugar: 'Rivas Vaciamadrid'
 mediumImage: 'desatascosrivasvaciamadrid-md.webp'
 largeImage: 'desatascosrivasvaciamadrid-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'
-metaContent: "Desatascos Pociten es líder en desatascos en Rivas Vaciamadrid, con servicio 24/7 para poceros, desatrancos y obras de pocería. Contamos con inspección con cámara de última generación para ofrecer el mejor servicio.☎️ 647 376 782"
+metaContent: "Pociten es líder en desatascos en Rivas Vaciamadrid. Contamos con inspección con cámara de última generación para ofrecer el mejor servicio.☎️ 647 376 782"
 detailBreadcrumbDesc: 'Mejor empresa de Poceros en Rivas vaciamadrid. Llámanos y compruébalo'
 title2: 'Desatascos en Rivas Vaciamadrid'
 
