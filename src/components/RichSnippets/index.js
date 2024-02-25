@@ -51,18 +51,7 @@ function RichSnippets() {
                         <meta itemProp="reviewCount" content="40" />
                     </div>
                     <span itemProp="areaServed">Madrid y zonas limítrofes</span>
-                    <div
-                        itemProp="makesOffer"
-                        itemScope
-                        itemType="https://schema.org/Offer"
-                    >
-                        <span itemProp="itemOffered">
-                            Desatascos, limpieza de tuberías, inspección con
-                            cámara, vaciado fosas sépticas, bajantes, arquetas,
-                            alcantarillado, red de saneamiento, reparación de
-                            tuberias sin obra, etc.
-                        </span>
-                    </div>
+                   
                     <div
                         itemProp="openingHoursSpecification"
                         itemScope
