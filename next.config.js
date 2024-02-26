@@ -285,6 +285,11 @@ const nextConfig = {
                 destination: '/desatascos/usera',
                 permanent: true,
             },
+            {
+                source: '/index',
+                destination: '/',
+                permanent: true,
+            },
 
             
          
