@@ -72,7 +72,50 @@ function HomePage({
                     name="description"
                     content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. ☎️​ 647 376 782"
                 />
+                <link
+                    rel="canonical"
+                    href="https://www.desatascos-madrid.com"
+                />
+                    <meta
+                    property="og:url"
+                    content="https://www.desatascos-madrid.com/"
+                />
+                <meta
+                    property="og:title"
+                    content="Desatascos-Pocería-Alcantarillado 【647 376 782】| Desatascos Pociten"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:description"
+                    content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
+                />
 
+                <meta
+                    property="og:image"
+                    content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                />
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:url"
+                    content="https://www.desatascos-madrid.com/"
+                />
+                <meta
+                    property="twitter:title"
+                    content="Desatascos y Poceros Madrid【647 376 782】Desatascos Pociten"
+                />
+                <meta
+                    property="twitter:description"
+                    content="✅Poceros en Madrid. 🔝 Empresa de desatascos en Madrid 24 horas. 📢 Desatascos baratos con los mejores precios. ☎️​647 376 782"
+                />
+                <meta
+                    property="twitter:image"
+                    content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                />
+                
+                <link
+                    rel="image_src"
+                    href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
+                />
             </Head>
 
             <Hero heroItems={heroItems} />
@@ -96,7 +139,7 @@ function HomePage({
                 <GridServicios />
                 <VideoPortada />
             </div>
-            
+
             <CallToAction text="inicio" />
             <div className="container">
                 <ReviewsSection />
