@@ -7,7 +7,7 @@ lugar: 'Galapagar'
 mediumImage: 'galapagar.webp'
 largeImage: 'galapagar.webp'
 metaContent: "Desatascos - Poceros en Galapagar 🛠️ Servicio 24/7 🕑 Pociten. ☎️ 647 376 782"
-canonical: https://www.desatascos-madrid.com/desatascos/colmenar-viejo
+canonical: https://www.desatascos-madrid.com/desatascos/galapagar
 
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Somos la empresa de desatascos más económica en toda la Comunidad de Madrid. Llámanos y compruébalo.'

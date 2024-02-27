@@ -6,7 +6,7 @@ title: 'Desatrancos en Madrid'
 titleMeta: "Desatrancos en Madrid - Pociten"
 
 lugar: 'Madrid'
-canonical: https://www.desatascos-madrid.com/
+canonical: https://www.desatascos-madrid.com/desatascos/madrid
 
 mediumImage: 'desatascosmadrid-md.webp'
 
