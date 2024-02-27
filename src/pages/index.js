@@ -1,5 +1,4 @@
 // Importaciones esenciales
-import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
@@ -62,7 +61,7 @@ function HomePage({
 }) {
     return (
         <>
-            <Head>
+            <head>
                 <title>
                     Desatrancos y Pocería en Madrid | Desatascos Madrid -
                     Pociten
@@ -117,7 +116,7 @@ function HomePage({
                     rel="image_src"
                     href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
                 />
-            </Head>
+            </head>
 
             <Hero heroItems={heroItems} />
             <br></br>

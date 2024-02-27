@@ -1,7 +1,8 @@
-import Head from 'next/head';
+
 import PropTypes from 'prop-types';
 import Layout from '../components/layout/layout';
 import '../styles/globals.scss';
+import Head from 'next/head';
 import { ScrollToTop } from '../components/scroll';
 import React from 'react';
 import RichSnippets from '../components/RichSnippets';
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }) {
         <Layout>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+
                 <RichSnippets />
             
                 
