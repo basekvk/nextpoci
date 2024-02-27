@@ -73,7 +73,7 @@ function LatestBlog({ blogs, blogSectionItems }) {
 
 LatestBlog.propTypes = {
     blogs: PropTypes.instanceOf(Object).isRequired,
-    blogSectionItems: PropTypes.instanceOf(Object).isRequired,
+  
 };
 
 export default LatestBlog;

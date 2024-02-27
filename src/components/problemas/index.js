@@ -4,46 +4,45 @@ export default function Problemas() {
                 <h3 className="text-center" style={{ fontSize: '28px' }}>
                     Llámanos si tienes alguno de estos problemas:
                 </h3>
-                <p>
+                
                     <ul>
-                        <li>
+                        <p>
                         ✅ Escuchar ruidos extraños en desagües o inodoros{' '}
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Atascos en el WC: sale agua por el inodoro o no
                             desagua{' '}
-                        </li>
-                        <li>
-                        ✅ Atasco en la bañera: sale agua por la bañera, sale
-                            agua por el plato de ducha o no tragan los desagües
+                        </p>
+                        <p>
+                        ✅ Atasco en la bañera: sale agua por la bañera/plato de ducha o no tragan los desagües
                             correctamente.
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Atasco de arquetas, no recogen el agua o sale agua
                             por ellas.
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Fregadero atascado , no traga, sale agua y huele mal.
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Aparecen manchas de humedad en las paredes y no
                             detectan el problema.{' '}
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Atasco en bajantes de la comunidad.{' '}
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Detectar malos olores en el hogar salientes de los
                             desagües.{' '}
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Lavavajillas pierde agua o no desagua.{' '}
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                         ✅ Canalones que rebosan y no se vacían con la lluvia.
-                        </li>
+                        </p>
                     </ul>
-                </p>
+                
             </div>
     );
 }

@@ -34,7 +34,7 @@ htmlCode: "
 
 <h3 style='font-size:32px'>3.Cómo prevenir atascos en tuberías</h3>
 <p>Para prevenir atascos en las tuberías, sigue estos consejos prácticos:</p>
-<ul>
+
 <h4 style='font-size:26px'>1.Evita arrojar grasas y aceites en el fregadero</h4>
 <p>Deshazte de las grasas y aceites en un contenedor apropiado, ya que pueden solidificarse y obstruir las tuberías.</p>
 <br>
