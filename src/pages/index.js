@@ -52,7 +52,7 @@ const VideoPortada = dynamic(() => import('../components/videoportada'), {
 });
 
 function HomePage({
-    heroItems,
+    
     bannerItems,
     aboutItems,
     footerItems,
@@ -177,7 +177,7 @@ export function getStaticProps() {
         const { parsedDate, ...rest } = blog;
         return rest;
     });
-    const HomePageServices = getFeaturedItems(services);
+    
     const footerItems = getAllItems('footer');
     const contactItemsForm = getAllItems('contacto');
     const LatestBlog = getFeaturedItems(blogs);
@@ -186,8 +186,7 @@ export function getStaticProps() {
         props: {
             bannerItems,
             aboutItems,
-            services: HomePageServices,
-            serviceSectionItems,
+           
             footerItems,
             contactItemsForm,
             blogs: LatestBlog,
