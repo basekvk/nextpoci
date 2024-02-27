@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types';
 import Layout from '../components/layout/layout';
 import '../styles/globals.scss';
@@ -10,32 +9,30 @@ import useGoogleAnalytics from '../hook/useGoogleAnalytics'; // Hook para Google
 import Script from 'next/script';
 import GoogleAdsTag from '../components/googleads';
 
-
 function MyApp({ Component, pageProps }) {
     useGoogleAnalytics(); // Usamos el hook personalizado para Google Analytics
 
     return (
-        <Layout>
+        <>
             <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-                <RichSnippets />
-            
-                
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
             </Head>
-
-            <Component {...pageProps} />
-            <ScrollToTop />
-              {/* Google Analytics - Global site tag (gtag.js) */}
-              <Script
-                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-                strategy="afterInteractive"
-            />
-            <Script
-                id="google-analytics-script"
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{
-                    __html: `
+            <Layout>
+                <Component {...pageProps} />
+                <ScrollToTop />
+                {/* Google Analytics - Global site tag (gtag.js) */}
+                <Script
+                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+                    strategy="afterInteractive"
+                />
+                <Script
+                    id="google-analytics-script"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
                         window.dataLayer = window.dataLayer || [];
                         function gtag() { dataLayer.push(arguments); }
                         gtag('js', new Date());
@@ -43,12 +40,13 @@ function MyApp({ Component, pageProps }) {
                             page_path: window.location.pathname,
                         });
                     `,
-                }}
-            />
-            <GoogleAdsTag />
+                    }}
+                />
+                <GoogleAdsTag />
 
-            {/* ... */}
-        </Layout>
+                {/* ... */}
+            </Layout>
+        </>
     );
 }
 
