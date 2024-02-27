@@ -9,7 +9,7 @@
     color: white;
     font-size: 78px;
     line-height: 145px;
-    font-weight: 700;
+    font-weight: 748;
     max-width: 57%;
     @include breakpoint(max-xl-device) {
         max-width: 100%;
@@ -21,6 +21,7 @@
     @include breakpoint(max-sm-device) {
         font-size: 25px;
         max-width: 100%;
+        
     }
     span {
         color: aqua;
@@ -29,22 +30,36 @@
 }
 
 .slide {
-    &-bg {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 786px;
-        display: flex;
-        align-items: center;
-        @include breakpoint(max-xl-device) {
-            height: 610px;
-        }
-        &-01 {
-            background-image: url('/images/hero/1.webp');
-        }
-       
+    background: {
+      image: url('/images/hero/1.webp');
+      position: center;
+      repeat: no-repeat;
+      size: cover;
     }
-}
+    
+    // Establece un aspect ratio de 16:9 usando padding-top
+    &:before {
+      content: "";
+      display: block;
+      padding-top: (9 / 16) * 100%; // Esto es aproximadamente 56.25%
+    }
+  
+    // Usa position absolute para posicionar el contenido del .slide
+    > .container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  
+    position: relative; // Para el posicionamiento absoluto del hijo
+    height: 650px; // La altura se controla con padding-top
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .subtitle {
     font-family: $rajdhani;
     font-size: 34px;
