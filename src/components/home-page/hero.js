@@ -37,8 +37,7 @@ function Hero({}) {
                             No cobramos desplazamiento. Desatascos, Desatrancos,
                             Obras de Pocería, Inspecciones con Cámara,
                             Alcantarillado, Arquetas, Fosas Sépticas, Red de
-                            Saneamiento, Bajantes. Poceros en Madrid con los
-                            mejores precios.
+                            Saneamiento, Bajantes. Poceros en Madrid
                         </p>
                     </div>
                     <div className={classes.btnWrap}>
