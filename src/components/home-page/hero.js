@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import classes from './hero.module.scss'; // Importa tus clases CSS como módulos
 import Link from 'next/link';
-import PropTypes from 'prop-types';
 
-function Hero({}) {
+
+function Hero() {
     const [isHoveredContactar, setIsHoveredContactar] = useState(false);
     const [isHoveredLlamar, setIsHoveredLlamar] = useState(false);
 
@@ -82,8 +82,6 @@ function Hero({}) {
     );
 }
 
-Hero.propTypes = {
-    heroItem: PropTypes.instanceOf(Object).isRequired,
-};
+
 
 export default Hero;

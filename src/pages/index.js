@@ -7,9 +7,7 @@ import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
 
 // Componentes dinámicos con SSR deshabilitado para mejorar la carga
-const Hero = dynamic(() => import('../components/home-page/hero'), {
-    ssr: false,
-});
+import Hero from '../components/home-page/hero';
 const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
 const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
 const Footer = dynamic(() => import('../components/layout/footer'), {
@@ -120,7 +118,7 @@ function HomePage({
                 />
             </Head>
 
-            <Hero heroItems={heroItems} />
+            <Hero />
             <br></br>
 
             <TextHome />
@@ -162,7 +160,7 @@ function HomePage({
 }
 
 export function getStaticProps() {
-    const heroItems = getAllItems('heros');
+   
     const bannerItems = getAllItems('banner');
     const aboutItems = getAllItems('about');
     const services = getAllItems('services');
@@ -186,7 +184,6 @@ export function getStaticProps() {
 
     return {
         props: {
-            heroItems,
             bannerItems,
             aboutItems,
             services: HomePageServices,
@@ -200,7 +197,6 @@ export function getStaticProps() {
 }
 
 HomePage.propTypes = {
-    heroItems: PropTypes.instanceOf(Object).isRequired,
     bannerItems: PropTypes.instanceOf(Object).isRequired,
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
