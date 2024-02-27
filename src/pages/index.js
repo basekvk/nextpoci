@@ -68,7 +68,7 @@ function HomePage({
                     Desatrancos y Pocería en Madrid | Desatascos Madrid -
                     Pociten
                 </title>
-                <RichSnippets />
+                
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="description"
@@ -155,6 +155,7 @@ function HomePage({
             </h3>
             <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
+            <RichSnippets />
             <CookiePopup />
         </>
     );
