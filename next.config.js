@@ -294,7 +294,13 @@ const nextConfig = {
                 source: '/desatascos/madrid',
                 destination: '/',
                 permanent: true,
-            }
+            },
+            {
+                source: '/services/desatrancos',
+                destination: '/',
+                permanent: true,
+            },
+
 
             
          
