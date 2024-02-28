@@ -7,39 +7,39 @@ export default function Problemas() {
                 
                     <ul>
                         <p>
-                        ✅ Escuchar ruidos extraños en desagües o inodoros{' '}
+                        - Escuchar ruidos extraños en desagües o inodoros{' '}
                         </p>
                         <p>
-                        ✅ Atascos en el WC: sale agua por el inodoro o no
+                        - Atascos en el WC: sale agua por el inodoro o no
                             desagua{' '}
                         </p>
                         <p>
-                        ✅ Atasco en la bañera: sale agua por la bañera/plato de ducha o no tragan los desagües
+                        - Atasco en la bañera: sale agua por la bañera/plato de ducha o no tragan los desagües
                             correctamente.
                         </p>
                         <p>
-                        ✅ Atasco de arquetas, no recogen el agua o sale agua
+                        - Atasco de arquetas, no recogen el agua o sale agua
                             por ellas.
                         </p>
                         <p>
-                        ✅ Fregadero atascado , no traga, sale agua y huele mal.
+                        - Fregadero atascado , no traga, sale agua y huele mal.
                         </p>
                         <p>
-                        ✅ Aparecen manchas de humedad en las paredes y no
+                        - Aparecen manchas de humedad en las paredes y no
                             detectan el problema.{' '}
                         </p>
                         <p>
-                        ✅ Atasco en bajantes de la comunidad.{' '}
+                        - Atasco en bajantes de la comunidad.{' '}
                         </p>
                         <p>
-                        ✅ Detectar malos olores en el hogar salientes de los
+                        - Detectar malos olores en el hogar salientes de los
                             desagües.{' '}
                         </p>
                         <p>
-                        ✅ Lavavajillas pierde agua o no desagua.{' '}
+                        - Lavavajillas pierde agua o no desagua.{' '}
                         </p>
                         <p>
-                        ✅ Canalones que rebosan y no se vacían con la lluvia.
+                        - Canalones que rebosan y no se vacían con la lluvia.
                         </p>
                     </ul>
                 

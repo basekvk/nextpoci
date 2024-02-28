@@ -56,21 +56,25 @@ socialList:
     [
         {
             id: 'socialList-01',
+            name: 'Facebook',
             socialIcon: 'FaFacebookF',
             path: 'https://www.facebook.com/desatascospociten',
         },
         {
             id: 'socialList-02',
+            name: 'Twitter',
             socialIcon: 'FaTwitter',
             path: 'https://twitter.com/pociten',
         },
         {
             id: 'socialList-03',
+            name: 'Instagram',
             socialIcon: 'FaInstagram',
             path: 'https://instagram.com/pociten_desatascos',
         },
         {
             id: 'socialList-04',
+            name: 'Youtube',
             socialIcon: 'FaYoutube',
             path: 'https://www.youtube.com/@PocitenDesatascos',
         },

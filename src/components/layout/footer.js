@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 import classes from './footer.module.scss';
 
-
-
 function Footer({ footerItems }) {
     return (
         <footer>
@@ -20,7 +18,6 @@ function Footer({ footerItems }) {
                                         <Link href="/">
                                             <a className={classes.logo}>
                                                 <img
-                                                
                                                     src={footerItem?.footerLogo}
                                                     alt={
                                                         footerItem?.footerLogoAlt
@@ -40,7 +37,7 @@ function Footer({ footerItems }) {
                                             >
                                                 {footerItem?.inquary}
                                             </h2>
-                                          
+
                                             <Link href="tel://+34647376782">
                                                 <a
                                                     className={
@@ -162,10 +159,17 @@ function Footer({ footerItems }) {
                                         {footerItem?.socialList?.map((item) => {
                                             const Social =
                                                 FaIcons[item.socialIcon];
+                                            // Asumiendo que `item.socialIcon` o `item.name` contienen el nombre de la red social
+                                            const socialName =
+                                                item.name; // Ajusta esto según la estructura de tus datos
                                             return (
                                                 <li key={item.id}>
                                                     <Link href={`${item.path}`}>
-                                                        <a>
+                                                        <a
+                                                            aria-label={`Síguenos en ${socialName}`}
+                                                        >
+                                                            {' '}
+                                                            {/* Usa el nombre de la red social aquí */}
                                                             <Social />
                                                         </a>
                                                     </Link>
@@ -177,7 +181,10 @@ function Footer({ footerItems }) {
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
-                                            © 2024 <Link href="https://duegency.es">Duegency</Link>
+                                            © 2024{' '}
+                                            <Link href="https://duegency.es">
+                                                Duegency
+                                            </Link>
                                             <span
                                                 className={classes.icon}
                                             ></span>

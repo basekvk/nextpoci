@@ -10,13 +10,13 @@ function Hero() {
 
     const buttonStyle = (isHovered, baseColor, hoverColor) => ({
         backgroundColor: isHovered ? hoverColor : baseColor,
-        color: 'white',
+        color: 'black',
         border: 'none',
         borderRadius: '25px', // Incrementa para botones más redondeados
         padding: '10px 25px', // Incrementa para botones más grandes
         margin: '10px', // Incrementa para más espacio entre botones
         fontSize: '18px', // Incrementa para texto más grande
-        fontWeight: 'bold',
+        fontWeight: 'normal',
         cursor: 'pointer',
         transition: 'background-color 0.3s', // Suaviza la transición del hover
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
@@ -65,8 +65,8 @@ function Hero() {
                                 <a
                                     style={buttonStyle(
                                         isHoveredContactar,
-                                        '#003A70',
-                                        '#001d39'
+                                        '#03BAB3',
+                                        '#009292'
                                     )}
                                     onMouseEnter={() =>
                                         setIsHoveredContactar(true)
@@ -77,7 +77,7 @@ function Hero() {
                                 >
                                     {' '}
                                     {/* Utiliza las clases 'btn' y 'btnSecondary' para el botón "Contactar" */}
-                                    Contactar
+                                    Contacta
                                 </a>
                             </Link>
                             <Link href="tel:647376782">
