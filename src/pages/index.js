@@ -5,14 +5,12 @@ import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
-
-// Componentes dinámicos con SSR deshabilitado para mejorar la carga
+import Footer from '../components/layout/footer';
 import Hero from '../components/home-page/hero';
+// Importaciones dinámicas
 const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
 const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
-const Footer = dynamic(() => import('../components/layout/footer'), {
-    ssr: false,
-});
+
 const ProductCluster = dynamic(() => import('../components/cluster'), {
     ssr: false,
 });
@@ -123,6 +121,12 @@ function HomePage({
 
             <TextHome />
             <br></br>
+             {/* Preload ProductCluster for potential early viewing */}
+             <link 
+                rel="preload" 
+                href="/_next/static/chunks/pages/cluster.js" 
+                as="script" 
+            />
             <ProductCluster localidad="Madrid" />
 
             <CallButton />
@@ -130,14 +134,20 @@ function HomePage({
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <TextUrgentesHome />
-            <Problemas />
+            <Problemas /> 
             <br></br>
             <div className="container">
                 <h2 style={{ textAlign: 'center', fontSize: '40px' }}>
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
-                <VideoPortada />
+                {/* Preload VideoPortada */}
+                <link 
+                    rel="preload" 
+                    href="/_next/static/chunks/pages/videoportada.js" 
+                    as="script"
+                />  
+                <VideoPortada /> 
             </div>
 
             <CallToAction text="inicio" />
@@ -163,8 +173,6 @@ export function getStaticProps() {
    
     const bannerItems = getAllItems('banner');
     const aboutItems = getAllItems('about');
-    const services = getAllItems('services');
-    const serviceSectionItems = getAllItems('service-section');
     let blogs = getAllItems('blogs')
         .map((blog) => ({
             ...blog,
@@ -186,7 +194,6 @@ export function getStaticProps() {
         props: {
             bannerItems,
             aboutItems,
-           
             footerItems,
             contactItemsForm,
             blogs: LatestBlog,

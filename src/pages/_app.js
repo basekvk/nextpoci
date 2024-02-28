@@ -4,12 +4,12 @@ import '../styles/globals.scss';
 import Head from 'next/head';
 import { ScrollToTop } from '../components/scroll';
 import React from 'react';
-import useGoogleAnalytics from '../hook/useGoogleAnalytics'; // Hook para Google Analytics
-import Script from 'next/script';
+import useGoogleAnalytics from '../hook/useGoogleAnalytics';
 import GoogleAdsTag from '../components/googleads';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
-    useGoogleAnalytics(); // Usamos el hook personalizado para Google Analytics
+    useGoogleAnalytics(); // Execute the hook for Google Analytics
 
     return (
         <>
@@ -18,11 +18,17 @@ function MyApp({ Component, pageProps }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
+                {/* Pre-connect/pre-fetch likely resources */}
+                <link rel="preconnect" href="https://www.google-analytics.com" /> 
             </Head>
+
             <Layout>
                 <Component {...pageProps} />
                 <ScrollToTop />
-                {/* Google Analytics - Global site tag (gtag.js) */}
+
+                {/* Optimized Google Analytics & Ad Placement */}
+                <GoogleAdsTag /> {/* Potentially place this earlier */}
+
                 <Script
                     src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                     strategy="afterInteractive"
@@ -33,17 +39,15 @@ function MyApp({ Component, pageProps }) {
                     dangerouslySetInnerHTML={{
                         __html: `
                         window.dataLayer = window.dataLayer || [];
-                        function gtag() { dataLayer.push(arguments); }
+                        function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
+
                         gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
                             page_path: window.location.pathname,
                         });
                     `,
                     }}
                 />
-                <GoogleAdsTag />
-
-                {/* ... */}
             </Layout>
         </>
     );
