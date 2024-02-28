@@ -149,6 +149,7 @@ function Header() {
                                     </div>
                                     <div className={classes.offcanvas}>
                                         <button
+                                            aria-label="Abrir menú"
                                             className={`${classes.offcanvas__btn} d-block d-lg-none menu-bar-button`}
                                             onClick={showOffcanvas}
                                         >
@@ -239,19 +240,19 @@ function Header() {
                                                                                     </li>
                                                                                 )
                                                                             )}
-                                                                            
                                                                         </ul>
                                                                     )}
                                                                 </li>
                                                             )
                                                         )}
-
                                                     </ul>
                                                 )}
-                                                
                                             </li>
                                         ))}
-                                        <li className={classes.separator} style={{marginLeft: '40px'}}>
+                                        <li
+                                            className={classes.separator}
+                                            style={{ marginLeft: '40px' }}
+                                        >
                                             <Link href="/contacto">
                                                 <a>
                                                     <span>CONTACTO</span>

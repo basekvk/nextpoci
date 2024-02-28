@@ -112,7 +112,7 @@ function HomePage({
                 
                 <link
                     rel="image_src"
-                    href="http://localhost:3000/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
+                    href="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
                 />
             </Head>
 
@@ -121,12 +121,7 @@ function HomePage({
 
             <TextHome />
             <br></br>
-             {/* Preload ProductCluster for potential early viewing */}
-             <link 
-                rel="preload" 
-                href="/_next/static/chunks/pages/cluster.js" 
-                as="script" 
-            />
+           
             <ProductCluster localidad="Madrid" />
 
             <CallButton />
@@ -141,12 +136,7 @@ function HomePage({
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
-                {/* Preload VideoPortada */}
-                <link 
-                    rel="preload" 
-                    href="/_next/static/chunks/pages/videoportada.js" 
-                    as="script"
-                />  
+                 
                 <VideoPortada /> 
             </div>
 
