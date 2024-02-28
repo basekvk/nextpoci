@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import classes from './hero.module.scss'; // Importa tus clases CSS como módulos
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 function Hero() {
@@ -22,6 +23,14 @@ function Hero() {
     });
     return (
         <div className={classes.slide}>
+        <div className={classes.imageContainer}> {/* Asegúrate de tener esta clase en tu CSS */}
+            <Image
+                src="/images/hero/1.webp" // URL de tu imagen
+                layout="fill" // Hace que la imagen llene el contenedor
+                objectFit="cover" // Mantiene las proporciones de la imagen
+                alt="Fondo" // Texto alternativo para la imagen
+            />
+        </div>
             {' '}
             {/* Usa la clase 'slideBg' desde tu módulo CSS para el fondo */}
             <div className="container">
@@ -79,6 +88,7 @@ function Hero() {
                 </div>
             </div>
         </div>
+
     );
 }
 
