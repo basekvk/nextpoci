@@ -294,11 +294,7 @@ const nextConfig = {
                 source: '/desatascos/madrid',
                 destination: '/',
                 permanent: true,
-            },
-           
-
-
-            
+            }, 
          
         ];
     },
