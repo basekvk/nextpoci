@@ -295,11 +295,7 @@ const nextConfig = {
                 destination: '/',
                 permanent: true,
             },
-            {
-                source: '/services/desatrancos',
-                destination: '/',
-                permanent: true,
-            },
+           
 
 
             
