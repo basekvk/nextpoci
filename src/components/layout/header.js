@@ -88,7 +88,7 @@ function Header() {
                                             src="/images/header/icon/clock.png"
                                             alt="Servicio 24 Horas"
                                         />
-                                        <span style={{ fontSize: 36 }}>
+                                        <span style={{ fontSize: 36, color:"white" }}>
                                             24 HORAS
                                         </span>
                                     </div>
@@ -99,9 +99,9 @@ function Header() {
                                     <Link href="/">
                                         <a className={classes.logo}>
                                             <Image
-                                                width={235}
-                                                height={63}
-                                                src="/images/logo/light.png"
+                                                width={256}
+                                                height={85}
+                                                src="/images/logo/dark.png"
                                                 alt="Logo Desatascos Pociten Color"
                                             />
                                         </a>
@@ -119,7 +119,7 @@ function Header() {
                                             alt="Llama Ahora a Desatascos Pociten"
                                         />
                                         <Link href="tel://+34647376782">
-                                            <a style={{ fontSize: 36 }}>
+                                            <a style={{ fontSize: 36, color:"white" }}>
                                                 647 376 782
                                             </a>
                                         </Link>

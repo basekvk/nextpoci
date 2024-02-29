@@ -8,7 +8,7 @@ $transition-base: all 0.3s ease; // Ejemplo de transición
     position: relative;
 }
 .top {
-    background-color: white;
+    background-color: #003a70;
     padding-top: 15px;
     padding-bottom: 15px;
     a,
@@ -119,7 +119,7 @@ $transition-base: all 0.3s ease; // Ejemplo de transición
         cursor: pointer;
         height: 100%;
         color: #FFFFFF; // Un color claro que contrastará con un fondo oscuro
-        background-color: #003a70; // Un color azul oscuro tomado de tu paleta
+        background-color: #03BAB3; // Un color azul oscuro tomado de tu paleta
         padding: 10px 20px; // Espaciado interno para hacer el botón más grande
         border: none; // Sin borde para un look más limpio
         border-radius: 5px; // Bordes redondeados para suavizar las esquinas
