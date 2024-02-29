@@ -85,7 +85,7 @@ function Header() {
                                         <Image
                                             width={32}
                                             height={32}
-                                            src="/images/header/icon/clock.png"
+                                            src="/images/header/icon/clock.webp"
                                             alt="Servicio 24 Horas"
                                         />
                                         <span style={{ fontSize: 36, color:"white" }}>
@@ -101,7 +101,7 @@ function Header() {
                                             <Image
                                                 width={256}
                                                 height={85}
-                                                src="/images/logo/dark.png"
+                                                src="/images/logo/dark.webp"
                                                 alt="Logo Desatascos Pociten Color"
                                             />
                                         </a>
@@ -115,7 +115,7 @@ function Header() {
                                         <Image
                                             width={32}
                                             height={32}
-                                            src="/images/header/icon/phone.png"
+                                            src="/images/header/icon/phone.webp"
                                             alt="Llama Ahora a Desatascos Pociten"
                                         />
                                         <Link href="tel://+34647376782">
@@ -270,7 +270,7 @@ function Header() {
                                 <Image
                                     width={256}
                                     height={85}
-                                    src="/images/logo/dark.png"
+                                    src="/images/logo/dark.webp"
                                     alt="Logo Desatascos Pociten Oscuro"
                                 />
                             </a>
