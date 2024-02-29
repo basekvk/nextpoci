@@ -17,6 +17,7 @@ function ServiceContent({ service }) {
                 src={imagePath}
                 alt={service?.title}
                 className={classes.image}
+                priority={true}
             />
             <div className={classes.content}>
                 <h2 className={classes.title}>{service?.title2}</h2>

@@ -22,7 +22,7 @@ function ServiceContent({ service }) {
                 className=""
                 src={imagePath}
                 alt={service?.title}
-                priority
+                priority={true}
             />
                     <h2 className={classes.title}>{service?.title2}</h2>
                     <h2 className={classes.subtitle}>
