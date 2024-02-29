@@ -87,6 +87,7 @@ function Header() {
                                             height={32}
                                             src="/images/header/icon/clock.webp"
                                             alt="Servicio 24 Horas"
+                                            priority={true}
                                         />
                                         <span style={{ fontSize: 36, color:"white" }}>
                                             24 HORAS
@@ -103,6 +104,7 @@ function Header() {
                                                 height={85}
                                                 src="/images/logo/dark.webp"
                                                 alt="Logo Desatascos Pociten Color"
+                                                priority={true}
                                             />
                                         </a>
                                     </Link>
@@ -117,6 +119,7 @@ function Header() {
                                             height={32}
                                             src="/images/header/icon/phone.webp"
                                             alt="Llama Ahora a Desatascos Pociten"
+                                            priority={true}
                                         />
                                         <Link href="tel://+34647376782">
                                             <a style={{ fontSize: 36, color:"white" }}>
@@ -125,28 +128,7 @@ function Header() {
                                         </Link>
                                     </div>
 
-                                    <div
-                                        className={`${
-                                            search
-                                                ? 'search-show'
-                                                : 'search-hide'
-                                        } d-block d-lg-none search-holder`}
-                                    >
-                                        <form className="search-form">
-                                            <input
-                                                className="search-input"
-                                                type="search"
-                                                name="search"
-                                                placeholder="Search"
-                                            />
-                                            <button
-                                                className="search-inner__btn"
-                                                type="submit"
-                                            >
-                                                <FaSearch />
-                                            </button>
-                                        </form>
-                                    </div>
+                                  
                                     <div className={classes.offcanvas}>
                                         <button
                                             aria-label="Abrir menú"
@@ -272,6 +254,7 @@ function Header() {
                                     height={85}
                                     src="/images/logo/dark.webp"
                                     alt="Logo Desatascos Pociten Oscuro"
+                                    priority={true}
                                 />
                             </a>
                         </Link>
