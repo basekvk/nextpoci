@@ -18,9 +18,7 @@ const CallToAction = dynamic(() => import('../components/cta'), { ssr: false });
 const ReviewsSection = dynamic(() => import('../components/reviews'), {
     ssr: false,
 });
-const CallButton = dynamic(() => import('../components/CallButton'), {
-    ssr: false,
-});
+
 const GridServicios = dynamic(() => import('../components/gridservicios'), {
     ssr: false,
 });
@@ -50,7 +48,6 @@ const VideoPortada = dynamic(() => import('../components/videoportada'), {
 });
 
 function HomePage({
-    
     bannerItems,
     aboutItems,
     footerItems,
@@ -64,7 +61,7 @@ function HomePage({
                     Desatrancos y Pocería en Madrid | Desatascos Madrid -
                     Pociten
                 </title>
-                
+
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="description"
@@ -74,7 +71,7 @@ function HomePage({
                     rel="canonical"
                     href="https://www.desatascos-madrid.com"
                 />
-                    <meta
+                <meta
                     property="og:url"
                     content="https://www.desatascos-madrid.com/"
                 />
@@ -109,7 +106,7 @@ function HomePage({
                     property="twitter:image"
                     content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
-                
+
                 <link
                     rel="image_src"
                     href="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
@@ -121,23 +118,20 @@ function HomePage({
 
             <TextHome />
             <br></br>
-           
+
             <ProductCluster localidad="Madrid" />
-
-            <CallButton />
-
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <TextUrgentesHome />
-            <Problemas /> 
+            <Problemas />
             <br></br>
             <div className="container">
                 <h2 style={{ textAlign: 'center', fontSize: '40px' }}>
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
-                 
-                <VideoPortada /> 
+
+                <VideoPortada />
             </div>
 
             <CallToAction text="inicio" />
@@ -160,22 +154,18 @@ function HomePage({
 }
 
 export function getStaticProps() {
-   
     const bannerItems = getAllItems('banner');
     const aboutItems = getAllItems('about');
     let blogs = getAllItems('blogs')
         .map((blog) => ({
             ...blog,
-            parsedDate: parseSpanishDate(blog.date).toISOString(), // Convertimos la fecha a string
+            parsedDate: parseSpanishDate(blog.date).toISOString(),
         }))
         .sort((a, b) => new Date(b.parsedDate) - new Date(a.parsedDate));
 
-    // Eliminamos la propiedad 'parsedDate' si no la necesitas en el front-end
-    blogs = blogs.map((blog) => {
-        const { parsedDate, ...rest } = blog;
-        return rest;
-    });
-    
+    // Nos quedamos solo con los últimos 3 blogs
+    blogs = blogs.slice(0, 3);
+
     const footerItems = getAllItems('footer');
     const contactItemsForm = getAllItems('contacto');
     const LatestBlog = getFeaturedItems(blogs);
