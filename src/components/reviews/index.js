@@ -6,7 +6,7 @@ SwiperCore.use([Pagination, Navigation]);
 function ReviewsSection() {
     const reviewsData = [
         {
-            img: 'https://lh3.googleusercontent.com/a-/ALV-UjXimljU5s2jGqS-mtuohe28RO3ssbao43jdrRFaMEZKWWzn=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/david.webp',
             name: 'David García',
             date: '15:20 09 Aug 23',
             content:
@@ -14,7 +14,7 @@ function ReviewsSection() {
             stars: '⭐⭐⭐⭐⭐',
         },
         {
-            img: 'https://lh3.googleusercontent.com/a-/ALV-UjXG3TiyttT7TBnWzHNBgUcdisqVACJBAIB1ZlMVqYu-gWM=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/nuria.webp',
             name: 'Nuria Ruiz de Agüero Osma',
             date: '11:14 26 Jul 23',
             content:
@@ -22,7 +22,7 @@ function ReviewsSection() {
             stars: '⭐⭐⭐⭐⭐',
         },
         {
-            img: 'https://lh3.googleusercontent.com/a-/ALV-UjWE5OU2YcQI4RU-ii__2WurlLmitTzm0e_G0wZD2mORmkM=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/judith.webp',
             name: 'Judith Teniz',
             date: '11:22 19 Jul 23',
             content:
@@ -30,7 +30,7 @@ function ReviewsSection() {
             stars: '⭐⭐⭐⭐⭐',
         },
         {
-            img: 'https://lh3.googleusercontent.com/a/ACg8ocJjGhGJ2LKSsIPQv2yisLl9ArD9iQ8tbVXNRDVkmDl0=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/pedro.webp',
             name: 'Pedro Salgado',
             date: '14:59 03 Jul 23',
             content:
@@ -38,7 +38,7 @@ function ReviewsSection() {
             stars: '⭐⭐⭐⭐⭐',
         },
         {
-            img: 'https://lh3.googleusercontent.com/a-/ALV-UjUfp0hclLMUTB3l-7PO20zfDxhjRsu06Pz8VFwjD1eLBKk=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/cruz.webp',
             name: 'Cruz Cumbicus',
             date: '09:10 07 Jun 23',
             content:
@@ -46,7 +46,7 @@ function ReviewsSection() {
             stars: '⭐⭐⭐⭐⭐',
         },
         {
-            img: 'https://lh3.googleusercontent.com/a/ACg8ocLFDcpZYca3FktB9qHMdvkT1B9UpSjc9bfAYraqMUT2=w120-h120-p-rp-mo-br100',
+            img: '/images/reviews/victor.webp',
             name: 'Victor Merencio',
             date: '15:45 04 Jun 23',
             content:
