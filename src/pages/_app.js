@@ -19,16 +19,25 @@ function MyApp({ Component, pageProps }) {
                     content="width=device-width, initial-scale=1"
                 />
                 {/* Pre-connect/pre-fetch likely resources */}
-                <link rel="preconnect" href="https://www.google-analytics.com" /> 
+                <link
+                    rel="preconnect"
+                    href="https://www.google-analytics.com"
+                />
+                <link
+                    rel="preconnect"
+                    href="https://www.googletagmanager.com"
+                />
+                <link
+                    rel="dns-prefetch"
+                    href="https://www.googletagmanager.com"
+                />
             </Head>
 
             <Layout>
                 <Component {...pageProps} />
                 <ScrollToTop />
-
                 {/* Optimized Google Analytics & Ad Placement */}
                 <GoogleAdsTag /> {/* Potentially place this earlier */}
-
                 <Script
                     src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                     strategy="afterInteractive"
