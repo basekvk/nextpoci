@@ -7,8 +7,7 @@ export default function TextUrgentesHome() {
             <p>
                 ¿Es sábado?¿Domingo?¿Festivo? En Desatascos Pociten no importa
                 ni el cuándo ni el dónde, llámanos y acudiremos a tu llamada en
-                el menor tiempo posible con nuestro servicio de
-                <a href="https://www.desatascos-madrid.com/services/desatascos-24-horas">
+                el menor tiempo posible con nuestro servicio de <a href="https://www.desatascos-madrid.com/services/desatascos-24-horas">
                     desatascos urgentes 24 horas
                 </a>{' '}
                 .{' '}
