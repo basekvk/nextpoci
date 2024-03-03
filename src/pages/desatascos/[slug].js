@@ -8,6 +8,7 @@ import LazyLoad from 'react-lazyload';
 import ContactForm from '../../components/form-page';
 import ProductCluster from '../../components/cluster';
 import Areastrabajo from '../../components/areastrabajo';
+import RichSnippets from '../../components/RichSnippets';
 
 
 function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
@@ -71,6 +72,13 @@ function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
                 <Areastrabajo />
                 <Footer footerItems={footerItems} />
             </LazyLoad>
+            <RichSnippets
+                areaServed={service?.lugar}
+                description={service?.metaContent}
+                image={service?.largeImage}
+                url={service?.canonical}
+                service= "Servicios de desatascos y pocería"
+            />
         </>
     );
 }

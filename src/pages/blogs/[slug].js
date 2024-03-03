@@ -6,6 +6,7 @@ import { getBlogCategories } from '../../lib/blog-categories';
 import { getBlogTags } from '../../lib/blog-tags';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import Head from 'next/head';
+import RichSnippetsBlogs from '../../components/RichSnippets/RichSnipetsBlog';
 
 
 function BlogDetailPage({
@@ -36,7 +37,12 @@ function BlogDetailPage({
             />
             
 
-             
+            <RichSnippetsBlogs
+            title={blog?.title}
+            description={blog?.desc}
+            imageUrl={blog?.largeImage}
+            datePublished={blog?.date}
+            />
             <Footer footerItems={footerItems} />
         </>
     );

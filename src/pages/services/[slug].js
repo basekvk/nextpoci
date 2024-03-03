@@ -7,6 +7,7 @@ import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import ProductCluster from '../../components/cluster';
 import Problemas from '../../components/problemas';
 import ContactForm from '../../components/form-page';
+import RichSnippets from '../../components/RichSnippets';
 
 function ServiceDetailsPage({
     service,
@@ -63,7 +64,15 @@ function ServiceDetailsPage({
             <Problemas />     
             <ProductCluster localidad={service?.lugar} />
             <ContactForm contactItemsForm={contactItemsForm} />
+            <RichSnippets
+                areaServed={service?.lugar}
+                description={service?.metaContent}
+                image={service?.largeImage}
+                url={service?.canonical}
+                service= {service?.title}
+            />
             <Footer footerItems={footerItems} />
+
         </>
     );
 }
