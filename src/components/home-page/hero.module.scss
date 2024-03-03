@@ -51,19 +51,27 @@
         right: 0;
         bottom: 0;
         left: 0;
-        display: flex; // Usar flexbox para manejar el contenido
-        flex-direction: column; // Alinea los elementos en columna
-        justify-content: center; // Centra verticalmente
-        align-items: center; // Centra horizontalmente
-        padding: 20px; // Espacio alrededor del contenido
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
     }
 
     position: relative;
-    height: auto; // La altura se ajusta automáticamente
+    height: 580px; // Elimina si ya no es necesario debido a padding-top
     display: flex;
     align-items: center;
     justify-content: center;
 
+    // Reducir la altura para el modo de escritorio
+    @include breakpoint(max-lg-device) {
+        &:before {
+            padding-top: (9 / 21) * 100%; // Cambia la relación de aspecto a 21:9, por ejemplo
+        }
+    }
+
+    // Ajustes para dispositivos más pequeños como antes
     @include breakpoint(max-md-device) {
         &:before {
             padding-top: (3 / 4) * 100%; // Cambia a aspecto de 4:3, por ejemplo
@@ -76,6 +84,7 @@
         }
     }
 }
+
 
 
   .imageContainer {
