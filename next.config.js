@@ -290,11 +290,6 @@ const nextConfig = {
                 destination: '/',
                 permanent: true,
             },
-            {
-                source: '/desatascos/madrid',
-                destination: '/',
-                permanent: true,
-            }, 
          
         ];
     },

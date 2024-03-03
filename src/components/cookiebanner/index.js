@@ -18,12 +18,19 @@ const CookiePopup = () => {
     localStorage.setItem('hasAcceptedCookies', 'true');
   };
 
+  const handleOpen = () => {
+    setIsVisible(false);
+    // Guardar la preferencia del usuario en localStorage
+    localStorage.setItem('hasAcceptedCookies', 'false');
+  };
+
   if (!isVisible) return null;
 
   return (
     <div className={styles.popupContainer}>
-      <p className={styles.p} >Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestra web. Si sigues utilizando este sitio asumiremos que estás de acuerdo.</p>
+      <p className={styles.p} >Utilizamos cookies para asegurar que damos la mejor experiencia al usuario en nuestra web.</p>
       <button  className={styles.button} type="button" onClick={handleClose}>Aceptar</button>
+      <button  className={styles.button} type="button" onClick={handleOpen}>Rechazar</button>
     </div>
   );
 }
