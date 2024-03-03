@@ -46,7 +46,7 @@ export default function TextHome() {
                         vaciado y mantenimiento de fosas sépticas
                     </a>
                     ,{' '}
-                    <a href="https://www.desatascos-madrid.com/services/poceros-madrid">
+                    <a href="https://www.desatascos-madrid.com/services/reparacion-tuberias-sin-obras">
                         reparación de tuberías sin obra
                     </a>
                     , etc...
@@ -60,8 +60,7 @@ export default function TextHome() {
                 <br />
                 <p>
                     Ofrecemos nuestros servicios en toda la Comunidad de Madrid
-                    y zonas limítrofes de Toledo y Guadalajara. Contamos con
-                    <a href="https://www.desatascos-madrid.com/services/camion-cuba">camiones cuba</a> preparados para cualquier urgencia las 24
+                    y zonas limítrofes de Toledo y Guadalajara. Contamos con <a href="https://www.desatascos-madrid.com/services/camion-cuba">camiones cuba</a> preparados para cualquier urgencia las 24
                     horas del día . <br /> <br />
                     Si estás buscando poceros cualificados y al mejor precio, no
                     busques más, los acabas de encontrar. Compruébalo.
