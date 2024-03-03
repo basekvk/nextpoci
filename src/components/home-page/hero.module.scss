@@ -34,33 +34,50 @@
 
 .slide {
     background: {
-      position: relative;
-      repeat: no-repeat;
-      size: cover;
+        position: relative;
+        repeat: no-repeat;
+        size: cover;
     }
-    
-    // Establece un aspect ratio de 16:9 usando padding-top
+  
     &:before {
-      content: "";
-      display: block;
-      padding-top: (9 / 16) * 100%; // Esto es aproximadamente 56.25%
+        content: "";
+        display: block;
+        padding-top: (9 / 16) * 100%; // Aspecto de 16:9
     }
-  
-    // Usa position absolute para posicionar el contenido del .slide
+
     > .container {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex; // Usar flexbox para manejar el contenido
+        flex-direction: column; // Alinea los elementos en columna
+        justify-content: center; // Centra verticalmente
+        align-items: center; // Centra horizontalmente
+        padding: 20px; // Espacio alrededor del contenido
     }
-  
-    position: relative; // Para el posicionamiento absoluto del hijo
-    height: 650px; // La altura se controla con padding-top
+
+    position: relative;
+    height: auto; // La altura se ajusta automáticamente
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+
+    @include breakpoint(max-md-device) {
+        &:before {
+            padding-top: (3 / 4) * 100%; // Cambia a aspecto de 4:3, por ejemplo
+        }
+    }
+
+    @include breakpoint(max-sm-device) {
+        &:before {
+            padding-top: 100%; // 1:1 aspect ratio para dispositivos muy pequeños
+        }
+    }
+}
+
+
   .imageContainer {
     position: absolute;
     top: 0;
