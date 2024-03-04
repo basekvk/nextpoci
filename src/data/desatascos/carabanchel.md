@@ -30,7 +30,7 @@ contenidoDescripcion: "
 
 <h2>👉 ¿Qué es una empresa de desatascos?</h2>
 
-<p>Una empresa de desatascos es un negocio especializado en la limpieza y desbloqueo de tuberías y desagües obstruidos. Estas empresas cuentan con personal capacitado y equipos especializados para hacer frente a una amplia gama de problemas de desatascos.</p>
+<p>Una <a href='https://www.desatascos-madrid.com/services/empresa-de-desatascos'>empresa de desatascos</a> es un negocio especializado en la limpieza y desbloqueo de tuberías y desagües obstruidos. Estas empresas cuentan con personal capacitado y equipos especializados para hacer frente a una amplia gama de problemas de desatascos.</p>
 
 <h3>🛠️ Servicios ofrecidos</h3>
 
