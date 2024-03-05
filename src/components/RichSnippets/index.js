@@ -46,6 +46,18 @@ const RichSnippets = ({ url, description, image, areaServed, services }) => {
             areaServed: { areaServed },
             description: { description },
         },
+        video: [
+            {
+                '@type': 'VideoObject',
+                name: 'Desatascos',
+                description: 'Desatascos de una Arqueta por Desatascos Pociten',
+                thumbnailUrl: 'https://i.ytimg.com/vi/GUX0FV5qb3A/mqdefault.jpg',
+                uploadDate: '25 de febrero de 2024',
+                duration: '02:04',
+                contentUrl: 'https://www.youtube.com/watch?v=GUX0FV5qb3A&t=53s&ab_channel=PocitenDesatascos',
+                embedUrl: 'https://www.youtube.com/embed/GUX0FV5qb3A?si=g17whs7j551qtqI6',
+            },
+        ],
     };
 
     return (
