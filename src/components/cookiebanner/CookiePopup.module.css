@@ -29,6 +29,7 @@
   transition: background-color 0.3s ease;
   font-size: 12px;
   margin: 0 auto; /* Centra el botón horizontalmente */
+  margin-top: 10px;
 }
 
 .button:hover {
