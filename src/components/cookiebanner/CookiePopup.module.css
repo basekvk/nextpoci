@@ -38,16 +38,21 @@
 
 @media (max-width: 768px) {
   .popupContainer {
-    flex-direction: column;
+    padding: 10px;
+    flex-direction: row; /* Cambio a fila para alinear botones horizontalmente */
+    flex-wrap: wrap; /* Permite envolver elementos si no caben */
+    gap: 8px; /* Ajusta espacio en vista móvil */
   }
 
   .p {
-    font-size: 10px;
+    font-size: 12px; /* Ajuste de tamaño de fuente para móviles */
+    margin-bottom: 8px; /* Ajuste de margen para móviles */
+    max-width: 100%; /* Ajusta ancho máximo para móviles */
   }
 
   .button {
-    padding: 5px 10px;
-    font-size: 10px;
-    margin:10px
+    padding: 8px 16px; /* Ajuste de padding para móviles */
+    font-size: 12px; /* Ajuste de tamaño de fuente para móviles */
+    margin: 4px; /* Ajusta margen para móviles */
   }
 }
