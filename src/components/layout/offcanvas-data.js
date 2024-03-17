@@ -32,11 +32,6 @@ export const OffcanvasData = [
             },
 
             {
-                id: 'submenu-05',
-                link: '/services/desatrancos',
-                text: 'Desatrancos',
-            },
-            {
                 id: 'submenu-06',
                 link: '/services/desatascos-baratos',
                 text: 'Desatascos Baratos',
@@ -48,11 +43,6 @@ export const OffcanvasData = [
                 text: 'Inspeccion con Cámara',
             },
 
-            {
-                id: 'submenu-11',
-                link: '/services/empresa-de-desatascos',
-                text: 'Empresa de Desatascos',
-            },
             {
                 id: 'submenu-12',
                 link: '/services/limpieza-fosas-septicas',
@@ -87,11 +77,6 @@ export const OffcanvasData = [
         cName: 'offcanvas-text',
         arrowDown: 'FaAngleDown',
         submenu: [
-            {
-                id: 'submenu-01',
-                link: '/desatascos/madrid',
-                text: 'Madrid',
-            },
             {
                 id: 'submenu-02',
                 link: '/desatascos/mostoles',

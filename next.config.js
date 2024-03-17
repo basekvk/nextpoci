@@ -286,6 +286,22 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/services/empresa-de-desatascos',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/desatascos/madrid',
+                destination: '/',
+                permanent: true,
+            },
+            {
+                source: '/services/desatrancos',
+                destination: '/',
+                permanent: true,
+
+            },
+            {
                 source: '/index',
                 destination: '/',
                 permanent: true,

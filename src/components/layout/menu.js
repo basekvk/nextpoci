@@ -30,11 +30,6 @@ const menuDesktop = [
                 link: '/services/desatasco-de-tuberias',
             },
             {
-                id: 33,
-                text: 'DESATRANCO',
-                link: '/services/desatrancos',
-            },
-            {
                 id: 34,
                 text: 'DESATASCOS BARATOS',
                 link: '/services/desatascos-baratos',
@@ -43,11 +38,6 @@ const menuDesktop = [
                 id: 35,
                 text: 'OBRAS DE POCERÍA',
                 link: '/services/obras-de-poceria',
-            },
-            {
-                id: 36,
-                text: 'EMPRESA DE DESATASCOS',
-                link: '/services/empresa-de-desatascos',
             },
             {
                 id: 37,
@@ -93,11 +83,6 @@ const menuDesktop = [
                 text: 'CENTRO',
                 link: '',
                 submenu: [
-                    {
-                        id: 411,
-                        text: 'Madrid',
-                        link: '/desatascos/madrid',
-                    },
                     {
                         id: 412,
                         text: 'Vallecas',
