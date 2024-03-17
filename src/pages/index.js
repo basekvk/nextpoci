@@ -7,6 +7,7 @@ import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
 import Footer from '../components/layout/footer';
 import Hero from '../components/home-page/hero';
+import Areastrabajo from '../components/areastrabajo';
 // Importaciones dinámicas
 const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
 const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
@@ -141,7 +142,7 @@ function HomePage({
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
-
+            <Areastrabajo />
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
             </h3>
