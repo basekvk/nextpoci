@@ -22,7 +22,7 @@ parrafo: 'Poceros de confianza en Madrid'
 
 contenidoDescripcion: "
 <h2>Servicio de pocero en Madrid barato</h2>
-<>Ofrecemos los mejores precios en pocería. Se trata de un trabajo especializado qué debe llevarse a cabo por poceros profesionales, con experiencia. Además deben contar con maquinaria de gran tamaño.
+<p>Ofrecemos los mejores precios en pocería. Se trata de un trabajo especializado qué debe llevarse a cabo por poceros profesionales, con experiencia. Además deben contar con maquinaria de gran tamaño.
 <br>
 Por esta razón, es lógico que cuando queremos contratar los servicios de un pocero pongamos especial cuidado al precio que cada empresa nos ofrece.
 <br>
