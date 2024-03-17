@@ -22,14 +22,14 @@ const services = [
         title: 'Desatrancos',
         image: '/images/cluster/desatrancos-lg.webp',
         alt: 'Servicios Desatrancos',
-        url: '/services/desatrancos',
+        url: '/',
     },
     {
         id: 4,
         title: 'Desatascos',
         image: '/images/cluster/desatascosbaratos-lg.webp',
         alt: 'Servicios Desatascos Baratos',
-        url: '/services/desatascos-baratos',
+        url: '/',
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ const services = [
       title: 'Empresa de Desatascos',
       image: '/images/cluster/empresadedesatascos-ld.webp',
       alt: 'Servicios Empresa de Desatascos',
-      url: '/services/empresa-de-desatascos',
+      url: '/',
   },
   {
     id: 8,
