@@ -17,13 +17,7 @@ const services = [
         alt: 'Servicios Limpieza de Tuberías',
         url: '/services/desatasco-de-tuberias',
     },
-    {
-        id: 3,
-        title: 'Desatrancos',
-        image: '/images/cluster/desatrancos-lg.webp',
-        alt: 'Servicios Desatrancos',
-        url: '/',
-    },
+   
     {
         id: 4,
         title: 'Desatascos',
@@ -45,13 +39,7 @@ const services = [
         alt: 'Servicios Inspección CCTV',
         url: '/services/inspeccion-tuberia-con-camara',
     },
-    {
-      id: 7,
-      title: 'Empresa de Desatascos',
-      image: '/images/cluster/empresadedesatascos-ld.webp',
-      alt: 'Servicios Empresa de Desatascos',
-      url: '/',
-  },
+ 
   {
     id: 8,
     title: 'Vaciado Fosas Sépticas',
@@ -73,13 +61,7 @@ const services = [
   alt: 'Servicios Inundaciones en Madrid',
   url: '/services/inundaciones',
 },
-{
-  id: 11,
-  title: 'Camión Cuba',
-  image: '/images/cluster/camion-cuba-md.webp',
-  alt: 'Servicios Camión Cuba Desatascos',
-  url: '/services/camion-cuba',
-},
+
 {
   id: 12,
   title: 'Reparación Tuberías Sin Obra',
@@ -92,7 +74,7 @@ const services = [
 const ProductCluster = ({localidad}) => {
     return (
         <div className={styles.container}>
-            <h2 className={styles.title}>Servicios Poceros en  {localidad}</h2>
+            <h2 className={styles.title}>Servicios de Pociten en  {localidad}</h2>
             <div className={styles.cluster}>
                 { services.map((service, index) => (
                         <div key={index} className={styles.box}>

@@ -87,5 +87,68 @@
       }
     }
   }
+  // Dentro de index.module.scss
+
+// Dentro de index.module.scss
+
+.containerSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px;
+    background: linear-gradient(135deg, #003A70 0%, #00BBB4 100%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .selectLocalidad {
+    width: 80%; // Usa un porcentaje para que el ancho se ajuste a diferentes tamaños de pantalla
+    max-width: 350px; // Mantiene un máximo para evitar que el select sea demasiado grande en pantallas grandes
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+  
+    &:hover {
+      border-color: #0056b3;
+    }
+  
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+    }
+  
+    option {
+      border-bottom: 1px solid #ccc;
+      padding: 5px 0;
+    }
+  }
+  
+  // Media queries para ajustar estilos en dispositivos más pequeños
+  @media (max-width: 768px) {
+    .containerSelect {
+      padding: 10px; // Reduce el padding en dispositivos más pequeños
+      margin: 10px 0 20px; // Reduce los márgenes
+    }
+  
+    .selectLocalidad {
+      width: 90%; // Aumenta el ancho del select para aprovechar mejor el espacio disponible
+      padding: 10px 20px; // Ajusta el padding
+      font-size: 1rem; // Ajusta el tamaño de la fuente si es necesario
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .containerSelect {
+      flex-direction: column; // Cambia la disposición para apilar elementos verticalmente si es necesario
+    }
+  
+    .selectLocalidad {
+      width: 95%; // Ocupa casi todo el ancho disponible en pantallas muy pequeñas
+    }
+  }
   
 

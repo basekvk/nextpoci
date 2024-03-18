@@ -1,32 +1,63 @@
 import classes from './index.module.scss';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
+import { menuDesktop } from '../layout/menu';
 
 function Areastrabajo() {
+    const router = useRouter();
+    const [selectedLocation, setSelectedLocation] = useState('');
+
+    const trabajamosEnMenu = menuDesktop.find(item => item.id === 4);
+
+    const elementosExcluidos = ['CENTRO', 'NORTE', 'SUR', 'ESTE', 'OESTE'];
+
+    function extraerSubmenus(submenus, resultado = []) {
+        submenus.forEach(submenu => {
+            if (!elementosExcluidos.includes(submenu.text.toUpperCase())) {
+                resultado.push({ nombre: submenu.text, url: submenu.link });
+            }
+
+            if (submenu.submenu) {
+                extraerSubmenus(submenu.submenu, resultado);
+            }
+        });
+
+        return resultado;
+    }
+
+    let localidadesOrdenadas = [];
+
+    if (trabajamosEnMenu && trabajamosEnMenu.submenu) {
+        const submenusExtraidos = extraerSubmenus(trabajamosEnMenu.submenu);
+        localidadesOrdenadas = submenusExtraidos.sort((a, b) => a.nombre.localeCompare(b.nombre));
+    }
+
+    const handleLocationChange = (event) => {
+        const url = event.target.value;
+        setSelectedLocation(url);
+    };
+
+    useEffect(() => {
+        if (selectedLocation) {
+            router.push(selectedLocation);
+        }
+    }, [selectedLocation, router]);
+
     return (
         <>
-            
-                <div className="banner">
-                   
-                    <h3 className={classes.title}>Otras Áreas de Trabajo</h3>
-                    <div className={classes.containerlocalidades}>
-                        <div className={classes.localidad}><Link href="/desatascos/boadilla"><h3>Boadilla</h3></Link> </div>
-                        <div className={classes.localidad}><Link href="/desatascos/alcobendas"><h3>Alcobendas</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/ciempozuelos"><h3>Ciempozuelos</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/coslada"><h3>Coslada</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/las-rozas"><h3>Las Rozas</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/majadahonda"><h3>Majadahonda</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/pinto"><h3>Pinto</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/rivas-vaciamadrid"><h3>Rivas Vaciamadrid</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/san-sebastian-de-los-reyes"><h3>San Sebastián de los Reyes</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/torrejon-de-ardoz"><h3>Torrejón de Ardoz</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/torrejon-de-velasco"><h3>Torrejón de Velasco</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/usera"><h3>Usera</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/vallecas"><h3>Vallecas</h3></Link></div>
-                        <div className={classes.localidad}><Link href="/desatascos/carabanchel"><h3>Carabanchel</h3></Link></div>
-                    </div>
-                    </div>
-                
-           
+            <div className="banner">
+                <h3 className={classes.title}>Áreas de Trabajo</h3>
+                <div className={classes.containerSelect}>
+                    <select className={classes.selectLocalidad} value={selectedLocation} onChange={handleLocationChange}>
+                        <option value="">Selecciona tu localidad</option>
+                        {localidadesOrdenadas.map((localidad, index) => (
+                            <option key={index} value={localidad.url}>
+                                {localidad.nombre}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+            </div>
         </>
     );
 }

@@ -5,7 +5,7 @@ export default function TextHome() {
         <>
             <div className="container">
                 <h2 className="text-center" style={{ fontSize: '42px' }}>
-                    Desatascos en Madrid
+                Expertos en Servicios de Desatascos en Madrid
                 </h2>
                 <p
                     style={{
@@ -14,17 +14,7 @@ export default function TextHome() {
                         justifyContent: 'center',
                     }}
                 >
-                    ¿Problemas con tus tuberías? ¿Necesitas un desatasco? ¿La
-                    ducha o el fregadero no traga agua? ¿Se te ha inundado el
-                    garaje? ¿o solo quieres mantener tu red de saneamiento en
-                    buen estado con una simple inspección? Estás en el sitio
-                    adecuado, somos{' '}
-                    <a href="https://www.desatascos-madrid.com/services/poceros-madrid">
-                        Poceros
-                    </a>{' '}
-                    de toda la vida. Evita precios indeseados o mala calidad en
-                    los materiales y servicios. Contrata servicios de pocería
-                    con garantía. ¡No cobramos desplazamiento!
+                    ¿Necesitas un servicio de desatasco? Ya sea que te enfrentes a un desatasco urgente, como una ducha, lavavajillas,aseo o fregadero atascado, o necesites una inspección preventiva para mantener tu red de saneamiento en óptimas condiciones, Desatascos Pociten es la solución a tus problemas. Somos especialistas con años de experiencia, comprometidos con ofrecer servicios de la más alta calidad sin costes ocultos ni sorpresas en el precio. Además, nos enorgullece decir que <strong>¡no cobramos por el desplazamiento!</strong>
                     <br />
                     <br />
                     <b>Desatascos Pociten</b> es una empresa ubicada en Madrid

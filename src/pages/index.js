@@ -43,6 +43,10 @@ const TextUrgentesHome = dynamic(
     () => import('../components/textUrgentesHome'),
     { ssr: false }
 );
+const TextFirst = dynamic(
+    () => import('../components/textFirst'),
+    { ssr: false }
+);
 
 const VideoPortada = dynamic(() => import('../components/videoportada'), {
     ssr: false,
@@ -116,11 +120,13 @@ function HomePage({
 
             <Hero />
             <br></br>
-
+            <TextFirst />
+            <ProductCluster localidad="Madrid" />
+            <Areastrabajo />
             <TextHome />
             <br></br>
 
-            <ProductCluster localidad="Madrid" />
+            
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <TextUrgentesHome />
@@ -142,7 +148,7 @@ function HomePage({
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
-            <Areastrabajo />
+            
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
             </h3>
