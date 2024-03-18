@@ -35,11 +35,13 @@ function Areastrabajo() {
     const handleLocationChange = (event) => {
         const url = event.target.value;
         setSelectedLocation(url);
+        
     };
 
     useEffect(() => {
         if (selectedLocation) {
             router.push(selectedLocation);
+            setSelectedLocation('');
         }
     }, [selectedLocation, router]);
 
