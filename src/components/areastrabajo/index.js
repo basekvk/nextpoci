@@ -49,7 +49,7 @@ function Areastrabajo() {
                 <h3 className={classes.title}>Áreas de Trabajo</h3>
                 <div className={classes.containerSelect}>
                     <select className={classes.selectLocalidad} value={selectedLocation} onChange={handleLocationChange}>
-                        <option value="">Selecciona tu localidad</option>
+                    <option value="" disabled={selectedLocation !== ''}>Selecciona tu localidad</option>
                         {localidadesOrdenadas.map((localidad, index) => (
                             <option key={index} value={localidad.url}>
                                 {localidad.nombre}
