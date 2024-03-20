@@ -50,7 +50,13 @@ function Areastrabajo() {
             <div className="banner">
                 <h3 className={classes.title}>Áreas de Trabajo</h3>
                 <div className={classes.containerSelect}>
-                    <select className={classes.selectLocalidad} value={selectedLocation} onChange={handleLocationChange}>
+                <label htmlFor="localidadSelect" className={classes.srOnly}>Selecciona tu localidad</label>
+                    <select
+                        id="localidadSelect"
+                        className={classes.selectLocalidad}
+                        value={selectedLocation}
+                        onChange={handleLocationChange}
+                    >
                     <option value="">Selecciona tu localidad</option>
                         {localidadesOrdenadas.map((localidad, index) => (
                             <option key={index} value={localidad.url}>
