@@ -4,7 +4,7 @@ import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-import ProductCluster from '../../components/cluster';
+
 import Problemas from '../../components/problemas';
 import ContactForm from '../../components/form-page';
 import RichSnippets from '../../components/RichSnippets';
@@ -61,8 +61,9 @@ function ServiceDetailsPage({
             />
             
             <ServiceDetail service={service} />   
+            
             <Problemas />     
-            <ProductCluster localidad={service?.lugar} />
+           
             <ContactForm contactItemsForm={contactItemsForm} />
             <RichSnippets
                 areaServed={service?.lugar}

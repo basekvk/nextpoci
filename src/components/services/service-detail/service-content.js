@@ -5,6 +5,7 @@ import CallToAction from '../../cta';
 import Presupuesto from '../../presupuesto';
 import CallButton from '../../CallButton';
 import Image from 'next/image';
+import ProductCluster from '../../cluster';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
@@ -42,7 +43,7 @@ function ServiceContent({ service }) {
                         __html: service?.contenidoDescripcion,
                     }}
                 />
-
+                <ProductCluster localidad={service?.lugar} />
                 <CallToAction text={service?.title} />
 
                 <div
