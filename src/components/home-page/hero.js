@@ -23,9 +23,7 @@ function Hero() {
     });
     return (
         <>
-            <Head>
-                <link rel="preload" href="/images/hero/1.webp" as="image" />
-            </Head>
+           
             <div className={classes.slide}>
                 <div className={classes.imageContainer}>
                     {' '}
