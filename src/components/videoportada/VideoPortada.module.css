@@ -14,19 +14,19 @@
 /* Media queries */
 @media (max-width: 1024px) {
   .videoContainer {
-    max-width: 800px; /* un ancho máximo más pequeño para pantallas más pequeñas */
+    width: 100%; /* un ancho máximo más pequeño para pantallas más pequeñas */
   }
 }
 
 @media (max-width: 768px) {
   .videoContainer {
-    max-width: 600px;
+    width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   .videoContainer {
-    max-width: 400px;
+    width: 100%;
   }
 }
 

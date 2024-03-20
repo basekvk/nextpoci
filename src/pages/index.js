@@ -7,7 +7,7 @@ import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
 import Footer from '../components/layout/footer';
 import Hero from '../components/home-page/hero';
-import Areastrabajo from '../components/areastrabajo';
+
 // Importaciones dinámicas
 const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
 const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
@@ -43,10 +43,12 @@ const TextUrgentesHome = dynamic(
     () => import('../components/textUrgentesHome'),
     { ssr: false }
 );
-const TextFirst = dynamic(
-    () => import('../components/textFirst'),
-    { ssr: false }
-);
+const TextFirst = dynamic(() => import('../components/textFirst'), {
+    ssr: false,
+});
+const Areastrabajo = dynamic(() => import('../components/areastrabajo'), {
+    ssr: false,
+});
 
 const VideoPortada = dynamic(() => import('../components/videoportada'), {
     ssr: false,
@@ -126,7 +128,6 @@ function HomePage({
             <TextHome />
             <br></br>
 
-            
             <BannerOne bannerItems={bannerItems} />
             <AboutOne aboutItems={aboutItems} />
             <TextUrgentesHome />
@@ -148,7 +149,7 @@ function HomePage({
 
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
-            
+
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
             </h3>
@@ -159,7 +160,7 @@ function HomePage({
                 description="Empresa líder de desatascos y obras de pocería en la comunidad de Madrid. Experiencia a tu servicio"
                 image="/images/about/1-1.webp"
                 url="https://desatascos-madrid.com"
-                service= "Servicios de desatascos y pocería"
+                service="Servicios de desatascos y pocería"
             />
             <CookiePopup />
         </>
