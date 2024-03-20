@@ -15,7 +15,7 @@ export default function TextFirst() {
                         justifyContent: 'center',
                     }}
                 >
-                    Si estas aquí es porque seguramente necesites un servicio de desatascos, los atascos suelen ser más impredicibles de lo que nos pensamos, asi que vamos a intentar darte la solución que te mereces, localizamos tu problema y acabos con el, llámanos inmediatamente,y antes de que te lo esperes, tu problema quedará totalmente resuelto con la máxima calidad y al mejor precio del mercado. ¡Compruébalo!
+                    Si estás aquí, es porque seguramente necesitas un servicio de desatascos. Los atascos suelen ser más impredecibles de lo que pensamos. Por eso, vamos a intentar brindarte la solución que mereces: localizamos tu problema y lo solucionamos. Llámanos inmediatamente y, antes de que te des cuenta, tu problema quedará totalmente resuelto con la máxima calidad y al mejor precio del mercado. ¡Compruébalo!
                     
                    </p>
                 <br />
