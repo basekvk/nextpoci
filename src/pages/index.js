@@ -123,7 +123,10 @@ function HomePage({
             <Hero />
             <br></br>
             <TextFirst />
+            <div className='container'>
             <ProductCluster localidad="Madrid" />
+            </div>
+            
             <Areastrabajo />
             <TextHome />
             <br></br>
