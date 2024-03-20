@@ -21,8 +21,8 @@
 
 .button {
   padding: 5px 15px;
-  background-color: #00bbb4;
-  color: #003a70;
+  background-color: #005A9C;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -32,10 +32,7 @@
   margin-top: 10px;
 }
 
-.button:hover {
-  background-color: #003a70;
-  color: #00bbb4;
-}
+
 
 @media (max-width: 768px) {
   .popupContainer {
