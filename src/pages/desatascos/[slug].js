@@ -66,10 +66,11 @@ function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
                 desc={service.parrafo}
             />
             <LazyLoad>
+            
                 <ServiceDetail service={service} />
-                <ProductCluster localidad={service?.lugar} />
-                <ContactForm contactItemsForm={contactItemsForm} />
                 <Areastrabajo />
+                <ContactForm contactItemsForm={contactItemsForm} />
+                
                 <Footer footerItems={footerItems} />
             </LazyLoad>
             <RichSnippets

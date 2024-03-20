@@ -7,6 +7,7 @@ import Presupuesto from '../../presupuesto';
 import GridServices from '../../gridservicios';
 import Problemas from '../../problemas';
 import Image from 'next/image';
+import ProductCluster from '../../cluster';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -44,13 +45,14 @@ function ServiceContent({ service }) {
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion1}
                     </p>
+                    
                     <div
                         className={classes.desc}
                         dangerouslySetInnerHTML={{
                             __html: service?.contenidoDescripcion,
                         }}
                     />
-                  
+                  <ProductCluster localidad={service?.lugar} />
                     <CallToAction text={service?.title} />
                     <p className={classes.desc} style={{ fontSize: 20 }}>
                         {service?.descripcion2}
