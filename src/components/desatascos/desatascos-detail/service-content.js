@@ -137,7 +137,7 @@ function ServiceContent({ service }) {
                     >
                         <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>
                         <p style={{ color: 'white' }}>
-                            Presiona el botón para contactarnos. Acudiremos de
+                            Haz click aquí para contactarnos. Acudiremos de
                             inmediato para atender tu emergencia.
                         </p>
                     </a>

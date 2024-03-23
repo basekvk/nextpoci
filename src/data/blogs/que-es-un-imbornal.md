@@ -84,13 +84,13 @@ htmlCode: "
 <br>
 <p>🔩Ladrillo: Los imbornales de ladrillo ofrecen un aspecto estético y tradicional, adecuado para entornos urbanos históricos.</p>
 <br>
-<p>🔩Plástico: Los imbornales de plástico son ligeros y fáciles de instalar, perfectos para proyectos que requieran una instalación rápida.</p>
+<p>🔩PVC: Los imbornales de PVC son ligeros y fáciles de instalar, perfectos para proyectos que requieran una instalación rápida.</p>
 <br>
 <p>🔩Hierro fundido: Este material es resistente y duradero, ideal para imbornales expuestos a un alto nivel de tráfico y condiciones climáticas adversas.</p>
 </ul>
 <br>
 
-<h3>Ventajas y características de imbornales de hormigón prefabricado, ladrillo, hierro y plástico</h3>
+<h3>Ventajas y características de imbornales de hormigón prefabricado, ladrillo, hierro y PVC</h3>
 <h4>Imbornales de hormigón prefabricado</h4>
 <p>Los imbornales de hormigón prefabricado ofrecen una alta resistencia y durabilidad, siendo ideales para zonas de tráfico intenso. Su instalación es sencilla y garantiza un funcionamiento óptimo a lo largo del tiempo.</p>
 <br>
@@ -100,8 +100,8 @@ htmlCode: "
 <h4>Imbornales de hierro fundido</h4>
 <p>Los imbornales de hierro fundido son resistentes y duraderos, soportando condiciones climáticas adversas y un alto nivel de tráfico. Su diseño clásico y robusto los convierte en una opción fiable para entornos urbanos.</p>
 <br>
-<h4>Imbornales de plástico</h4>
-<p>Los imbornales de plástico son ligeros, fáciles de instalar y resistentes a la corrosión, siendo una opción económica y eficiente para proyectos que requieran una instalación rápida y sencilla.</p>
+<h4>Imbornales de PVC</h4>
+<p>Los imbornales de PVC son ligeros, fáciles de instalar y resistentes a la corrosión, siendo una opción económica y eficiente para proyectos que requieran una instalación rápida y sencilla.</p>
 
 <h2 style='font-size:32px'>Gestión eficiente de aguas pluviales en entornos urbanos</h2>
 <h3>Papel crucial de los imbornales en la prevención de inundaciones</h3>
@@ -109,16 +109,6 @@ htmlCode: "
 <br>
 <h3>Necesidad de un sistema de saneamiento eficiente para la seguridad y comodidad ciudadana</h3>
 <p>Un sistema de saneamiento eficiente, donde los imbornales juegan un rol clave, es imprescindible para garantizar la seguridad y comodidad de los ciudadanos. La gestión adecuada de las aguas pluviales contribuye a prevenir inundaciones, mantener limpias las calles y preservar la infraestructura urbana en óptimas condiciones.</p>
-
-
-
-
-
-
-
-
-
-
 
 "
 category:
