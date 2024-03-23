@@ -237,6 +237,11 @@ export const OffcanvasData = [
                 text: '¿CÓMO DESATASCAR UN WC?',
                 link: '/blogs/como-desatascar-un-wc-muy-atascado',
             },
+            {
+                id: 'submenu-09',
+                text: '¿QUÉ ES UN IMBORNAL?',
+                link: '/blogs/que-es-un-imbornal',
+            }
         ],
     },
     {

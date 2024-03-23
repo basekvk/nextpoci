@@ -388,6 +388,11 @@ const menuDesktop = [
                 id: 58,
                 text: '¿CÓMO DESATASCAR UN WC?',
                 link: '/blogs/como-desatascar-un-wc-muy-atascado',
+            },
+            {
+                id: 59,
+                text: '¿QUÉ ES UN IMBORNAL?',
+                link: '/blogs/que-es-un-imbornal',
             }
            
         ]
