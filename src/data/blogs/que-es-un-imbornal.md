@@ -12,14 +12,14 @@ excerpt: '¿Qué es un imbornal? Pociten te lo descubre en este artículo.'
 detailBreadcrumbSubTitle: 'Blog - Desatascos Pociten'
 detailBreadcrumbDesc: 'La importancia y el impacto de los imbornales en las redes de saneamiento'
 detailSubTitle: 'Profundizando en el Corazón del Saneamiento Urbano: La Vital Función de los Imbornales'
-quote: "Los imbornales no son simplemente puntos de drenaje; son guardianes de nuestras ciudades contra las aguas turbulentas."
+quote: "Los imbornales no son simplemente puntos de drenaje; son guardianes de nuestras ciudades contra las aguas torrenciales."
 htmlCode: "
 <h2 style='font-size:32px' >¿Qué es un imbornal y por qué es importante para las redes de saneamiento?</h2>
 <p>Un imbornal es un componente esencial en las redes de saneamiento urbano, ubicado en la calzada para filtrar y conducir agua de lluvia. A diferencia de los sumideros, los imbornales tienen entrada horizontal. Es fundamental realizar mantenimiento regular para evitar obstrucciones. Los imbornales se fabrican en diversos materiales y existen varios tipos que se adaptan a diferentes necesidades en la gestión de aguas pluviales en entornos urbanos.</p>
 <br>
 
 <h2 style='font-size:32px'>Importancia de los imbornales en las redes de saneamiento</h2>
-<p>Los imbornales desempeñan un papel crucial en la infraestructura de drenaje urbano, contribuyendo a la gestión eficiente de aguas pluviales. Su correcto funcionamiento es vital para evitar inundaciones y garantizar la seguridad de las ciudades.</p>
+<p>Los imbornales desempeñan un papel crucial en la infraestructura de drenaje urbano, contribuyendo a la gestión eficiente de aguas pluviales. Su correcto funcionamiento es vital para evitar <a href='http://localhost:3000/services/inundaciones'>inundaciones</a> y garantizar la seguridad de las ciudades.</p>
 <br>
 <h3>Función de los imbornales en el sistema de drenaje urbano</h3>
 <ul>
