@@ -1,13 +1,13 @@
 ---
 id: 'service-07'
 title: 'Desatascos en Getafe'
-titleMeta: "Desatascos y Poceros en Getafe - Rápido y Eficiente "
+titleMeta: "Desatascos y Poceros en Getafe 24 Horas - Pociten "
 lugar: 'Getafe'
 canonical: https://www.desatascos-madrid.com/desatascos/getafe
 mediumImage: 'renovation-lg.webp'
 largeImage: 'desatascosgetafe-md.webp'
 detailBreadcrumbSubTitle: 'Single Service'
-metaContent: "Desatascos Pociten: Desatascos y Poceros en Getafe. Servicio rápido y eficiente 🌪. Solucionamos tus problemas de atascos. ¡Contáctanos! ☎️ 647 376 782"
+metaContent: "Pociten: Desatascos y Poceros en Getafe 24 Horas. Servicio rápido y eficiente 🌪. Solucionamos tus problemas de atascos. ¡Contáctanos! ☎️ 647 376 782"
 detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
 
 
