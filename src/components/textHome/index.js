@@ -14,14 +14,15 @@ export default function TextHome() {
                         justifyContent: 'center',
                     }}
                 >
-                    ¿Necesitas servicios de desatascos en Madrid? Ya sea que te enfrentes
-                    a un desatasco urgente, como una ducha, lavavajillas,aseo o
-                    fregadero atascado, o necesites una inspección preventiva
-                    para mantener tu red de saneamiento en óptimas condiciones,
-                    Desatascos Pociten es la solución a tus problemas. Somos
-                    especialistas con años de experiencia, comprometidos con
-                    ofrecer servicios de la más alta calidad sin costes ocultos
-                    ni sorpresas en el precio. Además, nos enorgullece decir que{' '}
+                    ¿Necesitas servicios de desatascos en Madrid? Ya sea que te
+                    enfrentes a un desatasco urgente, como una ducha,
+                    lavavajillas,aseo o fregadero atascado, o necesites una
+                    inspección preventiva para mantener tu red de saneamiento en
+                    óptimas condiciones, Desatascos Pociten es la solución a tus
+                    problemas. Somos especialistas con años de experiencia,
+                    comprometidos con ofrecer servicios de la más alta calidad
+                    sin costes ocultos ni sorpresas en el precio. Además, nos
+                    enorgullece decir que{' '}
                     <strong>¡no cobramos por el desplazamiento!</strong>
                     <br />
                     <br />
@@ -77,7 +78,7 @@ export default function TextHome() {
                 <p>
                     Desatasco, desatascos, desatranco o desatoro, son algunas de
                     las formas de llamarlo en España y estos términos se
-                    refieren según el diccionario de{' '}
+                    refieren según el diccionario de la{' '}
                     <a
                         href="https://dle.rae.es/desatascar"
                         rel="nofollow"
@@ -85,7 +86,8 @@ export default function TextHome() {
                     >
                         RAE
                     </a>{' '}
-                    a limpiar, dejar libre un conducto obstruido. Destapar,
+                    a limpiar, dejar libre un conducto obstruido. En sinónimos
+                    de desatascos podemos encontrar palabras como Destapar,
                     destaponar, desobstruir, desatrancar, limpiar, desatancar,
                     es decir, cuando hablamos de desatascos, entendemos al
                     proceso de eliminación de obstrucciones en las tuberías, que
