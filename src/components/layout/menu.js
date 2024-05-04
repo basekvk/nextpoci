@@ -331,6 +331,11 @@ const menuDesktop = [
                         text: 'ILLESCAS',
                         link: '/desatascos/illescas',
                     },
+                    {
+                        id: 453,
+                        text: 'TOLEDO CAPITAL',
+                        link: '/desatascos/toledo',
+                    },
                 ],
             },
             // ... más submenús ...
@@ -340,62 +345,8 @@ const menuDesktop = [
         id: 5,
         title: 'BLOGS',
         link: '/blogs/category/todo',
-        cName: 'dropdown_holder',
-        submenu: [
-            {
-                id: 51,
-                text: 'COMO DESATASCAR FREGADERO',
-                link: '/blogs/como-desatascar-un-fregadero',
-                
-            },
-            {
-                id: 52,
-                text: 'ARQUETA SIFÓNICA ATASCADA',
-                link: '/blogs/arqueta-sifonica-atascada',
-                
-            },
-            {
-                id: 53,
-                text: 'DESATASCAR UNA TUBERÍA',
-                link: '/blogs/como-desatascar-tuberias',
-                
-            },
-            {
-                id: 54,
-                text: 'COMO PREVENIR ATASCOS EN TUBERÍAS',
-                link: '/blogs/como-prevenir-atascos',
-                
-            },
-            {
-                id: 55,
-                text: 'CONSEJOS OBRAS DE POCERÍA',
-                link: '/blogs/obras-poceria-consejos',
-                
-            },
-            {
-                id: 56,
-                text: 'FOSAS SÉPTICAS LO QUE DEBES SABER',
-                link: '/blogs/lo-que-debes-saber-fosas-septicas',
-                
-            },
-            {
-                id: 57,
-                text: '¿LOS SEGUROS CUBREN LAS BAJANTES?',
-                link: '/blogs/los-seguros-cubren-las-bajantes',
-                
-            },
-            {
-                id: 58,
-                text: '¿CÓMO DESATASCAR UN WC?',
-                link: '/blogs/como-desatascar-un-wc-muy-atascado',
-            },
-            {
-                id: 59,
-                text: '¿QUÉ ES UN IMBORNAL?',
-                link: '/blogs/que-es-un-imbornal',
-            }
-           
-        ]
+        cName: '',
+        
     },
     
     // ... otros elementos del menú ...

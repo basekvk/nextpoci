@@ -187,6 +187,11 @@ export const OffcanvasData = [
                 link: '/desatascos/galapagar',
                 text: 'Galapagar',
             },
+            {
+                id: 'submenu-24',
+                link: '/desatascos/toledo',
+                text: 'Toledo Capital',
+            },
         ],
     },
 
@@ -195,54 +200,8 @@ export const OffcanvasData = [
         title: 'Blogs',
         path: '/blogs/category/todo',
         cName: 'offcanvas-text',
-        arrowDown: 'FaAngleDown',
-        submenu: [
-            {
-                id: 'submenu-01',
-                link: '/blogs/como-desatascar-tuberias',
-                text: 'COMO DESATASCAR TUBERÍAS',
-            },
-            {
-                id: 'submenu-02',
-                link: '/blogs/como-prevenir-atascos',
-                text: 'COMO PREVENIR ATASCOS',
-            },
-            {
-                id: 'submenu-03',
-                link: '/blogs/obras-poceria-consejos',
-                text: 'OBRAS DE POCERÍA',
-            },
-            {
-                id: 'submenu-04',
-                link: '/blogs/lo-que-debes-saber-fosas-septicas',
-                text: 'MANTENER FOSAS SÉPTICAS',
-            },
-            {
-                id: 'submenu-05',
-                link: '/blogs/arqueta-sifonica-atascada',
-                text: '¿ARQUETA SIFÓNICA ATASCADA?',
-            },
-            {
-                id: 'submenu-06',
-                link: '/blogs/como-desatascar-un-fregadero',
-                text: 'COMO DESATASCAR FREGADERO',
-            },
-            {
-                id: 'submenu-07',
-                link: '/blogs/los-seguros-cubren-las-bajantes',
-                text: '¿LOS SEGUROS CUBREN LAS BAJANTES?',
-            },
-            {
-                id: 'submenu-08',
-                text: '¿CÓMO DESATASCAR UN WC?',
-                link: '/blogs/como-desatascar-un-wc-muy-atascado',
-            },
-            {
-                id: 'submenu-09',
-                text: '¿QUÉ ES UN IMBORNAL?',
-                link: '/blogs/que-es-un-imbornal',
-            }
-        ],
+       
+        
     },
     {
         id: 7,
