@@ -27,8 +27,8 @@ export default function TextFirst() {
                     problema quedará totalmente resuelto con la máxima calidad y
                     al mejor precio del mercado. ¡Compruébalo!<br/> Quizás no seamos
                     la mejor empresa de desatascos de Madrid (hay que ser
-                    humildes, eso se lo dejamos que nos lo digan nuestros
-                    clientes), pero sí los más rápidos y económicos.
+                    humildes, eso se lo dejamos a nuestros
+                    clientes 😉), pero sí los más rápidos y económicos.
                 </p>
                 <br />
                 <CallButton />
