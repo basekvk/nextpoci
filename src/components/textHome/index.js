@@ -14,7 +14,7 @@ export default function TextHome() {
                         justifyContent: 'center',
                     }}
                 >
-                    ¿Necesitas un servicio de desatasco? Ya sea que te enfrentes
+                    ¿Necesitas servicios de desatascos en Madrid? Ya sea que te enfrentes
                     a un desatasco urgente, como una ducha, lavavajillas,aseo o
                     fregadero atascado, o necesites una inspección preventiva
                     para mantener tu red de saneamiento en óptimas condiciones,
