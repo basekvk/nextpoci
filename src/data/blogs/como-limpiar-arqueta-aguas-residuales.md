@@ -1,5 +1,5 @@
 ---
-title: 'Limpieza Efectiva de Arquetas de Aguas Residuales'
+title: 'LIMPIEZA DE ARQUETAS DE AGUAS RESIDUALES: GUÍA PRÁCTICA Y CONSEJOS'
 
 subTitle: 'Descubre métodos efectivos y seguros para la limpieza de arquetas de aguas residuales'
 
