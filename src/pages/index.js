@@ -123,10 +123,10 @@ function HomePage({
             <Hero />
             <br></br>
             <TextFirst />
-            <div className='container'>
-            <ProductCluster localidad="Madrid" />
+            <div className="container">
+                <ProductCluster localidad="Madrid" />
             </div>
-            
+
             <Areastrabajo />
             <TextHome />
             <br></br>
@@ -156,6 +156,15 @@ function HomePage({
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
             </h3>
+            <p className="container">
+                Puedes seguir nuestros consejos y trucos para desatascos y
+                pocería desde la sección{' '}
+                <a href="https://www.desatascos-madrid.com/blogs/category/todo">
+                    blog
+                </a>{' '}
+                de nuestra web
+            </p>
+            <br/>
             <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
             <RichSnippets
