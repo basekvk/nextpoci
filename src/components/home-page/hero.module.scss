@@ -2,49 +2,43 @@
 @import '../../styles/abstract/custom-mixins';
 @import '../../styles/components/button';
 
-
-.title {
-    
-    font-family: $rajdhani;
-    color: white;
-    font-size: 78px;
-    line-height: 145px;
-    font-weight: 748;
-    max-width: 57%;
-
-    @include breakpoint(max-xl-device) {
-        max-width: 100%;
-    }
-    @include breakpoint(max-md-device) {
-        font-size: 50px;
-        line-height: 1;
-    }
-    @include breakpoint(max-sm-device) {
-        font-size: 25px;
-        max-width: 100%;
-
-        
-    }
-    span {
-        color: aqua;
-
-    }
-
-}
+// Variables locales para el componente Hero
+$font-size-large: 78px;
+$font-size-medium: 50px;
+$font-size-small: 25px;
+$max-width-default: 57%;
+$max-width-full: 100%;
 
 .slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: {
         position: relative;
         repeat: no-repeat;
         size: cover;
     }
-  
     &:before {
         content: "";
         display: block;
         padding-top: (9 / 16) * 100%; // Aspecto de 16:9
     }
-
+    @include breakpoint(max-lg-device) {
+        &:before {
+            padding-top: (9 / 21) * 100%; // Cambia la relación de aspecto a 21:9, por ejemplo
+        }
+    }
+    @include breakpoint(max-md-device) {
+        &:before {
+            padding-top: (3 / 4) * 100%; // Cambia a aspecto de 4:3, por ejemplo
+        }
+    }
+    @include breakpoint(max-sm-device) {
+        &:before {
+            padding-top: 100%; // 1:1 aspect ratio para dispositivos muy pequeños
+        }
+    }
     > .container {
         position: absolute;
         top: 0;
@@ -57,55 +51,50 @@
         align-items: center;
         padding: 20px;
     }
-
-    position: relative;
-    height: 580px; // Elimina si ya no es necesario debido a padding-top
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    // Reducir la altura para el modo de escritorio
-    @include breakpoint(max-lg-device) {
-        &:before {
-            padding-top: (9 / 21) * 100%; // Cambia la relación de aspecto a 21:9, por ejemplo
-        }
-    }
-
-    // Ajustes para dispositivos más pequeños como antes
-    @include breakpoint(max-md-device) {
-        &:before {
-            padding-top: (3 / 4) * 100%; // Cambia a aspecto de 4:3, por ejemplo
-        }
-    }
-
-    @include breakpoint(max-sm-device) {
-        &:before {
-            padding-top: 100%; // 1:1 aspect ratio para dispositivos muy pequeños
-        }
-    }
 }
 
-
-
-  .imageContainer {
+.imageContainer {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1; /* Coloca la imagen detrás del contenido */
-  }
+}
+
+.title {
+    font-family: $rajdhani;
+    color: white;
+    font-size: $font-size-large;
+    line-height: 145px;
+    font-weight: 748;
+    max-width: $max-width-default;
+    @include breakpoint(max-xl-device) {
+        max-width: $max-width-full;
+    }
+    @include breakpoint(max-md-device) {
+        font-size: $font-size-medium;
+        line-height: 1;
+    }
+    @include breakpoint(max-sm-device) {
+        font-size: $font-size-small;
+        max-width: $max-width-full;
+    }
+    span {
+        color: aqua;
+    }
+}
 
 .subtitle {
     font-family: $rajdhani;
     font-size: 34px;
     font-weight: 800;
     line-height: 30px;
-    display: block;
     color: aqua;
     position: relative;
     padding-left: 100px;
     margin-bottom: 5px;
+    display: block;
     &:before {
         background-color: $primary;
         width: 80px;
@@ -117,35 +106,13 @@
         transform: translateY(-50%);
     }
 }
-.title {
-    h2 {
-        font-family: $rajdhani;
-        font-size: 88px;
-        line-height: 85px;
-        font-weight: 700;
-        max-width: 57%;
-        @include breakpoint(max-xl-device) {
-            max-width: 85%;
-        }
-        @include breakpoint(max-md-device) {
-            font-size: 50px;
-            line-height: 1;
-        }
-        @include breakpoint(max-sm-device) {
-            max-width: 100%;
-        }
-        span {
-            color: $primary;
-        }
-    }
-}
+
 .desc {
     margin-bottom: 35px;
     max-width: 520px;
     font-size: 20px;
 }
-.btn {
-    &_wrap {
-        display: flex;
-    }
+
+.btn_wrap {
+    display: flex;
 }
