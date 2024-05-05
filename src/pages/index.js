@@ -1,60 +1,34 @@
 // Importaciones esenciales
 import Head from 'next/head';
-import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
 import Footer from '../components/layout/footer';
 import Hero from '../components/home-page/hero';
+// Importaciones estáticas de componentes
+import BannerOne from '../components/banner';
+import AboutOne from '../components/about';
+import ProductCluster from '../components/cluster';
+import CallToAction from '../components/cta';
+import ReviewsSection from '../components/reviews';
+import GridServicios from '../components/gridservicios';
+import Problemas from '../components/problemas';
+import LatestBlog from '../components/home-page/latest-blog';
+import ContactForm from '../components/form-page';
+import CookiePopup from '../components/cookiebanner';
+import TextHome from '../components/textHome';
+import TextUrgentesHome from '../components/textUrgentesHome';
+import TextFirst from '../components/textFirst';
+import Areastrabajo from '../components/areastrabajo';
+import VideoPortada from '../components/videoportada';
 
-// Importaciones dinámicas
-const BannerOne = dynamic(() => import('../components/banner'), { ssr: false });
-const AboutOne = dynamic(() => import('../components/about'), { ssr: false });
 
-const ProductCluster = dynamic(() => import('../components/cluster'), {
-    ssr: false,
-});
-const CallToAction = dynamic(() => import('../components/cta'), { ssr: false });
-const ReviewsSection = dynamic(() => import('../components/reviews'), {
-    ssr: false,
-});
 
-const GridServicios = dynamic(() => import('../components/gridservicios'), {
-    ssr: false,
-});
-const Problemas = dynamic(() => import('../components/problemas'), {
-    ssr: false,
-});
-const LatestBlog = dynamic(
-    () => import('../components/home-page/latest-blog'),
-    { ssr: false }
-);
-const ContactForm = dynamic(() => import('../components/form-page'), {
-    ssr: false,
-});
-const CookiePopup = dynamic(() => import('../components/cookiebanner'), {
-    ssr: false,
-});
-const TextHome = dynamic(() => import('../components/textHome'), {
-    ssr: false,
-});
-const TextUrgentesHome = dynamic(
-    () => import('../components/textUrgentesHome'),
-    { ssr: false }
-);
-const TextFirst = dynamic(() => import('../components/textFirst'), {
-    ssr: false,
-});
-const Areastrabajo = dynamic(() => import('../components/areastrabajo'), {
-    ssr: false,
-});
 
-const VideoPortada = dynamic(() => import('../components/videoportada'), {
-    ssr: false,
-});
 
 function HomePage({
+    heroItems,
     bannerItems,
     aboutItems,
     footerItems,
@@ -120,7 +94,7 @@ function HomePage({
                 />
             </Head>
 
-            <Hero />
+            <Hero heroItems={heroItems} />
             <br></br>
             <TextFirst />
             <div className="container">
@@ -180,6 +154,7 @@ function HomePage({
 }
 
 export function getStaticProps() {
+    const heroItems = getAllItems('heros');
     const bannerItems = getAllItems('banner');
     const aboutItems = getAllItems('about');
     let blogs = getAllItems('blogs')
@@ -198,6 +173,7 @@ export function getStaticProps() {
 
     return {
         props: {
+            heroItems,
             bannerItems,
             aboutItems,
             footerItems,
@@ -209,6 +185,7 @@ export function getStaticProps() {
 }
 
 HomePage.propTypes = {
+    heroItems: PropTypes.instanceOf(Object).isRequired,
     bannerItems: PropTypes.instanceOf(Object).isRequired,
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,

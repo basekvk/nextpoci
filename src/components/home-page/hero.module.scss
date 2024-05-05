@@ -2,99 +2,32 @@
 @import '../../styles/abstract/custom-mixins';
 @import '../../styles/components/button';
 
-// Variables locales para el componente Hero
-$font-size-large: 78px;
-$font-size-medium: 50px;
-$font-size-small: 25px;
-$max-width-default: 57%;
-$max-width-full: 100%;
-
 .slide {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: {
-        position: relative;
-        repeat: no-repeat;
-        size: cover;
-    }
-    &:before {
-        content: "";
-        display: block;
-        padding-top: (9 / 16) * 100%; // Aspecto de 16:9
-    }
-    @include breakpoint(max-lg-device) {
-        &:before {
-            padding-top: (9 / 21) * 100%; // Cambia la relación de aspecto a 21:9, por ejemplo
-        }
-    }
-    @include breakpoint(max-md-device) {
-        &:before {
-            padding-top: (3 / 4) * 100%; // Cambia a aspecto de 4:3, por ejemplo
-        }
-    }
-    @include breakpoint(max-sm-device) {
-        &:before {
-            padding-top: 100%; // 1:1 aspect ratio para dispositivos muy pequeños
-        }
-    }
-    > .container {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+    &-bg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 786px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        padding: 20px;
+        @include breakpoint(max-xl-device) {
+            height: 610px;
+        }
+        &-01 {
+            background-image: url("/images/hero/1.webp" );
+        }
+      
     }
 }
-
-.imageContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Coloca la imagen detrás del contenido */
-}
-
-.title {
-    font-family: $rajdhani;
-    color: white;
-    font-size: $font-size-large;
-    line-height: 145px;
-    font-weight: 748;
-    max-width: $max-width-default;
-    @include breakpoint(max-xl-device) {
-        max-width: $max-width-full;
-    }
-    @include breakpoint(max-md-device) {
-        font-size: $font-size-medium;
-        line-height: 1;
-    }
-    @include breakpoint(max-sm-device) {
-        font-size: $font-size-small;
-        max-width: $max-width-full;
-    }
-    span {
-        color: aqua;
-    }
-}
-
 .subtitle {
     font-family: $rajdhani;
-    font-size: 34px;
-    font-weight: 800;
+    font-size: 24px;
     line-height: 30px;
-    color: aqua;
+    display: block;
+    color: $primary;
     position: relative;
     padding-left: 100px;
     margin-bottom: 5px;
-    display: block;
     &:before {
         background-color: $primary;
         width: 80px;
@@ -106,13 +39,54 @@ $max-width-full: 100%;
         transform: translateY(-50%);
     }
 }
-
+.title {
+    h1{
+        color: white;
+        font-size: 88px;
+        line-height: 85px;
+        font-weight: 700;
+        max-width: 57%;
+        @include breakpoint(max-xl-device) {
+            max-width: 85%;
+        }
+        @include breakpoint(max-md-device) {
+            font-size: 50px;
+            line-height: 1;
+        }
+        @include breakpoint(max-sm-device) {
+            max-width: 100%;
+        }
+        span {
+            color: $primary;
+        }
+    }
+    h2 {
+        font-size: 88px;
+        line-height: 85px;
+        font-weight: 700;
+        max-width: 57%;
+        @include breakpoint(max-xl-device) {
+            max-width: 85%;
+        }
+        @include breakpoint(max-md-device) {
+            font-size: 50px;
+            line-height: 1;
+        }
+        @include breakpoint(max-sm-device) {
+            max-width: 100%;
+        }
+        span {
+            color: $primary;
+        }
+    }
+}
 .desc {
     margin-bottom: 35px;
     max-width: 520px;
     font-size: 20px;
 }
-
-.btn_wrap {
-    display: flex;
+.btn {
+    &_wrap {
+        display: flex;
+    }
 }
