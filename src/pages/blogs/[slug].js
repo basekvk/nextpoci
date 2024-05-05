@@ -1,12 +1,15 @@
+import Head from 'next/head';
 import PropTypes from 'prop-types';
-import BlogDetail from '../../components/blogs/blog-detail';
-import Breadcrumb from '../../components/breadcrumb';
-import Footer from '../../components/layout/footer';
+
+import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import { getBlogCategories } from '../../lib/blog-categories';
 import { getBlogTags } from '../../lib/blog-tags';
-import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-import Head from 'next/head';
+
+import Breadcrumb from '../../components/breadcrumb';
+import BlogDetail from '../../components/blogs/blog-detail';
 import RichSnippetsBlogs from '../../components/RichSnippets/RichSnipetsBlog';
+import Footer from '../../components/layout/footer';
+
 
 
 function BlogDetailPage({
@@ -57,7 +60,7 @@ export function getStaticProps(context) {
     const richTexts = getAllItems('rich-text');
     const categories = getBlogCategories();
     const tags = getBlogTags();
-    const newsletterItems = getAllItems('newsletter');
+
     const footerItems = getAllItems('footer');
 
     return {
@@ -67,7 +70,7 @@ export function getStaticProps(context) {
             richTexts,
             categories,
             tags,
-            newsletterItems,
+            
             footerItems,
         },
     };

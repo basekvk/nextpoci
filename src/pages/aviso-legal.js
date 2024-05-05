@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import PropTypes from 'prop-types';
-import Breadcrumb from '../components/breadcrumb';
-import Newsletter from '../components/newsletter/newsletter';
-import { getAllItems } from '../lib/items-util';
-import Footer from '../components/layout/footer';
-import { Container, Row } from 'react-bootstrap';
+import Head from 'next/head';                      // Librería de terceros (Next.js)
+import PropTypes from 'prop-types';               // Librería de terceros (React)
+import { Container, Row } from 'react-bootstrap'; // Librería de terceros (React Bootstrap)
+import { getAllItems } from '../lib/items-util';  // Funciones/utilidades internas
+import Breadcrumb from '../components/breadcrumb'; // Componentes internos
+import Footer from '../components/layout/footer';  // Componentes internos
 
-function avisoLegal({ newsletterItems, footerItems }) {
+
+function avisoLegal({ footerItems }) {
     return (
         <>
             <Head>
@@ -347,19 +347,16 @@ function avisoLegal({ newsletterItems, footerItems }) {
 }
 
 export function getStaticProps() {
-    const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
 
     return {
-        props: {
-            newsletterItems,
+        props: {            
             footerItems,
         },
     };
 }
 
-avisoLegal.propTypes = {
-    newsletterItems: PropTypes.instanceOf(Object).isRequired,
+avisoLegal.propTypes = {   
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 
