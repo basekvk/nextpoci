@@ -19,12 +19,13 @@ function Hero({ heroItems }) {
                         <div className={classes.title} dangerouslySetInnerHTML={{ __html: heroItem?.title }} />
                         <div className={classes.desc} dangerouslySetInnerHTML={{ __html: heroItem?.desc }} />
                         <div className={classes.btn_wrap}>
-                            <Link href="/projects/project-fullwidth">
+                        <Link href="/contacto">
                                 <a className={`${classes.btn} ${classes.btn_secondary} ${classes.btn_hover__white}`}>
                                     {heroItem?.btnSecondaryText}
                                 </a>
                             </Link>
-                            <Link href="/contact">
+                            
+                            <Link href="tel:+34647376782">
                                 <a className={`${classes.btn} ${classes.btn_primary} ${classes.btn_hover__white}`}>
                                     {heroItem?.btnPrimaryText}
                                 </a>
