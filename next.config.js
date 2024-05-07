@@ -4,16 +4,13 @@
 const nextConfig = {
     reactStrictMode: true,
     optimizeFonts: true,
+    optimization: true,
     images: {
         domains: ['desatascos-madrid.com'],
         formats: ['image/avif', 'image/webp'],
-        deviceSizes: [640, 768, 1024, 1280, 1600],
-        imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+        deviceSizes: [640, 768, 1024, 1280, 1600], // Tamaños de dispositivo que Next.js usará para las imágenes responsivas
+        imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Tamaños de imagen para iconos y otros elementos gráficos pequeños
     },
-    swcMinify: true, // Asegura que se use el compilador SWC para minificación, que es más rápido que Terser
-    productionBrowserSourceMaps: false, // Desactiva los source maps en producción para mejorar la carga
-
-
     async redirects() {
         return [
             {
@@ -312,45 +309,7 @@ const nextConfig = {
          
         ];
     },
-
-
-
-async headers() {
-    return [
-        {
-            // Configura cabeceras de seguridad y rendimiento para todas las rutas
-            source: '/(.*)',
-            headers: [
-                { key: 'X-Content-Type-Options', value: 'nosniff' },
-                { key: 'X-Frame-Options', value: 'DENY' },
-                { key: 'X-XSS-Protection', value: '1; mode=block' },
-                { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-            ],
-        },
-    ];
-},
-webpack: (config, { dev, isServer }) => {
-    if (!dev && !isServer) {
-        // Configuraciones de Webpack para el lado del cliente en producción
-        config.optimization.splitChunks = {
-            chunks: 'all',
-            maxInitialRequests: Infinity,
-            minSize: 0,
-            cacheGroups: {
-                vendor: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name(module) {
-                        const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)[1];
-                        return `npm.${packageName.replace('@', '')}`;
-                    },
-                },
-            },
-        };
-    }
-
-    // Return the altered config
-    return config;
-},
 };
+
 
 module.exports = nextConfig;
