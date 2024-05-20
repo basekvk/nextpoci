@@ -306,6 +306,11 @@ const nextConfig = {
                 destination: '/',
                 permanent: true,
             },
+            {
+                source: '/poceros/en/valdemoro',
+                destination: '/desatascos/valdemoro',
+                permanent: true,
+            }
          
         ];
     },
