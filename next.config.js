@@ -287,7 +287,7 @@ const nextConfig = {
             },
             {
                 source: '/services/empresa-de-desatascos',
-                destination: '/',
+                destination: '/',  
                 permanent: true,
             },
             {
@@ -408,7 +408,7 @@ const nextConfig = {
             }
             ,
             {
-                source: 'poceros/en/ocana',
+                source: '/poceros/en/ocana',
                 destination: '/desatascos/toledo',
                 permanent: true,
             }
