@@ -456,7 +456,7 @@ const nextConfig = {
             }
             ,
             {
-                source: '/poceros/en/toledo</',
+                source: '/poceros/en/toledo',
                 destination: '/desatascos/toledo',
                 permanent: true,
             }
@@ -552,13 +552,13 @@ const nextConfig = {
             }
             ,
             {
-                source: '/poceros/localizacion-de-fugas</',
+                source: '/poceros/localizacion-de-fugas',
                 destination: '/services/obras-de-poceria',
                 permanent: true,
             }
             ,
             {
-                source: '/poceros/fosas-septicas</',
+                source: '/poceros/fosas-septicas',
                 destination: '/services/limpieza-fosas-septicas',
                 permanent: true,
             } ,
