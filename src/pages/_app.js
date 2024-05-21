@@ -7,6 +7,9 @@ import { ScrollToTop } from '../components/scroll';
 import GoogleAdsTag from '../components/googleads';
 import useGoogleAnalytics from '../hook/useGoogleAnalytics';
 import '../styles/globals.scss';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
     useGoogleAnalytics(); // Execute the hook for Google Analytics

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Col } from 'react-bootstrap';
+import {  Col } from 'react-bootstrap';
 import classes from './index.module.scss';
 import CallToAction from '../../cta';
 import CallToAction1 from '../../cta1';
@@ -8,6 +8,7 @@ import GridServices from '../../gridservicios';
 import Problemas from '../../problemas';
 import Image from 'next/image';
 import ProductCluster from '../../cluster';
+import Acordeon from '../../acordeon';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -142,6 +143,8 @@ function ServiceContent({ service }) {
                         </p>
                     </a>
                 </div>
+                
+                {service.accordionData? <Acordeon accordionData={service?.accordionData}  /> : null}
             </Col>
         </>
     );
