@@ -562,6 +562,11 @@ const nextConfig = {
                 destination: '/desatascos/alcobendas',
                 permanent: true,
             } ,
+            {
+                source: '/services/inundaciones',
+                destination: '/services-achiques-de-agua',
+                permanent: true,
+            }
          
         ];
     },
