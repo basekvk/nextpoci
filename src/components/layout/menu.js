@@ -40,6 +40,11 @@ const menuDesktop = [
                 link: '/services/obras-de-poceria',
             },
             {
+                id: 35,
+                text: 'DESATRANCOS',
+                link: '/services/desatrancos',
+            },
+            {
                 id: 37,
                 text: 'REPARACIÓN DE TUBERÍAS SIN OBRAS',
                 link: '/services/reparacion-tuberias-sin-obras',
