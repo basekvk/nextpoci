@@ -284,7 +284,13 @@
     <priority>0.8</priority>
   </url>
    <url>
-    <loc>https://www.desatascos-madrid.com/services/inundaciones</loc>
+    <loc>https://www.desatascos-madrid.com/services/achiques-de-agua</loc>
+    <lastmod>2023-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://www.desatascos-madrid.com/services/desatrancos</loc>
     <lastmod>2023-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

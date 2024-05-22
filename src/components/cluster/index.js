@@ -56,10 +56,10 @@ const services = [
 },
 {
   id: 10,
-  title: 'Inundaciones',
+  title: 'Achiques de Agua',
   image: '/images/cluster/inundaciones-md.webp',
   alt: 'Servicios Inundaciones en Madrid',
-  url: '/services/inundaciones',
+  url: '/services/achiques-de-agua',
 },
 
 {

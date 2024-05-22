@@ -61,8 +61,8 @@ const menuDesktop = [
             },
             {
                 id: 310,
-                text: 'INUNDACIONES',
-                link: '/services/inundaciones',
+                text: 'ACHIQUES DE AGUA',
+                link: '/services/achiques-de-agua',
             },
             {
                 id: 311,

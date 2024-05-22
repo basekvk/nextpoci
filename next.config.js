@@ -186,7 +186,7 @@ const nextConfig = {
             },
             {
                 source: '/evacuacion-de-aguas',
-                destination: '/services/inundaciones',
+                destination: '/services/achiques-de-agua',
                 permanent: true,
             },
             {
@@ -338,7 +338,7 @@ const nextConfig = {
             ,
             {
                 source: '/poceros/bombas-de-agua',
-                destination: '/services/inundaciones',
+                destination: '/services/achiques-de-agua',
                 permanent: true,
             }
             ,
