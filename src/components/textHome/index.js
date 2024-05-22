@@ -28,7 +28,7 @@ export default function TextHome() {
                     <br />
                     <b>Desatascos Pociten</b> es una empresa ubicada en Madrid
                     con amplia experiencia en todo tipo de{' '}
-                    <strong>desatrancos y desatascos</strong>. Ofrecemos
+                    <strong><a href='https://www.desatascos-madrid.com/services/desatrancos'>desatrancos</a> y desatascos</strong>. Ofrecemos
                     servicios de desatascos de tuberías (fregaderos, duchas, wc,
                     lavavajillas, cocinas, etc..), desatrancos, limpieza y
                     mantenimiento de alcantarillado, limpieza y construcción de
