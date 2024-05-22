@@ -18,7 +18,7 @@ const Accordion = ({ accordionData }) => {
 
   return (
     <>
-      <h2 style={{ textAlign: 'center', fontSize: 30 }}>PREGUNTAS FRECUENTES</h2>
+      <h3 style={{ textAlign: 'center', fontSize: 30 }}>PREGUNTAS FRECUENTES</h3>
       <div className={styles.accordion}>
         {accordionData?.map((data, index) => (
           <div
