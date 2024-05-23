@@ -3,6 +3,7 @@
  * @see https://v0.dev/t/md6MTSC2YOQ
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Component() {
@@ -35,16 +36,14 @@ en Madrid -Pociten
           </button>
         </div>
       </div>
-      <img
+      <Image
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover opacity-50"
-        height="800"
         src="/images/hero/1.webp"
-        style={{
-          aspectRatio: "1600/800",
-          objectFit: "cover",
-        }}
-        width="1600"
+        layout="fill"
+        objectFit="cover"
+        quality={75}
+        priority={true}
       />
     </section>
   )
