@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-3xl font-bold; /* Puedes cambiar esto por el tamaño deseado */
+    }
+    h2 {
+      @apply text-2xl font-bold; /* Puedes cambiar esto por el tamaño deseado */
+    }
+    h3 {
+      @apply text-xl font-bold; /* Puedes cambiar esto por el tamaño deseado */
+    }
+    h4 {
+      @apply text-lg font-bold; /* Puedes cambiar esto por el tamaño deseado */
+    }
+    h5 {
+      @apply text-base; /* Puedes cambiar esto por el tamaño deseado */
+    }
+    h6 {
+      @apply text-sm; /* Puedes cambiar esto por el tamaño deseado */
+    }
+  }

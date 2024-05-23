@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Script from 'next/script';
+import '../styles/tailwind-component.css';
 import Layout from '../components/layout/layout';
 import { ScrollToTop } from '../components/scroll';
 import GoogleAdsTag from '../components/googleads';

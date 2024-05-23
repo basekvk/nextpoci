@@ -1,10 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Navigation } from 'swiper';
 
+
 SwiperCore.use([Pagination, Navigation]);
 
-function ReviewsSection() {
-    const reviewsData = [
+export default function ReviewsSection() {
+    const reviews = [
         {
             img: '/images/reviews/david.webp',
             name: 'David García',
@@ -56,129 +57,63 @@ function ReviewsSection() {
     ];
 
     return (
-        <>
-            <div className="testimonial-container">
-                <div className="testimonial">
-                    <h3 style={{ fontSize: '32px' }}>
-                        Nuestros Clientes Opinan
-                    </h3>
-                </div>
-                <br />
-                <br />
-                <Swiper
-                    slidesPerView={3} // Default value for desktop
-                    spaceBetween={30} // Default space between slides
-                    loop={true}
-                    pagination={{ clickable: true }}
-                    autoplay={{ delay: 2500, disableOnInteraction: false }}
-                    className="mySwiper"
-                    breakpoints={{
-                        // Cuando el ancho de la pantalla es >= 320px
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                        // Cuando el ancho de la pantalla es >= 640px
-                        640: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        // Cuando el ancho de la pantalla es >= 1024px
-                        1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 30,
-                        },
+        <section className="max-w-6xl mx-auto p-4 md:p-6">
+        <h2 className="text-3xl font-bold text-center mb-8">Nuestros Clientes Opinan</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {reviews.map((review, index) => (
+            <div key={index} className="bg-white rounded-lg shadow-md dark:bg-gray-950">
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <img
+                    alt="Reviewer Avatar"
+                    className="rounded-full mr-4"
+                    height={40}
+                    src={review.img}
+                    style={{
+                      aspectRatio: "40/40",
+                      objectFit: "cover",
                     }}
-                >
-                    {/* SwiperSlide components */}
-
-                    {reviewsData.map((review, index) => (
-                        <SwiperSlide key={index}>
-                            <div className="testimonial">
-                                <img src={review.img} alt={review.name} />
-                                <h3>{review.name}</h3>
-                                <p>{review.date}</p>
-                                <blockquote>"{review.content}"</blockquote>
-                                <p>{review.stars}</p>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-
-                <style jsx>{`
-    .testimonial-container {
-        width: 100%;
-        padding: 20px;
-    }
-    .testimonial {
-        text-align: center;
-    }
-    .testimonial img {
-        border-radius: 50%;
-        margin-bottom: 10px;
-        width: 120px; /* Tamaño predeterminado de las imágenes */
-        height: 120px; /* Mantén el aspect ratio de las imágenes */
-    }
-    .swiper-button-prev,
-    .swiper-button-next {
-        position: absolute;
-        top: 50%;
-        width: 50px;
-        height: 50px;
-        margin-top: -25px; /* Centra verticalmente las flechas */
-        z-index: 10;
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff; /* Color del icono de las flechas */
-    }
-
-    .swiper-button-prev {
-        left: 10px;
-    }
-
-    .swiper-button-next {
-        right: 10px;
-    }
-
-    /* Media queries para diferentes tamaños de pantalla */
-    @media (max-width: 1024px) {
-        /* Para tablets y dispositivos menores */
-        .testimonial img {
-            width: 100px;
-            height: 100px;
-        }
-    }
-
-    @media (max-width: 768px) {
-        /* Para dispositivos móviles en orientación landscape y tablets pequeñas */
-        .testimonial-container {
-            padding: 15px;
-        }
-
-        .testimonial img {
-            width: 80px;
-            height: 80px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        /* Para dispositivos móviles en orientación portrait */
-        .testimonial-container {
-            padding: 10px;
-        }
-
-        .testimonial img {
-            width: 60px;
-            height: 60px;
-        }
-    }
-`}</style>
+                    width={40}
+                  />
+                  <div>
+                    <h3 className="font-semibold text-lg">{review.name}</h3>
+                    <div className="flex items-center gap-1">
+                      {[...Array(5)].map((_, i) => (
+                        <StarIcon
+                          key={i}
+                          className={`w-4 h-4 ${i < review.rating ? 'fill-primary' : 'fill-muted stroke-muted-foreground'}`}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <p className="text-gray-700 dark:text-gray-300 line-clamp-3">
+                  {review.content}
+                </p>
+              </div>
             </div>
-        </>
-    );
-}
-
-export default ReviewsSection;
+          ))}
+        </div>
+      </section>
+      );
+    }
+    
+   
+    function StarIcon(props) {
+      return (
+        <svg
+          {...props}
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+        </svg>
+      );
+    }

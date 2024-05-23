@@ -21,7 +21,8 @@ import TextHome from '../components/textHome';
 import TextUrgentesHome from '../components/textUrgentesHome';
 import TextFirst from '../components/textFirst';
 import Areastrabajo from '../components/areastrabajo';
-import VideoPortada from '../components/videoportada';
+import TextVideo from '../components/textVideo';
+import CTA2 from '../components/cta2';
 
 
 
@@ -103,20 +104,19 @@ function HomePage({
 
             <Areastrabajo />
             <TextHome />
-            <br></br>
+            
 
-            <BannerOne bannerItems={bannerItems} />
-            <AboutOne aboutItems={aboutItems} />
+        
+            <CTA2 />
             <TextUrgentesHome />
-            <Problemas />
-            <br></br>
             <div className="container">
                 <h2 style={{ textAlign: 'center', fontSize: '40px' }}>
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
 
-                <VideoPortada />
+              
+                <TextVideo />
             </div>
 
             <CallToAction text="inicio" />

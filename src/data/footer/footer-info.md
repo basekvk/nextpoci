@@ -3,7 +3,7 @@ id: 'footer-01'
 footerLogo: '/images/logo/white.webp'
 footerLogoAlt: 'Desatascos Pociten'
 excerpt: 'Desatascos Pociten lleva años destacando entre las mejores empresas de desatascos en Madrid. Ofrecemos no solo los mejores servicios, sino que también somos la empresa de desatrancos más económica de Madrid. Compruébalo'
-inquary: 'Teléfono 24 horas'
+inquary: 'TELÉFONO 24 HORAS'
 inquaryNumber: '647 376 782
 '
 inquaryNumber1: '647 376 782'
@@ -47,7 +47,7 @@ quickLinkList:
         },
     ]
 contactInfoTitle: 'Info Contacto'
-widgetAddress: 'Calle Lezo 8, 4D<br> <span class="text-primary">28041, Madrid</span>'
+widgetAddress: 'Calle Lezo 8, 4D<br> 28041, Madrid'
 widgetNumber: '647 376 782
 '
 additionWidgetAddress: ''

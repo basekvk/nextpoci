@@ -25,6 +25,13 @@ a {
     text-decoration: none; /* Subrayado para distinguirlos como enlaces */
 
 }
+#footer {
+    color: white; /* Color de texto blanco */
+    &:hover {
+        color: #00BBB4; /* Color amarillo para el hover *//* Cambio de color al pasar el ratón */
+    }
+}
+
 
 .link {
     color: #03BAB3;

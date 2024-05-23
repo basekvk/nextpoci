@@ -1,4 +1,3 @@
-import classes from './index.module.scss';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import { menuDesktop } from '../layout/menu';
@@ -47,17 +46,17 @@ function Areastrabajo() {
 
     return (
         <>
-            <div className="banner">
-                <h3 className={classes.title}>Áreas de Trabajo</h3>
-                <div className={classes.containerSelect}>
-                <label htmlFor="localidadSelect" className={classes.srOnly}>Selecciona tu localidad</label>
+            <div className="pt-10 pb-30 m-10 bg-gradient-to-r from-blue-900 to-teal-500">
+                <h3 className="text-center text-4xl mb-6 text-white">Áreas de Trabajo</h3>
+                <div className="flex justify-center items-center bg-gradient-to-r from-blue-900 to-teal-500 p-4 rounded-md mx-8">
+                    <label htmlFor="localidadSelect" className="sr-only">Selecciona tu localidad</label>
                     <select
                         id="localidadSelect"
-                        className={classes.selectLocalidad}
+                        className="w-full max-w-xs p-4 text-lg uppercase border-2 border-blue-500 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                         value={selectedLocation}
                         onChange={handleLocationChange}
                     >
-                    <option value="">Selecciona tu localidad</option>
+                        <option value="">Selecciona tu localidad</option>
                         {localidadesOrdenadas.map((localidad, index) => (
                             <option key={index} value={localidad.url}>
                                 {localidad.nombre}
