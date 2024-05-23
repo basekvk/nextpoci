@@ -6,7 +6,7 @@ import Footer from '../../components/layout/footer';
 import Newsletter from '../../components/newsletter/newsletter';
 import AllServices from '../../components/services/all-services';
 import Breadcrumb from '../../components/breadcrumb';
-import Testimonial from '../../components/testimonial';
+
 import { getAllItems } from '../../lib/items-util';
 
 
@@ -15,8 +15,7 @@ function ServicePage({
     services,
     serviceSectionItems,
     bannerTwoItems,
-    testimonialItems,
-    testimonialSectionItems,
+  
     newsletterItems,
     footerItems,
 }) {
@@ -44,10 +43,7 @@ function ServicePage({
             <BannerTwo bannerTwoItems={bannerTwoItems} />
            
             
-            <Testimonial
-                testimonialItems={testimonialItems}
-                testimonialSectionItems={testimonialSectionItems}
-            />
+          
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>
@@ -76,8 +72,7 @@ export function getStaticProps() {
             brandItems,
             bannerFourItems,
             bannerSection,
-            testimonialItems,
-            testimonialSectionItems,
+           
             newsletterItems,
             footerItems,
         },
@@ -92,8 +87,7 @@ ServicePage.propTypes = {
     brandItems: PropTypes.instanceOf(Object).isRequired,
     bannerFourItems: PropTypes.instanceOf(Object).isRequired,
     bannerSection: PropTypes.instanceOf(Object).isRequired,
-    testimonialItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialSectionItems: PropTypes.instanceOf(Object).isRequired,
+   
     newsletterItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

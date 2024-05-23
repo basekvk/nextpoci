@@ -10,11 +10,11 @@ export default function textHome() {
         <div>
           <h1 className="text-4xl font-bold text-[#003A70] mb-4">Expertos en Servicios de Desatascos en Madrid</h1>
           <p className="mb-4">
-            ¿Necesitas servicios de desatascos en Madrid? Ya sea que te enfrentes a un desatasco urgente, como una
-            ducha, lavavajillas, aseo o fregadero atascado, o necesites una inspección preventiva para mantener tu red
+            ¿Necesitas <b>servicios de desatascos en Madrid</b>? Ya sea que te enfrentes a un <b>desatasco urgente</b>, como un atasco en la
+            ducha, lavavajillas, aseo o fregadero, o necesites una inspección preventiva para mantener tu red
             de saneamiento en óptimas condiciones, Desatascos Pociten es la solución a tus problemas. Somos
             especialistas con años de experiencia, comprometidos con ofrecer servicios de la más alta calidad sin costes
-            ocultos ni sorpresas en el precio. Además, nos enorgullece decir que ¡no cobramos por el desplazamiento!
+            ocultos ni sorpresas en el precio. Además, <b>¡no cobramos por el desplazamiento!</b>
           </p>
           <p className="mb-4">
             Desatascos Pociten es una empresa ubicada en Madrid con amplia experiencia en todo tipo de{" "}

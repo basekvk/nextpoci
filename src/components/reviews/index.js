@@ -61,7 +61,7 @@ export default function ReviewsSection() {
         <h2 className="text-3xl font-bold text-center mb-8">Nuestros Clientes Opinan</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((review, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md dark:bg-gray-950">
+            <div key={index} className="bg-[#00BBB4] rounded-lg shadow-md dark:bg-[#00BBB4]">
               <div className="p-6">
                 <div className="flex items-center mb-4">
                   <img
@@ -87,7 +87,7 @@ export default function ReviewsSection() {
                     </div>
                   </div>
                 </div>
-                <p className="text-gray-700 dark:text-gray-300 line-clamp-3">
+                <p className="text-[#003A70] line-clamp-3">
                   {review.content}
                 </p>
               </div>
@@ -107,8 +107,8 @@ export default function ReviewsSection() {
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          fill="currentColor"
-          stroke="currentColor"
+          fill="#F0CF05"
+          stroke="#F0CF05"
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

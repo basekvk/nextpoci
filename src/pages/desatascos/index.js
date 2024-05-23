@@ -8,7 +8,6 @@ import Footer from '../../components/layout/footer';
 import Newsletter from '../../components/newsletter/newsletter';
 import AllServices from '../../components/services/all-services';
 import Breadcrumb from '../../components/breadcrumb';
-import Testimonial from '../../components/testimonial';
 import { getAllItems } from '../../lib/items-util';
 
 function ServicePage({
@@ -19,8 +18,6 @@ function ServicePage({
     brandItems,
     bannerFourItems,
     bannerSection,
-    testimonialItems,
-    testimonialSectionItems,
     newsletterItems,
     footerItems,
 }) {
@@ -51,10 +48,6 @@ function ServicePage({
                 bannerSection={bannerSection}
             />
             ;
-            <Testimonial
-                testimonialItems={testimonialItems}
-                testimonialSectionItems={testimonialSectionItems}
-            />
             <Newsletter newsletterItems={newsletterItems} />
             <Footer footerItems={footerItems} />
         </>
@@ -67,7 +60,6 @@ export function getStaticProps() {
     const serviceSectionItems = getAllItems('service-section');
     const bannerTwoItems = getAllItems('banner-2');
     const brandItems = getAllItems('brand');
-    const testimonialSectionItems = getAllItems('testimonial-section');
     const bannerFourItems = getAllItems('banner-4');
     const bannerSection = getAllItems('banner-section');
     const testimonialItems = getAllItems('testimonial');
@@ -82,9 +74,7 @@ export function getStaticProps() {
             bannerTwoItems,
             brandItems,
             bannerFourItems,
-            bannerSection,
-            testimonialItems,
-            testimonialSectionItems,
+            bannerSection,          
             newsletterItems,
             footerItems,
         },
@@ -99,8 +89,6 @@ ServicePage.propTypes = {
     brandItems: PropTypes.instanceOf(Object).isRequired,
     bannerFourItems: PropTypes.instanceOf(Object).isRequired,
     bannerSection: PropTypes.instanceOf(Object).isRequired,
-    testimonialItems: PropTypes.instanceOf(Object).isRequired,
-    testimonialSectionItems: PropTypes.instanceOf(Object).isRequired,
     newsletterItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

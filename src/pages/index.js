@@ -23,6 +23,7 @@ import TextFirst from '../components/textFirst';
 import Areastrabajo from '../components/areastrabajo';
 import TextVideo from '../components/textVideo';
 import CTA2 from '../components/cta2';
+import HeroTailwind from '../components/herotailwind';
 
 
 
@@ -95,7 +96,7 @@ function HomePage({
                 />
             </Head>
 
-            <Hero heroItems={heroItems} />
+           <HeroTailwind />
             <br></br>
             <TextFirst />
             <div className="container">

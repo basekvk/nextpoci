@@ -10,8 +10,8 @@ export default function Component() {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between bg-[#f8fafc] p-8 my-20">
       <div className="space-y-4 max-w-lg">
-        <div className="text-xs font-semibold tracking-wide uppercase text-[#374151]">Empresa de Desatascos</div>
-        <h2 className="text-4xl font-extrabold tracking-tight text-[#1f2937]">
+        <div className="text-xs font-semibold tracking-wide uppercase text-[#003A70]">Empresa de Desatascos</div>
+        <h2 className="text-4xl font-extrabold tracking-tight text-[#003A70]">
           Trabajo de Desatasco en Madrid.
         </h2>
         <p className="text-base text-[#4b5563]">

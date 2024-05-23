@@ -6,8 +6,8 @@ export default function TextUrgentesHome() {
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="md:text-center">
-          <PlugIcon className="h-12 w-12 mx-auto mb-4" />
-          <h2 className="text-4xl font-extrabold text-gray-900">¿Es Sábado? ¿Domingo? ¿Festivo?</h2>
+          <Clock24HoursIcon className="h-12 w-12 mx-auto mb-4" />
+          <h2 className="text-4xl font-extrabold text-[#003A70]">¿Es Sábado? ¿Domingo? ¿Festivo?</h2>
           <p className="mt-4 text-lg text-gray-600">
             En Desatascos Pociten no importa ni el cuándo ni el dónde, llamamos y acudiremos a tu llamada en el menor
             tiempo posible con nuestro servicio de desatascos urgentes 24 horas.
@@ -18,8 +18,9 @@ export default function TextUrgentesHome() {
           </p>
           
         </div>
+        
         <div>
-          <h2 className="text-4xl font-extrabold text-gray-900">Llámanos si tienes alguno de estos problemas:</h2>
+          <h2 className="text-4xl font-extrabold text-[#003A70]">Llámanos si tienes alguno de estos problemas:</h2>
           <ul className="mt-4 space-y-4">
             <li className="flex items-start">
               <CheckIcon className="flex-shrink-0 h-6 w-6 text-green-500" />
@@ -94,7 +95,7 @@ function CheckIcon(props) {
 }
 
 
-function PlugIcon(props) {
+function Clock24HoursIcon(props) {
   return (
     <svg
       {...props}
@@ -108,10 +109,13 @@ function PlugIcon(props) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <path d="M12 22v-5" />
-      <path d="M9 8V2" />
-      <path d="M15 8V2" />
-      <path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z" />
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 6v6l4 2" />
+      <path d="M4.93 4.93l2.83 2.83" />
+      <path d="M16.24 16.24l2.83 2.83" />
     </svg>
   )
 }
+
+
+

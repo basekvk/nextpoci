@@ -34,18 +34,18 @@ export default function Component() {
           },
           {
             title: "Económicos",
-            description: "Calidad y economía en todos nuestros productos y servicios. Compruébalo llamandonos ahora.",
+            description: "Calidad y economía en todos nuestros productos y servicios. Compruébalo llamándonos ahora.",
             stars: 5
           }
         ].map(card => (
-          <div key={card.title} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex flex-col items-center justify-center">
+          <div key={card.title} className="bg-[#08B9B5] p-6 rounded-lg shadow-md flex flex-col items-center justify-center">
             <div className="flex items-center gap-2">
               {Array.from({ length: 5 }, (_, i) => (
                 <StarIcon key={i} className={`w-5 h-5 ${i < card.stars ? 'fill-primary' : 'fill-none stroke-muted'}`} />
               ))}
             </div>
-            <h3 className="text-xl font-bold mt-4 text-gray-900 dark:text-gray-50">{card.title}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mt-2">
+            <h3 className="text-xl font-bold mt-4 text-[gray-900 dark:text-gray-50]">{card.title}</h3>
+            <p className="text-[#003A70] mt-2 text-justify">
               {card.description}
             </p>
           </div>
@@ -87,8 +87,8 @@ function StarIcon(props) {
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      fill="currentColor"
-      stroke="currentColor"
+      fill="#F0CF05"
+      stroke="#F0CF05"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
