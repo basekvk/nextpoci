@@ -21,27 +21,13 @@ parrafo: "Soluciones rápidas y personalizadas para tus problemas de pocería en
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 
 <p>Como empresa líder en servicios de desatascos y desatrancos en la ciudad de Móstoles, en Desatascos Pociten contamos con la experiencia, el equipo y los recursos necesarios para resolver cualquier problema de pocería que se presente en su hogar o negocio. En este artículo, le explicaremos en detalle cómo funcionan nuestros servicios, cuáles son los beneficios de elegirnos y cómo podemos ayudarlo a prevenir futuros problemas de pocería.</p>
 
 <h2>¿Qué son los servicios de desatascos y desatrancos? 🛠️</h2>
 <p>Los servicios de desatascos y desatrancos son servicios de pocería especializados que se encargan de resolver problemas en las tuberías y los desagües de su hogar o negocio. Estos problemas pueden incluir atascos, bloqueos, obstrucciones y acumulaciones de residuos, entre otros. En Desatascos Pociten, contamos con equipos y técnicas especializadas para solucionar estos problemas de manera rápida y eficaz.</p>
 
-<h2>¿Por qué elegir a Desatascos Pociten? 🏆</h2>
-
-<h3>Experiencia y conocimientos 🔍</h3>
-<p>Contamos con un equipo de profesionales altamente capacitados y experimentados que conocen bien los sistemas de pocería y tienen experiencia en resolver cualquier problema que se les presente.</p>
-<br>
-<h4>Tecnología de última generación 🌟</h4>
-<p>En Desatascos Pociten, utilizamos equipos y técnicas de última generación para garantizar que nuestros servicios sean lo más eficaces posible. Además, nos aseguramos de estar al día con las últimas tendencias y avances en el campo de la pocería..</p>
-<br>
-<h4>Servicio rápido y eficiente ⏱️</h4>
-<p>En Desatascos Pociten, sabemos lo importante que es solucionar los problemas de pocería de manera rápida y eficiente. Por eso, trabajamos rápidamente para resolver el problema lo antes posible y garantizar que su hogar o negocio vuelva a funcionar con normalidad.</p>
-<br>
-<h4>Precios competitivos 💲</h4>
-<p>En Desatascos Pociten, nos esforzamos por ofrecer servicios de alta calidad a precios razonables. Trabajamos con transparencia y honestidad para garantizar que nuestros clientes siempre sepan exactamente lo que están pagando.</p>
-<br>
 
 "
 contenidoDescripcion1: "

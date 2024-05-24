@@ -23,7 +23,8 @@ parrafo: "Soluciones de Pocería y Desatascos de Calidad en Usera: ¡Siempre Est
 
 
 
-descripcion: ""
+descripcion: "<p>¡Bienvenidos a Desatascos Pociten! Somos la elección confiable para servicios de <strong>desatascos y desatrancos en Usera</strong>. Nuestro equipo de profesionales altamente calificados y dedicados se especializa en la identificación, limpieza y reparación de todo tipo de atascos en sus tuberías. Cada situación de atasco es única, por lo que empleamos una variedad de métodos y herramientas para asegurarnos de que cada desatasco sea completo y duradero.</p>
+    <p>Además, estamos listos para proporcionar <strong>desatascos urgentes en Usera</strong> con nuestro servicio de respuesta rápida. Entendemos que los atascos pueden ocurrir en los momentos más inoportunos, por lo que nuestro equipo está disponible 24 horas al día, 7 días a la semana, para resolver cualquier problema de tuberías que pueda surgir.</p>"
 detailDesc: ""
 
 
@@ -40,8 +41,7 @@ descripcion3:
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>¡Bienvenidos a Desatascos Pociten! Somos la elección confiable para servicios de <strong>desatascos y desatrancos en Usera</strong>. Nuestro equipo de profesionales altamente calificados y dedicados se especializa en la identificación, limpieza y reparación de todo tipo de atascos en sus tuberías. Cada situación de atasco es única, por lo que empleamos una variedad de métodos y herramientas para asegurarnos de que cada desatasco sea completo y duradero.</p>
-    <p>Además, estamos listos para proporcionar <strong>desatascos urgentes en Usera</strong> con nuestro servicio de respuesta rápida. Entendemos que los atascos pueden ocurrir en los momentos más inoportunos, por lo que nuestro equipo está disponible 24 horas al día, 7 días a la semana, para resolver cualquier problema de tuberías que pueda surgir.</p>
+
 
     <h2>Poceros en Usera</h2>
     <p>Además de nuestros servicios de <a href='https://www.desatascos-madrid.com'>desatascos</a> y desatrancos, contamos con expertos <strong>poceros en Usera</strong>. Nuestros poceros están equipados con las herramientas y el conocimiento necesario para solucionar cualquier problema en sus tuberías. Ya sea una simple limpieza o una situación de emergencia, estamos aquí para ayudar. Nuestra experiencia y atención al detalle nos permiten proporcionar soluciones seguras y eficaces que minimizan las interrupciones y protegen su propiedad.</p>

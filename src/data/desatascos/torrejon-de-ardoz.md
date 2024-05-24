@@ -22,12 +22,12 @@ parrafo: "Soluciones rápidas y efectivas para problemas de saneamiento en Torre
 
 #PARRAFO Primera pregunta
 
-
+ddescripcion: "<p>Si estás buscando una empresa de pocería en Torrejón de Ardoz, en <strong>Desatascos Pociten</strong> llevamos trabajando en este sector durante más de 25 años. Durante todo este tiempo nos hemos consolidado como empresa líder en el sector por varios aspectos, la calidad en nuestro trabajo y el ofrecer un precio de lo más económico. Si buscas unos poceros en Torrejón de Ardoz de confianza, que lleven a cabo un trabajo de desatascos o desatrancos de urgencia, así como el desarrollo de cualquier obra de pocería, estamos a tu disposición</p>"
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>Si estás buscando una empresa de pocería en Torrejón de Ardoz, en <strong>Desatascos Pociten</strong> llevamos trabajando en este sector durante más de 25 años. Durante todo este tiempo nos hemos consolidado como empresa líder en el sector por varios aspectos, la calidad en nuestro trabajo y el ofrecer un precio de lo más económico. Si buscas unos poceros en Torrejón de Ardoz de confianza, que lleven a cabo un trabajo de desatascos o desatrancos de urgencia, así como el desarrollo de cualquier obra de pocería, estamos a tu disposición</p>
+
 
 <h2>Desatrancos en Torrejón de Ardoz</h2>
 

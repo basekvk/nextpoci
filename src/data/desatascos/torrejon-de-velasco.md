@@ -30,7 +30,7 @@ parrafo: "Mantén tus tuberías y alcantarillado en óptimas condiciones con nue
 
 
 
-descripcion: "Si usted vive en Torrejón de Velasco o en cualquier otro lugar, sabe que el mantenimiento regular de sus tuberías y alcantarillado es crucial para evitar problemas futuros. A pesar de su importancia, la mayoría de la gente no piensa en ello hasta que algo va mal. El desatascado y pocería son servicios esenciales para resolver estos problemas y garantizar que su hogar o negocio siga funcionando sin problemas. En este artículo, le presentaremos los conceptos básicos de desatascos y pocería y cómo pueden ayudarlo en situaciones de emergencia."
+descripcion: "<p>Si usted vive en Torrejón de Velasco o en cualquier otro lugar, sabe que el mantenimiento regular de sus tuberías y alcantarillado es crucial para evitar problemas futuros. A pesar de su importancia, la mayoría de la gente no piensa en ello hasta que algo va mal. El desatascado y pocería son servicios esenciales para resolver estos problemas y garantizar que su hogar o negocio siga funcionando sin problemas. En este artículo, le presentaremos los conceptos básicos de desatascos y pocería y cómo pueden ayudarlo en situaciones de emergencia.</p>"
 detailDesc: ""
 
 #PARRAFO Segunda pregunta

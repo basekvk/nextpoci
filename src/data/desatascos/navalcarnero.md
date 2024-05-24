@@ -23,7 +23,7 @@ parrafo: "Desatascos y obras de pocería en Navalcarnero con Desatascos Pociten"
 
 
 
-descripcion: "Si está buscando servicios de desatascos y obras de pocería en Navalcarnero, Desatascos Pociten es su mejor opción. Ofrecemos servicios profesionales y eficientes para satisfacer las necesidades de nuestros clientes en cuanto a desatascos, obras de pocería, limpieza de tuberías y mantenimiento de redes de saneamiento en Navalcarnero y sus alrededores."
+descripcion: "<p>Si está buscando servicios de desatascos y obras de pocería en Navalcarnero, Desatascos Pociten es su mejor opción. Ofrecemos servicios profesionales y eficientes para satisfacer las necesidades de nuestros clientes en cuanto a desatascos, obras de pocería, limpieza de tuberías y mantenimiento de redes de saneamiento en Navalcarnero y sus alrededores.</p>"
 detailDesc: ""
 
 #PARRAFO Segunda pregunta

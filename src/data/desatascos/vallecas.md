@@ -23,7 +23,7 @@ parrafo: "Soluciones rápidas y eficientes para todos tus problemas de desatasco
 
 
 
-descripcion: "Con años de experiencia en el sector, nos hemos establecido como líderes en el mercado de desatascos en Vallecas y en toda la región de Madrid. Nuestro compromiso con la calidad y la satisfacción del cliente nos ha permitido crecer y expandir nuestros servicios a todos los municipios de Madrid.En Desatascos Pociten, entendemos que los problemas de desatascos pueden ser estresantes y disruptivos. Por eso, nos esforzamos por ofrecer un servicio rápido, eficiente y asequible para minimizar las molestias y garantizar que tu hogar o negocio vuelva a funcionar con normalidad lo antes posible."
+descripcion: "<p>Con años de experiencia en el sector, nos hemos establecido como líderes en el mercado de desatascos en Vallecas y en toda la región de Madrid. Nuestro compromiso con la calidad y la satisfacción del cliente nos ha permitido crecer y expandir nuestros servicios a todos los municipios de Madrid.En Desatascos Pociten, entendemos que los problemas de desatascos pueden ser estresantes y disruptivos. Por eso, nos esforzamos por ofrecer un servicio rápido, eficiente y asequible para minimizar las molestias y garantizar que tu hogar o negocio vuelva a funcionar con normalidad lo antes posible.</p>"
 detailDesc: ""
 
 

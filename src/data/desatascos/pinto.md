@@ -32,7 +32,7 @@ parrafo: "Soluciones integrales para los problemas de alcantarillado en Pinto"
 
 
 
-descripcion: "En la ciudad de Pinto, al igual que en muchas otras ciudades, el correcto funcionamiento de las redes de alcantarillado es fundamental para garantizar la salud pública y el cuidado del medio ambiente. Desatascos Pociten es una empresa especializada en servicios de alcantarillado, que ofrece soluciones para todo tipo de problemas en las redes de alcantarillado, desde desatascos hasta obras de pocería.."
+descripcion: "<p>En la ciudad de Pinto, al igual que en muchas otras ciudades, el correcto funcionamiento de las redes de alcantarillado es fundamental para garantizar la salud pública y el cuidado del medio ambiente. Desatascos Pociten es una empresa especializada en servicios de alcantarillado, que ofrece soluciones para todo tipo de problemas en las redes de alcantarillado, desde desatascos hasta obras de pocería.</p>"
 detailDesc:
 
 #PARRAFO Segunda pregunta

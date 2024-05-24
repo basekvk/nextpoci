@@ -21,6 +21,16 @@ parrafo: "Elimina los problemas de tuberías con los servicios de Desatascos Poc
 
 #Set inner Html con contenido variable
 
+descripcion: "
+
+<p>Cuando se trata de llevar a cabo un <b>servicio de pocería</b>, el buen resultado y la satisfacción del cliente es lo más importante y lo que más buscamos en <b>Pociten</b>. Esto es lo que llevamos haciendo durante más de 20 años y son los motivos que nos han servicio para posicionarnos como los líderes del sector durante todo este tiempo. Te ofrecemos unos servicios de pocería de calidad y al mejor precio del mercado. Si necesitas que te construyamos un pozo o llevemos a cabo <b>desatascos en Illescas</b>, queremos ser tus poceros de confianza.<br/><br/>
+
+Ofrecerte el mejor servicio es fácil cuando contamos con los mejores profesionales del sector. Además del mejor equipo humano, contamos con la maquinaria más moderna que nos permite llevar a cabo toda clase de <b>servicios especializados en saneamiento</b> con total facilidad. Tanto si necesitas que te construyamos un pozo como si precisas de que te limpiemos el tuyo, te podemos ayudar.<br/><br/>
+
+Damos soluciones específicas a cada uno de los problemas de nuestros clientes. Esto nos permite obtener unos mejores resultados gracias a la <b>atención personalizada</b> que brindamos.</p>
+
+"
+
 contenidoDescripcion: "
 
 <p>Cuando se trata de llevar a cabo un servicio de pocería, el buen resultado y la satisfacción del cliente es lo más importante y lo que más buscamos en Pociten. Esto es lo que llevamos haciendo durante más de 20 años y son los motivos que nos han servicio para posicionarnos como los líderes del sector durante todo este tiempo. Te ofrecemos unos servicios de pocería de calidad y al mejor precio del mercado. Si necesitas que te construyamos un pozo o llevemos a cabo desatascos en Illescas, queremos ser tus poceros de confianza.

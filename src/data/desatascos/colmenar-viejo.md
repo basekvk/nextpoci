@@ -22,15 +22,15 @@ parrafo: "Soluciones rápidas y efectivas para problemas de saneamiento en el Co
 
 #PARRAFO Primera pregunta
 
+descripcion: "<h2>Desatascos en Colmenar Viejo: Servicios expertos de limpieza y mantenimiento en Pociten</h2>
 
+<p>Los desatascos en Colmenar Viejo son fundamentales para mantener en buen estado los sistemas de alcantarillado. La empresa Pociten ofrece servicios especializados en limpieza y mantenimiento de tuberías, fosas sépticas, arquetas y pozos, garantizando la eficacia y la prevención de problemas futuros.</p>"
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
 
-<h2>Desatascos en Colmenar Viejo: Servicios expertos de limpieza y mantenimiento en Pociten</h2>
 
-<p>Los desatascos en Colmenar Viejo son fundamentales para mantener en buen estado los sistemas de alcantarillado. La empresa Pociten ofrece servicios especializados en limpieza y mantenimiento de tuberías, fosas sépticas, arquetas y pozos, garantizando la eficacia y la prevención de problemas futuros.</p>
 <h2>Desatascos en Colmenar Viejo: Importancia de un buen mantenimiento</h2>
 <p>El mantenimiento adecuado de los sistemas de alcantarillado y las fosas sépticas es fundamental para garantizar su correcto funcionamiento a lo largo del tiempo. En Colmenar Viejo, la realización de desatascos de forma regular y preventiva contribuye a prevenir obstrucciones y problemas más graves en las tuberías.</p>
 

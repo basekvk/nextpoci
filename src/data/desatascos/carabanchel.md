@@ -20,14 +20,11 @@ parrafo: "¡Desatascos profesionales en Carabanchel para mantener tus tuberías 
 
 #PARRAFO Primera pregunta
 
+descripcion: "<p>Carabanchel, uno de los distritos más grandes de Madrid, cuenta con una gran cantidad de viviendas y locales comerciales. El mantenimiento de las redes de saneamiento y desagües es esencial para evitar problemas como atascos, malos olores y filtraciones. En este artículo, exploraremos la importancia de contratar una empresa de desatascos en Carabanchel y los beneficios que ofrece la empresa Pociten.</p>"
 
 
-#Set inner Html con contenido variable
 
 contenidoDescripcion: "
-
-<p><strong>Carabanchel</strong>, uno de los distritos más grandes de Madrid, cuenta con una gran cantidad de viviendas y locales comerciales. El mantenimiento de las redes de saneamiento y desagües es esencial para evitar problemas como atascos, malos olores y filtraciones. En este artículo, exploraremos la importancia de contratar una empresa de desatascos en Carabanchel y los beneficios que ofrece la empresa <em>Pociten</em>.</p>
-
 <h2>👉 ¿Qué es una empresa de desatascos?</h2>
 
 <p>Una <a href='https://www.desatascos-madrid.com/services/empresa-de-desatascos'>empresa de desatascos</a> es un negocio especializado en la limpieza y desbloqueo de tuberías y desagües obstruidos. Estas empresas cuentan con personal capacitado y equipos especializados para hacer frente a una amplia gama de problemas de desatascos.</p>

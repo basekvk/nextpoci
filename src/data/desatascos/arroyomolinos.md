@@ -20,10 +20,10 @@ parrafo: "Elimina los problemas de tuberías con los servicios de desatascos de 
 
 
 
-#Set inner Html con contenido variable
 
-contenidoDescripcion: "
-<p>¿Buscas <strong>poceros expertos en Arroyomolinos</strong>? En <strong>Pociten</strong>, con más de 20 años de experiencia, somos líderes en trabajos de pocería y <a href='https://www.desatascos-madrid.com/desatascos/madrid'>desatascos en Madrid</a>. Ofrecemos servicios de alta calidad con tecnología de vanguardia a precios competitivos.</p>
+#Set inner Html con contenido variable
+descripcion: "
+
 
 <h2>¿Por qué elegir Pociten en Arroyomolinos?</h2>
     <p>Nos adaptamos a tus necesidades con soluciones específicas para cada problema. Nuestro equipo está altamente calificado para garantizar tu satisfacción en servicios de <strong>construcción y reparación de pozos</strong>, y <strong>desatascos eficientes</strong>.</p>

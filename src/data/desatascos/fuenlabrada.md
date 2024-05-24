@@ -19,12 +19,10 @@ detailSubTitle: 'Desatascos en Fuenlabrada: La Solución a tus Problemas de Atas
 parrafo: "Soluciones de desatascos confiables y efectivas en Fuenlabrada"
 
 #Set inner Html con contenido variable
+descripcion: "<h2>Desatascos Pociten: Soluciones Rápidas y Profesionales en Fuenlabrada</h2>
 
+<p>¿Necesitas un servicio de <strong>desatascos urgente en Fuenlabrada</strong>? En <strong>Desatascos Pociten</strong> somos tu equipo de confianza.  No importa si es un atasco en tu fregadero, una tubería obstruida o un problema mayor en tu sistema de saneamiento, llegamos en tiempo récord para solucionar cualquier emergencia.</p>"
 contenidoDescripcion: "
-<h2>Desatascos Pociten: Soluciones Rápidas y Profesionales en Fuenlabrada</h2>
-
-<p>¿Necesitas un servicio de <strong>desatascos urgente en Fuenlabrada</strong>? En <strong>Desatascos Pociten</strong> somos tu equipo de confianza.  No importa si es un atasco en tu fregadero, una tubería obstruida o un problema mayor en tu sistema de saneamiento, llegamos en tiempo récord para solucionar cualquier emergencia.</p>
-
 <h2>Nuestros servicios integrales incluyen:</h2>
 
 <ul>

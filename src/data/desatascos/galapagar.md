@@ -22,26 +22,26 @@ parrafo: "Soluciones rápidas y efectivas para problemas de saneamiento en el Ga
 
 #PARRAFO Primera pregunta
 
-
+descripcion: "<h2>Importancia de los Desatascos en Galapagar</h2>
+            <p>El mantenimiento regular de las tuberías y sistemas de alcantarillado es crucial para la infraestructura de cualquier municipio. En Galapagar, Pociten se destaca por su compromiso con la calidad y la eficiencia, ofreciendo <strong>servicios de desatrancos urgentes</strong>, <strong>limpieza de fosas sépticas</strong> e <strong>inspección de tuberías</strong> para mantener el sistema fluyendo sin contratiempos.</p>"
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
 
- <article>
-            <h2>Importancia de los Desatascos en Galapagar</h2>
-            <p>El mantenimiento regular de las tuberías y sistemas de alcantarillado es crucial para la infraestructura de cualquier municipio. En Galapagar, Pociten se destaca por su compromiso con la calidad y la eficiencia, ofreciendo <strong>servicios de desatrancos urgentes</strong>, <strong>limpieza de fosas sépticas</strong> e <strong>inspección de tuberías</strong> para mantener el sistema fluyendo sin contratiempos.</p>
-        </article>
 
-        <article>
+            
+       
+
+        
             <h2>Limpieza de Tuberías: Clave para un Sistema Eficiente</h2>
             <p>La prevención es esencial en el manejo de sistemas de alcantarillado. Por ello, la <strong>limpieza periódica de tuberías</strong> no solo previene obstrucciones, sino que también prolonga la vida útil del sistema, evitando costosas reparaciones a largo plazo.</p>
-        </article>
+      
 
-        <article>
+       
             <h2>Respuesta Rápida ante Emergencias: Desatascos Urgentes</h2>
             <p>Los imprevistos no esperan, y en Pociten lo sabemos. Nuestro servicio de <strong>desatascos urgentes</strong> está disponible para responder de manera inmediata a cualquier emergencia, minimizando así los daños y las molestias.</p>
-        </article>
+        
 
         
 

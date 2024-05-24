@@ -22,12 +22,12 @@ parrafo: "Desatascos en Las Rozas: Servicios de calidad con Desatascos Pociten"
 
 #PARRAFO Primera pregunta
 
-
+descripcion: "<p>En Desatascos Pociten, con más de 10 años en el sector de la pocería, nos hemos establecido como líderes en servicios de desatascos y mantenimiento de pozos en Las Rozas de Madrid y alrededores. Nuestra experiencia y uso de tecnología avanzada nos permiten ofrecer soluciones personalizadas y eficientes a cada uno de nuestros clientes.</p>"
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>En Desatascos Pociten, con más de un cuarto de siglo en el sector de la pocería, nos hemos establecido como líderes en servicios de desatascos y mantenimiento de pozos en Las Rozas de Madrid y alrededores. Nuestra experiencia y uso de tecnología avanzada nos permiten ofrecer soluciones personalizadas y eficientes a cada uno de nuestros clientes.</p>
+
 
 <h2>Servicios Personalizados y de Calidad en Desatascos Pociten</h2>
 <p>Nuestro enfoque se centra en brindar soluciones a medida para cada situación. Desde desatascos económicos en Las Rozas hasta reparaciones urgentes, estamos equipados para manejar cualquier problema de pocería con rapidez y eficiencia. Nuestro servicio 24/7 garantiza asistencia inmediata en caso de emergencias.</p>

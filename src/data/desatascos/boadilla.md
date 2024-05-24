@@ -28,7 +28,7 @@ parrafo: "Soluciones de desatascos en Boadilla del Monte con Desatascos Pociten:
 
 
 
-descripcion: "Como empresa de pocería, Desatascos Pociten tiene amplia experiencia en el área de desatascos y desatrancos en Boadilla. En este artículo, hablaremos sobre los problemas más comunes que los propietarios de viviendas y negocios en Boadilla enfrentan con el sistema de alcantarillado, y cómo nuestros servicios pueden ayudarles a resolverlos. Desde desatascar tuberías hasta limpiar fosas sépticas, cubrimos todo lo que necesitas saber para mantener tus sistemas de alcantarillado funcionando sin problemas."
+descripcion: "<p>Como empresa de pocería, Desatascos Pociten tiene amplia experiencia en el área de desatascos y desatrancos en Boadilla. En este artículo, hablaremos sobre los problemas más comunes que los propietarios de viviendas y negocios en Boadilla enfrentan con el sistema de alcantarillado, y cómo nuestros servicios pueden ayudarles a resolverlos. Desde desatascar tuberías hasta limpiar fosas sépticas, cubrimos todo lo que necesitas saber para mantener tus sistemas de alcantarillado funcionando sin problemas.</p>"
 detailDesc: ""
 #PARRAFO Segunda pregunta
 pregunta2: "¿Qué son los desatascos y desatrancos?"

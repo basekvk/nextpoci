@@ -23,10 +23,13 @@ parrafo: "Soluciones eficientes para el correcto funcionamiento del alcantarilla
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 
 <p>Los servicios de desatascos y obras de pocería son esenciales para el correcto funcionamiento de los sistemas de alcantarillado de cualquier ciudad. En Parla, estos servicios son ofrecidos por la empresa Desatascos Pociten, líder en el sector por su alta calidad de trabajo y su eficiencia en la solución de problemas.</p>
 <br>
+
+"
+contenidoDescripcion1: "
 <h2>Problemas comunes en el alcantarillado de Parla</h2>
 <p>El alcantarillado de Parla se enfrenta a diversos problemas que pueden afectar su correcto funcionamiento. Algunos de los más comunes son:</p>
 <br>
@@ -44,17 +47,6 @@ contenidoDescripcion: "
 <h3>Redes de saneamiento</h3>
 <p>Además de los servicios mencionados, Desatascos Pociten también ofrece la construcción y renovación de redes de saneamiento, lo que garantiza un correcto funcionamiento del sistema. También se encarga de la eliminación de residuos y limpieza de alcantarillas para evitar atascos y obstrucciones.</p>
 <p>La empresa cuenta con un equipo altamente capacitado y utiliza las últimas tecnologías en el sector para ofrecer soluciones rápidas y eficientes a cualquier problema en el alcantarillado de Parla.</p>
-"
-contenidoDescripcion1: "
-<h3>¿Cuándo se necesitan las obras de pocería?</h3>
-<p>Las obras de pocería son necesarias cuando se presentan problemas graves en las redes de saneamiento y alcantarillado, como roturas, fisuras o obstrucciones persistentes. También son necesarias para la renovación de sistemas antiguos o para la instalación de sistemas nuevos en zonas urbanas o rurales.</p>
-<br>
-<h3>Problemas en la red de saneamiento</h3>
-<p>Los problemas en la <a href='https://es.wikipedia.org/wiki/Red_de_saneamiento' >red de saneamiento</a> pueden deberse a diversas causas, como la falta de mantenimiento o la acumulación de sedimentos y materiales en los conductos. Estos problemas pueden provocar la acumulación de aguas residuales y la emisión de malos olores.</p>
-<br>
-<h2>Servicios de Poceros en Parla</h2>
-<p>Desatascos Pociten cuenta con un equipo de poceros profesionales altamente cualificados y con amplia experiencia en el sector de los desatascos y las obras de pocería. Entre los servicios que ofrece se encuentran:</p>
-<br>
 
 "
 

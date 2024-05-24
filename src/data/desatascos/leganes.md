@@ -22,7 +22,7 @@ parrafo: "Elimina los problemas de tuberías con los servicios de desatascos de 
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 <p>En <strong>Desatascos Pociten</strong> ponemos a disposición de nuestros clientes toda nuestra experiencia en servicios de pocería. Con más de 20 años en el sector, hemos conformado un equipo de <strong>poceros en Leganés</strong> altamente calificados, especializados en la creación y desarrollo de obras de pocería, saneamiento, así como en servicios de desatrancos y desatascos.</p>
 
 <p>Nuestros trabajadores son profesionales expertos con la titulación y preparación necesaria para garantizar un servicio eficaz y de calidad. Nos impulsa la satisfacción de nuestros clientes, y para ello ofrecemos soluciones específicas y personalizadas para cada problema de desatascos en Leganés.</p>

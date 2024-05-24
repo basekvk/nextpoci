@@ -22,11 +22,11 @@ parrafo: "Soluciones de desatascos en Arganda con Desatascos Pociten: Tecnologí
 
 
 
-descripcion: "Los problemas de pocería son un dolor de cabeza para muchas personas, y cuando se trata de desatascos y desatrancos, la situación puede ser especialmente frustrante. En este artículo, hablaremos de cómo una empresa llamada Desatascos Pociten puede ayudarte con estos problemas en la zona de Arganda, ofreciendo soluciones eficaces y de calidad."
+descripcion: "<p>Antes de hablar de nuestras soluciones, es importante que conozcas un poco sobre nosotros. <b>Desatascos Pociten</b> es una empresa de <b>pocería y desatascos</b> que trabaja en la zona de <b>Arganda del Rey</b> y alrededores. Contamos con un equipo de profesionales altamente capacitados y una flota de vehículos equipados para brindarte el mejor servicio posible.</p>"
 detailDesc: ""
 #PARRAFO Segunda pregunta
-pregunta2: "¿Quiénes somos?"
-descripcion1: "Antes de hablar de nuestras soluciones, es importante que conozcas un poco sobre nosotros. Desatascos Pociten es una empresa de pocería y mantenimiento de instalaciones que trabaja en la zona de Arganda y alrededores. Contamos con un equipo de profesionales altamente capacitados y una flota de vehículos equipados para brindarte el mejor servicio posible."
+pregunta2: 
+descripcion1: 
 descripcion2: 
 
 #PARRAFO Tercera pregunta

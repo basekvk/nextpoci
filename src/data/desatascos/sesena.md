@@ -22,7 +22,7 @@ parrafo: "Mantén tus redes de alcantarillado y saneamiento en perfecto estado c
 
 
 
-descripcion: "Si hay algo que preocupa a los vecinos de Seseña, es el adecuado mantenimiento de las redes de alcantarillado y saneamiento. Una obstrucción en las tuberías puede causar graves problemas de salud y medio ambiente, además de la incomodidad que implica. Por suerte, existe una empresa que se preocupa por ofrecer servicios profesionales y de calidad en desatascos y obras de pocería en Seseña, y esa empresa se llama Desatascos Pociten."
+descripcion: "<p>Si hay algo que preocupa a los vecinos de Seseña, es el adecuado mantenimiento de las redes de alcantarillado y saneamiento. Una obstrucción en las tuberías puede causar graves problemas de salud y medio ambiente, además de la incomodidad que implica. Por suerte, existe una empresa que se preocupa por ofrecer servicios profesionales y de calidad en desatascos y obras de pocería en Seseña, y esa empresa se llama Desatascos Pociten.</p>"
 detailDesc: ""
 
 #PARRAFO Segunda pregunta

@@ -29,7 +29,7 @@ pregunta: '¿Quieres acondicionar las tuberías fecales o pluviales y no sabes a
 
 descripcion: 'Llevamos a cabo toda clase de Obras de Alcantarillado en Alcobendas y alrededores, ofreciéndote un equipo profesional equipado con la mejor tecnología. '
 
-descripcion1: "Si vives en Alcobendas y estás buscando una empresa de desatascos confiable y eficiente, has llegado al lugar adecuado. Nuestra empresa de desatascos en Alcobendas está especializada en resolver cualquier problema relacionado con desatascos y desatrancos en la zona. Con años de experiencia en el sector y un equipo de poceros altamente cualificados, estamos en la mejor posición para ofrecerte los mejores servicios de desatascos en Alcobendas. "
+descripcion1: "<p>Si vives en Alcobendas y estás buscando una empresa de desatascos confiable y eficiente, has llegado al lugar adecuado. Nuestra empresa de desatascos en Alcobendas está especializada en resolver cualquier problema relacionado con desatascos y desatrancos en la zona. Con años de experiencia en el sector y un equipo de poceros altamente cualificados, estamos en la mejor posición para ofrecerte los mejores servicios de desatascos en Alcobendas. </p>"
 
 detailDesc: 'Nos esforzamos por ofrecer un servicio de alta calidad a un precio razonable, y nos enorgullece ser reconocidos como una de las empresas de desatascos más confiables y eficientes en Alcobendas. No importa si tienes un problema con las tuberías de tu hogar o de tu negocio, nuestro equipo de poceros está a tu disposición para solucionarlo de manera rápida y eficaz.'
 

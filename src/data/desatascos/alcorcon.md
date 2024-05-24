@@ -22,19 +22,21 @@ parrafo: "¡Resuelve tus problemas de desatascos en Alcorcón con Desatascos Poc
 
 #PARRAFO Primera pregunta
 
-
-
-
-
-#Set inner Html con contenido variable
-
-contenidoDescripcion: "
+descripcion: "
 <h2><strong>Poceros en Alcorcón</strong></h2>
 <p>En <strong>Desatascos Pociten</strong>, llevamos más de 25 años ofreciendo servicios relacionados con la pocería. Si necesitas poceros en Alcorcón, contamos con un equipo humano altamente cualificado y tecnología de vanguardia. Nuestro compromiso es brindarte la mejor experiencia y servicio económico.</p>
 
 <p>Nuestro personal está especializado en todo tipo de servicios de saneamiento. Desde la construcción y desarrollo de pozos hasta ofrecerte un servicio altamente profesional.</p>
 
 <p>Abogamos por un estudio individual y soluciones específicas para cada uno de nuestros clientes.</p>
+"
+
+
+
+#Set inner Html con contenido variable
+
+contenidoDescripcion: "
+
 
 <h3><strong>Desatascos en Alcorcón</strong></h3>
 <p>Te ofrecemos una experiencia inigualable y somos los más económicos en toda la Comunidad de Madrid en cuanto a servicios de pocería se refiere.</p>

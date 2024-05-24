@@ -26,7 +26,7 @@ parrafo: "Descubre los precios más competitivos en desatrancos en Ciempozuelos.
 
 
 
-descripcion: "¿Resides en Ciempozuelos o alrededores y enfrentas problemas de tuberías obstruidas? En Desatascos Pociten, estamos listos para asistirte con soluciones expertas en desatascos y desatrancos, ideales para situaciones complejas que requieren atención profesional."
+descripcion: "<p>¿Resides en Ciempozuelos o alrededores y enfrentas problemas de tuberías obstruidas? En Desatascos Pociten, estamos listos para asistirte con soluciones expertas en desatascos y desatrancos, ideales para situaciones complejas que requieren atención profesional.</p>"
 detailDesc: "Te presentamos los servicios de desatascos y desatrancos que ofrecemos en Ciempozuelos. Desde sus servicios básicos hasta los más especializados, te mostramos cómo podemos resolver tus problemas de tuberías de manera efectiva y eficiente."
 #PARRAFO Segunda pregunta
 pregunta2: "¿Qué hace única a Desatascos Pociten?"

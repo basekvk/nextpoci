@@ -23,13 +23,14 @@ parrafo: "Soluciones Eficaces y Rápidas para Todos Tus Problemas de Atascos y P
 
 
 
-descripcion: ""
+descripcion:  "<h2><strong>Desatascos en San Sebastián de los Reyes: Un servicio completo</strong></h2>
+<p>En el corazón de nuestra comunidad, <strong>San Sebastián de los Reyes</strong>, hay un equipo de profesionales dedicados que trabajan las 24 horas del día, los 7 días de la semana, para mantener el flujo de nuestros sistemas de drenaje. ¿Pero realmente conoces la importancia de este servicio? ¿O cómo pueden ayudarte estos expertos en tu hogar o negocio?</p>"
 detailDesc: ""
 
 
 #PARRAFO Segunda pregunta
 pregunta2: 
-descripcion1: ""
+descripcion1:
 descripcion2: ""
 
 #PARRAFO Tercera pregunta
@@ -40,8 +41,7 @@ descripcion3:
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<h2><strong>Desatascos en San Sebastián de los Reyes: Un servicio completo</strong></h2>
-<p>En el corazón de nuestra comunidad, <strong>San Sebastián de los Reyes</strong>, hay un equipo de profesionales dedicados que trabajan las 24 horas del día, los 7 días de la semana, para mantener el flujo de nuestros sistemas de drenaje. ¿Pero realmente conoces la importancia de este servicio? ¿O cómo pueden ayudarte estos expertos en tu hogar o negocio?</p>
+
 
 <h2><strong>¿Por qué es importante el servicio de desatascos?</strong></h2>
 <h3><strong>El impacto de los atascos</strong></h3>

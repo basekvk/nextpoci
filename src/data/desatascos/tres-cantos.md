@@ -18,13 +18,13 @@ detailSubTitle: 'Desatascos en Tres Cantos - Servicio Urgente 24 Horas'
 #PARRAFO slider
 parrafo: "Elimina los problemas de tuberías con los servicios de Desatascos Pociten en Tres Cantos"
 
+descripcion: "<p>Con Desatascos Pociten en Tres Cantos, siempre tendrás a tu disposición un equipo de profesionales altamente experimentados en desatrancos en Madrid. Estamos equipados para ofrecerte soluciones ideales a cualquier problema de tuberías, incluyendo atascos, fugas, humedades, limpieza de tuberías, localización de arquetas, vaciado y limpieza de pozos sépticos, y mucho más</p>
 
+<p>No importa la hora o el lugar, proporcionamos atención inmediata a tu problema. Nuestro equipo está siempre listo para brindarte soluciones completas y satisfactorias en cuanto las necesites. Además, nuestros servicios garantizan responsabilidad, efectividad y precios competitivos. No dudes en contactarnos, estamos aquí para ayudarte.</p>"
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<p>Con Desatascos Pociten en Tres Cantos, siempre tendrás a tu disposición un equipo de profesionales altamente experimentados en desatrancos en Madrid. Estamos equipados para ofrecerte soluciones ideales a cualquier problema de tuberías, incluyendo atascos, fugas, humedades, limpieza de tuberías, localización de arquetas, vaciado y limpieza de pozos sépticos, y mucho más</p>
 
-<p>No importa la hora o el lugar, proporcionamos atención inmediata a tu problema. Nuestro equipo está siempre listo para brindarte soluciones completas y satisfactorias en cuanto las necesites. Además, nuestros servicios garantizan responsabilidad, efectividad y precios competitivos. No dudes en contactarnos, estamos aquí para ayudarte.</p>
 
 
 "

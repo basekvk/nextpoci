@@ -19,10 +19,7 @@ detailSubTitle: 'Desatascos en Algete - Servicio Urgente 24 Horas'
 parrafo: "Elimina los problemas de tuberías con los servicios de Desatascos Pociten en Algete"
 
 
-
-#Set inner Html con contenido variable
-
-contenidoDescripcion: "
+descripcion: "
 
 <p>En <strong>Desatascos Pociten</strong>, estamos especializados en <strong>desatrancos urgentes en Algete</strong>, disponibles todos los días del año. Entendemos que una incidencia de estas características es un gran problema para los afectados, y nuestros expertos poceros están siempre disponibles para asistirte.</p>
     
@@ -30,6 +27,11 @@ contenidoDescripcion: "
     
     <p>Nuestra calidad está garantizada. Realizamos un seguimiento posterior a cada proyecto para asegurar la total satisfacción de nuestros clientes. Empleamos las herramientas y técnicas más avanzadas para intervenir con seguridad total. <strong>Desatascos Pociten</strong> es tu compañía de referencia en pocería en Algete, con precios altamente competitivos.</p>
 "
+
+
+#Set inner Html con contenido variable
+
+contenidoDescripcion: 
 contenidoDescripcion1: "
 
 <h2>Desatrancos en Algete</h2>

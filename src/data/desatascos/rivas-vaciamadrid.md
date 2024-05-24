@@ -20,13 +20,13 @@ detailSubTitle: 'Desatascos Pociten ofrece servicios de desatascos y pocería 24
 parrafo: "Nuestros Expertos en Desatascos en Rivas están listos para ayudarte"
 
 #PARRAFO Primera pregunta
+descripcion: "<h2>Desatrancos en Rivas Vaciamadrid -Tu Servicio de Pocería de Confianza</h2>
 
+<p>En <strong>Desatascos Pociten</strong>, somos expertos en <em>desatrancos en Rivas Vaciamadrid</em>. Con un servicio disponible <strong>24 horas al día</strong>, nuestros profesionales están preparados para responder a todas tus necesidades de desatascos urgentes en Rivas Vaciamadrid, sin importar la hora ni el día.</p>"
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
-<h2>Desatrancos en Rivas Vaciamadrid -Tu Servicio de Pocería de Confianza</h2>
 
-<p>En <strong>Desatascos Pociten</strong>, somos expertos en <em>desatrancos en Rivas Vaciamadrid</em>. Con un servicio disponible <strong>24 horas al día</strong>, nuestros profesionales están preparados para responder a todas tus necesidades de desatascos urgentes en Rivas Vaciamadrid, sin importar la hora ni el día.</p>
 
 <h2>Desatascos de Calidad a tu Servicio</h2>
 

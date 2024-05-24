@@ -23,7 +23,7 @@ parrafo: "Desatascos y Obras de Pocería: Soluciones Rápidas y Efectivas para s
 
 
 
-descripcion: "En Desatascos Pociten, nos enorgullece ofrecer soluciones efectivas y de alta calidad para desatascos y obras de pocería en Pozuelo y sus alrededores. Como empresa especializada en la limpieza y mantenimiento de redes de saneamiento, nos comprometemos a garantizar el correcto funcionamiento de las tuberías y alcantarillas de nuestros clientes, evitando problemas como atascos, inundaciones y olores desagradables."
+descripcion: "<p>En Desatascos Pociten, nos enorgullece ofrecer soluciones efectivas y de alta calidad para desatascos y obras de pocería en Pozuelo y sus alrededores. Como empresa especializada en la limpieza y mantenimiento de redes de saneamiento, nos comprometemos a garantizar el correcto funcionamiento de las tuberías y alcantarillas de nuestros clientes, evitando problemas como atascos, inundaciones y olores desagradables.</p>"
 detailDesc: "Cuando se trata de problemas de alcantarillado y tuberías, es importante contar con una empresa especializada en desatascos y obras de pocería en Pozuelo y sus alrededores. En Desatascos Pociten, nos enorgullecemos de ofrecer soluciones de alta calidad para garantizar que su sistema de alcantarillado y tuberías funcione correctamente."
 
 #PARRAFO Segunda pregunta

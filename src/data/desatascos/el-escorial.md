@@ -22,16 +22,16 @@ parrafo: "Soluciones rápidas y efectivas para problemas de saneamiento en el Es
 
 #PARRAFO Primera pregunta
 
+descripcion: "<h2>Desatascos en El Escorial - Redes de Saneamiento</h2>
 
+<p>En El Escorial, la eficiencia de las redes de saneamiento es crucial para el bienestar de la comunidad. Los servicios de <strong>desatascos en El Escorial</strong> son esenciales para mantener el flujo óptimo del sistema de alcantarillado, evitando inconvenientes y posibles problemas de salud pública.</p>"
 
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
 
 
-<h2>Desatascos en El Escorial - Redes de Saneamiento</h2>
 
-<p>En El Escorial, la eficiencia de las redes de saneamiento es crucial para el bienestar de la comunidad. Los servicios de <strong>desatascos en El Escorial</strong> son esenciales para mantener el flujo óptimo del sistema de alcantarillado, evitando inconvenientes y posibles problemas de salud pública.</p>
 
 <h2>¿Por qué son importantes los desatascos en El Escorial?</h2>
 

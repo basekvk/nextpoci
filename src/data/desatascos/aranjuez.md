@@ -21,7 +21,7 @@ parrafo: "Soluciones de desatascos en Aranjuez con Desatascos Pociten: Tecnolog�
 
 
 
-descripcion: "Las tuberías de nuestra casa o empresa son fundamentales para el correcto funcionamiento de la instalación de pocería. Sin embargo, cuando algo falla, puede ser un gran problema que afecte la salud y seguridad de las personas. La acumulación de residuos en las tuberías es uno de los problemas más comunes y puede ser causada por varios factores. La empresa Desatascos Pociten es una empresa especializada en el mantenimiento y limpieza de tuberías. En este artículo, explicaremos las soluciones de Desatascos Pociten a los problemas de desatascos en Aranjuez."
+descripcion: "<p>Las tuberías de nuestra casa o empresa son fundamentales para el correcto funcionamiento de la instalación de pocería. Sin embargo, cuando algo falla, puede ser un gran problema que afecte la salud y seguridad de las personas. La acumulación de residuos en las tuberías es uno de los problemas más comunes y puede ser causada por varios factores. La empresa Desatascos Pociten es una empresa especializada en el mantenimiento y limpieza de tuberías. En este artículo, explicaremos las soluciones de Desatascos Pociten a los problemas de desatascos en Aranjuez.</p>"
 detailDesc: ""
 #PARRAFO Segunda pregunta
 pregunta2: "¿Qué son los desatascos en Aranjuez?"

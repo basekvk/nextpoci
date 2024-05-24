@@ -18,14 +18,13 @@ detailSubTitle: 'Desatascos en San Fernando de Henares - Servicio Urgente 24 Hor
 #PARRAFO slider
 parrafo: "Elimina los problemas de tuberías con los servicios de Desatascos Pociten en San Fernando de Henares"
 
-
+descripcion: "<p>En Desatascos Pociten, nos destacamos por realizar nuestras labores de desatrancos y pocería con los expertos más competentes en San Fernando de Henares, proporcionando un servicio de pocería insuperable. Utilizamos métodos avanzados para desatascar, como equipos de alta presión, garantizando una limpieza completa de las redes de saneamiento. Este proceso no solo soluciona los atascos existentes sino que también previene futuros problemas, dejando las tuberías en estado óptimo.</p>
+<p>Si requieres de nuestra asistencia, no dudes en contactarnos. Respondemos con la mayor rapidez a tu llamado, ofreciendo nuestros servicios las 24 horas del día, todos los días del año. Nos encargamos de desatascar colectores generales, arquetas, sumideros, tuberías, rejillas, botes sifónicos, así como instalaciones en cocinas y baños, siempre buscando la mayor comodidad para nuestros clientes.</p>"
 #Set inner Html con contenido variable
 
 contenidoDescripcion: "
 
-<h2></h2>
-<p>En Desatascos Pociten, nos destacamos por realizar nuestras labores de desatrancos y pocería con los expertos más competentes en San Fernando de Henares, proporcionando un servicio de pocería insuperable. Utilizamos métodos avanzados para desatascar, como equipos de alta presión, garantizando una limpieza completa de las redes de saneamiento. Este proceso no solo soluciona los atascos existentes sino que también previene futuros problemas, dejando las tuberías en estado óptimo.</p>
-<p>Si requieres de nuestra asistencia, no dudes en contactarnos. Respondemos con la mayor rapidez a tu llamado, ofreciendo nuestros servicios las 24 horas del día, todos los días del año. Nos encargamos de desatascar colectores generales, arquetas, sumideros, tuberías, rejillas, botes sifónicos, así como instalaciones en cocinas y baños, siempre buscando la mayor comodidad para nuestros clientes.</p>
+
 
 <h2>Poceros en San Fernando de Henares</h2>
 <p>Nuestros poceros disponen de vehículos especializados, estos están equipados con cámaras de TV y detectores de arquetas, lo que nos permite localizar con precisión cualquier elemento oculto y su profundidad.<br><br> Tras limpiar la instalación, usamos cámaras de inspección para verificar el estado de la red, y ofrecemos imagenes de alta calidad para mostrar el resultado de la limpieza. Nuestros precios son económicos, asegurando soluciones eficaces y seguras.</p>

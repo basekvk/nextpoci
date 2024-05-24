@@ -22,7 +22,7 @@ parrafo: "Mantén tus redes de alcantarillado y saneamiento en perfecto estado c
 
 
 
-descripcion: "Los desatascos en Toledo son comunes y pueden surgir en cualquier momento. En Pociten ofrecemos soluciones integrales. Con más de 15 años de experiencia, garantizamos calidad y eficacia en desatrancos urgentes las 24 horas, los 365 días. Nuestros servicios incluyen limpieza de alcantarillado, reparación de tuberías sin zanja, vaciado de fosas sépticas y detección de fugas de agua con cámaras de TV. Camiones cuba garantizan desatascos efectivos con agua a alta presión."
+descripcion: "<p>Los desatascos en Toledo son comunes y pueden surgir en cualquier momento. En Pociten ofrecemos soluciones integrales. Con más de 15 años de experiencia, garantizamos calidad y eficacia en desatrancos urgentes las 24 horas, los 365 días. Nuestros servicios incluyen limpieza de alcantarillado, reparación de tuberías sin zanja, vaciado de fosas sépticas y detección de fugas de agua con cámaras de TV. Camiones cuba garantizan desatascos efectivos con agua a alta presión.</p>"
 
 
 #Set inner Html con contenido variable

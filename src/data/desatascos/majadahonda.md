@@ -29,7 +29,7 @@ parrafo: "Soluciones rápidas y efectivas para desatascos y obras de pocería en
 
 
 
-descripcion: "Si tienes problemas de desatascos o necesitas realizar obras de pocería en Majadahonda, no busques más. Desatascos Pociten es la empresa líder en soluciones de fontanería y pocería en la zona. Con años de experiencia en el sector, nuestros expertos están capacitados para brindarte el mejor servicio de manera rápida, eficiente y a un precio justo. En este artículo, te contamos todo lo que necesitas saber sobre desatascos y obras de pocería en Majadahonda."
+descripcion: "<p>Si tienes problemas de desatascos o necesitas realizar obras de pocería en Majadahonda, no busques más. Desatascos Pociten es la empresa líder en soluciones de fontanería y pocería en la zona. Con años de experiencia en el sector, nuestros expertos están capacitados para brindarte el mejor servicio de manera rápida, eficiente y a un precio justo. En este artículo, te contamos todo lo que necesitas saber sobre desatascos y obras de pocería en Majadahonda.</p>"
 detailDesc: ""
 
 #PARRAFO Segunda pregunta
