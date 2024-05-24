@@ -17,17 +17,8 @@ function ServiceContent({ service}) {
     <div className="px-4 lg:px-8 xl:px-16 pt-10 md:pt-10 lg:pt-10 pb-12 md:pb-24 lg:pb-36">
       <div className="flex flex-col items-center ">
         <div className="w-full max-w-4xl">
-          <Image
-            width={845}
-            height={475}
-            src={imagePath}
-            alt={service?.title}
-            priority
-            className="w-full h-auto"
-          />
-          <h2 className="mt-12 mb-6 text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-center">
-          {service?.title2}
-          </h2>
+         
+          
           <h2 className="bg-[#003a70] text-center text-white py-2 mb-6 text-lg lg:text-xl xl:text-2xl font-medium">
           {service?.detailSubTitle}
           </h2>
