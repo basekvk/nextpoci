@@ -35,18 +35,20 @@ function ServiceContent({ service}) {
         <p className="mb-10 text-lg text-justify">
           {service?.detailDesc}
         </p>
+        <ProductCluster localidad={service?.lugar} />
         <h2 className="mb-10 text-3xl font-medium text-justify">
           {service?.pregunta2}
         </h2>
         <p className="mb-10 text-lg text-justify">
           {service?.descripcion1}
         </p>
+        <CallToAction text={service?.title} />
         <div
           className="mb-10 text-lg text-justify"
           dangerouslySetInnerHTML={{ __html: service?.contenidoDescripcion }}
         />
-        <ProductCluster localidad={service?.lugar} />
-        <CallToAction text={service?.title} />
+        
+        
         <p className="mb-10 text-lg text-justify">
           {service?.descripcion2}
         </p>
@@ -79,7 +81,7 @@ function ServiceContent({ service}) {
         <p className="mb-10 text-lg text-justify">
           {service?.descripcion4}
         </p>
-        <CallToAction1 />
+        <CallToAction1 lugar={service?.lugar} />
         <p className="mb-10 text-lg text-justify">
           {service?.descripcion41}
         </p>
@@ -100,12 +102,7 @@ function ServiceContent({ service}) {
         dangerouslySetInnerHTML={{ __html: service.contenido }}
       />
 
-      <div className="text-center mt-12 p-8 rounded-lg bg-[#003a70] text-white">
-        <a href="tel:647376782" className="text-white">
-          <h4 className="text-2xl font-bold">📞 {service?.title} - 24 Horas 647 376 782</h4>
-          <p className="text-white">Haz click aquí para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
-        </a>
-      </div>
+     
       <Areastrabajo />
      
       {service.accordionData ? <Acordeon accordionData={service?.accordionData} /> : null}
