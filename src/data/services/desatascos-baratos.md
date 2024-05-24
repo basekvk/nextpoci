@@ -20,7 +20,7 @@ parrafo: "Soluciones de calidad a precios accesibles con Desatascos Pociten"
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 <p>Como empresa especializada en desatascos, Desatascos Pociten está comprometida con ofrecer soluciones de calidad a precios accesibles. Nuestra experiencia en el campo nos permite brindar servicios confiables y eficientes, asegurando la satisfacción total de nuestros clientes. En este artículo, hablaremos de los desatascos baratos y cómo Desatascos Pociten se destaca en el mercado.</p>
 <br>
 <h2>¿Por qué elegir a Desatascos Pociten para los desatascos baratos?</h2>
@@ -28,7 +28,10 @@ contenidoDescripcion: "
 <br>
 <br>
 
-<h2>¿Qué servicios de desatasco ofrece Desatascos Pociten?</h2>
+
+"
+
+contenidodescripcion: "<h2>¿Qué servicios de desatasco ofrece Desatascos Pociten?</h2>
 <p>En Desatascos Pociten ofrecemos una amplia gama de servicios de <a href='https://www.desatascos-madrid.com'>desatasco</a> para satisfacer las necesidades de nuestros clientes. Algunos de nuestros servicios incluyen:</p>
 
 <h3>Desatasco de tuberías</h3>
@@ -40,8 +43,7 @@ contenidoDescripcion: "
 
 <h3>Limpieza de fosas sépticas</h3>
 <p>La <a href='https://www.desatascos-madrid.com/services/limpieza-fosas-septicas'>limpieza de fosas sépticas</a> es un servicio esencial para mantener un sistema de alcantarillado en buen estado. En Desatascos Pociten, ofrecemos servicios de limpieza de fosas sépticas eficientes y a precios accesibles.</p>
-<br>
-"
+<br>"
 contenidoDescripcion1: "<h2>¿Cómo se lleva a cabo un servicio de desatasco en Desatascos Pociten?</h2>
 <p>En Desatascos Pociten, nos enfocamos en ofrecer un servicio completo que incluye diagnóstico, solución y prevención. Cuando se solicita un servicio de desatasco, nuestro equipo de expertos se desplaza al lugar para identificar y solucionar el problema de manera eficiente y rápida. Además, brindamos asesoría para prevenir futuros problemas de desatasco.</p>
 

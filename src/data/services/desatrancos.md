@@ -19,7 +19,7 @@ parrafo: "Resuelve tus problemas de tuberías con Desatascos Pociten"
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 <p>Como empresa líder en soluciones de pocería en Madrid, en Desatascos Pociten nos especializamos en servicios de desatrancos. Nuestro equipo de profesionales altamente capacitados y experimentados está equipado con herramientas de última generación para abordar cualquier problema de obstrucción de tuberías, desde pequeñas obstrucciones hasta grandes bloqueos que pueden causar daños graves en tu hogar o negocio.</p>
 <br>
 <h2>¿Qué son los desatrancos?</h2>

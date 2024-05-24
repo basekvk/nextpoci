@@ -18,7 +18,7 @@ detailSubTitle: 'Obras de Pocería: Descubre cómo Desatascos Pociten puede ayud
 parrafo: "La importancia del mantenimiento y gestión de redes de alcantarillado"
 
 
-contenidoDescripcion: "
+descripcion: "
 <p>Si estás experimentando problemas de drenaje en tu hogar o empresa, es posible que necesites los servicios de una empresa de pocería confiable y eficiente. En este artículo, presentamos a Desatascos Pociten, una empresa especializada en obras de pocería que se ha ganado una reputación sólida en el mercado gracias a su enfoque profesional, experiencia y calidad de servicio.</p>
 <br>
 <h2>¿Qué es Desatascos Pociten?</h2>

@@ -21,7 +21,7 @@ detailSubTitle: 'Servicio de Achique de Agua profesional y garantizado'
 parrafo: 'Solución a las inundaciones de sótanos, garajes, trasteros, etc.. 24 horas a tu servicio'
 
 
-contenidoDescripcion: "
+descripcion: "
 <h2>Achiques de Agua en Inundaciones: Respuesta Inmediata y Eficaz</h2>
 <p>Enfrentar las inundaciones requiere de un servicio de pocería urgente y confiable. En Desatascos Pociten, estamos disponibles las 24 horas para atender rápidamente estas emergencias y proporcionar al cliente achiques de agua, asegurando una evacuación efectiva del agua acumulada.</p>
 

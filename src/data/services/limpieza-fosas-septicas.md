@@ -1,6 +1,6 @@
 ---
 id: 'service-9'
-title: 'Limpieza y Mantenimiento Fosas Sépticas'
+title: 'Limpieza, Vaciado y Mantenimiento Fosas Sépticas'
 titleMeta: "Limpieza, Vaciado y Mantenimiento de Fosas Sépticas | Pociten"
 canonical: https://www.desatascos-madrid.com/services/limpieza-fosas-septicas
 
@@ -21,7 +21,7 @@ detailSubTitle: 'Limpieza, Vaciado y Mantenimiento de Fosas Sépticas: La Experi
 parrafo: "Expertos en Limpieza, Vaciado y Mantenimiento de Fosas Sépticas. ¡Calidad y Servicio sin Compromiso!"
 
 
-contenidoDescripcion: "
+descripcion: "
 
 <p>En <strong>Desatascos Pociten</strong>, somos expertos cuando se trata de la limpieza, vaciado y mantenimiento de fosas sépticas. Con mas de 25 años de experiencia y un equipo de expertos altamente capacitados, nos satisface brindar servicios excepcionales a todos nuestros clientes. Pero, ¿qué nos hace diferentes? Veamos.</p>
 
@@ -36,6 +36,7 @@ contenidoDescripcion: "
 <p>Cada fosa séptica es diferente y requiere un enfoque distinto. Nosotros en Desatascos Pociten, entendemos esto y personalizamos nuestros servicios de limpieza para satisfacer las necesidades únicas de cada cliente. Así, no sólo realizamos una limpieza efectiva, sino que también garantizamos la longevidad de su sistema séptico.</p>
 
 "
+
 contenidoDescripcion1: "<h2>Nuestro Enfoque para el Vaciado de Fosas Sépticas</h2>
 
 <h3>Operaciones Seguras y Eficientes</h3>

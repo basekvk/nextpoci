@@ -8,6 +8,7 @@ import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 import Problemas from '../../components/problemas';
 import ContactForm from '../../components/form-page';
 import RichSnippets from '../../components/RichSnippets';
+import BannerMini from '../../components/bannermini';
 
 function ServiceDetailsPage({
     service,
@@ -54,15 +55,15 @@ function ServiceDetailsPage({
                 />
             </Head>
 
-            <Breadcrumb
-                subTitle="Servicios"
+            <BannerMini
+                subTitle="Áreas de Servicio"
                 title={service.title}
                 desc={service.parrafo}
             />
             
             <ServiceDetail service={service} />   
             
-            <Problemas />     
+                
            
             <ContactForm contactItemsForm={contactItemsForm} />
             <RichSnippets

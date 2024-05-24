@@ -1,6 +1,6 @@
 ---
 id: 'service-02'
-title: 'Desatasco Tuberías'
+title: 'Desatasco de Tuberías'
 canonical: https://www.desatascos-madrid.com/services/desatasco-de-tuberias
 
 mediumImage: 'desatasco-de-tuberias.webp'
@@ -22,7 +22,7 @@ parrafo: "Soluciones de desatascos de tuberías personalizadas para su hogar o n
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 <p>Como expertos en el mantenimiento y <a href='https://www.desatascos-madrid.com'>desatascos</a> de tuberías, en Desatascos Pociten, entendemos la importancia de tener tuberías limpias y en buen estado para garantizar un sistema de pocería que funcione correctamente. En este artículo, compartiré mi experiencia como miembro del equipo de Desatascos Pociten y discutiré algunos de los principales desafíos que enfrentamos y cómo los superamos.</p>
 <br>
 <h2>¿Qué es la limpieza de tuberías?</h2>

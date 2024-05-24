@@ -12,7 +12,7 @@ detailBreadcrumbSubTitle: 'Nuestros camiones Cuba están listos para salir a res
 detailBreadcrumbDesc: 'Camión Cuba'
 title2: ''
 #PARRAFO color negro de fondo y letras en verde
-detailSubTitle: 'Nuestros Camiones Cuba están listos para afrontar cualquier tipo de desatasco'
+detailSubTitle: 'Nuestros Camiones Cuba para desatascos están listos para afrontar cualquier tipo de problema'
 
 #PARRAFO slider
 parrafo: 'Nuestros Camiones Cuba están listos para salir a resolver tu problema en cuanto nos llames. Ofrecemos el mejor servicio con la mayor calidad del mercado unida con la última tenología.'
@@ -21,16 +21,16 @@ parrafo: 'Nuestros Camiones Cuba están listos para salir a resolver tu problema
 
 
 
-contenidoDescripcion: "
+descripcion: "
 
 <h2>Camiones cuba desatascos: Servicios profesionales de pocería en Madrid, Guadalajara y Toledo</h2>
-<p>El camión cuba para desatascos es un vehículo especializado diseñado para limpiar tuberías, fosas sépticas y arquetas. Gracias a su sistema de impulsor-absorción, puede desobstruir y vaciar distintas instalaciones. Con componentes como el depósito de agua, bombas de presión y succión, ofrece eficiencia y rapidez en la solución de atascos. Adaptado a diferentes terrenos y accesos difíciles, es una opción confiable y económica. En Madrid, Guadalajara y Toledo, nuestros servicios profesionales de <a href='https://www.desatascos-madrid.com'>desatascos</a> con camión cuba garantizan alta calidad y experiencia en el sector de la pocería. Importante también la inspección de tuberías con cámara TV para evitar inundaciones.</p>
+<p>El camión cuba para desatascos es un vehículo especializado diseñado para limpiar tuberías, fosas sépticas y arquetas. Gracias a su sistema de impulsor-absorción, puede desobstruir y vaciar distintas instalaciones.<br><br> Con componentes como el depósito de agua, bombas de presión y succión, ofrece eficiencia y rapidez en la solución de atascos. Adaptado a diferentes terrenos y accesos difíciles, es una opción confiable y económica. En Madrid, Guadalajara y Toledo, nuestros servicios profesionales de <a href='https://www.desatascos-madrid.com'>desatascos</a> con camión cuba garantizan alta calidad y experiencia en el sector de la pocería. Importante también la inspección de tuberías con cámara TV para evitar inundaciones.</p>
 
 
 <h2>¿Qué es un camión cuba para desatascos?</h2>
 <p>Un camión cuba para desatascos es un vehículo especializado diseñado específicamente para llevar a cabo trabajos de limpieza y desobstrucción de tuberías, así como el vaciado de fosas sépticas, arquetas y pozos negros. Se trata de una herramienta imprescindible en el sector de la pocería y desatascos, ya que su diseño y funcionamiento permiten abordar con eficacia y rapidez los problemas relacionados con atascos y acumulación de residuos.</p>
-
-<p>Estos camiones están equipados con un sistema mixto de impulsor-absorción, que les permite limpiar las tuberías mediante el impulso de agua a alta presión, y también vaciar y succionar los residuos y aguas fecales acumulados en las fosas sépticas, arquetas y pozos negros. Gracias a su potencia y capacidad de almacenamiento, los camiones cuba son capaces de manejar grandes cantidades de agua y residuos, ofreciendo una solución eficiente y segura para los problemas de desatascos y mantenimiento de redes de saneamiento.
+<br>
+<p>Estos camiones están equipados con un sistema mixto de impulsor-absorción, que les permite limpiar las tuberías mediante el impulso de agua a alta presión, y también vaciar y succionar los residuos y aguas fecales acumulados en las fosas sépticas, arquetas y pozos negros.<br><br>  Gracias a su potencia y capacidad de almacenamiento, los camiones cuba son capaces de manejar grandes cantidades de agua y residuos, ofreciendo una solución eficiente y segura para los problemas de desatascos y mantenimiento de redes de saneamiento.
 </p>
 <br>
 

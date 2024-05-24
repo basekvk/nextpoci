@@ -20,7 +20,7 @@ parrafo: "Inspección de tuberías con cámara de televisión: mantén tus tuber
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 
 
 <p>En <strong>Desatascos Pociten</strong>, nos especializamos en servicios de inspección de tuberías con cámara de televisión en Madrid. Con más de 25 años de experiencia, entendemos la importancia de mantener las tuberías de tu hogar o negocio en buen estado y cómo una inspección profesional puede prevenir futuros problemas y ahorrar dinero a largo plazo. 🏠💰</p>

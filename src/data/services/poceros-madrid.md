@@ -20,7 +20,7 @@ detailSubTitle: 'Los mejores poceros en Madrid con la mejor relación calidad - 
 parrafo: 'Tu Pocero de Confianza en Madrid, llámanos y comprueba nuestros precios'
 
 
-contenidoDescripcion: "
+descripcion: "
 <h2>Poceros Cerca de Ti</h2>
 <p>Nuestros <b>poceros</b> están siempre cerca de ti, ofreciendo los mejores servicios y precios en pocería dentro de tu localidad, ya sea en la provincia de <b>Madrid o Toledo</b>. La pocería es un trabajo especializado que debe ser realizado por profesionales con experiencia y equipados con maquinaria de gran tamaño.
 <br>

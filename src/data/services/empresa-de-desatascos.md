@@ -20,7 +20,7 @@ parrafo: "Empresa de desatascos en Madrid con los mejores precios"
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
+descripcion: "
 
 <p>En <strong>Desatascos Pociten</strong>, somos una empresa de <a href='https://www.desatascos-madrid.com'>desatascos en Madrid</a> con más de 25 años de experiencia. Nos especializamos en ofrecer soluciones rápidas y efectivas a los problemas de atascos en las tuberías. 🚰🔧</p>
 
@@ -28,7 +28,9 @@ contenidoDescripcion: "
 
 <p>Ofrecemos <a href='https://www.desatascos-madrid.com/services/desatascos-24-horas'>servicios de emergencia las 24 horas</a>, personal altamente capacitado y tecnología de última generación. Nos distinguimos por nuestra eficiencia, calidad y precios competitivos. 🕒👷‍♂️💰</p>
 
-<h2>Amplia gama de servicios de desatascos</h2>
+
+"
+contenidoDescripcion: "<h2>Amplia gama de servicios de desatascos</h2>
 
 <p>Desde desatascos de tuberías y limpieza de alcantarillado hasta reparaciones de pocería e inspección de tuberías con cámara, ofrecemos una amplia gama de servicios para satisfacer tus necesidades. 🛠️📹</p>
 
@@ -40,8 +42,7 @@ contenidoDescripcion: "
 <p>En Desatascos Pociten, estamos aquí para solucionar tus problemas de pocería de manera rápida y eficiente. ¡Contacta con nosotros hoy mismo y descubre por qué somos la empresa de desatascos de confianza en Madrid! 🏆🎉</p>
 
 
-<br>
-"
+<br>"
 contenidoDescripcion1: "
 <h2>Empresa de Desatascos en Madrid</h2>
 <p>Cuando se trata de problemas de pocería, un atasco en las tuberías puede ser una de las situaciones más frustrantes e incómodas. Puede que te enfrentes a malos olores, inundaciones, y lo que es peor, una factura costosa de reparación. Por esta razón, es importante contar con una empresa de desatascos confiable y eficiente para resolver el problema.</p>

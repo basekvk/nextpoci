@@ -20,8 +20,8 @@ parrafo: "Desatascos 24 horas en toda la Comunidad de Madrid y zonas aledañas"
 
 #Set inner Html con contenido variable
 
-contenidoDescripcion: "
-
+descripcion: "
+<h2 class='text-6xl'>Desatrancos 24 Horas</h2>
 <h2>Servicios de desatascos 24 horas</h2>
 <p>En Desatascos Pociten, contamos con más de 10 años de experiencia en servicios de pocería y <a href='https://www.desatascos-madrid.com'>desatascos</a>. Nuestro equipo de profesionales altamente capacitados y experimentados están disponibles las 24 horas del día, los 365 días del año, para brindar servicios de alta calidad y satisfacer las necesidades de nuestros clientes. Además, utilizamos tecnología de punta y herramientas especializadas para realizar trabajos de desatascos de manera rápida y efectiva.</p>
 <br>
