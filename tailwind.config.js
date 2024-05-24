@@ -27,6 +27,7 @@ module.exports = {
         'h6': '700',
       }
     },
+    
   },
   plugins: [],
 }

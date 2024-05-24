@@ -16,22 +16,20 @@ export default function BannerMini({ subTitle, title, desc }) {
       );
     return (
         <div
-            className="relative bg-cover bg-center text-white py-12 px-4"
-            style={{
-                backgroundImage: "url('/images/breadcrumb/bg/1.webp')",
-            }}
+            className="bg-gradient-to-r from-[#003A70] to-[#00BBB4] text-white py-16 px-4"
+            
         >
-            <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+            <div className="container mx-auto flex flex-col lg:flex-row items-center text-center justify-between">
                 <div className="flex flex-col space-y-2">
                     <span className="text-sm uppercase ">{subTitle}</span>
-                    <h1 className="text-6xl font-bold leading-none text-[#003A70]">
+                    <h1 className="text-6xl font-bold leading-none  text-center">
                         {title}
                     </h1>
-                    <p className="text-lg text-white">{desc}</p>
+                    <p className="text-lg text-white text-center">{desc}</p>
 
                     <a
                         href="tel:+34647376782"
-                        className="inline-flex items-center justify-center rounded-md bg-[#003A70] px-8 py-3 text-sm font-medium text-white shadow transition transform duration-300 ease-in-out hover:scale-105 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+                        className="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-[#00BBB4] to-[#003A70] px-8 py-3 text-sm font-medium text-white shadow transition transform duration-300 ease-in-out hover:scale-105 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                     >
                         <PhoneIcon width={20} height={20} color="white" className="mr-2" />
                         LLAMAR AHORA
