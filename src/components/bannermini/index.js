@@ -15,11 +15,8 @@ export default function BannerMini({ subTitle, title, desc }) {
         </svg>
       );
     return (
-        <div
-            className="bg-gradient-to-r from-[#003A70] to-[#00BBB4] text-white py-16 px-4"
-            
-        >
-            <div className="container mx-auto flex flex-col lg:flex-row items-center text-center justify-between">
+       
+        <div className="bg-gradient-to-r from-[#003A70] to-[#02B8B4] text-white text-center p-8">
                 <div className="flex flex-col space-y-2">
                     <span className="text-sm uppercase ">{subTitle}</span>
                     <h1 className="text-6xl font-bold leading-none  text-center">
@@ -36,7 +33,7 @@ export default function BannerMini({ subTitle, title, desc }) {
                     </a>
                 </div>
             </div>
-        </div>
+        
     );
 }
 
