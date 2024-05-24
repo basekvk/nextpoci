@@ -5,10 +5,7 @@ import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
 import RichSnippets from '../components/RichSnippets';
 import Footer from '../components/layout/footer';
-import Hero from '../components/home-page/hero';
 // Importaciones estáticas de componentes
-import BannerOne from '../components/banner';
-import AboutOne from '../components/about';
 import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
 import ReviewsSection from '../components/reviews';
@@ -30,9 +27,7 @@ import HeroTailwind from '../components/herotailwind';
 
 
 function HomePage({
-    heroItems,
-    bannerItems,
-    aboutItems,
+    
     footerItems,
     contactItemsForm,
     blogs,
