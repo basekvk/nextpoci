@@ -22,7 +22,7 @@ title2: 'Desatascos en Boadilla'
 detailSubTitle: 'Desatascos y Desatrancos en Boadilla: Resuelve tus problemas de alcantarillado'
 
 #PARRAFO slider
-parrafo: "Soluciones de desatascos en Aranjuez con Desatascos Pociten: Tecnología avanzada y servicio al cliente de calidad"
+parrafo: "Soluciones de desatascos en Boadilla del Monte con Desatascos Pociten: Tecnología avanzada y servicio al cliente de calidad"
 
 #PARRAFO Primera pregunta
 

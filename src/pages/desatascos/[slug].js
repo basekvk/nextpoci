@@ -1,14 +1,11 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/desatascos/desatascos-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-import LazyLoad from 'react-lazyload';
 import ContactForm from '../../components/form-page';
-import ProductCluster from '../../components/cluster';
-import Areastrabajo from '../../components/areastrabajo';
 import RichSnippets from '../../components/RichSnippets';
+import BannerMini from '../../components/bannermini';
 
 
 function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
@@ -60,19 +57,20 @@ function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
                 
             </Head>
 
-            <Breadcrumb
-                subTitle="Donde Trabajamos"
+        
+            <BannerMini
+                subTitle="Áreas de Servicio"
                 title={service.title}
                 desc={service.parrafo}
             />
-            <LazyLoad>
+            
             
                 <ServiceDetail service={service} />
-                <Areastrabajo />
+                
                 <ContactForm contactItemsForm={contactItemsForm} />
                 
                 <Footer footerItems={footerItems} />
-            </LazyLoad>
+            
             <RichSnippets
                 areaServed={service?.lugar}
                 description={service?.metaContent}

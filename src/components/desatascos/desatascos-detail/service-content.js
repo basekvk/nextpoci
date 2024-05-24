@@ -1,158 +1,130 @@
 import PropTypes from 'prop-types';
-import {  Col } from 'react-bootstrap';
-import classes from './index.module.scss';
+import Image from 'next/image';
 import CallToAction from '../../cta';
 import CallToAction1 from '../../cta1';
 import Presupuesto from '../../presupuesto';
 import GridServices from '../../gridservicios';
-import Problemas from '../../problemas';
-import Image from 'next/image';
 import ProductCluster from '../../cluster';
 import Acordeon from '../../acordeon';
+import Problemas from '../../problemas';
+import Areastrabajo from '../../areastrabajo';
 
-function ServiceContent({ service }) {
-    const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
 
-    return (
-        <>
-            <Col lg={{ span: 12 }} className="pe-lg-45">
-            
-                <div className={classes.content}>
-                <Image
-                width={845}
-                height={475}
-                className=""
-                src={imagePath}
-                alt={service?.title}
-                priority={true}
-            />
-                    <h2 className={classes.title}>{service?.title2}</h2>
-                    <h2 className={classes.subtitle}>
-                        {service?.detailSubTitle}
-                    </h2>
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta}
-                    </h2>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.detailDesc}
-                    </p>
-                    
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta2}
-                    </h2>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion1}
-                    </p>
-                    
-                    <div
-                        className={classes.desc}
-                        dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion,
-                        }}
-                    />
-                  <ProductCluster localidad={service?.lugar} />
-                    <CallToAction text={service?.title} />
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion2}
-                    </p>
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta3}
-                    </h2>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion3}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion31}
-                    </p>
+function ServiceContent({ service}) {
+  const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
 
-                    <div
-                        className={classes.desc}
-                        dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion1,
-                        }}
-                    />
-                    <GridServices />
-                    <div
-                        className={classes.desc}
-                        dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion2,
-                        }}
-                    />
-                    <Presupuesto />
+  return (
+    <div className="px-4 lg:px-8 xl:px-16 pt-10 md:pt-10 lg:pt-10 pb-12 md:pb-24 lg:pb-36">
+      <div className="flex flex-col items-center ">
+        <div className="w-full max-w-4xl">
+          <Image
+            width={845}
+            height={475}
+            src={imagePath}
+            alt={service?.title}
+            priority
+            className="w-full h-auto"
+          />
+          <h2 className="mt-12 mb-6 text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-center">
+          {service?.title2}
+          </h2>
+          <h2 className="bg-[#003a70] text-center text-white py-2 mb-6 text-lg lg:text-xl xl:text-2xl font-medium">
+          {service?.detailSubTitle}
+          </h2>
+        </div>
+      </div>
+      <div className="pt-2">
+        
+        <h2 className="mb-10 text-3xl font-medium text-justify">
+          {service?.pregunta}
+        </h2>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion}
+        </p>
+        <p className="mb-10 text-lg text-justify">
+          {service?.detailDesc}
+        </p>
+        <h2 className="mb-10 text-3xl font-medium text-justify">
+          {service?.pregunta2}
+        </h2>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion1}
+        </p>
+        <div
+          className="mb-10 text-lg text-justify"
+          dangerouslySetInnerHTML={{ __html: service?.contenidoDescripcion }}
+        />
+        <ProductCluster localidad={service?.lugar} />
+        <CallToAction text={service?.title} />
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion2}
+        </p>
+        <h2 className="mb-10 text-3xl font-medium text-justify">
+          {service?.pregunta3}
+        </h2>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion3}
+        </p>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion31}
+        </p>
+        <div
+          className="mb-10 text-lg text-justify"
+          dangerouslySetInnerHTML={{ __html: service?.contenidoDescripcion1 }}
+        />
+        <GridServices />
+        <div
+          className="mb-10 text-lg text-justify"
+          dangerouslySetInnerHTML={{ __html: service?.contenidoDescripcion2 }}
+        />
+        <Presupuesto />
+        <div
+          className="mb-10 text-lg text-justify"
+          dangerouslySetInnerHTML={{ __html: service?.contenidoDescripcion3 }}
+        />
+        <h2 className="mb-10 text-3xl font-medium text-justify">
+          {service?.pregunta4}
+        </h2>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion4}
+        </p>
+        <CallToAction1 />
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion41}
+        </p>
+        <h2 className="mb-10 text-3xl font-medium text-justify">
+          {service?.pregunta5}
+        </h2>
+        <Problemas />
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion5}
+        </p>
+        <p className="mb-10 text-lg text-justify">
+          {service?.descripcion51}
+        </p>
+      </div>
 
-                    <div
-                        className={classes.desc}
-                        dangerouslySetInnerHTML={{
-                            __html: service?.contenidoDescripcion3,
-                        }}
-                    />
+      <div
+        className="mb-10 text-lg text-justify"
+        dangerouslySetInnerHTML={{ __html: service.contenido }}
+      />
 
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta4}
-                    </h2>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion4}
-                    </p>
-                    <CallToAction1 />
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion41}
-                    </p>
-                    <h2 className={classes.desc} style={{ fontSize: 30 }}>
-                        {service?.pregunta5}
-                    </h2>
-                    <Problemas />
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion5}
-                    </p>
-                    <p className={classes.desc} style={{ fontSize: 20 }}>
-                        {service?.descripcion51}
-                    </p>
-                </div>
-
-                <div
-                    className={classes.desc}
-                    dangerouslySetInnerHTML={{
-                        __html: service.contenido,
-                    }}
-                />
-
-                <div
-                    style={{
-                        textAlign: 'center',
-                        marginTop: '50px',
-                        marginBottom: '50px',
-                        borderRadius: 10,
-                        backgroundColor: '#003a70',
-                        color: '#fff',
-                        padding: '20px',
-                        fontSize: 20,
-                    }}
-                >
-                    <a
-                        style={{ color: '#fff' }}
-                        href="tel:647376782"
-                        call-button
-                    >
-                        <h4>📞 {service?.title} - 24 Horas 647 376 782</h4>
-                        <p style={{ color: 'white' }}>
-                            Haz click aquí para contactarnos. Acudiremos de
-                            inmediato para atender tu emergencia.
-                        </p>
-                    </a>
-                </div>
-                
-                {service.accordionData? <Acordeon accordionData={service?.accordionData}  /> : null}
-            </Col>
-        </>
-    );
+      <div className="text-center mt-12 p-8 rounded-lg bg-[#003a70] text-white">
+        <a href="tel:647376782" className="text-white">
+          <h4 className="text-2xl font-bold">📞 {service?.title} - 24 Horas 647 376 782</h4>
+          <p className="text-white">Haz click aquí para contactarnos. Acudiremos de inmediato para atender tu emergencia.</p>
+        </a>
+      </div>
+      <Areastrabajo />
+     
+      {service.accordionData ? <Acordeon accordionData={service?.accordionData} /> : null}
+    </div>
+  );
 }
 
 ServiceContent.propTypes = {
-    service: PropTypes.instanceOf(Object).isRequired,
-    richTexts: PropTypes.instanceOf(Object).isRequired,
+  service: PropTypes.instanceOf(Object).isRequired,
+  richTexts: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default ServiceContent;
