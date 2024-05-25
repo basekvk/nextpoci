@@ -8,7 +8,7 @@ export default function Component() {
     <div className="container flex flex-col items-center justify-center gap-6 px-4 md:px-6">
       <div className="space-y-2 text-center">
         <h2 className="text-3xl font-bold tracking-tighter text-gray-50 md:text-4xl">
-        Respuesta Inmediata para Desatascos en Madrid
+        Pociten - Empresa de Desatascos en Madrid
         </h2>
         <p className="max-w-[600px] text-gray-400 md:text-xl lg:text-base xl:text-xl">
         ¡No dejes que un atasco arruine tu día! Servicio rápido y efectivo a solo una llamada.

@@ -15,7 +15,17 @@ export default function Component() {
           Trabajo de Desatasco en Madrid.
         </h2>
         <p className="text-base text-[#4b5563]">
-         Siempre con la mayor rapidez para evitar gastos innecesarios al cliente, aplicando en todos nuestros trabajos la mayor tecnología y los mejores profesionales.
+        ¿Estás lidiando con una tubería atascada o un desagüe
+                        bloqueado en tu hogar o negocio en Madrid? No permitas
+                        que un atasco arruine tu día.<br/><br/>  En Pociten,
+                        ofrecemos servicios profesionales de desatascos para
+                        resolver rápidamente cualquier problema de fontanería/pocería.
+                        Nuestro equipo de expertos en desatascos cuenta con
+                        amplia experiencia manejando todo tipo de obstrucciones,
+                        desde pequeños atascos en lavabos hasta bloqueos severos
+                        en tuberías principales.<br/> <br/>  Utilizamos la más avanzada
+                        tecnología y técnicas efectivas para identificar y
+                        eliminar la causa del atasco de manera eficiente.
         </p>
       </div>
       <div className="mt-8 lg:mt-0 lg:ml-8 relative">

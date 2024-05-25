@@ -7,10 +7,11 @@ export default function TextUrgentesHome() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="md:text-center">
           <Clock24HoursIcon className="h-12 w-12 mx-auto mb-4" />
-          <h2 className="text-4xl font-extrabold text-[#003A70]">¿Es Sábado? ¿Domingo? ¿Festivo?</h2>
+          <h2 className="text-4xl font-extrabold text-[#003A70]">Poceros Cerca de Ti</h2>
+          <h3 className="text-3xl font-extrabold text-[#003A70]">¿Es Sábado? ¿Domingo? ¿Festivo?</h3>
           <p className="mt-4 text-lg text-gray-600">
-            En Desatascos Pociten no importa ni el cuándo ni el dónde, llamamos y acudiremos a tu llamada en el menor
-            tiempo posible con nuestro servicio de desatascos urgentes 24 horas.
+            En Desatascos Pociten, <b><a href='/services/poceros-madrid'>poceros</a></b> expertos, estamos siempre <b>cerca de ti</b>, no importa ni el cuándo ni el dónde, llamamos y acudiremos a tu llamada en el menor
+            tiempo posible con nuestro servicio de <b><a href='/services/desatascos-24-horas'>desatascos urgentes 24 horas</a></b>.
           </p>
           <p className="mt-4 text-lg text-gray-600">
             No esperes más, antes de agravar la avería llámanos y te lo solucionamos en tiempo record para que puedas
