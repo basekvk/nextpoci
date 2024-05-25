@@ -7,7 +7,7 @@ export default function Hazlotu() {
                 <div className="grid items-center justify-center gap-6 text-center">
                     <div className="space-y-3">
                         <h2 className="text-3xl text-[#003A70] font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                            Desatasca Tuberías Como un Profesional
+                            Desatasca Tu Mismo Como un Profesional
                         </h2>
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                             Descarga nuestra guía PDF gratuita para aprender los
