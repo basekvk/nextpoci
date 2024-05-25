@@ -28,8 +28,8 @@ export default function Precios() {
                             className="flex object-cover w-full h-full justify-center"
                             src="/images/precios/precio_desatascos-pociten.jpg"
                             layout="responsive"
-                            height={300}
-                            width={300}
+                            height={350}
+                            width={450}
                         />
                     </div>
                     <div className="md:flex-1 bg-white rounded-lg shadow-lg p-4">
