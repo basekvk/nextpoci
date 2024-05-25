@@ -141,8 +141,8 @@ function HomePage({
                 areaServed="Madrid"
                 description="Empresa líder de desatascos y obras de pocería en la comunidad de Madrid. Experiencia a tu servicio"
                 image="/images/about/1-1.webp"
-                url="https://desatascos-madrid.com"
-                service="Servicios de desatascos y pocería"
+                url="https://www.desatascos-madrid.com"
+                service="Servicios de desatascos y pocería en Madrid"
             />
             <CookiePopup />
         </>

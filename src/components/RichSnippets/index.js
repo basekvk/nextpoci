@@ -5,8 +5,8 @@ const RichSnippets = ({ url, description, image, areaServed, services }) => {
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
         name: 'Desatascos Pociten',
-        url: { url },
-        description: { description },
+        url: url,
+        description: description,
         address: {
             '@type': 'PostalAddress',
             streetAddress: 'Calle Lezo 8',
@@ -15,7 +15,7 @@ const RichSnippets = ({ url, description, image, areaServed, services }) => {
             addressRegion: 'Madrid',
             addressCountry: 'ES',
         },
-        image: [{ image }],
+        image: [image],
         telephone: '+34-647-376-782',
         priceRange: 'Económicos',
         review: {
@@ -34,9 +34,8 @@ const RichSnippets = ({ url, description, image, areaServed, services }) => {
             '@type': 'GeoCoordinates',
             latitude: 40.357537,
             longitude: -3.693664,
-            
         },
-        areaServed: { areaServed },
+        areaServed: areaServed,
         openingHoursSpecification: [
             {
                 '@type': 'OpeningHoursSpecification',
@@ -55,10 +54,13 @@ const RichSnippets = ({ url, description, image, areaServed, services }) => {
         ],
         service: {
             '@type': 'Service',
-            provider: 'Desatascos Pociten',
-            serviceType: { services },
-            areaServed: { areaServed },
-            description: { description },
+            provider: {
+                '@type': 'LocalBusiness',
+                name: 'Desatascos Pociten',
+            },
+            serviceType: services,
+            areaServed: areaServed,
+            description: description,
         },
         video: [
             {

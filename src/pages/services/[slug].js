@@ -1,11 +1,8 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import Breadcrumb from '../../components/breadcrumb';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-
-import Problemas from '../../components/problemas';
 import ContactForm from '../../components/form-page';
 import RichSnippets from '../../components/RichSnippets';
 import BannerMini from '../../components/bannermini';

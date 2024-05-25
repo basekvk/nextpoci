@@ -76,7 +76,7 @@ function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
                 description={service?.metaContent}
                 image={service?.largeImage}
                 url={service?.canonical}
-                service= "Servicios de desatascos y pocería"
+                service= {service?.titleMeta}
             />
         </>
     );
