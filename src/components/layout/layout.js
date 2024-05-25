@@ -3,6 +3,7 @@ import Header from './header';
 import 'react-whatsapp-widget/dist/index.css';
 import dynamic from 'next/dynamic';
 import { Analytics } from '@vercel/analytics/react';
+import Head from 'next/head';
 
 
 // Importar WhatsAppWidget y PhoneWidget dinámicamente sin SSR
@@ -15,9 +16,10 @@ const PhoneWidget = dynamic(() => import('../callwidget'), {
     ssr: false,
 });
 
-function Layout({ children }) {
+function Layout({ children}) {
     return (
         <>
+
             <Header />
 
             <main>

@@ -34,38 +34,35 @@ function Areastrabajo() {
     const handleLocationChange = (event) => {
         const url = event.target.value;
         setSelectedLocation(url);
-        
     };
 
     useEffect(() => {
         if (selectedLocation) {
             router.push(selectedLocation);
-            setSelectedLocation('');
+            setSelectedLocation('');  // Reset after navigation
         }
     }, [selectedLocation, router]);
 
     return (
-        <>
-            <div className="pt-10 pb-30 m-10 bg-gradient-to-r from-blue-900 to-teal-500">
-                <h3 className="text-center text-4xl mb-6 text-white">Localidades</h3>
-                <div className="flex justify-center items-center bg-gradient-to-r from-blue-900 to-teal-500 p-4 rounded-md mx-8">
-                    <label htmlFor="localidadSelect" className="sr-only">Selecciona</label>
-                    <select
-                        id="localidadSelect"
-                        className="w-full max-w-xs p-4 text-lg uppercase border-2 border-blue-500 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
-                        value={selectedLocation}
-                        onChange={handleLocationChange}
-                    >
-                        <option value="">Selecciona tu localidad</option>
-                        {localidadesOrdenadas.map((localidad, index) => (
-                            <option key={index} value={localidad.url}>
-                                {localidad.nombre}
-                            </option>
-                        ))}
-                    </select>
-                </div>
+        <div className="pt-10 pb-30 m-10 bg-gradient-to-r from-blue-900 to-teal-500">
+            <h3 className="text-center text-4xl mb-6 text-white">Localidades</h3>
+            <div className="flex justify-center items-center bg-gradient-to-r from-blue-900 to-teal-500 p-4 rounded-md mx-8">
+                <label htmlFor="localidadSelect" className="sr-only">Selecciona</label>
+                <select
+                    id="localidadSelect"
+                    className="w-full max-w-xs p-4 text-lg uppercase border-2 border-blue-500 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    value={selectedLocation}
+                    onChange={handleLocationChange}
+                >
+                    <option value="">Selecciona Localidad</option>
+                    {localidadesOrdenadas.map((localidad, index) => (
+                        <option key={index} value={localidad.url}>
+                            {localidad.nombre}
+                        </option>
+                    ))}
+                </select>
             </div>
-        </>
+        </div>
     );
 }
 

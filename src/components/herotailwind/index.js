@@ -11,7 +11,7 @@ export default function Component() {
         <section className="relative w-full h-[80vh] flex items-center justify-center bg-gradient-to-r from-[#003A70] to-[#00BBB4] overflow-hidden">
             <div className="container px-4 md:px-6 z-10 text-center">
                 <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-                    Desatascos en Madrid -Pociten
+                    Desatascos en Madrid - Pociten
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
                     No cobramos desplazamiento. Desatascos, Desatrancos, Obras
