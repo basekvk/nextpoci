@@ -154,26 +154,26 @@ export default function Precios() {
                 </div>
                 <div className="w-full flex justify-center mt-4">
                     <div className="max-w-3xl">
-                        <p className="text-base text-white m-10">
+                        <p className="text-base text-white mt-10">
                             <strong>*Notas:</strong>
                         </p>
-                        <ul className="list-disc list-inside text-base text-white m-10">
+                        <ul className="list-disc list-inside text-base text-white mb-10">
                             <li>
                                 Los precios de desatascos y pocería pueden
                                 incrementarse en un 20-50% para servicios de
                                 emergencia fuera de horario regular o en fines
                                 de semana y festivos. El precio reflejado es una
                                 estimación y puede variar según la ubicación y
-                                la empresa contratada.
+                                dificultad del servicio.
                             </li>
                             <li>
                                 El precio estimado corresponde por hora de
-                                trabajo
+                                trabajo. El tiempo de trabajo puede variar
+                                dependiendo de la dificultad del servicio.
                             </li>
                             <li>
                                 Para trabajos que requieran permisos, como obras
-                                en vía pública, el cliente generalmente debe
-                                gestionarlos y asumir el coste.
+                                en vía pública, el coste no está incluido.
                             </li>
                             <li>
                                 Los precios de reparaciones y sustituciones
@@ -183,10 +183,9 @@ export default function Precios() {
                             </li>
                             <li>
                                 Los precios que se muestran en esta web no son
-                                concluyentes.Recomendamos siempre solicitar un
+                                concluyentes.Recomendamos siempre nos solicites un
                                 presupuesto detallado adaptado a tus necesidades
-                                específicas antes de contratar un servicio. Un
-                                buen profesional de desatascos primero
+                                específicas antes de contratar un servicio. Pociten primero
                                 diagnosticará el problema y te proporcionará un
                                 presupuesto claro desglosando costes antes de
                                 comenzar el trabajo.
