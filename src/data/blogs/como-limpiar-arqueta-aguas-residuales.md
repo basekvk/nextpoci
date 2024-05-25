@@ -1,5 +1,5 @@
 ---
-title: 'LIMPIEZA DE ARQUETAS DE AGUAS RESIDUALES: GUÍA PRÁCTICA Y CONSEJOS'
+title: 'Limpieza de Arquetas: Guía y Consejos - Pociten'
 
 subTitle: 'Descubre métodos efectivos y seguros para la limpieza de arquetas de aguas residuales'
 

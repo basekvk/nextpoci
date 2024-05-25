@@ -8,7 +8,7 @@ export default function textHome() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <h1 className="text-4xl font-bold text-[#003A70] mb-4">Expertos en Servicios de Desatascos en Madrid</h1>
+          <h2 className="text-4xl font-bold text-[#003A70] mb-4">Expertos en Servicios de Desatascos en Madrid</h2>
           <p className="mb-4">
             ¿Necesitas <b>servicios de desatascos en Madrid</b>? Ya sea que te enfrentes a un <b>desatasco urgente</b>, como un atasco en la
             ducha, lavavajillas, aseo o fregadero, o necesites una inspección preventiva para mantener tu red

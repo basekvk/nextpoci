@@ -6,7 +6,7 @@ titleMeta: "Desatascos - Poceros en Galapagar | Pociten"
 lugar: 'Galapagar'
 mediumImage: 'galapagar.webp'
 largeImage: 'galapagar.webp'
-metaContent: "Desatascos - Poceros en Galapagar 🛠️ Servicio 24/7 🕑 Pociten. ☎️ 647 376 782"
+metaContent: "Desatascos y poceros en Galapagar con servicio 24/7. Pociten ofrece soluciones rápidas y efectivas para tus problemas de pocería. Llámanos al ☎️ 647 376 782."
 canonical: https://www.desatascos-madrid.com/desatascos/galapagar
 
 detailBreadcrumbSubTitle: 'Single Service'
