@@ -21,6 +21,7 @@ import Areastrabajo from '../components/areastrabajo';
 import TextVideo from '../components/textVideo';
 import CTA2 from '../components/cta2';
 import HeroTailwind from '../components/herotailwind';
+import Precios from '../components/precios';
 
 
 
@@ -119,7 +120,7 @@ function HomePage({
             <div className="container">
                 <ReviewsSection />
             </div>
-
+            <Precios />
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
 
@@ -135,6 +136,7 @@ function HomePage({
                 de nuestra web
             </p>
             <br/>
+            
             <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
             <RichSnippets
