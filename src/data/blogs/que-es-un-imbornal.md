@@ -1,8 +1,8 @@
 ---
 title: '¿QUÉ ES UN IMBORNAL?'	
 subTitle: 'DESCUBRE QUE SON LOS IMBORNALES'
-metaDescription: 'Descubre qué es un imbornal y su papel crucial en las redes de saneamiento. Aprende cómo contribuye a la eficiencia del drenaje urbano y la prevención de inundaciones, asegurando un entorno más seguro y sostenible.'
-metaContent: 'Descubre qué es un imbornal y su papel crucial en las redes de saneamiento. Aprende cómo contribuye a la eficiencia del drenaje urbano y la prevención de inundaciones, asegurando un entorno más seguro y sostenible.'
+metaDescription: 'Descubre qué es un imbornal, su función en el sistema de drenaje urbano y por qué es crucial para evitar inundaciones en áreas urbanas. Aprende más aquí.'
+metaContent: 'Descubre qué es un imbornal, su función en el sistema de drenaje urbano y por qué es crucial para evitar inundaciones en áreas urbanas. Aprende más aquí.'
 desc: 'Todo lo que necesitas saber sobre los imbornales y su importancia de su cuidado y mantenimiento en las redes de saneamiento urbano.'
 mediumImage: '370.webp'
 largeImage: '845.webp'

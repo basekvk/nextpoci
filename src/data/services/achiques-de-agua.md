@@ -7,7 +7,7 @@ canonical: https://www.desatascos-madrid.com/services/achiques-de-agua
 mediumImage: 'inundaciones.webp'
 largeImage: 'inundaciones.webp'
 
-metaContent: 'Achiques de agua en inundaciones. Servicio urgente para la evacuación de aguas ✅ Disponemos de camiones preparados para la subción de aguas por bombeos. Rápidos y económicos.'
+metaContent: 'Achiques de agua en inundaciones. Servicio urgente y económico con camiones preparados para la succión de aguas. Rápidos y eficientes.'
 detailBreadcrumbSubTitle: 'Achiques de agua'
 detailBreadcrumbDesc: 'Achiques de agua'
 lugar: 'Madrid'

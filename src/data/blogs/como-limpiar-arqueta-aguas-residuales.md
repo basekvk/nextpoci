@@ -3,9 +3,9 @@ title: 'LIMPIEZA DE ARQUETAS DE AGUAS RESIDUALES: GUÍA PRÁCTICA Y CONSEJOS'
 
 subTitle: 'Descubre métodos efectivos y seguros para la limpieza de arquetas de aguas residuales'
 
-metaDescription: 'Descubre métodos efectivos y seguros para la limpieza de arquetas de aguas residuales. Aprende a mantener tu sistema de drenaje eficiente con nuestra guía práctica y profesional'
+metaDescription: 'Descubre métodos efectivos y seguros para limpiar arquetas de aguas residuales. Mantén tu sistema de drenaje eficiente con nuestra guía práctica.'
 
-metaContent: 'Descubre métodos efectivos y seguros para la limpieza de arquetas de aguas residuales. Aprende a mantener tu sistema de drenaje eficiente con nuestra guía práctica y profesional'
+metaContent: 'Descubre métodos efectivos y seguros para limpiar arquetas de aguas residuales. Mantén tu sistema de drenaje eficiente con nuestra guía práctica.'
 
 desc: 'La acumulación en las arquetas de aguas residuales puede causar graves problemas de obstrucción y malos olores, poniendo en riesgo tanto la eficiencia del sistema de drenaje como la salud pública'
 

@@ -1,8 +1,8 @@
 ---
 title: 'DESATASCAR FREGADERO CON COCA COLA'	
 subTitle: 'DESCUBRE LO QUE LA COCA COLA PUEDE HACER POR TU FREGADERO'
-metaDescription: 'Descubre si realmente es efectivo desatascar un fregadero utilizando Coca-Cola. Exploramos los pasos, la eficacia y las alternativas para resolver obstrucciones en los desagües de forma efectiva.'
-metaContent: 'Descubre si realmente es efectivo desatascar un fregadero utilizando Coca-Cola. Exploramos los pasos, la eficacia y las alternativas para resolver obstrucciones en los desagües de forma efectiva.'
+metaDescription: '¿Es efectivo desatascar un fregadero con Coca-Cola? Descubre los pasos, su eficacia y alternativas para desagües obstruidos. Aprende más aquí.'
+metaContent: '¿Es efectivo desatascar un fregadero con Coca-Cola? Descubre los pasos, su eficacia y alternativas para desagües obstruidos. Aprende más aquí.'
 desc: 'Todo lo que necesitas saber sobre como destascar un fregadero con Coca Cola'
 mediumImage: 'desatascar-fregadero-coca-cola-370.webp'
 largeImage: 'desatascar-fregadero-coca-cola-845.webp'
