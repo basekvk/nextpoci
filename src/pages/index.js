@@ -10,7 +10,6 @@ import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
 import ReviewsSection from '../components/reviews';
 import GridServicios from '../components/gridservicios';
-import Problemas from '../components/problemas';
 import LatestBlog from '../components/home-page/latest-blog';
 import ContactForm from '../components/form-page';
 import CookiePopup from '../components/cookiebanner';
@@ -22,6 +21,8 @@ import TextVideo from '../components/textVideo';
 import CTA2 from '../components/cta2';
 import HeroTailwind from '../components/herotailwind';
 import Precios from '../components/precios';
+import Whatsdesatascos from '../components/whatsdesatascos';
+import Hazlotu from '../components/Hazlotu';
 
 
 
@@ -98,7 +99,7 @@ function HomePage({
             <div className="container">
                 <ProductCluster localidad="Madrid" />
             </div>
-
+             <Whatsdesatascos />
             <Areastrabajo />
             <TextHome />
             
@@ -120,6 +121,7 @@ function HomePage({
             <div className="container">
                 <ReviewsSection />
             </div>
+            <Hazlotu />
             <Precios />
             <ContactForm contactItemsForm={contactItemsForm} />
             <br></br>
