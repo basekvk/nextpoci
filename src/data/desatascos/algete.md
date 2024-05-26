@@ -32,9 +32,7 @@ descripcion: "
 #Set inner Html con contenido variable
 
 contenidoDescripcion: 
-contenidoDescripcion1: "
-
-<h2>Desatrancos en Algete</h2>
+contenidoDescripcion1: "<h2>Desatrancos en Algete</h2>
     <p>Trabajamos día a día para ofrecerte el mejor servicio a los mejores precios. Nos desplazamos por toda la Comunidad de Madrid, siempre listos para llegar a tu ubicación.</p>
     
     <h3>Ventajas de Nuestro Servicio de Desatrancos en Algete</h3>

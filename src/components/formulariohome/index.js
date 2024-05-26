@@ -218,10 +218,7 @@ export default function Formulario() {
                     src="/images/about/desatascos-en-madrid.webp"
                     height={500}
                     width={500}
-                    style={{
-                        aspectRatio: '500/500',
-                        objectFit: 'cover',
-                    }}
+                    layout="intrinsic" 
                 />
             </div>
         </div>

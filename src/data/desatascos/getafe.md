@@ -22,7 +22,7 @@ parrafo: "Soluciones rápidas y efectivas para problemas de desatascos en Getafe
 
 
 #Set inner Html con contenido variable
-descripcion: "<h2>Poceros en Getafe</h2>
+descripcion: "<h3 class='text-[#004680]' >Poceros en Getafe</h3>
 <p>Si necesitas trabajos de <b>poceros en Getafe</b> como <b>desatascos</b> o cualquiera de los muchos que ofrecemos, <b>Pociten</b> es tu solución ideal. Contamos con un equipo humano destacado y tecnología avanzada. Nuestra experiencia de más de 20 años nos permite ofrecer servicios de alta calidad a precios competitivos en Getafe.</p>
 
 <p>Nuestros especialistas se encargan de todo, desde la construcción y mantenimiento de pozos hasta la limpieza y saneamiento de alcantarillado y tuberías. Ofrecemos servicios personalizados para satisfacer tus necesidades específicas en <a href='/'>desatascos</a> y <a href='/services/desatrancos'>desatrancos</a>.</p>"

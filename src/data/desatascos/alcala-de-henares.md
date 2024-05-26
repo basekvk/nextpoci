@@ -23,7 +23,7 @@ parrafo: "Soluciones integrales de desatascos y obras de pocería en Alcalá de 
 
 
 
-descripcion: "<p>Si resides en Alcalá de Henares y enfrentas inconvenientes con las tuberías de tu hogar o empresa, contar con un servicio de desatascos y pocería eficiente es crucial. Desatascos Pociten, con más de dos décadas de trayectoria en el sector, se destaca por brindar respuestas rápidas y efectivas a problemas de desatascos en Alcalá de Henares.</p>"
+descripcion: "<p>Si resides en Alcalá de Henares y enfrentas inconvenientes con las tuberías de tu hogar o empresa, contar con un servicio de desatascos y pocería eficiente es crucial.Desatascos Pociten, con más de dos décadas de trayectoria en el sector, se destaca por brindar respuestas rápidas y efectivas a problemas de desatascos en Alcalá de Henares.</p>"
 detailDesc: ""
 
 #PARRAFO Segunda pregunta

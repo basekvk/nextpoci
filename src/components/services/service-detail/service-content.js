@@ -7,9 +7,12 @@ import Areastrabajo from '../../areastrabajo';
 import Acordeon from '../../acordeon';
 import Botonesenlinea from '../../botonesenlinea';
 import Formulario from '../../formulariohome';
+import TextoEntrada from '../../textoentradaservicios';
 
 export default function ServiceContent({ service }) {
+    if (!service) return null; // Verificación para asegurarse de que `service` existe
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
+
 
     return (
         <div className="px-4 lg:px-8 xl:px-16 pt-10 md:pt-10 lg:pt-10 pb-12 md:pb-24 lg:pb-36">
@@ -24,12 +27,8 @@ export default function ServiceContent({ service }) {
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta}
                 </h2>
-                <div
-                    className="mb-10 text-lg text-justify"
-                    dangerouslySetInnerHTML={{
-                        __html: service?.descripcion,
-                    }}
-                />
+                <TextoEntrada service={service} image={imagePath} />
+        
                 <Botonesenlinea />
                 <p className="mb-10 text-lg text-justify">
                     {service?.detailDesc}
