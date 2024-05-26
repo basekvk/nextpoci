@@ -1,5 +1,6 @@
 
 import { CallButton } from '../CallButton'
+import Botonesenlinea from '../botonesenlinea'
 
 export default function TextUrgentesHome() {
   return (
@@ -71,7 +72,9 @@ export default function TextUrgentesHome() {
             </li>
           </ul>
         </div>
+        
       </div>
+      <Botonesenlinea />
     </div>
   )
 }

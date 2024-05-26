@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CallButton from '../CallButton';
+import Botonesenlinea from '../botonesenlinea';
 
 
 
@@ -48,7 +48,7 @@ export default function textHome() {
         </div>
       </div>
       <div className="text-center mt-8">
-        <CallButton />
+        <Botonesenlinea />
       </div>
     </div>
   )

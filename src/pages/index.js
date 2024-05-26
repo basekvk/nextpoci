@@ -11,7 +11,6 @@ import CallToAction from '../components/cta';
 import ReviewsSection from '../components/reviews';
 import GridServicios from '../components/gridservicios';
 import LatestBlog from '../components/home-page/latest-blog';
-import ContactForm from '../components/form-page';
 import CookiePopup from '../components/cookiebanner';
 import TextHome from '../components/textHome';
 import TextUrgentesHome from '../components/textUrgentesHome';
@@ -23,18 +22,9 @@ import HeroTailwind from '../components/herotailwind';
 import Precios from '../components/precios';
 import Whatsdesatascos from '../components/whatsdesatascos';
 import Hazlotu from '../components/Hazlotu';
+import Formulario from '../components/formulariohome';
 
-
-
-
-
-
-function HomePage({
-    
-    footerItems,
-    contactItemsForm,
-    blogs,
-}) {
+function HomePage({ footerItems, contactItemsForm, blogs }) {
     return (
         <>
             <Head>
@@ -94,19 +84,17 @@ function HomePage({
                 />
             </Head>
 
-           <HeroTailwind />
-          
+            <HeroTailwind />
+
             <TextFirst />
-            
+
             <div className="container">
                 <ProductCluster localidad="Madrid" />
             </div>
-             <Whatsdesatascos />
+            <Whatsdesatascos />
             <Areastrabajo />
             <TextHome />
-            
 
-        
             <CTA2 />
             <TextUrgentesHome />
             <div className="container">
@@ -115,7 +103,6 @@ function HomePage({
                 </h2>
                 <GridServicios />
 
-              
                 <TextVideo />
             </div>
 
@@ -125,8 +112,8 @@ function HomePage({
             </div>
             <Hazlotu />
             <Precios />
-            <ContactForm contactItemsForm={contactItemsForm} />
-            <br></br>
+            
+            <Formulario />
 
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
@@ -139,8 +126,8 @@ function HomePage({
                 </a>{' '}
                 de nuestra web
             </p>
-            <br/>
-            
+            <br />
+
             <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
             <RichSnippets
