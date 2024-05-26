@@ -23,8 +23,9 @@ import Precios from '../components/precios';
 import Whatsdesatascos from '../components/whatsdesatascos';
 import Hazlotu from '../components/Hazlotu';
 import Formulario from '../components/formulariohome';
+import Faqs from '../components/faqs';
 
-function HomePage({ footerItems, contactItemsForm, blogs }) {
+function HomePage({ footerItems,  blogs }) {
     return (
         <>
             <Head>
@@ -114,7 +115,7 @@ function HomePage({ footerItems, contactItemsForm, blogs }) {
             <Precios />
             
             <Formulario />
-
+            <Faqs />
             <h3 className="container" style={{ fontSize: '32px' }}>
                 ÚLTIMAS PUBLICACIONES
             </h3>
@@ -157,7 +158,6 @@ export function getStaticProps() {
     blogs = blogs.slice(0, 3);
 
     const footerItems = getAllItems('footer');
-    const contactItemsForm = getAllItems('contacto');
     const LatestBlog = getFeaturedItems(blogs);
 
     return {
@@ -166,7 +166,6 @@ export function getStaticProps() {
             bannerItems,
             aboutItems,
             footerItems,
-            contactItemsForm,
             blogs: LatestBlog,
         },
         revalidate: 3600,
@@ -178,7 +177,6 @@ HomePage.propTypes = {
     bannerItems: PropTypes.instanceOf(Object).isRequired,
     aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
-    contactItemsForm: PropTypes.instanceOf(Object).isRequired,
     blogs: PropTypes.instanceOf(Object).isRequired,
 };
 
