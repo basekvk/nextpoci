@@ -28,6 +28,7 @@ import Hazlotu from '../components/Hazlotu';
 
 
 
+
 function HomePage({
     
     footerItems,
@@ -94,8 +95,9 @@ function HomePage({
             </Head>
 
            <HeroTailwind />
-            <br></br>
+          
             <TextFirst />
+            
             <div className="container">
                 <ProductCluster localidad="Madrid" />
             </div>

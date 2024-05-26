@@ -1,4 +1,5 @@
-import CallButton from '../CallButton';
+
+import Botonesenlinea from '../botonesenlinea';
 
 export default function TextFirst() {
     return (
@@ -18,7 +19,7 @@ export default function TextFirst() {
             </p>
             <br />
             <div className="flex justify-center mt-4">
-                <CallButton />
+            <Botonesenlinea />
             </div>
         </div>
     );

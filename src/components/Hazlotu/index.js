@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hazlotu() {
     return (
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-white-100">
+        <section id='hazlotumismo' className="w-full py-12 md:py-24 lg:py-32 bg-white-100">
             <div className="container px-4 md:px-6">
                 <div className="grid items-center justify-center gap-6 text-center">
                     <div className="space-y-3">
