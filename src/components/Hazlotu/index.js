@@ -11,8 +11,9 @@ export default function Hazlotu() {
                         </h2>
                         <p className="mx-auto max-w-[700px] text-gray-800 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             Descarga nuestra guía PDF gratuita para aprender los
-                            mejores consejos y trucos para desatascar tuberías
-                            de forma rápida y efectiva.
+                            mejores consejos y trucos para desatascos fáciles
+                            de forma rápida y efectiva. Si ves que el atasco es complicado o no puedes solucionarlo, no dudes en llamarnos.
+
                         </p>
                     </div>
                     <Link href="https://drive.google.com/file/d/1F_U9adwOGuyGuMYxO-2xLm0NHMucCoZq/view?usp=sharing">
@@ -22,12 +23,12 @@ export default function Hazlotu() {
                         </a>
                     </Link>
                     <p className="text-lg mt-4 uppercase">
-                        Si necesitas más ayuda, no dudes en{' '}
+                        Si necesitas más ayuda, la encontrarás{' '}
                         <a
                             href="tel:+34647376782"
                             className="text-[#00BBB4] underline"
                         >
-                            llamarnos
+                            Aquí
                         </a>
                         .
                     </p>

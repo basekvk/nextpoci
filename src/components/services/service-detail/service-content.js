@@ -8,6 +8,7 @@ import Acordeon from '../../acordeon';
 import Botonesenlinea from '../../botonesenlinea';
 import Formulario from '../../formulariohome';
 import TextoEntrada from '../../textoentradaservicios';
+import Hazlotu from '../../Hazlotu';
 
 export default function ServiceContent({ service }) {
     if (!service) return null; // Verificación para asegurarse de que `service` existe
@@ -83,6 +84,7 @@ export default function ServiceContent({ service }) {
                         __html: service?.contenidoDescripcion3,
                     }}
                 />
+                
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta4}
                 </h2>
@@ -90,11 +92,12 @@ export default function ServiceContent({ service }) {
                     {service?.descripcion4}
                 </p>
                 <Areastrabajo />
+                <Hazlotu />
                 <CallToAction1 text={service?.title} />
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion41}
                 </p>
-
+                
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta5}
                 </h2>
@@ -102,6 +105,7 @@ export default function ServiceContent({ service }) {
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion5}
                 </p>
+                
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion51}
                 </p>
