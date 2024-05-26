@@ -3,15 +3,11 @@ import PropTypes from 'prop-types';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-import ContactForm from '../../components/form-page';
+
 import RichSnippets from '../../components/RichSnippets';
 import BannerMini from '../../components/bannermini';
-
-function ServiceDetailsPage({
-    service,
-    footerItems,
-    contactItemsForm
-}) {
+import Formulario from '../../components/formulariohome';
+function ServiceDetailsPage({ service, footerItems }) {
     return (
         <>
             <Head>
@@ -19,37 +15,22 @@ function ServiceDetailsPage({
                 <meta name="description" content={service.metaContent} />
                 <meta property="og:title" content={service.titleMeta} />
                 <link rel="canonical" href={service.canonical} />
-                <meta
-                    property="og:url"
-                    content={service?.canonical}
-                />
+                <meta property="og:url" content={service?.canonical} />
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:description"
                     content={service?.metaContent}
                 />
-                
-                <meta
-                    property="og:image"
-                    content={service?.largeImage}
-                />
+
+                <meta property="og:image" content={service?.largeImage} />
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta
-                    property="twitter:url"
-                    content={service?.canonical}
-                />
-                <meta
-                    property="twitter:title"
-                    content={service?.titleMeta}
-                />
+                <meta property="twitter:url" content={service?.canonical} />
+                <meta property="twitter:title" content={service?.titleMeta} />
                 <meta
                     property="twitter:description"
                     content={service?.metaContent}
                 />
-                <meta
-                    property="twitter:image"
-                    content={service?.largeImage}
-                />
+                <meta property="twitter:image" content={service?.largeImage} />
             </Head>
 
             <BannerMini
@@ -57,21 +38,17 @@ function ServiceDetailsPage({
                 title={service.title}
                 desc={service.parrafo}
             />
+
+            <ServiceDetail service={service} />
             
-            <ServiceDetail service={service} />   
-            
-                
-           
-            <ContactForm contactItemsForm={contactItemsForm} />
             <RichSnippets
                 areaServed={service?.lugar}
                 description={service?.metaContent}
                 image={service?.largeImage}
                 url={service?.canonical}
-                service= {service?.title}
+                service={service?.title}
             />
             <Footer footerItems={footerItems} />
-
         </>
     );
 }
@@ -79,7 +56,7 @@ function ServiceDetailsPage({
 export function getStaticProps(context) {
     const { params } = context;
     const { slug } = params;
-    const contactItemsForm = getAllItems('contacto');
+ 
     const service = getItemData(slug, 'services');
     const ourServices = getAllItems('our-service');
     const footerItems = getAllItems('footer');
@@ -89,7 +66,7 @@ export function getStaticProps(context) {
             service,
             ourServices,
             footerItems,
-            contactItemsForm
+           
         },
     };
 }
@@ -110,7 +87,7 @@ ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
     ourServices: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
-    contactItemsForm: PropTypes.instanceOf(Object).isRequired
+    contactItemsForm: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default ServiceDetailsPage;

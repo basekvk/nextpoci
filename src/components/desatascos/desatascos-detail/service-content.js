@@ -7,6 +7,7 @@ import ProductCluster from '../../cluster';
 import Acordeon from '../../acordeon';
 import Problemas from '../../problemas';
 import Areastrabajo from '../../areastrabajo';
+import Formulario from '../../formulariohome';
 
 function ServiceContent({ service }) {
     const imagePath = `/images/desatascos/${service?.slug}/${service?.largeImage}`;
@@ -107,7 +108,7 @@ function ServiceContent({ service }) {
             />
 
             <Areastrabajo />
-
+            <Formulario />
             {service.accordionData ? (
                 <Acordeon accordionData={service?.accordionData} />
             ) : null}

@@ -1,11 +1,12 @@
 import CallToAction from '../../cta';
 import CallToAction1 from '../../cta-services';
 import Presupuesto from '../../presupuesto';
-import CallButton from '../../CallButton';
 import ProductCluster from '../../cluster';
 import GridServices from '../../gridservicios';
 import Areastrabajo from '../../areastrabajo';
 import Acordeon from '../../acordeon';
+import Botonesenlinea from '../../botonesenlinea';
+import Formulario from '../../formulariohome';
 
 export default function ServiceContent({ service }) {
     const imagePath = `/images/services/${service?.slug}/${service?.largeImage}`;
@@ -23,11 +24,13 @@ export default function ServiceContent({ service }) {
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta}
                 </h2>
-                <div className="mb-10 text-lg text-justify"
-                   dangerouslySetInnerHTML={{
-                    __html: service?.descripcion,
-                }} 
+                <div
+                    className="mb-10 text-lg text-justify"
+                    dangerouslySetInnerHTML={{
+                        __html: service?.descripcion,
+                    }}
                 />
+                <Botonesenlinea />
                 <p className="mb-10 text-lg text-justify">
                     {service?.detailDesc}
                 </p>
@@ -49,6 +52,7 @@ export default function ServiceContent({ service }) {
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion2}
                 </p>
+
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta3}
                 </h2>
@@ -58,6 +62,7 @@ export default function ServiceContent({ service }) {
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion31}
                 </p>
+
                 <div
                     className="mb-10 text-lg text-justify"
                     dangerouslySetInnerHTML={{
@@ -65,6 +70,7 @@ export default function ServiceContent({ service }) {
                     }}
                 />
                 <GridServices />
+                <Botonesenlinea />
                 <div
                     className="mb-10 text-lg text-justify"
                     dangerouslySetInnerHTML={{
@@ -84,14 +90,16 @@ export default function ServiceContent({ service }) {
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion4}
                 </p>
+                <Areastrabajo />
                 <CallToAction1 text={service?.title} />
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion41}
                 </p>
+
                 <h2 className="mb-10 text-3xl font-medium text-justify">
                     {service?.pregunta5}
                 </h2>
-                
+
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion5}
                 </p>
@@ -105,14 +113,11 @@ export default function ServiceContent({ service }) {
                 dangerouslySetInnerHTML={{ __html: service.contenido }}
             />
 
-           
+            <Formulario />
 
             {service.accordionData ? (
                 <Acordeon accordionData={service?.accordionData} />
             ) : null}
-            <CallButton />
-             <Areastrabajo />
         </div>
-         
     );
 }

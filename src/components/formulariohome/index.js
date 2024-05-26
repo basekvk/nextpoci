@@ -107,7 +107,7 @@ export default function Formulario() {
                     </div>
                 </form>
             </div>
-            <div className="md:w-1/2 md:pl-6 flex flex-col justify-center">
+            <div className="md:w-1/2 md:pl-6 flex flex-col justify-center my-4">
                 <div className="flex justify-center mb-6 gap-4">
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"

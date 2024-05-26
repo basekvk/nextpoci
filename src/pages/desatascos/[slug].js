@@ -67,7 +67,7 @@ function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
             
                 <ServiceDetail service={service} />
                 
-                <ContactForm contactItemsForm={contactItemsForm} />
+             
                 
                 <Footer footerItems={footerItems} />
             
