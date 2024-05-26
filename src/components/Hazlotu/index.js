@@ -9,7 +9,7 @@ export default function Hazlotu() {
                         <h2 className="text-3xl text-[#003A70] font-bold tracking-tighter sm:text-4xl md:text-5xl">
                             Desatasca Tu Mismo Como un Profesional
                         </h2>
-                        <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                        <p className="mx-auto max-w-[700px] text-gray-800 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             Descarga nuestra guía PDF gratuita para aprender los
                             mejores consejos y trucos para desatascar tuberías
                             de forma rápida y efectiva.

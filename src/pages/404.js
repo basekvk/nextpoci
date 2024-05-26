@@ -22,7 +22,7 @@ function Error404Page({ newsletterItems, footerItems }) {
                 desc="Si has llegado hasta aquí es que has introducido mal la url o que la página que buscas no existe."
             />
             <Error404 />
-            <Newsletter newsletterItems={newsletterItems} />
+            
             <Footer footerItems={footerItems} />
         </>
     );

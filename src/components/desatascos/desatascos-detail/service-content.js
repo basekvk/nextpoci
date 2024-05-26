@@ -10,6 +10,7 @@ import Areastrabajo from '../../areastrabajo';
 import Formulario from '../../formulariohome';
 import TextoEntrada from '../../textoentradaservicios';
 import Botonesenlinea from '../../botonesenlinea';
+import Hazlotu from '../../Hazlotu';
 
 function ServiceContent({ service }) {
   if (!service) return null; // Verificación para asegurarse de que `service` existe
@@ -49,7 +50,7 @@ function ServiceContent({ service }) {
             __html: service.contenidoDescripcion,
           }}
         />
-
+         <Hazlotu />
         <p className="mb-10 text-lg text-justify">
           {service.descripcion2}
         </p>

@@ -47,7 +47,7 @@ function Areastrabajo() {
         <div className="pt-10 pb-30 m-10 bg-gradient-to-r from-blue-900 to-teal-500">
             <h3 className="text-center text-4xl mb-6 text-white">Localidades</h3>
             <div className="flex justify-center items-center bg-gradient-to-r from-blue-900 to-teal-500 p-4 rounded-md mx-8">
-                <label htmlFor="localidadSelect" className="sr-only">Selecciona</label>
+                <label htmlFor="localidadSelect" className="sr-only text-white">Selecciona</label>
                 <select
                     id="localidadSelect"
                     className="w-full max-w-xs p-4 text-lg uppercase border-2 border-blue-500 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
