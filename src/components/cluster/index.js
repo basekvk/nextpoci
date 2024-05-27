@@ -21,7 +21,7 @@ const services = [
     title: 'Desatascos Baratos',
     image: '/images/cluster/desatascosbaratos-lg.webp',
     alt: 'Servicios Desatascos Baratos',
-    url: '/',
+    url: '/services/desatascos-baratos',
   },
   {
     id: 5,
