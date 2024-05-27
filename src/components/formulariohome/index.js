@@ -111,7 +111,7 @@ export default function Formulario() {
                 <div className="flex justify-center mb-6 gap-4">
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"
-                        href="#"
+                        href="mailto:info@pocitendesatascos.es"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ export default function Formulario() {
                     </Link>
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"
-                        href="#"
+                        href="https://twitter.com/pociten"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export default function Formulario() {
                     </Link>
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"
-                        href="#"
+                        href="https://instagram.com/pociten_desatascos"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@ export default function Formulario() {
                     </Link>
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"
-                        href="#"
+                        href="https://www.facebook.com/desatascospociten"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ export default function Formulario() {
                     </Link>
                     <Link
                         className="mx-2 transform transition-transform hover:scale-110"
-                        href="#"
+                        href="https://www.youtube.com/@PocitenDesatascos"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
