@@ -8,7 +8,7 @@ import RichSnippets from '../../components/RichSnippets';
 import BannerMini from '../../components/bannermini';
 
 
-function ServiceDetailsPage({ service, footerItems, contactItemsForm }) {
+function ServiceDetailsPage({ service, footerItems }) {
     
     
     return (
@@ -87,13 +87,13 @@ export function getStaticProps(context) {
     const { slug } = params;
     const service = getItemData(slug, 'desatascos');
     const footerItems = getAllItems('footer');
-    const contactItemsForm = getAllItems('contacto');
+    
 
     return {
         props: {
             service,
             footerItems,
-            contactItemsForm,
+           
         },
     };
 }
@@ -113,7 +113,6 @@ export function getStaticPaths() {
 
 ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
-    contactItemsForm: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };
 

@@ -44,7 +44,7 @@ export default function Faqs() {
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Preguntas frecuentes</h2>
           <p className="max-w-[700px] mx-auto text-gray-700 md:text-xl">
-            Aquí puedes consultar algunas d elas preguntas que nos hacen con más frecuencia. Si no encuentras la respuesta a tu pregunta, no dudes en contactarnos.
+            Aquí puedes consultar algunas de las preguntas que nos hacen con más frecuencia. Si no encuentras la respuesta a tu pregunta, no dudes en contactarnos.
 
           </p>
         </div>

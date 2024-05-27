@@ -6,7 +6,7 @@ import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
 
 import RichSnippets from '../../components/RichSnippets';
 import BannerMini from '../../components/bannermini';
-import Formulario from '../../components/formulariohome';
+
 function ServiceDetailsPage({ service, footerItems }) {
     return (
         <>
@@ -87,7 +87,7 @@ ServiceDetailsPage.propTypes = {
     service: PropTypes.instanceOf(Object).isRequired,
     ourServices: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
-    contactItemsForm: PropTypes.instanceOf(Object).isRequired,
+  
 };
 
 export default ServiceDetailsPage;
