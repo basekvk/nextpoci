@@ -60,7 +60,7 @@ function politicaPrivacidad({ newsletterItems, footerItems }) {
                         </p>
                         <p>
                             Remisión de comunicaciones comerciales publicitarias
-                            por email, fax, SMS, MMS, redes sociales o cualquier
+                            por email, SMS, redes sociales o cualquier
                             otro medio electrónico o físico, presente o futuro,
                             que posibilite realizar comunicaciones comerciales.
                         </p>
@@ -113,6 +113,8 @@ function politicaPrivacidad({ newsletterItems, footerItems }) {
                         <p>
                             Dirección postal: POCERÍA POCITEN S.L - Calle Lezo 8, 4D, 28041 Madrid
                             <br /> Dirección electrónica: info@pocitendesatascos.es
+                            Teléfono de contacto: 647 376 782
+                            <br /> Dirección alternativa de envío postal: Calle Sierra del Torcal 4, 2B. 28031 , Madrid – España.
                         </p>
                         <h2>
                             2. CARÁCTER OBLIGATORIO O FACULTATIVO DE LA
