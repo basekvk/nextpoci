@@ -30,8 +30,7 @@ function HomePage({ footerItems,  blogs }) {
         <>
             <Head>
                 <title>
-                    Desatrancos y Pocería en Madrid | Desatascos Madrid -
-                    Pociten
+                    Desatrancos y Pocería en Madrid | Desatascos Madrid - Pociten
                 </title>
 
                 <meta name="robots" content="index, follow" />
