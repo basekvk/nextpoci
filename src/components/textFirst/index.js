@@ -9,13 +9,7 @@ export default function TextFirst() {
             </h2>
 
             <p className="font-sans text-lg lg:text-xl mt-4 text-center leading-relaxed">
-                Si estás aquí, es porque seguramente necesitas un servicio de <b>desatasco</b> en la provincia de Madrid.
-                Los atascos suelen ser más impredecibles de lo que pensamos.<br/><br/> Por eso, vamos a intentar brindarte la solución
-                que mereces: localizamos tu problema en el menor tiempo posible y lo solucionamos, ya que tenemos nuestros
-                camiones cuba para desatascos preparados cerca de ti. Ofrecemos <a href='/services/desatascos-24-horas'><b>servicios de desatascos 24 horas</b></a> para ofrecerte la tranquilidad que necestas.<br/><br/>
-                Llámanos inmediatamente y, antes de que te des cuenta, tu problema quedará totalmente resuelto con la máxima calidad y
-                al mejor precio del mercado. ¡Compruébalo!<br/><br/>¿La <b>mejor empresa de desatascos de Madrid</b>? hay que ser
-                humildes, eso se lo dejamos a que nos lo digan nuestros clientes 😉. 
+                ¿Buscas un servicio de desatascos en Madrid rápido y eficaz? En Pociten, somos expertos en desatrancos y desatascos urgentes en toda la Comunidad de Madrid. <br></br><br></br>Nuestro equipo de profesionales está disponible las 24 horas, los 365 días del año, para solucionar cualquier tipo de atasco en tuberías, alcantarillas o desagües. Con camiones cuba estratégicamente ubicados por toda la región, garantizamos una respuesta inmediata a tu emergencia. Ofrecemos servicios de fontanería y pocería de alta calidad a precios competitivos. <br></br><br></br>No dejes que un atasco arruine tu día: contacta con nosotros ahora y experimenta por qué somos reconocidos como una de las mejores empresas de desatascos en Madrid capital y alrededores. ¡Tu satisfacción es nuestra prioridad!
             </p>
             <br />
             <div className="flex justify-center mt-4">
