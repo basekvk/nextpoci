@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ServicesGrid.module.css'; // Asumiendo que el archivo de estilos se llama ServicesGrid.module.css
+import styles from './ServicesGrid.module.css';
 
 const services = [
     { name: "Cambio de bajantes", url: "" },
@@ -20,23 +20,22 @@ const services = [
     { name: "Arreglos de arquetas", url: "" },
     { name: "Localización de malos olores", url: "" },
     { name: "Construcción de pozos de registro", url: "" }
-  ];
-  
+];
 
 const ServicesGrid = () => {
     return (
-      <div className={styles.grid}>
-        {services.map((service, index) => (
-          <div key={index} className={styles.card}>
-            {service.url ? (
-              <h3><a href={service.url} className={styles.link}>{service.name}</a></h3>
-            ) : (
-              <h3>{service.name}</h3>
-            )}
-          </div>
-        ))}
-      </div>
+        <div className={styles.grid}>
+            {services.map((service, index) => (
+                <div key={index} className={styles.card}>
+                    {service.url ? (
+                        <h3 className={styles.heading}><a href={service.url} className={styles.link}>{service.name}</a></h3>
+                    ) : (
+                        <h3 className={styles.heading}>{service.name}</h3>
+                    )}
+                </div>
+            ))}
+        </div>
     );
-  };
+};
 
 export default ServicesGrid;
