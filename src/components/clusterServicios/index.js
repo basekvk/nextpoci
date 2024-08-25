@@ -89,8 +89,8 @@ const ServicioCard = ({ titulo, imagen, alt, texto, url }) => {
           />
         </div>
         <div className="p-6 flex flex-col flex-grow">
-          <h3 className="text-xl font-semibold text-[#003A70] mb-2">{titulo}</h3>
-          <p className="text-gray-600 text-sm mb-4 flex-grow">{texto}</p>
+          <h3 className="text-xl font-bold text-[#003A70] mb-2">{titulo}</h3>
+          <p className="text-gray-600 text-base mb-4 flex-grow">{texto}</p>
           <div className="mt-auto">
             <a 
               href="tel:+34647376782"
