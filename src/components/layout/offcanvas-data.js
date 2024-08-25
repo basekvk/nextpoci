@@ -16,7 +16,7 @@ export const OffcanvasData = [
     {
         id: 3,
         title: 'Servicios',
-        path: '#',
+        path: '/services/',
         cName: 'offcanvas-text',
         arrowDown: 'FaAngleDown',
         submenu: [
