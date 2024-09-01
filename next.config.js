@@ -219,7 +219,7 @@ const nextConfig = {
                 destination: '/services/desatasco-de-tuberias',
                 permanent: true,
             },
-            
+
             {
                 source: '/desatascos-illescas',
                 destination: '/desatascos/illescas',
@@ -261,7 +261,7 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/desatascos/desatascos-rivas-vaciamadrid',               
+                source: '/desatascos/desatascos-rivas-vaciamadrid',
                 destination: '/desatascos/rivas-vaciamadrid',
                 permanent: true,
             },
@@ -287,7 +287,7 @@ const nextConfig = {
             },
             {
                 source: '/services/empresa-de-desatascos',
-                destination: '/',  
+                destination: '/',
                 permanent: true,
             },
             {
@@ -296,17 +296,18 @@ const nextConfig = {
                 permanent: true,
             },
 
-            
-          
             {
                 source: '/services/inundaciones',
                 destination: '/services/achiques-de-agua',
                 permanent: true,
-            }
-         
+            },
+            {
+                source: '/servicios/',
+                destination: '/services',
+                permanent: true,
+            },
         ];
     },
 };
-
 
 module.exports = nextConfig;
