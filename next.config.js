@@ -297,7 +297,7 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/servicios/',
+                source: '/servicios',
                 destination: '/services',
                 permanent: true,
             },
