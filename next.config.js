@@ -160,11 +160,6 @@ const nextConfig = {
                 permanent: true,
             },
             {
-                source: '/servicios',
-                destination: '/',
-                permanent: true,
-            },
-            {
                 source: '/projects',
                 destination: '/',
                 permanent: true,

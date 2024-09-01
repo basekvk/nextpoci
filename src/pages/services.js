@@ -19,7 +19,7 @@ function Servicios({ footerItems }) {
                 />
                 <link
                     rel="canonical"
-                    href="https://www.desatascos-madrid.com/servicios"
+                    href="https://www.desatascos-madrid.com/services"
                 />
             </Head>
 
