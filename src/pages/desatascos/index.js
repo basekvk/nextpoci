@@ -10,6 +10,7 @@ import AllServices from '../../components/services/all-services';
 import Breadcrumb from '../../components/breadcrumb';
 import { getAllItems } from '../../lib/items-util';
 
+
 function ServicePage({
     aboutItemsTwo,
     services,
@@ -62,7 +63,6 @@ export function getStaticProps() {
     const brandItems = getAllItems('brand');
     const bannerFourItems = getAllItems('banner-4');
     const bannerSection = getAllItems('banner-section');
-    const testimonialItems = getAllItems('testimonial');
     const newsletterItems = getAllItems('newsletter');
     const footerItems = getAllItems('footer');
 

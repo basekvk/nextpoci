@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import Footer from '../../components/layout/footer';
 import ServiceDetail from '../../components/services/service-detail';
 import { getAllItems, getItemData, getItemsFiles } from '../../lib/items-util';
-
-import RichSnippets from '../../components/RichSnippets';
+import RichSnippets from '../../components/RichSnippets/index.tsx';
 import BannerMini from '../../components/bannermini';
 
 function ServiceDetailsPage({ service, footerItems }) {

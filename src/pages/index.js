@@ -1,11 +1,10 @@
-// Importaciones esenciales
+import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
-import RichSnippets from '../components/RichSnippets';
+import RichSnippets from '../components/RichSnippets/index.tsx';
 import Footer from '../components/layout/footer';
-// Importaciones estáticas de componentes
 import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
 import ReviewsSection from '../components/reviews';
@@ -25,18 +24,18 @@ import Hazlotu from '../components/Hazlotu';
 import Formulario from '../components/formulariohome';
 import Faqs from '../components/faqs';
 
-function HomePage({ footerItems,  blogs }) {
+function HomePage({ footerItems, blogs }) {
     return (
         <>
             <Head>
                 <title>
-                    Desatrancos y Pocería en Madrid | Desatascos Madrid - Pociten
+                    Desatrancos y Pocería en Madrid | Desatascos Madrid -
+                    Pociten
                 </title>
-
                 <meta name="robots" content="index, follow" />
                 <meta
                     name="description"
-                    content=" Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. 647 376 782"
+                    content="Servicios de desatascos y pocería en Madrid. Resolvemos problemas de tuberías, desatrancos, alcantarillado y fosas sépticas. 647 376 782"
                 />
                 <link
                     rel="canonical"
@@ -55,7 +54,6 @@ function HomePage({ footerItems,  blogs }) {
                     property="og:description"
                     content="✅Poceros en Madrid. 🔝 Servicios desatascos en Madrid 24 horas. 📢 Desatrancos con los mejores precios.☎️​ 647 376 782"
                 />
-
                 <meta
                     property="og:image"
                     content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
@@ -77,7 +75,6 @@ function HomePage({ footerItems,  blogs }) {
                     property="twitter:image"
                     content="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
                 />
-
                 <link
                     rel="image_src"
                     href="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fservices%2Fdesatascos-24-horas%2Fdesatascos-urgentes-24-horas.webp&w=1024&q=75"
@@ -85,16 +82,13 @@ function HomePage({ footerItems,  blogs }) {
             </Head>
 
             <HeroTailwind />
-
             <TextFirst />
-
             <div className="container">
                 <ProductCluster localidad="Madrid" />
             </div>
             <Whatsdesatascos />
             <Areastrabajo />
             <TextHome />
-
             <CTA2 />
             <TextUrgentesHome />
             <div className="container">
@@ -102,17 +96,14 @@ function HomePage({ footerItems,  blogs }) {
                     OTROS SERVICIOS
                 </h2>
                 <GridServicios />
-
                 <TextVideo />
             </div>
-
             <CallToAction text="inicio" />
             <div className="container">
                 <ReviewsSection />
             </div>
             <Hazlotu />
             <Precios />
-            
             <Formulario />
             <Faqs />
             <h3 className="container" style={{ fontSize: '32px' }}>
@@ -127,15 +118,19 @@ function HomePage({ footerItems,  blogs }) {
                 de nuestra web
             </p>
             <br />
-
             <LatestBlog blogs={blogs} />
             <Footer footerItems={footerItems} />
             <RichSnippets
-                areaServed="Madrid"
-                description="Empresa líder de desatascos y obras de pocería en la comunidad de Madrid. Experiencia a tu servicio"
-                image="/images/about/1-1.webp"
                 url="https://www.desatascos-madrid.com"
-                service="Servicios de desatascos y pocería en Madrid"
+                description="Empresa líder de desatascos y obras de pocería en la comunidad de Madrid. Experiencia a tu servicio"
+                image="https://www.desatascos-madrid.com/_next/image?url=%2Fimages%2Fabout%2F1-1.webp&w=640&q=75"
+                areaServed={['Madrid', 'Comunidad de Madrid']}
+                services={[
+                    'Desatascos',
+                    'Pocería',
+                    'Limpieza de tuberías',
+                    'Inspección con cámara',
+                ]}
             />
             <CookiePopup />
         </>
@@ -143,38 +138,27 @@ function HomePage({ footerItems,  blogs }) {
 }
 
 export function getStaticProps() {
-    const heroItems = getAllItems('heros');
-    const bannerItems = getAllItems('banner');
-    const aboutItems = getAllItems('about');
+    const footerItems = getAllItems('footer');
     let blogs = getAllItems('blogs')
         .map((blog) => ({
             ...blog,
             parsedDate: parseSpanishDate(blog.date).toISOString(),
         }))
-        .sort((a, b) => new Date(b.parsedDate) - new Date(a.parsedDate));
+        .sort((a, b) => new Date(b.parsedDate) - new Date(a.parsedDate))
+        .slice(0, 3);
 
-    // Nos quedamos solo con los últimos 3 blogs
-    blogs = blogs.slice(0, 3);
-
-    const footerItems = getAllItems('footer');
-    const LatestBlog = getFeaturedItems(blogs);
+    const latestBlogs = getFeaturedItems(blogs);
 
     return {
         props: {
-            heroItems,
-            bannerItems,
-            aboutItems,
             footerItems,
-            blogs: LatestBlog,
+            blogs: latestBlogs,
         },
         revalidate: 3600,
     };
 }
 
 HomePage.propTypes = {
-    heroItems: PropTypes.instanceOf(Object).isRequired,
-    bannerItems: PropTypes.instanceOf(Object).isRequired,
-    aboutItems: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
     blogs: PropTypes.instanceOf(Object).isRequired,
 };
