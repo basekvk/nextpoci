@@ -1,53 +1,49 @@
 import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { menuDesktop } from '../layout/menu';
 
 function Areastrabajo() {
     const router = useRouter();
     const [selectedLocation, setSelectedLocation] = useState('');
 
-    const trabajamosEnMenu = menuDesktop.find(item => item.id === 4);
+    const localidadesOrdenadas = useMemo(() => {
+        const trabajamosEnMenu = menuDesktop.find(item => item.id === 4);
+        const elementosExcluidos = ['CENTRO', 'NORTE', 'SUR', 'ESTE', 'OESTE'];
 
-    const elementosExcluidos = ['CENTRO', 'NORTE', 'SUR', 'ESTE', 'OESTE'];
+        function extraerSubmenus(submenus, resultado = []) {
+            submenus.forEach(submenu => {
+                if (!elementosExcluidos.includes(submenu.text.toUpperCase())) {
+                    resultado.push({ nombre: submenu.text, url: submenu.link });
+                }
 
-    function extraerSubmenus(submenus, resultado = []) {
-        submenus.forEach(submenu => {
-            if (!elementosExcluidos.includes(submenu.text.toUpperCase())) {
-                resultado.push({ nombre: submenu.text, url: submenu.link });
-            }
+                if (submenu.submenu) {
+                    extraerSubmenus(submenu.submenu, resultado);
+                }
+            });
 
-            if (submenu.submenu) {
-                extraerSubmenus(submenu.submenu, resultado);
-            }
-        });
+            return resultado;
+        }
 
-        return resultado;
-    }
+        if (trabajamosEnMenu && trabajamosEnMenu.submenu) {
+            const submenusExtraidos = extraerSubmenus(trabajamosEnMenu.submenu);
+            return submenusExtraidos.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        }
 
-    let localidadesOrdenadas = [];
-
-    if (trabajamosEnMenu && trabajamosEnMenu.submenu) {
-        const submenusExtraidos = extraerSubmenus(trabajamosEnMenu.submenu);
-        localidadesOrdenadas = submenusExtraidos.sort((a, b) => a.nombre.localeCompare(b.nombre));
-    }
+        return [];
+    }, []);
 
     const handleLocationChange = (event) => {
         const url = event.target.value;
-        setSelectedLocation(url);
-    };
-
-    useEffect(() => {
-        if (selectedLocation) {
-            router.push(selectedLocation);
-            setSelectedLocation('');  // Reset after navigation
+        if (url) {
+            router.push(url);
         }
-    }, [selectedLocation, router]);
+    };
 
     return (
         <div className="pt-10 pb-30 m-10 bg-gradient-to-r from-blue-900 to-teal-500">
             <h3 className="text-center text-4xl mb-6 text-white">Localidades</h3>
             <div className="flex justify-center items-center bg-gradient-to-r from-blue-900 to-teal-500 p-4 rounded-md mx-8">
-                <label htmlFor="localidadSelect" className="sr-only text-white">Selecciona</label>
+                <label htmlFor="localidadSelect" className="sr-only text-white">Selecciona una localidad</label>
                 <select
                     id="localidadSelect"
                     className="w-full max-w-xs p-4 text-lg uppercase border-2 border-blue-500 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
