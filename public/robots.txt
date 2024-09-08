@@ -2,10 +2,11 @@ User-agent: *
 Disallow: /aviso-legal/
 Disallow: /cookies/
 Disallow: /politica-privacidad/
-Disallow: /blogs/category/poceros
-Disallow: /blogs/category/desatascos
-Disallow: /blogs/category/alcantarillado
+Disallow: /blogs/category/poceros/
+Disallow: /blogs/category/desatascos/
+Disallow: /blogs/category/alcantarillado/
 Disallow: /blogs/tag/
 Allow: /
 
 Sitemap: https://www.desatascos-madrid.com/sitemap.xml
+Crawl-delay: 10

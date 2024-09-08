@@ -5,7 +5,7 @@ import Breadcrumb from '../components/breadcrumb';
 import ServiciosComponent from '../components/clusterServicios';
 import Footer from '../components/layout/footer';
 import { getAllItems } from '../lib/items-util';
-import RichSnippets from '../components/RichSnippets';
+import RichSnippets from '../components/RichSnippets/index.tsx';
 
 function Servicios({ footerItems }) {
     return (
