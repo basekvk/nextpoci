@@ -40,7 +40,7 @@ function avisoLegal({ footerItems }) {
                             <br />NIF: B56236755
                             <br /> Dirección: Calle Lezo 8, 4D. 28041 , Madrid –
                             España.
-                            <br /> Email de contacto: info@pocitendeatascos.es<br />
+                            <br /> Email de contacto: <a href="mailto:info@pocitendesatascos.es">info@pocitendesatascos.es</a> <br />
                             Teléfono de contacto: 647 376 782
                             <br /> Dirección alternativa de envío postal: Calle Sierra del Torcal 4, 2B. 28031 , Madrid – España.
                         </p>
