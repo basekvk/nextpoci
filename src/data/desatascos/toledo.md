@@ -1,11 +1,11 @@
 ---
 id: 'service-1515'
 title: 'Desatascos en Toledo'
-titleMeta: "Desatascos y Poceros en Toledo - Servicio Profesional 24/7"
-lugar: 'Seseña'
+titleMeta: "Desatascos - Desatrancos - Poceros en Toledo - Pociten"
+lugar: 'Toledo'
 mediumImage: 'desatascostoledo-lg.webp'
 largeImage: 'desatascostoledo-lg.webp'
-metaContent: "Desatascos y Poceros en Toledo: Servicio profesional 24/7🚽👷‍♂️ Soluciona problemas de tuberías y saneamiento con rapidez y eficacia. ¡Contáctanos! 📞💧"
+metaContent: "Desatascos y Poceros en Toledo: Desatrancos 24/7🚽👷‍♂️ Pociten soluciona problemas de tuberías y saneamiento con rapidez y eficacia. ¡Contáctanos! 📞💧"
 detailBreadcrumbSubTitle: 'Single Service'
 detailBreadcrumbDesc: 'Empresa de poceros en Toledo con los mejores precios'
 canonical: https://www.desatascos-madrid.com/desatascos/toledo
