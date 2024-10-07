@@ -439,12 +439,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.desatascos-madrid.com/services/empresa-de-desatascos</loc>
-    <image:image>
-      <image:loc>https://www.desatascos-madrid.com/images/services/empresa-de-desatascos/empresa-de-desatascos.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.desatascos-madrid.com/services/inspeccion-tuberia-con-camara</loc>
     <image:image>
       <image:loc>https://www.desatascos-madrid.com/images/services/inspeccion-tuberia-con-camara/inspeccion-tuberia-con-camara-lg.webp</image:loc>
@@ -607,12 +601,6 @@
     <loc>https://www.desatascos-madrid.com/desatascos/leganes</loc>
     <image:image>
       <image:loc>https://www.desatascos-madrid.com/images/desatascos/leganes/desatascosleganes-md.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.desatascos-madrid.com/desatascos/madrid</loc>
-    <image:image>
-      <image:loc>https://www.desatascos-madrid.com/images/desatascos/madrid/desatascosmadrid-md.webp</image:loc>
     </image:image>
   </url>
   <url>
