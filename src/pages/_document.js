@@ -27,7 +27,7 @@ class MyDocument extends Document {
                                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                                })(window,document,'script','dataLayer','GTM-NS3BMR8P');
+                                })(window,document,'script','dataLayer','GTM-N53BMR8P');
                             `,
                         }}
                     />
@@ -37,7 +37,7 @@ class MyDocument extends Document {
                     {/* Google Tag Manager (noscript) */}
                     <noscript>
                         <iframe
-                            src="https://www.googletagmanager.com/ns.html?id=GTM-NS3BMR8P"
+                            src="https://www.googletagmanager.com/ns.html?id=GTM-N53BMR8P"
                             height="0"
                             width="0"
                             style={{ display: "none", visibility: "hidden" }}
