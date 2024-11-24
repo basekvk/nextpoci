@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import dynamic from 'next/dynamic';
 import { getAllItems, getFeaturedItems } from '../lib/items-util';
 import { parseSpanishDate } from '../utils/dateUtils';
-import RichSnippets from '../components/RichSnippets';
+import RichSnippets from '../components/RichSnippets/index.tsx';
 import Footer from '../components/layout/footer';
 import ProductCluster from '../components/cluster';
 import CallToAction from '../components/cta';
