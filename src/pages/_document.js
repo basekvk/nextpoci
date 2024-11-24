@@ -28,7 +28,6 @@ class MyDocument extends Document {
             />
           </noscript>
           <meta name="theme-color" content="#08B9B5" />
-          <meta name="description" content="Desatascos en Madrid al mejor precio" />
         </Head>
         <body>
           <Main />
