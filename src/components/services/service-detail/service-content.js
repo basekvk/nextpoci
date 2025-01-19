@@ -71,6 +71,7 @@ export default function ServiceContent({ service }) {
                 />
                 <GridServices />
                 <Botonesenlinea />
+                <Areastrabajo />
                 <div
                     className="mb-10 text-lg text-justify"
                     dangerouslySetInnerHTML={{
@@ -91,9 +92,9 @@ export default function ServiceContent({ service }) {
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion4}
                 </p>
-                <Areastrabajo />
-                <Hazlotu />
-                <CallToAction1 text={service?.title} />
+                
+                
+              
                 <p className="mb-10 text-lg text-justify">
                     {service?.descripcion41}
                 </p>
