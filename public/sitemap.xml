@@ -378,6 +378,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+   <url>
+    <loc>https://www.desatascos-madrid.com/blogs/como-evitar-malos-olores-desagues</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+   <url>
+    <loc>https://www.desatascos-madrid.com/blogs/mantenimiento-arquetas-comunidades-vecinos</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <url>
     <loc>https://www.desatascos-madrid.com/blogs/que-es-un-imbornal</loc>
     <lastmod>2024-05-25</lastmod>
