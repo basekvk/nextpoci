@@ -23,6 +23,7 @@ function MyApp({ Component, pageProps }) {
                 <link rel="preconnect" href="https://www.google-analytics.com" />
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
                 <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             {/* Google Tag Manager */}
