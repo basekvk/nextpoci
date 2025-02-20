@@ -23,23 +23,23 @@ htmlCode: "
     <p>Existen diferentes tipos de ácidos que se pueden emplear para destapar tuberías:</p>
 
     <ol>
-        <li><strong>Ácido sulfúrico:</strong> Es altamente corrosivo y efectivo para disolver residuos orgánicos. Debe manipularse con extrema precaución.</li>
+        <p><strong>Ácido sulfúrico:</strong> Es altamente corrosivo y efectivo para disolver residuos orgánicos. Debe manipularse con extrema precaución.</p>
         <br>
-        <li><strong>Ácido muriático (clorhídrico):</strong> Se usa frecuentemente en limpiezas industriales y domésticas, pero puede dañar algunos tipos de tuberías.</li>
+        <p><strong>Ácido muriático (clorhídrico):</strong> Se usa frecuentemente en limpiezas industriales y domésticas, pero puede dañar algunos tipos de tuberías.</p>
     </ol>
-
+<br>
     <h2>¿Cómo usar ácido para destapar cañerías de manera segura?</h2>
 
     <p>Para evitar accidentes y daños en las tuberías, sigue estos pasos:</p>
 
     <ol>
-        <li><strong>Usa equipo de protección:</strong> Guantes de goma, gafas de seguridad y mascarilla son imprescindibles para evitar inhalación de vapores o contacto con la piel.</li>
+        <p><strong>Usa equipo de protección:</strong> Guantes de goma, gafas de seguridad y mascarilla son imprescindibles para evitar inhalación de vapores o contacto con la piel.</p>
         <br>
-        <li><strong>Vierte el ácido lentamente:</strong> Añade el ácido con cuidado en la cañería atascada, evitando salpicaduras.</li>
+        <p><strong>Vierte el ácido lentamente:</strong> Añade el ácido con cuidado en la cañería atascada, evitando salpicaduras.</p>
         <br>
-        <li><strong>Deja actuar unos minutos:</strong> El tiempo varía según el tipo de ácido y el nivel del atasco.</li>
+        <p><strong>Deja actuar unos minutos:</strong> El tiempo varía según el tipo de ácido y el nivel del atasco.</p>
         <br>
-        <li><strong>Enjuaga con abundante agua:</strong> Una vez disuelto el atasco, vierte agua caliente para eliminar cualquier residuo químico.</li>
+        <p><strong>Enjuaga con abundante agua:</strong> Una vez disuelto el atasco, vierte agua caliente para eliminar cualquier residuo químico.</p>
     </ol>
 
     <h2>Alternativas al uso de ácido para destapar cañerías</h2>
@@ -47,11 +47,11 @@ htmlCode: "
     <p>Si prefieres métodos menos agresivos, considera estas opciones:</p>
 
     <ul>
-        <li><strong>Vinagre y bicarbonato de sodio:</strong> Mezcla estos ingredientes y deja actuar antes de enjuagar con agua caliente.</li>
+        <p><strong>Vinagre y bicarbonato de sodio:</strong> Mezcla estos ingredientes y deja actuar antes de enjuagar con agua caliente.</p>
         <br>
-        <li><strong>Desatascador manual:</strong> Un émbolo puede ser suficiente para eliminar pequeños bloqueos.</li>
+        <p><strong>Desatascador manual:</strong> Un émbolo puede ser suficiente para eliminar pequeños bloqueos.</p>
         <br>
-        <li><strong>Contratar un profesional:</strong> Si el atasco persiste, lo mejor es contactar a expertos en <a href='https://desatascos-madrid.com'>desatascos</a>.</li>
+        <p><strong>Contratar un profesional:</strong> Si el atasco persiste, lo mejor es contactar a expertos en <a href='https://desatascos-madrid.com'>desatascos</a>.</p>
     </ul>
 
     <p>Recuerda que el uso de ácido debe ser una última opción debido a los riesgos que conlleva. Para mantener tus tuberías en buen estado, evita arrojar residuos sólidos y realiza mantenimientos periódicos. Si necesitas ayuda profesional, contacta a <a href='tel://+34647376782'>647 376 782</a>.</p>
