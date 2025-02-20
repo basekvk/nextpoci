@@ -735,4 +735,10 @@
       <image:loc>https://www.desatascos-madrid.com/images/hero/2.webp</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.desatascos-madrid.com/blogs/acido-destapar-canerias</loc>
+    <image:image>
+      <image:loc>https://www.desatascos-madrid.com/images/hero/1.webp</image:loc>
+    </image:image>
+  </url>
 </urlset>
