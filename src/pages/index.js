@@ -23,12 +23,13 @@ import Whatsdesatascos from '../components/whatsdesatascos';
 import Hazlotu from '../components/Hazlotu';
 import Formulario from '../components/formulariohome';
 import Faqs from '../components/faqs';
+import Brands from '../components/brand/index';
 
 const CookiePopup = dynamic(() => import('../components/cookiebanner'), {
   ssr: false,
 });
 
-function HomePage({ footerItems, blogs }) {
+function HomePage({ footerItems, blogs, brandItems }) {
   return (
     <>
       <Head>
@@ -104,6 +105,9 @@ function HomePage({ footerItems, blogs }) {
         </p>
       </div>
       <LatestBlog blogs={blogs} />
+      <div className="container">
+        <Brands brandItems={brandItems} />
+      </div>
       <Footer footerItems={footerItems} />
       <RichSnippets
         url="https://www.desatascos-madrid.com"
@@ -133,11 +137,13 @@ export async function getStaticProps() {
     .slice(0, 3);
 
   const latestBlogs = getFeaturedItems(allBlogs);
+  const brandItems = getAllItems('brand');
 
   return {
     props: {
       footerItems,
       blogs: latestBlogs,
+      brandItems
     },
     revalidate: 3600,
   };
@@ -146,6 +152,7 @@ export async function getStaticProps() {
 HomePage.propTypes = {
   footerItems: PropTypes.object.isRequired,
   blogs: PropTypes.array.isRequired,
+  brandItems: PropTypes.array.isRequired,
 };
 
 export default HomePage;
